@@ -32,16 +32,12 @@ body {
 .texts {
   position: absolute;
   top: 56.9%;
-  left: 50%;
-  margin-left: -50%;
-  width: 750px;
   z-index: 1000;
 }
 
 .texts a {
   color: #FFFFFF;
   display: inline;
-  text-align: center;
   text-shadow: -6px -6px 9px #FFFFFF;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 13px;
@@ -67,6 +63,7 @@ body {
 .texts li {
   display: inline;
   padding: 0px 6px 0px;
+  text-align: center;
 }
 
 
