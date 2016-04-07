@@ -54,13 +54,10 @@ body {
   text-decoration: none;
 }
 
-.texts #logo {
-  background-color: black;
-  height: 45px;
-  width: 45px;
-  padding: 0;
-  top: 0;
+.logo {
+  border-radius: 50%;	
 }
+
 
 .texts a:hover {
   border: 1px solid #FFFFFF;
