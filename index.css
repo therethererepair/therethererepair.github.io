@@ -55,7 +55,9 @@ body {
 
 
 
-
+.texts a:hover {
+  border: 1px solid #FFFFFF;
+}
 
 
 
