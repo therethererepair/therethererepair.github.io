@@ -19,7 +19,7 @@ body {
 } 
 
 
-.wrapper .top {
+.wrapper #top {
   background-color: black;
   height: 12%;
   width: 100%;
