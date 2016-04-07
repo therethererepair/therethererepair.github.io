@@ -41,17 +41,7 @@ h1 {
   
 }
 
-h2 {
-  position: fixed;
-  left: 0;
-  top: 4%;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 14px;
-  font-weight: 5;
-  color: #FFFFFF;
-  text-decoration: none;
-  
-}
+
 
 .texts {
   position: relative;
