@@ -32,12 +32,15 @@ body {
 .texts {
   position: absolute;
   top: 56.9%;
+  left: 50%;
+  margin-left: -50%;
+  width: 750px;
   z-index: 1000;
 }
 
 .texts a {
   color: #FFFFFF;
-  display: block;
+  display: inline;
   text-align: center;
   text-shadow: -6px -6px 9px #FFFFFF;
   font-family: 'Roboto Condensed', sans-serif;
