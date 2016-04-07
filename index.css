@@ -19,7 +19,7 @@ body {
 } 
 
 
-.wrapper #top {
+.wrapper .top {
   background-color: black;
   position: fixed;
   width: 100%;
