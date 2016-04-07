@@ -47,6 +47,7 @@ body {
 .texts a {
   color: #FFFFFF;
   display: inline;
+  border: 1px solid black;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 15px;
   font-weight: 5;
