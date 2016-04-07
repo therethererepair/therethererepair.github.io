@@ -59,7 +59,16 @@ body {
   border: 1px solid #FFFFFF;
 }
 
-
+.texts a::after {
+  display:block;
+  content: attr(title);
+  font-weight: bold;
+  height: 1px;
+  color: transparent;
+  overflow: hidden;
+  visibility: hidden;
+  margin-bottom: -1px;
+}
 
 
 
