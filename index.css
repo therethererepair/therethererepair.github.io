@@ -34,6 +34,7 @@ body {
   list-style: none;
   text-align: center;
   top: 63%;
+  width: 60%;
   z-index: 1000;
 }
 
