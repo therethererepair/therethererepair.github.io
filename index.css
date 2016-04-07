@@ -121,7 +121,10 @@ h5 {
   border: 1px solid #FFFFFF;
 }
 
-
+.logo {
+  max-width: 100%;
+  height: auto;
+}
 
 
 .jumbotron2 {
