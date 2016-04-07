@@ -31,6 +31,7 @@ body {
 
 .texts {
   position: absolute;
+  text-align: center;
   top: 56.9%;
   z-index: 1000;
 }
