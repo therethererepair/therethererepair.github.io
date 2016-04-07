@@ -47,7 +47,7 @@ body {
 .texts a {
   color: #FFFFFF;
   display: inline;
-  border: 2px solid black;
+  border: 1px solid black;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 15px;
   font-weight: 5;
@@ -57,7 +57,7 @@ body {
 
 
 .texts a:hover {
-  border: 2px solid #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 
 
