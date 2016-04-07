@@ -54,7 +54,14 @@ body {
   text-decoration: none;
 }
 
-
+.texts ui li a.logo {
+  background: url(http://i.imgur.com/zx9OYqW.png);
+  background-repeat: no-repeat;
+  height: 100px;
+  display: block;
+  width: 100px;
+  padding: 0;
+}
 
 .texts a:hover {
   border: 1px solid #FFFFFF;
