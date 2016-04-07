@@ -54,7 +54,7 @@ body {
   text-decoration: none;
 }
 
-.texts li a.logo {
+.texts .logo {
   background-image: url("http://i.imgur.com/zx9OYqW.png");
   background-repeat: no-repeat;
   height: 100px;
