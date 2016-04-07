@@ -54,11 +54,10 @@ body {
   text-decoration: none;
 }
 
-.texts ul li a.logo {
+.texts .logo {
   background: url(http://i.imgur.com/zx9OYqW.png);
   background-repeat: no-repeat;
   height: 100px;
-  display: block;
   width: 100px;
   padding: 0;
 }
@@ -67,7 +66,6 @@ body {
   border: 1px solid #FFFFFF;
 }
 
-.texts a:not:hover {
 
 
 
