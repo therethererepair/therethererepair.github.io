@@ -122,11 +122,8 @@ h5 {
 }
 
 .logo {
-  min-height: 50px;
-  min-width: 50px;
-  max-height: 90px;
-  max-width: 90px;
-  height: auto;
+  height: 78px;
+  width: 78px;
 }
 
 
