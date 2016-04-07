@@ -29,6 +29,18 @@ body {
   z-index: 1;
 }
 
+h1 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+  font-weight: 5;
+  color: #FFFFFF;
+  text-decoration: none;
+  
+}
+
 .texts {
   position: relative;
   list-style: none;
