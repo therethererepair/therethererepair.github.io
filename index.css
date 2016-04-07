@@ -19,11 +19,14 @@ body {
 } 
 
 
-.wrapper #top {
+#top {
   background-color: black;
-  height: 12%;
+  position: fixed;
   width: 100%;
+  height: 60px;
+  top: 0;
   margin: 0;
+  z-index: 1;
 }
 
 
