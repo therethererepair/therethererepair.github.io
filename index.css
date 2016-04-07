@@ -56,9 +56,10 @@ body {
 
 .texts #logo {
   background-color: black;
-  height: 100px;
-  width: 100px;
+  height: 45px;
+  width: 45px;
   padding: 0;
+  top: 0;
 }
 
 .texts a:hover {
