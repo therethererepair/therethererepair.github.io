@@ -2,7 +2,7 @@ body {
   min-height: 100%;
   min-width: 100%;
   margin: 0 auto;
-  background-color: #5F9EA0;
+  background-image: url("http://apclinic.co.uk/wp-content/uploads/2013/09/Light-Grey-Background.jpg");
   overflow: hidden;
 }
 
@@ -55,7 +55,7 @@ h2 {
 
 h3 {
   position: fixed;
-  right: 0;
+  right: 4px;
   top: 0;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
@@ -67,7 +67,7 @@ h3 {
 
 h4 {
   position: fixed;
-  right: 0;
+  right: 4px;
   top: 29px;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
@@ -79,7 +79,7 @@ h4 {
 
 h5 {
   position: fixed;
-  right: 0;
+  right: 4px;
   top: 49px;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
@@ -126,7 +126,47 @@ h5 {
   width: 85px;
 }
 
+.phones {
+  height: 1024px;
+  top: 107px;
+  bottom: 6%;
+  overflow: hidden;
+  text-decoration: none;
+}
 
+
+
+.phones p {
+  text-align: center;
+  position: fixed;
+  font-family: 'Play', sans-serif;
+  top: 140px;
+  left: 30%;
+  right: 30%;
+  
+  font-size: 25px;
+  font-weight: 650;
+  line-height: 160%;
+  color: #000000;
+}
+
+.phones #under {
+  text-align: center;
+  position: fixed;
+  font-family: 'Play', sans-serif;
+  top: 175px;
+  left: 25%;
+  right: 25%;
+  
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 160%;
+  color: #000000;
+}
+ 
+
+
+ 
 .jumbotron2 {
   background-color: black;
   background-position: center bottom;
@@ -148,6 +188,201 @@ h5 {
   font-weight: 10;
   text-decoration: none;
 }
+
+.container {
+  position: fixed;
+  top: 250px;
+  left: 15%;
+ }
+ 
+ .thumbnail {
+   height: 70px;
+   width: 41px;
+   background-color: transparent;
+   border: 0;
+ }
+ 
+ .thumbnail #iphone {
+   border-radius: 6px;
+   
+ }
+ 
+.thumbnail #p {
+  font-family: 'Play', sans-serif;
+  font-size: 20px;
+  top: 0;
+  left: -15px;
+  font-weight: 600;
+  line-height: 160%;
+  position: relative;
+  color: #;  
+} 
+
+.thumbnail #p1 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: 10px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #p2 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: 2px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #p3 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: -5px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #p4 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: -11px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #p5 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: -14px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #p6 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: -17px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #p7 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: -20px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #p8 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: -23px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #p9 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: -27px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #s {
+  font-family: 'Play', sans-serif;
+  font-size: 20px;
+  top: 0;
+  left: -20px;
+  font-weight: 600;
+  line-height: 160%;
+  position: relative;
+  color: #000000;  
+} 
+
+.thumbnail #n {
+  font-family: 'Play', sans-serif;
+  font-size: 20px;
+  top: 0;
+  left: -35px;
+  font-weight: 600;
+  position: relative;
+  color: #000000;  
+} 
+
+.thumbnail #n1 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: 10px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #n2 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: 2px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #n3 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: -5px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #n4 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: -14px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+
 
 .bottom a:hover {
   color: #000000;
