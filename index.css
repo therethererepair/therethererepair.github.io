@@ -112,19 +112,25 @@ h5 {
   font-size: 15px;
   font-weight: 5;
   text-decoration: none;
+  
 }
 
 
+.container a:hover {
+  text-decoration: none;
+}
 
-
-.texts a:hover {
+.texts a:hover:not(#log) {
   border: 1px solid #FFFFFF;
 }
 
 .logo {
-  height: 85px;
-  width: 85px;
+  height: 90px;
+  width: 130px;
+  overflow: hidden;
+  border-radius: 7px;
 }
+
 
 .phones {
   height: 1024px;
@@ -134,15 +140,20 @@ h5 {
   text-decoration: none;
 }
 
-
+.emb {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 106px;
+}
 
 .phones p {
   text-align: center;
   position: fixed;
   font-family: 'Play', sans-serif;
-  top: 140px;
-  left: 30%;
-  right: 30%;
+  top: 120px;
+  left: 25%;
+  right: 25%;
   
   font-size: 25px;
   font-weight: 650;
@@ -154,7 +165,7 @@ h5 {
   text-align: center;
   position: fixed;
   font-family: 'Play', sans-serif;
-  top: 175px;
+  top: 155px;
   left: 25%;
   right: 25%;
   
@@ -164,6 +175,17 @@ h5 {
   color: #000000;
 }
  
+.phones #broke {
+  position: fixed;
+  font-family: 'Play', sans-serif;
+  top: 220px;
+  left: 22%;
+  right: 25%;
+  
+  font-size: 21px;
+  font-weight: 600;
+  color: #000000;
+}
 
 
  
@@ -202,10 +224,12 @@ h5 {
    border: 0;
  }
  
+
  .thumbnail #iphone {
    border-radius: 6px;
    
  }
+ 
  
 .thumbnail #p {
   font-family: 'Play', sans-serif;
@@ -328,6 +352,61 @@ h5 {
   color: #000000;  
 } 
 
+.thumbnail #s1 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: 10px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #s2 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: 1px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+}
+
+.thumbnail #s3 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: -4px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+}
+
+.thumbnail #s4 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: -10px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+}
+
+.thumbnail #s5 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: -15px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+}
+
 .thumbnail #n {
   font-family: 'Play', sans-serif;
   font-size: 20px;
@@ -341,7 +420,7 @@ h5 {
 .thumbnail #n1 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: 10px;
+  top: 11px;
   left: -85px;
   font-weight: 400;
   position: relative;
@@ -352,7 +431,7 @@ h5 {
 .thumbnail #n2 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: 2px;
+  top: 5px;
   left: -85px;
   font-weight: 400;
   position: relative;
@@ -363,7 +442,7 @@ h5 {
 .thumbnail #n3 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: -5px;
+  top: 0px;
   left: -85px;
   font-weight: 400;
   position: relative;
@@ -374,7 +453,7 @@ h5 {
 .thumbnail #n4 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: -14px;
+  top: -5px;
   left: -85px;
   font-weight: 400;
   position: relative;
@@ -382,7 +461,30 @@ h5 {
   width: 200px;
 } 
 
+.phones #under2 {
+  position: fixed;
+  font-family: 'Play', sans-serif;
+  top: 88%;
+  right: -645px;
+  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 160%;
+  color: #000000;
+}
 
+.phones #under3 {
+  position: fixed;
+  font-family: 'Play', sans-serif;
+  top: 90%;
+  right: -660px;
+  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 160%;
+  color: #000000;
+}
+ 
 
 .bottom a:hover {
   color: #000000;
