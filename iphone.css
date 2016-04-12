@@ -1,0 +1,599 @@
+body {
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0 auto;
+  background-image: url("http://apclinic.co.uk/wp-content/uploads/2013/09/Light-Grey-Background.jpg");
+  overflow: hidden;
+}
+
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative; 
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+} 
+
+
+.wrapper .top {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: 108px;
+  top: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+h1 {
+  position: fixed;
+  left: 1%;
+  top: 91.3%;
+  font-family: 'Roboto condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 150;
+  color: #FFFFFF;
+  text-decoration: none;
+  
+}
+
+h2 {
+  position: fixed;
+  left: 0;
+  top: 93.8%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 5;
+  color: #FFFFFF;
+  text-decoration: none;
+  
+}
+
+h3 {
+  position: fixed;
+  right: 4px;
+  top: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 5;
+  color: #FFFFFF;
+  text-decoration: none;
+  
+}
+
+h4 {
+  position: fixed;
+  right: 4px;
+  top: 29px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 5;
+  color: #FFFFFF;
+  text-decoration: none;
+  
+}
+
+h5 {
+  position: fixed;
+  right: 4px;
+  top: 49px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 5;
+  color: #FFFFFF;
+  text-decoration: none;
+  
+}
+
+.texts {
+  position: relative;
+  list-style: none;
+  text-align: center;
+  top: 14px;
+  z-index: 1000;
+}
+
+.texts li {
+  display: inline;
+  position: relative;
+  padding: 0px 25px 0px;
+}
+
+
+.texts a {
+  color: #FFFFFF;
+  display: inline;
+  border: 1px solid black;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 5;
+  text-decoration: none;
+  
+}
+
+
+.container a:hover {
+  text-decoration: none;
+}
+
+.texts a:hover:not(#log) {
+  border: 1px solid #FFFFFF;
+}
+
+.logo {
+  height: 90px;
+  width: 130px;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+
+.phones {
+  height: 1024px;
+  top: 107px;
+  bottom: 6%;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+
+#alm {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 106px;
+  z-index: 1000;
+}
+
+
+.phones p {
+  text-align: center;
+  position: fixed;
+  font-family: 'Play', sans-serif;
+  top: 125px;
+  left: 25%;
+  right: 25%;
+  
+  font-size: 37px;
+  font-weight: 650;
+  line-height: 160%;
+  color: #000000;
+}
+
+.phones #ser {
+  text-align: center;
+  position: fixed;
+  font-family: 'Play', sans-serif;
+  top: 170px;
+  left: 25%;
+  right: 25%;
+  
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 160%;
+  color: #000000;
+}
+ 
+.phones #broke {
+  position: fixed;
+  font-family: 'Play', sans-serif;
+  top: 220px;
+  left: 22%;
+  right: 25%;
+  
+  font-size: 21px;
+  font-weight: 600;
+  color: #000000;
+}
+
+
+ 
+.jumbotron2 {
+  background-color: black;
+  background-position: center bottom;
+  top: 93%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+ 
+.bottom a {
+  color: #FFFFFF;
+  text-shadow: -6px -6px 10px #FFFFFF;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 10;
+  text-decoration: none;
+}
+
+.container {
+  position: fixed;
+  top: 200px;
+  left: 17%;
+ }
+ 
+ .thumbnail {
+   height: 70px;
+   width: 41px;
+   background-color: transparent;
+   border: 0;
+ }
+ 
+
+ .thumbnail #iphone {
+   border-radius: 6px;
+   height: 70px;
+   width: 36px;
+   
+   
+ }
+ 
+ 
+.thumbnail #p {
+  font-family: 'Play', sans-serif;
+  font-size: 20px;
+  top: 0;
+  left: -50px;
+  font-weight: 600;
+  line-height: 160%;
+  position: relative;
+  color: #000000;  
+  width: 150px;
+} 
+
+
+
+.thumbnail #one {
+  font-family: 'Play', sans-serif;
+  font-size: 20px;
+  top: 55px;
+  left: -82px;
+  font-weight: 600;
+  position: relative;
+  color: #000000;
+  width: 200px;
+  
+ }
+ 
+.thumbnail #one_1 {
+  top: 193px;
+  height: 70px;
+  width: 36px;
+  position: absolute;
+  left: 17px;
+  border-radius: 6px;
+  
+}
+
+.thumbnail #htc {
+  font-family: 'Play', sans-serif;
+  font-size: 19px;
+  top: 123px;
+  left: -80px;
+  font-weight: 600;
+  position: relative;
+  color: #000000;
+  width: 200px;
+  
+ }
+ 
+ .thumbnail #htcone {
+  top: 346px;
+  height: 70px;
+  width: 36px;
+  position: absolute;
+  left: 17px;
+  border-radius: 6px;
+  
+}
+
+.thumbnail #lg1 {
+  font-family: 'Play', sans-serif;
+  font-size: 19px;
+  top: 56px;
+  left: -80px;
+  font-weight: 600;
+  position: relative;
+  color: #000000;
+  width: 200px;
+  
+ }
+ 
+.thumbnail #lg3 {
+  top: 193px;
+  height: 70px;
+  width: 36px;
+  position: absolute;
+  left: 17px;
+  border-radius: 6px;
+  
+}
+
+.thumbnail #nex1 {
+  font-family: 'Play', sans-serif;
+  font-size: 19px;
+  top: 123px;
+  left: -130px;
+  font-weight: 600;
+  position: relative;
+  color: #000000;
+  width: 300px;
+  
+ }
+ 
+ .thumbnail #nex3 {
+  top: 346px;
+  height: 70px;
+  width: 36px;
+  position: absolute;
+  left: 17px;
+  border-radius: 6px;
+  
+}
+
+
+.thumbnail #s {
+  font-family: 'Play', sans-serif;
+  font-size: 20px;
+  top: 0;
+  left: -80px;
+  font-weight: 600;
+  line-height: 160%;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+  
+} 
+
+.thumbnail #iphone2 {
+  border-radius: 6px;
+  height: 70px;
+  width: 36px;
+}
+
+.thumbnail #pad {
+  font-family: 'Play', sans-serif;
+  font-size: 19px;
+  top: 56px;
+  left: -135px;
+  font-weight: 600;
+  position: relative;
+  color: #000000;
+  width: 300px;
+  
+ }
+ 
+.thumbnail #pad2 {
+  top: 193px;
+  height: 70px;
+  width: 36px;
+  position: absolute;
+  left: 17px;
+  border-radius: 6px;
+  
+}
+
+.thumbnail #other {
+  font-family: 'Play', sans-serif;
+  font-size: 19px;
+  top: 123px;
+  left: -135px;
+  font-weight: 600;
+  position: relative;
+  color: #000000;
+  width: 300px;
+  
+ }
+ 
+ .thumbnail #char {
+  top: 346px;
+  height: 70px;
+  width: 36px;
+  position: absolute;
+  left: 17px;
+  border-radius: 6px;
+  
+}
+ 
+.thumbnail #other2 {
+  font-family: 'Play', sans-serif;
+  font-size: 13px;
+  top: 114px;
+  left: -180px;
+  font-weight: 600;
+  position: relative;
+  color: #000000;
+  width: 400px;
+  
+ } 
+.thumbnail #iphone3 {
+  border-radius: 6px;
+}
+.thumbnail #s1 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: 10px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #s2 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: 1px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+}
+
+.thumbnail #s3 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: -4px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+}
+
+.thumbnail #s4 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: -10px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+}
+
+.thumbnail #s5 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: -15px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+}
+
+.thumbnail #n {
+  font-family: 'Play', sans-serif;
+  font-size: 20px;
+  top: 0;
+  left: -80px;
+  font-weight: 600;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #n1 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: 11px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #n2 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: 5px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #n3 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: 0px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+.thumbnail #n4 {
+  font-family: 'Play', sans-serif;
+  font-size: 14px;
+  top: -5px;
+  left: -85px;
+  font-weight: 400;
+  position: relative;
+  color: #000000;  
+  width: 200px;
+} 
+
+
+
+.phones #under3 {
+  position: fixed;
+  font-family: 'Play', sans-serif;
+  top: 94.5%;
+  right: 320px;
+  
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 160%;
+  color: #FFFFFF;
+  z-index: 1001;
+}
+ 
+.phones #hours {
+  position: fixed;
+  font-family: 'Play', sans-serif;
+  top: 93%;
+  right: -780px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  color: #FFFFFF;
+  z-index: 1000;
+}
+ 
+.phones #hours2 {
+  position: fixed;
+  font-family: 'Play', sans-serif;
+  top: 96%;
+  right: -800px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  color: #FFFFFF;
+  z-index: 1000;
+}
+ 
+.bottom a:hover {
+  color: #000000;
+  text-shadow:   0px 0px 26px #FFFFFF,
+                          0px 0px 26px #FFFFFF,
+						  0px 0px 26px #FFFFFF,
+						  0px 0px 26px #FFFFFF,
+						  0px 0px 26px #FFFFFF,
+						  0px 0px 26px #FFFFFF,
+						  0px 0px 26px #FFFFFF,
+						  0px 0px 26px #FFFFFF,
+						  0px 0px 26px #FFFFFF;
+}
+
+.almost {
+  position: fixed;
+  right: 0;
+  bottom: 2.3%;
+}
+  
+
+.done {
+  position: fixed;
+  left: -2.5%;
+  bottom: -1.4%;
+}
+
+.huh {
+  position: fixed;
+  bottom: -1.4%;
+  right: 0;
+}
