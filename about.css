@@ -116,10 +116,6 @@ h5 {
 }
 
 
-.container a:hover {
-  text-decoration: none;
-}
-
 .texts a:hover:not(#log) {
   border: 1px solid #FFFFFF;
 }
@@ -178,20 +174,33 @@ h5 {
   color: #000000;
 }
  
-.phones #broke {
+.phones #under1 {
+  text-align: center;
   position: fixed;
   font-family: 'Play', sans-serif;
-  top: 220px;
-  left: 22%;
+  top: 260px;
+  left: 25%;
   right: 25%;
   
-  font-size: 21px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 160%;
   color: #000000;
 }
-
-
- 
+.phones #under2 {
+  text-align: center;
+  position: fixed;
+  font-family: 'Play', sans-serif;
+  top: 230px;
+  left: 25%;
+  right: 25%;
+  
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 160%;
+  color: #000000;
+}
+  
 .jumbotron2 {
   background-color: black;
   background-position: center bottom;
@@ -203,268 +212,6 @@ h5 {
   left: 0;
   bottom: 0;
 }
-
- 
-.bottom a {
-  color: #FFFFFF;
-  text-shadow: -6px -6px 10px #FFFFFF;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 15px;
-  font-weight: 10;
-  text-decoration: none;
-}
-
-.container {
-  position: fixed;
-  top: 250px;
-  left: 15%;
- }
- 
- .thumbnail {
-   height: 70px;
-   width: 41px;
-   background-color: transparent;
-   border: 0;
- }
- 
-
- .thumbnail #iphone {
-   border-radius: 6px;
-   
- }
- 
- 
-.thumbnail #p {
-  font-family: 'Play', sans-serif;
-  font-size: 20px;
-  top: 0;
-  left: -15px;
-  font-weight: 600;
-  line-height: 160%;
-  position: relative;
-  color: #;  
-} 
-
-.thumbnail #p1 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 10px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #p2 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 2px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #p3 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -5px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #p4 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -11px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #p5 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -14px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #p6 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -17px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #p7 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -20px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #p8 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -23px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #p9 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -27px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #s {
-  font-family: 'Play', sans-serif;
-  font-size: 20px;
-  top: 0;
-  left: -20px;
-  font-weight: 600;
-  line-height: 160%;
-  position: relative;
-  color: #000000;  
-} 
-
-.thumbnail #s1 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 10px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #s2 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 1px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-}
-
-.thumbnail #s3 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -4px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-}
-
-.thumbnail #s4 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -10px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-}
-
-.thumbnail #s5 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -15px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-}
-
-.thumbnail #n {
-  font-family: 'Play', sans-serif;
-  font-size: 20px;
-  top: 0;
-  left: -35px;
-  font-weight: 600;
-  position: relative;
-  color: #000000;  
-} 
-
-.thumbnail #n1 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 11px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #n2 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 5px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #n3 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 0px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #n4 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -5px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-
 
 .phones #under3 {
   position: fixed;
@@ -501,36 +248,4 @@ h5 {
   line-height: 160%;
   color: #FFFFFF;
   z-index: 1000;
-}
- 
-.bottom a:hover {
-  color: #000000;
-  text-shadow:   0px 0px 26px #FFFFFF,
-                          0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF;
-}
-
-.almost {
-  position: fixed;
-  right: 0;
-  bottom: 2.3%;
-}
-  
-
-.done {
-  position: fixed;
-  left: -2.5%;
-  bottom: -1.4%;
-}
-
-.huh {
-  position: fixed;
-  bottom: -1.4%;
-  right: 0;
 }
