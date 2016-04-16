@@ -177,21 +177,7 @@ h5 {
   line-height: 160%;
   color: #000000;
 }
- 
-.phones #broke {
-  position: fixed;
-  font-family: 'Play', sans-serif;
-  top: 220px;
-  left: 22%;
-  right: 25%;
-  
-  font-size: 21px;
-  font-weight: 600;
-  color: #000000;
-}
 
-
- 
 .jumbotron2 {
   background-color: black;
   background-position: center bottom;
@@ -202,16 +188,6 @@ h5 {
   position: fixed;
   left: 0;
   bottom: 0;
-}
-
- 
-.bottom a {
-  color: #FFFFFF;
-  text-shadow: -6px -6px 10px #FFFFFF;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 15px;
-  font-weight: 10;
-  text-decoration: none;
 }
 
 .container {
@@ -232,8 +208,6 @@ h5 {
    border-radius: 6px;
    height: 70px;
    width: 36px;
-   
-   
  }
  
  
@@ -249,21 +223,18 @@ h5 {
   width: 150px;
 } 
 
-
-
-.thumbnail #one {
+.thumbnail #charge {
   font-family: 'Play', sans-serif;
   font-size: 20px;
   top: 55px;
-  left: -82px;
+  left: -80px;
   font-weight: 600;
   position: relative;
   color: #000000;
   width: 200px;
-  
  }
  
-.thumbnail #one_1 {
+.thumbnail #charge2 {
   top: 193px;
   height: 70px;
   width: 36px;
@@ -273,7 +244,7 @@ h5 {
   
 }
 
-.thumbnail #htc {
+.thumbnail #cam {
   font-family: 'Play', sans-serif;
   font-size: 19px;
   top: 123px;
@@ -282,20 +253,18 @@ h5 {
   position: relative;
   color: #000000;
   width: 200px;
-  
  }
  
- .thumbnail #htcone {
+ .thumbnail #cam2 {
   top: 346px;
   height: 70px;
   width: 36px;
   position: absolute;
   left: 17px;
   border-radius: 6px;
-  
 }
 
-.thumbnail #lg1 {
+.thumbnail #speak {
   font-family: 'Play', sans-serif;
   font-size: 19px;
   top: 56px;
@@ -304,20 +273,18 @@ h5 {
   position: relative;
   color: #000000;
   width: 200px;
-  
  }
  
-.thumbnail #lg3 {
+.thumbnail #speak2 {
   top: 193px;
   height: 70px;
   width: 36px;
   position: absolute;
   left: 17px;
   border-radius: 6px;
-  
 }
 
-.thumbnail #nex1 {
+.thumbnail #bat {
   font-family: 'Play', sans-serif;
   font-size: 19px;
   top: 123px;
@@ -325,22 +292,19 @@ h5 {
   font-weight: 600;
   position: relative;
   color: #000000;
-  width: 300px;
-  
+  width: 300px; 
  }
  
- .thumbnail #nex3 {
+ .thumbnail #bat2 {
   top: 346px;
   height: 70px;
   width: 36px;
   position: absolute;
   left: 17px;
-  border-radius: 6px;
-  
+  border-radius: 6px;  
 }
 
-
-.thumbnail #s {
+.thumbnail #home {
   font-family: 'Play', sans-serif;
   font-size: 20px;
   top: 0;
@@ -350,16 +314,15 @@ h5 {
   position: relative;
   color: #000000;  
   width: 200px;
-  
 } 
 
-.thumbnail #iphone2 {
+.thumbnail #home2 {
   border-radius: 6px;
   height: 70px;
   width: 36px;
 }
 
-.thumbnail #pad {
+.thumbnail #vol {
   font-family: 'Play', sans-serif;
   font-size: 19px;
   top: 56px;
@@ -368,20 +331,18 @@ h5 {
   position: relative;
   color: #000000;
   width: 300px;
-  
  }
  
-.thumbnail #pad2 {
+.thumbnail #vol2 {
   top: 193px;
   height: 70px;
   width: 36px;
   position: absolute;
   left: 17px;
   border-radius: 6px;
-  
 }
 
-.thumbnail #other {
+.thumbnail #head {
   font-family: 'Play', sans-serif;
   font-size: 19px;
   top: 123px;
@@ -389,18 +350,16 @@ h5 {
   font-weight: 600;
   position: relative;
   color: #000000;
-  width: 300px;
-  
+  width: 300px; 
  }
  
- .thumbnail #char {
+ .thumbnail #head2 {
   top: 346px;
   height: 70px;
   width: 36px;
   position: absolute;
   left: 17px;
   border-radius: 6px;
-  
 }
  
 .thumbnail #other2 {
@@ -412,122 +371,21 @@ h5 {
   position: relative;
   color: #000000;
   width: 400px;
-  
  } 
-.thumbnail #iphone3 {
+.thumbnail #power2 {
   border-radius: 6px;
 }
-.thumbnail #s1 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 10px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
 
-.thumbnail #s2 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 1px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-}
-
-.thumbnail #s3 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -4px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-}
-
-.thumbnail #s4 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -10px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-}
-
-.thumbnail #s5 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -15px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-}
-
-.thumbnail #n {
+.thumbnail #power {
   font-family: 'Play', sans-serif;
   font-size: 20px;
   top: 0;
-  left: -80px;
+  left: -85px;
   font-weight: 600;
   position: relative;
   color: #000000;  
   width: 200px;
 } 
-
-.thumbnail #n1 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 11px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #n2 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 5px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #n3 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 0px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #n4 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -5px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-
 
 .phones #under3 {
   position: fixed;
@@ -564,36 +422,4 @@ h5 {
   line-height: 160%;
   color: #FFFFFF;
   z-index: 1000;
-}
- 
-.bottom a:hover {
-  color: #000000;
-  text-shadow:   0px 0px 26px #FFFFFF,
-                          0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF;
-}
-
-.almost {
-  position: fixed;
-  right: 0;
-  bottom: 2.3%;
-}
-  
-
-.done {
-  position: fixed;
-  left: -2.5%;
-  bottom: -1.4%;
-}
-
-.huh {
-  position: fixed;
-  bottom: -1.4%;
-  right: 0;
 }
