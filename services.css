@@ -6,7 +6,6 @@ body {
   overflow: hidden;
 }
 
-
 .wrapper {
   height: 100%;
   width: 100%;
@@ -17,7 +16,6 @@ body {
   bottom: 0;
   overflow: hidden;
 } 
-
 
 .wrapper .top {
   background-color: black;
@@ -37,8 +35,7 @@ h1 {
   font-size: 16px;
   font-weight: 150;
   color: #FFFFFF;
-  text-decoration: none;
-  
+  text-decoration: none; 
 }
 
 h2 {
@@ -50,7 +47,6 @@ h2 {
   font-weight: 5;
   color: #FFFFFF;
   text-decoration: none;
-  
 }
 
 h3 {
@@ -62,7 +58,6 @@ h3 {
   font-weight: 5;
   color: #FFFFFF;
   text-decoration: none;
-  
 }
 
 h4 {
@@ -74,7 +69,6 @@ h4 {
   font-weight: 5;
   color: #FFFFFF;
   text-decoration: none;
-  
 }
 
 h5 {
@@ -86,7 +80,6 @@ h5 {
   font-weight: 5;
   color: #FFFFFF;
   text-decoration: none;
-  
 }
 
 .texts {
@@ -103,7 +96,6 @@ h5 {
   padding: 0px 25px 0px;
 }
 
-
 .texts a {
   color: #FFFFFF;
   display: inline;
@@ -112,9 +104,7 @@ h5 {
   font-size: 15px;
   font-weight: 5;
   text-decoration: none;
-  
 }
-
 
 .container a:hover {
   text-decoration: none;
@@ -131,7 +121,6 @@ h5 {
   border-radius: 7px;
 }
 
-
 .phones {
   height: 1024px;
   top: 107px;
@@ -140,7 +129,6 @@ h5 {
   text-decoration: none;
 }
 
-
 #alm {
   position: fixed;
   top: 0;
@@ -148,7 +136,6 @@ h5 {
   height: 106px;
   z-index: 1000;
 }
-
 
 .phones p {
   text-align: center;
@@ -171,7 +158,6 @@ h5 {
   top: 170px;
   left: 25%;
   right: 25%;
-  
   font-size: 14px;
   font-weight: 500;
   line-height: 160%;
@@ -184,13 +170,10 @@ h5 {
   top: 220px;
   left: 22%;
   right: 25%;
-  
   font-size: 21px;
   font-weight: 600;
   color: #000000;
 }
-
-
  
 .jumbotron2 {
   background-color: black;
@@ -202,16 +185,6 @@ h5 {
   position: fixed;
   left: 0;
   bottom: 0;
-}
-
- 
-.bottom a {
-  color: #FFFFFF;
-  text-shadow: -6px -6px 10px #FFFFFF;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 15px;
-  font-weight: 10;
-  text-decoration: none;
 }
 
 .container {
@@ -227,12 +200,9 @@ h5 {
    border: 0;
  }
  
-
  .thumbnail #iphone {
    border-radius: 6px;
-   
  }
- 
  
 .thumbnail #p {
   font-family: 'Play', sans-serif;
@@ -245,8 +215,6 @@ h5 {
   color: #000000;  
 } 
 
-
-
 .thumbnail #one {
   font-family: 'Play', sans-serif;
   font-size: 20px;
@@ -255,7 +223,6 @@ h5 {
   font-weight: 600;
   position: relative;
   color: #000000;
-  
  }
  
 .thumbnail #one_1 {
@@ -265,7 +232,6 @@ h5 {
   position: absolute;
   left: 17px;
   border-radius: 3px;
-  
 }
 
 .thumbnail #htc {
@@ -277,7 +243,6 @@ h5 {
   position: relative;
   color: #000000;
   width: 100px;
-  
  }
  
  .thumbnail #htcone {
@@ -287,7 +252,6 @@ h5 {
   position: absolute;
   left: 17px;
   border-radius: 3px;
-  
 }
 
 .thumbnail #lg1 {
@@ -299,7 +263,6 @@ h5 {
   position: relative;
   color: #000000;
   width: 100px;
-  
  }
  
 .thumbnail #lg3 {
@@ -309,7 +272,6 @@ h5 {
   position: absolute;
   left: 17px;
   border-radius: 3px;
-  
 }
 
 .thumbnail #nex1 {
@@ -321,7 +283,6 @@ h5 {
   position: relative;
   color: #000000;
   width: 100px;
-  
  }
  
  .thumbnail #nex3 {
@@ -331,7 +292,6 @@ h5 {
   position: absolute;
   left: 17px;
   border-radius: 3px;
-  
 }
 
 
@@ -344,7 +304,6 @@ h5 {
   line-height: 160%;
   position: relative;
   color: #000000;  
-  
 } 
 
 .thumbnail #pad {
@@ -356,7 +315,6 @@ h5 {
   position: relative;
   color: #000000;
   width: 100px;
-  
  }
  
 .thumbnail #pad2 {
@@ -366,7 +324,6 @@ h5 {
   position: absolute;
   left: 11px;
   border-radius: 3px;
-  
 }
 
 .thumbnail #other {
@@ -378,7 +335,7 @@ h5 {
   position: relative;
   color: #000000;
   width: 100px;
-  
+  text-decoration: none;
  }
  
 .thumbnail #other2 {
@@ -389,64 +346,8 @@ h5 {
   font-weight: 600;
   position: relative;
   color: #000000;
-  width: 400px;
-  
+  width: 400px;  
  } 
-
-.thumbnail #s1 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 10px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #s2 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 1px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-}
-
-.thumbnail #s3 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -4px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-}
-
-.thumbnail #s4 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -10px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-}
-
-.thumbnail #s5 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -15px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-}
 
 .thumbnail #n {
   font-family: 'Play', sans-serif;
@@ -458,58 +359,11 @@ h5 {
   color: #000000;  
 } 
 
-.thumbnail #n1 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 11px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #n2 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 5px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #n3 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: 0px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-.thumbnail #n4 {
-  font-family: 'Play', sans-serif;
-  font-size: 14px;
-  top: -5px;
-  left: -85px;
-  font-weight: 400;
-  position: relative;
-  color: #000000;  
-  width: 200px;
-} 
-
-
-
 .phones #under3 {
   position: fixed;
   font-family: 'Play', sans-serif;
   top: 94.5%;
   right: 320px;
-  
   font-size: 30px;
   font-weight: 500;
   line-height: 160%;
@@ -539,36 +393,4 @@ h5 {
   line-height: 160%;
   color: #FFFFFF;
   z-index: 1000;
-}
- 
-.bottom a:hover {
-  color: #000000;
-  text-shadow:   0px 0px 26px #FFFFFF,
-                          0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF;
-}
-
-.almost {
-  position: fixed;
-  right: 0;
-  bottom: 2.3%;
-}
-  
-
-.done {
-  position: fixed;
-  left: -2.5%;
-  bottom: -1.4%;
-}
-
-.huh {
-  position: fixed;
-  bottom: -1.4%;
-  right: 0;
 }
