@@ -202,41 +202,52 @@ h5 {
 }
 
 .container {
-  position: fixed;
+  position: absolute;
   top: 250px;
-  left: 16%;
+  text-align: center;
+  background-color: transparent;
+  left: 0;
+  right: 0;
  }
  
  .thumbnail {
-   height: 70px;
-   width: 41px;
+   position: relative;
    background-color: transparent;
-   border: 0;
+   border-color: transparent;
  }
  
-
- .thumbnail #iphone {
-   border-radius: 6px;
+ .col-md-4 {
+   text-align: center;
+   right: 0;
    
  }
- 
+
+ .thumbnail #iphone {
+   border-radius: 5.5px;
+   height: 70px;
+   width: 31px;
+   position: relative;
+   top: 35px;
+   background-color: transparent;
+   
+ }
  
 .thumbnail #p {
   font-family: 'Play', sans-serif;
   font-size: 20px;
   top: 0;
-  left: -15px;
   font-weight: 600;
   line-height: 160%;
-  position: relative;
-  color: #;  
+  position: absolute;
+  text-align: center;
+  color: #000000;  
 } 
 
 .thumbnail #p1 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: 10px;
-  left: -85px;
+  top: 45px;
+  left: 22%;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -246,8 +257,8 @@ h5 {
 .thumbnail #p2 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: 2px;
-  left: -85px;
+  top: 30px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -257,8 +268,8 @@ h5 {
 .thumbnail #p3 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: -5px;
-  left: -85px;
+  top: 15px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -268,8 +279,8 @@ h5 {
 .thumbnail #p4 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: -11px;
-  left: -85px;
+  top: 0px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -279,8 +290,8 @@ h5 {
 .thumbnail #p5 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: -14px;
-  left: -85px;
+  top: -15px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -290,8 +301,8 @@ h5 {
 .thumbnail #p6 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: -17px;
-  left: -85px;
+  top: -30px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -301,8 +312,8 @@ h5 {
 .thumbnail #p7 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: -20px;
-  left: -85px;
+  top: -45px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -312,8 +323,8 @@ h5 {
 .thumbnail #p8 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: -23px;
-  left: -85px;
+  top: -60px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -323,8 +334,8 @@ h5 {
 .thumbnail #p9 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: -27px;
-  left: -85px;
+  top: -75px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -335,18 +346,26 @@ h5 {
   font-family: 'Play', sans-serif;
   font-size: 20px;
   top: 0;
-  left: -20px;
   font-weight: 600;
   line-height: 160%;
-  position: relative;
+  position: absolute;
   color: #000000;  
 } 
 
+.thumbnail #iphone2 {
+   border-radius: 5.5px;
+   height: 70px;
+   width: 31px;
+   position: relative;
+   top: 35px;
+   background-color: transparent;
+   
+ }
 .thumbnail #s1 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: 10px;
-  left: -85px;
+  top: 45px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -356,8 +375,8 @@ h5 {
 .thumbnail #s2 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: 1px;
-  left: -85px;
+  top: 30px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -367,8 +386,8 @@ h5 {
 .thumbnail #s3 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: -4px;
-  left: -85px;
+  top: 15px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -378,8 +397,8 @@ h5 {
 .thumbnail #s4 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: -10px;
-  left: -85px;
+  top: 0px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -390,7 +409,7 @@ h5 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
   top: -15px;
-  left: -85px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -401,17 +420,26 @@ h5 {
   font-family: 'Play', sans-serif;
   font-size: 20px;
   top: 0;
-  left: -35px;
   font-weight: 600;
-  position: relative;
+  position: absolute;
   color: #000000;  
 } 
+
+.thumbnail #iphone3 {
+   border-radius: 5.5px;
+   height: 70px;
+   width: 31px;
+   position: relative;
+   top: 35px;
+   background-color: transparent;
+ }
+ 
 
 .thumbnail #n1 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: 11px;
-  left: -85px;
+  top: 45px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -421,8 +449,8 @@ h5 {
 .thumbnail #n2 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: 5px;
-  left: -85px;
+  top: 30px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -432,8 +460,8 @@ h5 {
 .thumbnail #n3 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: 0px;
-  left: -85px;
+  top: 15px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -443,8 +471,8 @@ h5 {
 .thumbnail #n4 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: -5px;
-  left: -85px;
+  top: 0px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -454,8 +482,8 @@ h5 {
 .thumbnail #n5 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: -10px;
-  left: -85px;
+  top: -15px;
+  left: 75px;
   font-weight: 400;
   position: relative;
   color: #000000;  
@@ -465,8 +493,9 @@ h5 {
 .thumbnail #n6 {
   font-family: 'Play', sans-serif;
   font-size: 14px;
-  top: -15px;
-  left: -85px;
+  top: -30px;
+  left: 75px;
+  text-align: center;
   font-weight: 400;
   position: relative;
   color: #000000;  
