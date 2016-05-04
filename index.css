@@ -638,9 +638,9 @@ h5 {
     text-decoration: none;
     padding: 5px 5px 5px 5px;
     left: 0;
+    right: -5em;
     height: auto;
     width: 100%;
-    background-color: red;
   }
   .texts a:hover:not(#log) {
     border: 1px solid #FFFFFF;
