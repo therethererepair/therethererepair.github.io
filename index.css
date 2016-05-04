@@ -617,7 +617,7 @@ h5 {
     display: none;
   }
 
-  .texts li #ho {
+  .texts li {
     display: block;
     position: absolute;
     background-color: black;
@@ -627,7 +627,7 @@ h5 {
     left: 0;
     right: 0;
   }
-  .texts li #ser {
+  .texts li #ho {
     display: block;
     position: absolute;
     background-color: black;
