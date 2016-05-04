@@ -625,7 +625,6 @@ h5 {
     height: 45px;
     left: -5em;
     right: -5em;
-    width: 100%;
     padding: 5px 5px 5px 5px;
   }
   .texts li a {
@@ -641,6 +640,7 @@ h5 {
     left: 0;
     height: auto;
     width: 100%;
+    background-color: red;
   }
   .texts a:hover:not(#log) {
     border: 1px solid #FFFFFF;
