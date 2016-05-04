@@ -600,7 +600,7 @@ h5 {
     right: -1050px;
   }
   .texts {
-    position: fixed;
+    position: absolute;
     list-style: none;
     left: 0;
     top: 150px;
@@ -613,10 +613,10 @@ h5 {
   .texts li {
     display: block;
     position: relative;
-    left: 0;
     background-color: black;
     height: 45px;
-    width: 100%;
+    left: 0;
+    right: 0;
     padding: 5px 5px 5px 5px;
   }
   .texts #cari {
