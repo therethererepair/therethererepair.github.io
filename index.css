@@ -600,13 +600,14 @@ h5 {
     right: -1050px;
   }
   .texts {
-    position: absolute;
+    position: fixed;
     list-style: none;
     left: 0;
     top: 150px;
     z-index: 1000;
     height: auto;
     width: 100%;
+    display: block;
   }
 
   .texts li {
@@ -617,7 +618,6 @@ h5 {
     height: 45px;
     width: 100%;
     padding: 5px 5px 5px 5px;
-    float: left;
   }
   .texts #cari {
     position: absolute;
