@@ -559,10 +559,26 @@ h5 {
     left: -1000px;
   }
   
-  .top h1, h2, h3, h4, h5 {
+  .top h1 {
     position: absolute;
     right: -1000px;
   }
+  .top h2 {
+    position: absolute;
+    left: -1000px;
+  } 
+  .top h3 {
+    position: absolute;
+    right: -1000px;
+  } 
+  .top h4 {
+    position: absolute;
+    left: -1000px;
+  } 
+  .top h5 {
+    position: absolute;
+    right: -2000px;
+  } 
   
   .texts {
     position: absolute;
