@@ -579,9 +579,9 @@ h5 {
     position: absolute;
     left: -3000px;
   }
-  .top #30 {
+  .top h1 {
     position: absolute;
-    right: -2050px;
+    left: -3500px;
   }
   .top #gua2 {
     position: absolute;
