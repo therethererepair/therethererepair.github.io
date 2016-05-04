@@ -546,7 +546,8 @@ h5 {
 }
 
 @media all and (max-width: 400px) {
-  body {
+  .wrapper {
+    position: absolute;
     height: auto;
     max-height: 700px;
   }
@@ -649,6 +650,6 @@ h5 {
   }
   .jumbotron2 {
     position: absolute;
-    right: -1500px;
+    top: -3000px;
   }
 }
