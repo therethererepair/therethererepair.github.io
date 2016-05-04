@@ -617,12 +617,23 @@ h5 {
     display: none;
   }
 
-  .texts li {
+  .texts li #ho {
     display: block;
     position: absolute;
     background-color: black;
     height: 45px;
     width: 100%;
+    padding: 5px 5px 5px 5px;
+    left: 0;
+    right: 0;
+  }
+  .texts li #ser {
+    display: block;
+    position: absolute;
+    background-color: black;
+    height: 45px;
+    width: 100%;
+    top: 45px;
     padding: 5px 5px 5px 5px;
     left: 0;
     right: 0;
