@@ -596,12 +596,33 @@ h5 {
     position: absolute;
     right: -2000px;
   } 
-  .texts #ho {
+
+  .texts {
     position: absolute;
+    list-style: none;
     left: 0;
-    top: 250px;
-    width: 100%;
-    height: 30px;
+    top: 300px;
+    z-index: 1000;
+  }
+
+  .texts li {
+    display: block;
+    position: absolute;
+  }
+
+
+  .texts a {
+    color: #FFFFFF;
+    display: inline;
+    border: 1px solid black;
+    font-family: 'Play', sans-serif;
+    font-size: 15px;
+    font-weight: 5;
+    text-decoration: none;
+  
+  }
+  .texts a:hover:not(#log) {
+    border: 1px solid #FFFFFF;
   }
   
   .phones p {
