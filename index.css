@@ -606,6 +606,7 @@ h5 {
     top: 150px;
     height: auto;
     width: 100%;
+    display: block;
   }
   .texts #cari {
     position: absolute;
@@ -624,12 +625,10 @@ h5 {
     padding: 5px 5px 5px 5px;
     left: 0;
     right: 0;
-    width: 100%;
-    height: auto;
   }
   .texts li a {
     color: #FFFFFF;
-    position: absolute;
+    position: relative;
     display: block;
     border: 1px solid white;
     font-family: 'Play', sans-serif;
@@ -638,8 +637,8 @@ h5 {
     text-decoration: none;
     padding: 5px 5px 5px 5px;
     left: 0;
-    height: auto;
-    width: 100%;
+    right: 0;
+    
   }
   .texts a:hover:not(#log) {
     border: 1px solid #FFFFFF;
