@@ -623,23 +623,19 @@ h5 {
     position: relative;
     background-color: black;
     height: 45px;
+    width: 100%;
     padding: 5px 5px 5px 5px;
     left: 0;
     right: 0;
   }
   .texts li a {
     color: #FFFFFF;
-    position: relative;
     display: block;
     border: 1px solid white;
     font-family: 'Play', sans-serif;
     font-size: 15px;
     font-weight: 5;
     text-decoration: none;
-    padding: 5px 5px 5px 5px;
-    left: 0;
-    right: 0;
-    
   }
   .texts a:hover:not(#log) {
     border: 1px solid #FFFFFF;
