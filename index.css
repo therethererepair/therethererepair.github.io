@@ -649,6 +649,7 @@ h5 {
   }
   .jumbotron2 {
     position: absolute;
-    top: -3000px;
+    right: -3000px;
+    display: none;
   }
 }
