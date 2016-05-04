@@ -615,6 +615,8 @@ h5 {
     background-color: black;
     height: 45px;
     width: 100%;
+    left: 0;
+    right: 0;
   }
   .texts #cari {
     position: absolute;
