@@ -577,11 +577,11 @@ h5 {
   
   .top #agua {
     position: absolute;
-    left: -1000px;
+    left: -3000px;
   }
   .top #30 {
     position: absolute;
-    left: -1050px;
+    left: -3050px;
   }
   .top #gua2 {
     position: absolute;
@@ -609,11 +609,12 @@ h5 {
 
   .texts li {
     display: block;
-    position: absolute;
+    position: relative;
+    background-color: black;
   }
 
 
-  .texts a {
+  .texts li a {
     color: #FFFFFF;
     display: block;
     border: 1px solid black;
@@ -621,7 +622,7 @@ h5 {
     font-size: 15px;
     font-weight: 5;
     text-decoration: none;
-  
+    padding: 5px 5px 5px 5px;
   }
   .texts a:hover:not(#log) {
     border: 1px solid #FFFFFF;
