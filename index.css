@@ -603,7 +603,7 @@ h5 {
     position: absolute;
     list-style: none;
     left: 0;
-    top: 15px;
+    top: 150px;
     z-index: 1000;
   }
 
@@ -611,6 +611,8 @@ h5 {
     display: block;
     position: relative;
     background-color: black;
+    height: 45px;
+    width: 100%;
   }
   .texts #cari {
     position: absolute;
