@@ -604,7 +604,6 @@ h5 {
     list-style: none;
     left: 0;
     top: 150px;
-    z-index: 1000;
     height: auto;
     width: 100%;
   }
@@ -623,6 +622,10 @@ h5 {
     background-color: black;
     height: 45px;
     padding: 5px 5px 5px 5px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
   }
   .texts li a {
     color: #FFFFFF;
@@ -635,7 +638,6 @@ h5 {
     text-decoration: none;
     padding: 5px 5px 5px 5px;
     left: 0;
-    right: -5em;
     height: auto;
     width: 100%;
   }
