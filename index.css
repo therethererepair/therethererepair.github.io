@@ -625,11 +625,11 @@ h5 {
   }
   .phones #under3 {
     position: absolute;
-    bottom: -2050px;
+    left: -2050px;
   }
   .container {
     position: absolute;
-    bottom: -2000px;
+    left: -2000px;
   }
   #col1 {
     position: absolute;
