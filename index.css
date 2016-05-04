@@ -607,7 +607,6 @@ h5 {
     z-index: 1000;
     height: auto;
     width: 100%;
-    background-color: red;
   }
 
   .texts li {
@@ -618,6 +617,7 @@ h5 {
     height: 45px;
     width: 100%;
     padding: 5px 5px 5px 5px;
+    float: left;
   }
   .texts #cari {
     position: absolute;
