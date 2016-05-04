@@ -613,7 +613,7 @@ h5 {
 
   .texts a {
     color: #FFFFFF;
-    display: inline;
+    display: block;
     border: 1px solid black;
     font-family: 'Play', sans-serif;
     font-size: 15px;
