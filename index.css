@@ -594,4 +594,16 @@ h5 {
     position: absolute;
     bottom: -2000px;
   }
+  #col1 {
+    position: absolute;
+    right: -2500px;
+  }
+  #col2 {
+    position: absolute;
+    left: -2500px;
+  }
+  #col3 {
+    position: absolute;
+    left: -3000px;
+  }
 }
