@@ -612,7 +612,10 @@ h5 {
     position: relative;
     background-color: black;
   }
-
+  .texts #cari {
+    position: absolute;
+    left: -3000px;
+  }
 
   .texts li a {
     color: #FFFFFF;
