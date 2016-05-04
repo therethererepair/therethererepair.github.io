@@ -551,6 +551,7 @@ h5 {
     max-height: 700px;
   }
   #alm {
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;
@@ -558,6 +559,7 @@ h5 {
     width: 100%;
   }
   #alm2 {
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;
