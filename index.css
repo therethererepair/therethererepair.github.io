@@ -586,6 +586,10 @@ h5 {
     font-size: 12px;
     color: #000000;
   }
+  .phones #broke {
+    position: absolute;
+    left: -1050px;
+  }
   .container {
     position: absolute;
     bottom: -2000px;
