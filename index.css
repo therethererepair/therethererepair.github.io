@@ -602,10 +602,10 @@ h5 {
     right: -1050px;
   }
   .texts {
-    position: relative;
+    position: absolute;
     list-style: none;
     left: 0;
-    top: 150px;
+    top: 50px;
     height: auto;
     width: 100%;
     display: block;
@@ -621,21 +621,10 @@ h5 {
 
   .texts li {
     display: block;
-    position: absolute;
+    position: relative;
     background-color: black;
     height: 45px;
     width: 100%;
-    padding: 5px 5px 5px 5px;
-    left: 0;
-    right: 0;
-  }
-  .texts li #ho {
-    display: block;
-    position: absolute;
-    background-color: black;
-    height: 45px;
-    width: 100%;
-    top: 45px;
     padding: 5px 5px 5px 5px;
     left: 0;
     right: 0;
@@ -643,7 +632,7 @@ h5 {
   .texts li a {
     color: #FFFFFF;
     display: block;
-    position: absolute;
+    position: relative;
     border: 1px solid white;
     font-family: 'Play', sans-serif;
     font-size: 15px;
