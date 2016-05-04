@@ -637,10 +637,10 @@ h5 {
   }
   #under3 {
     position: absolute;
-    top: 2050px;
+    bottom: 2050px;
   }
   .jumbotron2 {
     position: absolute;
-    bottom: -1500px;
+    right: -1500px;
   }
 }
