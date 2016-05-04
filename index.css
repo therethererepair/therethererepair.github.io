@@ -625,6 +625,7 @@ h5 {
     height: 45px;
     left: -5em;
     right: -5em;
+    width: 100%;
     padding: 5px 5px 5px 5px;
   }
   .texts li a {
