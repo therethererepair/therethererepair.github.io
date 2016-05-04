@@ -540,3 +540,49 @@ h5 {
   color: #FFFFFF;
   z-index: 1000;
 }
+
+@media all and (min-width: 400px) {
+  #alm {
+    left: 0;
+    top: 0;
+    height: 160px;
+    width: 100%;
+  }
+  
+  .top a {
+    position: absolute;
+    left: -1000;
+  }
+  
+  .top h1, h2, h3, h4, h5 {
+    position: absolute;
+    right: -1000;
+  }
+  
+  .texts {
+    position: absolute;
+    top: -1000;
+  }
+  
+  .phones p {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    top: 170px;
+    left: 0;
+    right: 0;
+    font-size: 3.5em;
+    color: #000000;
+  }
+  .phones #under {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    top: 200px;
+    left: 0;
+    right: 0;
+    font-size: 3.5em;
+    color: #000000;
+  }
+  .container {
+    bottom: -2000px;
+  }
+}
