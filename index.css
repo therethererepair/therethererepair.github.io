@@ -625,7 +625,7 @@ h5 {
 
   .texts li a {
     color: #FFFFFF;
-    position: absolute;
+    position: relative;
     display: block;
     border: 1px solid white;
     font-family: 'Play', sans-serif;
