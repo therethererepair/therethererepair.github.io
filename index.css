@@ -612,7 +612,7 @@ h5 {
 
   .texts li {
     display: block;
-    position: relative;
+    position: absolute;
     background-color: black;
     height: 45px;
     width: 100%;
