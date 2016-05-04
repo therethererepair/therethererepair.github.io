@@ -607,7 +607,6 @@ h5 {
     height: auto;
     width: 100%;
     display: block;
-    background-color: red;
   }
   .texts #cari {
     position: absolute;
@@ -620,7 +619,7 @@ h5 {
 
   .texts li {
     display: block;
-    position: relative;
+    position: absolute;
     background-color: black;
     height: 45px;
     width: 100%;
