@@ -565,7 +565,15 @@ h5 {
     height: 170px;
     width: 100%;
   }
-  
+  .wrapper .top {
+    position: absolute;
+    background-color: transparent;
+    top: 240px;
+    height: auto;
+    width: 100%;
+    
+    
+  }
   
   .top a {
     position: absolute;
@@ -597,7 +605,7 @@ h5 {
     position: absolute;
     list-style: none;
     left: 0;
-    top: 300px;
+    top: 15px;
     z-index: 1000;
   }
 
