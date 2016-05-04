@@ -600,7 +600,7 @@ h5 {
     right: -1050px;
   }
   .texts {
-    position: absolute;
+    position: relative;
     list-style: none;
     left: 0;
     top: 150px;
@@ -631,11 +631,15 @@ h5 {
   .texts li a {
     color: #FFFFFF;
     display: block;
+    position: absolute;
     border: 1px solid white;
     font-family: 'Play', sans-serif;
     font-size: 15px;
     font-weight: 5;
     text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    left: 0;
+    right: 0;
   }
   .texts a:hover:not(#log) {
     border: 1px solid #FFFFFF;
