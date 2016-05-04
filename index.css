@@ -600,6 +600,7 @@ h5 {
   .phones p {
     position: absolute;
     font-family: 'Play', sans-serif;
+    top: 170px;
     left: 0;
     right: 0;
     font-size: 12px;
@@ -633,6 +634,10 @@ h5 {
   #col3 {
     position: absolute;
     left: -3000px;
+  }
+  #under3 {
+    position: absolute;
+    top: 2050px;
   }
   .jumbotron2 {
     position: absolute;
