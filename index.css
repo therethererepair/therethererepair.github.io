@@ -621,7 +621,7 @@ h5 {
   }
   .texts #cari {
     position: absolute;
-    left: -5000px;
+    right: -5000px;
   }
 
   .texts li a {
