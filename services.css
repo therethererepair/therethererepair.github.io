@@ -522,6 +522,7 @@ h5 {
     height: auto;
     top: 0;
     width: 100px;
+    overflow: visible;
     z-index: 2000;
   }
   .phones .container #p {
@@ -531,6 +532,7 @@ h5 {
   .phones .container #n {
     position: absolute;
     top: -25px;
+    overflow: visible;
     z-index: 2000;
   }
   #col2 {
