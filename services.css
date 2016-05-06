@@ -429,7 +429,7 @@ h5 {
     height: auto;
     width: 100%;
     display: block;
-    z-index: 3500;
+    z-index: 4000;
   }
   .texts #cari {
     position: absolute;
@@ -457,9 +457,6 @@ h5 {
     padding: 5px 5px 5px 5px;
     left: 0;
     right: 0;
-  }
-  .texts a:hover:not(#log) {
-    border: 1px solid #FFFFFF;
   }
   .row {
     height: auto;
