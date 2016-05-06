@@ -380,7 +380,7 @@ h5 {
   }
   .wrapper .top {
     position: absolute;
-    background-color: transparent;
+    background-color: red;
     top: 300px;
     height: auto;
     width: 100%;
