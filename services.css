@@ -390,7 +390,6 @@ h5 {
     position: absolute;
     background-color: transparent;
     top: 0;
-    height: 100px;
   }
   
   .top #agua {
@@ -425,7 +424,7 @@ h5 {
     position: absolute;
     list-style: none;
     left: 0;
-    top: 600px;
+    top: 400px;
     height: auto;
     width: 100%;
     display: block;
@@ -519,6 +518,7 @@ h5 {
     position: absolute;
     top: 150px;
     height: 1000px;
+    bottom: 0;
     background-color: blue;
     
   }
