@@ -520,7 +520,7 @@ h5 {
     position: absolute;
     right: 5px;
     height: auto;
-    top: -20px;
+    top: 0;
     width: 100px;
     overflow: visible;
     z-index: 2000;
@@ -532,6 +532,11 @@ h5 {
   .phones .container #n {
     position: absolute;
     top: -25px;
+    overflow: visible;
+    z-index: 2000;
+  }
+  .phones .container #n2 {
+    position: absolute;
     overflow: visible;
     z-index: 2000;
   }
