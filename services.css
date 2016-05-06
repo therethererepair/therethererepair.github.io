@@ -500,20 +500,22 @@ h5 {
     top: 160px;
     height: 1000px;
     z-index: 4000;
-  }
-  #col1 {
-    position: absolute;
-    left: 0;
-    top: -30px;
-    height: 700px;
-    z-index: 1000;
-    background-color: red;
+    overflow: visible;
   }
   .container {
     height: 1000px;
     top: 0;
     overflow: visible;
   }
+  #col1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 300px;
+    z-index: 1000;
+    background-color: red;
+  }
+
   .phones .container #p1 {
     position: absolute;
     left: 15px;
@@ -535,7 +537,7 @@ h5 {
   }
   #col2 {
     position: absolute;
-    top: 150px;
+    top: 130px;
     z-index: 2000;
   }
   #col3 {
