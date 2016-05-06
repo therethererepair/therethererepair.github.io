@@ -541,6 +541,9 @@ h5 {
     top: 165px;
     z-index: 2000;
   }
+  #g {
+    width: 100px;
+  }
   #col3 {
     position: absolute;
     top: 400px;
