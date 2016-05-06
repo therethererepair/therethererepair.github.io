@@ -501,9 +501,9 @@ h5 {
   .container {
     position: absolute;
     top: 150px;
-    bottom: -600px;
-    height: 900px;
-    z-index: 900;
+    bottom: -700px;
+    height: auto;
+    background-color: red;
   }
   #col1 {
     position: absolute;
