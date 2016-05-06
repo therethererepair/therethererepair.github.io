@@ -502,6 +502,7 @@ h5 {
     z-index: 4000;
     overflow: visible;
     background-color: blue;
+    position: static;
   }
   .container {
     height: 1000px;
@@ -509,6 +510,7 @@ h5 {
     bottom: -500px;
     overflow: visible;
     background-color: red;
+    position: static;
   }
   #col1 {
     position: absolute;
