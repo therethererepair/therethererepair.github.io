@@ -462,7 +462,11 @@ h5 {
   .texts a:hover:not(#log) {
     border: 1px solid #FFFFFF;
   }
-  
+  .row {
+    position: absolute;
+    height: auto;
+    
+  }
   .phones #services {
     position: absolute;
     font-family: 'Play', sans-serif;
