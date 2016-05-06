@@ -509,6 +509,11 @@ h5 {
     z-index: 1000;
     background-color: red;
   }
+  .container {
+    height: 1000px;
+    top: 0;
+    overflow: visible;
+  }
   .phones .container #p1 {
     position: absolute;
     left: 15px;
