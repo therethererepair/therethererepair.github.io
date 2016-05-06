@@ -537,8 +537,9 @@ h5 {
     top: 400px;
   }
   .jumbotron2 {
-    position: absolute;
-    right: -3000px;
+    display: none;
+  }
+  .footer {
     display: none;
   }
 }
