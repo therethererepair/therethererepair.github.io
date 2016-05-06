@@ -522,6 +522,7 @@ h5 {
     height: auto;
     top: 0;
     width: 100px;
+    z-index: 2000;
   }
   .phones .container #p {
     position: absolute; 
