@@ -520,6 +520,7 @@ h5 {
     position: absolute;
     right: 50px;
     top: 0;
+    background-color: red;
   }
   .phones .container #p {
     position: absolute; 
@@ -528,6 +529,7 @@ h5 {
   .phones .container #n {
     position: absolute;
     right: 50px;
+    background-color: blue;
   }
   #col2 {
     position: absolute;
