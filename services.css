@@ -380,7 +380,7 @@ h5 {
   }
   .wrapper {
     position: absolute;
-    top: 200px;
+    top: 0;
     height: auto;
     width: 100%;
     background-color: blue;
