@@ -497,9 +497,9 @@ h5 {
   }
 
   .phones {
-    top: 160px;
+    top: 180px;
     height: 1000px;
-    bottom: 0;
+    z-index: 4000;
   }
   #col1 {
     position: absolute;
