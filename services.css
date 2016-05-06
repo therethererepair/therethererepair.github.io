@@ -383,7 +383,7 @@ h5 {
   }
   .wrapper {
     top: 0;
-    height: auto;
+    height: 1000px;
     width: 100%;
   }
   .wrapper .top {
@@ -511,6 +511,9 @@ h5 {
     overflow: visible;
     background-color: red;
     position: static;
+  }
+  #cont {
+    height: 500px;
   }
   #col1 {
     position: absolute;
