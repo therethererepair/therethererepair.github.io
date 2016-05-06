@@ -500,19 +500,19 @@ h5 {
   .container {
     position: absolute;
     top: 300px;
-    height: auto;
+    height: 700px;
   }
   #col1 {
     position: absolute;
-    top: 300px;
+    top: 0;
   }
   #col2 {
     position: absolute;
-    top: 600px;
+    top: 200px;
   }
   #col3 {
     position: absolute;
-    top: 800px;
+    top: 400px;
   }
   .jumbotron2 {
     position: absolute;
