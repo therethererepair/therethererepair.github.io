@@ -361,7 +361,7 @@ h5 {
 @media all and (max-width: 400px) {
   body {
     background-image: url("http://apclinic.co.uk/wp-content/uploads/2013/09/Light-Grey-Background.jpg");
-    overflow: visible;
+    overflow: hidden;
     height: 1000px;
     top: 0;
   }
@@ -372,6 +372,7 @@ h5 {
     top: 0;
     height: 170px;
     width: 100%;
+    overflow: hidden;
   }
   #alm2 {
     position: absolute;
@@ -380,11 +381,13 @@ h5 {
     top: 0;
     height: 170px;
     width: 100%;
+    overflow: hidden;
   }
   .wrapper {
     top: 0;
     height: auto;
     width: 100%;
+    overflow: hidden;
   }
   .wrapper .top {
     display: none;
@@ -393,26 +396,32 @@ h5 {
   .top #agua {
     position: absolute;
     left: -3000px;
+    overflow: hidden;
   }
   .top h1 {
     position: absolute;
     left: -3500px;
+    overflow: hidden;
   }
   .top #gua2 {
     position: absolute;
     right: -1050px;
+    overflow: hidden;
   }
   .top #we {
     position: absolute;
     left: -1050px;
+    overflow: hidden;
   }
   .top #call {
     position: absolute;
     right: -1050px;
+    overflow: hidden;
   }
   .top #numbers {
     position: absolute;
     right: -1050px;
+    overflow: hidden;
   }
   .logo {
     position: absolute;
@@ -425,6 +434,7 @@ h5 {
     height: auto;
     width: 100%;
     display: none;
+    overflow: hidden;
   }
   .texts #cari {
     position: absolute;
@@ -439,6 +449,7 @@ h5 {
     padding: 5px 5px 5px 5px;
     left: -7%;
     right: 0;
+    overflow: hidden;
   }
   .texts li a {
     color: #FFFFFF;
@@ -452,12 +463,14 @@ h5 {
     padding: 5px 5px 5px 5px;
     left: 0;
     right: 0;
+    overflow: hidden;
   }
   .texts a:hover:not(#log) {
     border: 1px solid #FFFFFF;
   }
   .row {
     height: auto;
+    overflow: hidden;
     
   }
   .phones #services {
@@ -468,6 +481,7 @@ h5 {
     right: 0;
     font-size: 30px;
     color: #000000;
+    overflow: hidden;
   }
   .phones #ser {
     position: absolute;
@@ -477,6 +491,7 @@ h5 {
     right: 0;
     font-size: 15px;
     color: #000000;
+    overflow: hidden;
   }  
   .phones #under {
     position: absolute;
@@ -486,41 +501,49 @@ h5 {
     right: 0;
     font-size: 15px;
     color: #000000;
+    overflow: hidden;
   }
   .phones #broke {
     position: absolute;
     left: -1050px;
+    overflow: hidden;
   }
   .phones #under3 {
     position: absolute;
     left: -2050px;
+    overflow: hidden;
   }
 
   .phones {
     top: 160px;
     height: auto;
-    
+    overflow: hidden;
   }
   #col1 {
     position: absolute;
     left: 0;
     top: 0;
     height: 300px;
+    overflow: hidden;
     z-index: 1000;
   }
   .phones .container #p1 {
     position: absolute;
     left: 15px;
     top: 0;
+    overflow: hidden;
   }
   .phones .container #galx1 {
     position: absolute;
     right: 65px;
+    overflow: hidden;
   }
+  
   .phones .container #iphon2 {
     position: absolute;
     right: -1px;
     top: -2px;
+    overflow: hidden;
   }
   .phones .container #p {
     position: absolute; 
@@ -537,8 +560,10 @@ h5 {
   }
   .jumbotron2 {
     display: none;
+    overflow: hidden;
   }
   .footer {
     display: none;
+    overflow: hidden;
   }
 }
