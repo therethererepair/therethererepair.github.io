@@ -507,6 +507,7 @@ h5 {
     top: 0;
     height: 300px;
     z-index: 1000;
+    background-color: red;
   }
   .phones .container #p1 {
     position: absolute;
