@@ -385,7 +385,14 @@ h5 {
     height: auto;
     width: 100%;
   }
-  
+  .wrapper .top {
+    position: absolute;
+    background-color: transparent;
+    top: 450px;
+    height: 600px;
+    width: 100%;
+    bottom: 0;
+  }
   
   .top #agua {
     position: absolute;
