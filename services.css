@@ -502,9 +502,8 @@ h5 {
     left: -2050px;
   }
   .container {
-    position: absolute;
     top: 150px;
-    height: 800px;
+    bottom: -400px;
     background-color: red;
     z-index: 2010;
     overflow: auto;
