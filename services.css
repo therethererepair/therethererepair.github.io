@@ -520,9 +520,8 @@ h5 {
     position: absolute;
     right: 5px;
     height: auto;
-    top: -25px;
+    top: 0;
     width: 100px;
-    background-color: red;
   }
   .phones .container #p {
     position: absolute; 
