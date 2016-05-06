@@ -426,7 +426,7 @@ h5 {
     position: absolute;
     list-style: none;
     left: 0;
-    top: 800px;
+    top: 600px;
     height: auto;
     width: 100%;
     display: block;
@@ -501,19 +501,18 @@ h5 {
     position: absolute;
     top: 300px;
     height: auto;
-    background-color: red;
   }
   #col1 {
     position: absolute;
-    right: -2500px;
+    top: 300px;
   }
   #col2 {
     position: absolute;
-    left: -2500px;
+    top: 600px;
   }
   #col3 {
     position: absolute;
-    left: -3000px;
+    top: 800px;
   }
   .jumbotron2 {
     position: absolute;
