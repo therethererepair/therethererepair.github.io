@@ -517,7 +517,7 @@ h5 {
     top: 0;
   }
   .phones .container #n1 {
-    position: absolute;
+    position: relative;
     right: 5px;
     height: auto;
     top: 0;
