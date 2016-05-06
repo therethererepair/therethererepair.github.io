@@ -512,7 +512,7 @@ h5 {
   .phones {
     position: absolute;
     top: 150px;
-    bottom: -700px;
+    height: 1000px;
     background-color: blue;
     
   }
@@ -543,7 +543,7 @@ h5 {
   }
   #col2 {
     position: absolute;
-    top: 0px;
+    top: 150px;
     z-index: 2000;
   }
   #col3 {
