@@ -429,6 +429,7 @@ h5 {
     height: auto;
     width: 100%;
     display: block;
+    z-index: 3500;
   }
   .texts #cari {
     position: absolute;
