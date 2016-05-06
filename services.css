@@ -461,12 +461,21 @@ h5 {
   .phones p {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 180px;
+    top: 10px;
     left: 0;
     right: 0;
-    font-size: 15px;
+    font-size: 20px;
     color: #000000;
   }
+  .phones #ser {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    top: 15px;
+    left: 0;
+    right: 0;
+    font-size: 10px;
+    color: #000000;
+  }  
   .phones #under {
     position: absolute;
     font-family: 'Play', sans-serif;
@@ -487,10 +496,6 @@ h5 {
   .phones #under3 {
     position: absolute;
     left: -2050px;
-  }
-  .phones #ser {
-    position: absolute;
-    right: -2050px;
   }
   .container {
     position: absolute;
