@@ -413,11 +413,15 @@ h5 {
     position: absolute;
     right: -1050px;
   }
+  .logo {
+    position: absolute;
+    display: none;
+  }
   .texts {
     position: absolute;
     list-style: none;
     left: 0;
-    top: 50px;
+    top: 800px;
     height: auto;
     width: 100%;
     display: block;
@@ -426,11 +430,6 @@ h5 {
     position: absolute;
     display: none;
   }
-  .logo {
-    position: absolute;
-    display: none;
-  }
-
   .texts li {
     display: block;
     position: relative;
