@@ -369,6 +369,7 @@ h5 {
     top: 0;
     height: 170px;
     width: 100%;
+    background-color: red;
   }
   #alm2 {
     position: absolute;
@@ -377,6 +378,7 @@ h5 {
     top: 0;
     height: 170px;
     width: 100%;
+    background-color: blue;
   }
   .wrapper .top {
     position: absolute;
