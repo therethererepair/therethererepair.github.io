@@ -360,7 +360,7 @@ h5 {
 
 @media all and (max-width: 400px) {
   body {
-    height: 900px;
+    height: 1000px;
     top: 0;
   }
   #alm {
@@ -386,13 +386,6 @@ h5 {
     width: 100%;
   }
   
-  .wrapper .top {
-    position: absolute;
-    height: auto;
-    width: 100%;
-    
-    
-  }
   
   .top #agua {
     position: absolute;
