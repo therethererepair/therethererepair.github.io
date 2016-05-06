@@ -512,10 +512,14 @@ h5 {
     z-index: 1000;
   }
   .phones .container #p1 {
-    position:absolute;
+    position: absolute;
     left: 15px;
     top: 0;
-    
+  }
+  .phones .container #n1 {
+    position: absolute;
+    right: 15px;
+    top: 0;
   }
   #col2 {
     position: absolute;
