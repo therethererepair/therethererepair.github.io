@@ -361,7 +361,7 @@ h5 {
 @media all and (max-width: 400px) {
   body {
     background-image: url("http://apclinic.co.uk/wp-content/uploads/2013/09/Light-Grey-Background.jpg");
-    overflow: hidden;
+    overflow: visible;
     height: 1000px;
     top: 0;
   }
@@ -387,9 +387,7 @@ h5 {
     width: 100%;
   }
   .wrapper .top {
-    position: absolute;
-    background-color: transparent;
-    top: 0;
+    display: none;
   }
   
   .top #agua {
@@ -427,15 +425,14 @@ h5 {
     top: 400px;
     height: auto;
     width: 100%;
-    display: block;
-    z-index: 1000;
+    display: none;
   }
   .texts #cari {
     position: absolute;
     display: none;
   }
   .texts li {
-    display: block;
+    display: none;
     position: relative;
     background-color: black;
     height: 45px;
@@ -446,7 +443,7 @@ h5 {
   }
   .texts li a {
     color: #FFFFFF;
-    display: block;
+    display: none;
     position: relative;
     border: 1px solid white;
     font-family: 'Play', sans-serif;
@@ -551,11 +548,6 @@ h5 {
     position: absolute;
     top: 150px;
     z-index: 2000;
-  }
-  .thumbnail {
-    position: absolute;
-    height: auto;
-    z-index: 1000;
   }
   #col3 {
     position: absolute;
