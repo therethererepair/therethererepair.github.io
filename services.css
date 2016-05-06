@@ -511,7 +511,7 @@ h5 {
   .phones {
     position: absolute;
     top: 150px;
-    height: 900px;
+    bottom: -700px;
     background-color: blue;
     
   }
