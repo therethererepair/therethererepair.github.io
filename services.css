@@ -388,10 +388,8 @@ h5 {
   .wrapper .top {
     position: absolute;
     background-color: transparent;
-    top: 450px;
-    height: 600px;
-    width: 100%;
-    bottom: 0;
+    top: 0;
+    height: 100px;
   }
   
   .top #agua {
