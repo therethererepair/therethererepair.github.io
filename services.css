@@ -541,7 +541,8 @@ h5 {
     top: 165px;
     z-index: 2000;
   }
-  #g {
+  .phones .container #g {
+    position: absolute;
     width: 100px;
   }
   #col3 {
