@@ -501,7 +501,6 @@ h5 {
     height: 1000px;
     z-index: 4000;
     overflow: visible;
-    background-color: blue;
     position: static;
   }
   .container {
@@ -509,7 +508,6 @@ h5 {
     top: 0;
     bottom: -500px;
     overflow: visible;
-    background-color: red;
     position: static;
   }
   #cont {
