@@ -360,7 +360,7 @@ h5 {
 
 @media all and (max-width: 400px) {
   body {
-    max-height: 1000px;
+    height: 900px;
   }
   #alm {
     position: absolute;
