@@ -472,7 +472,7 @@ h5 {
   .phones #ser {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 25px;
+    top: 35px;
     left: 0;
     right: 0;
     font-size: 15px;
@@ -497,7 +497,7 @@ h5 {
   }
 
   .phones {
-    top: 170px;
+    top: 160px;
     height: 1000px;
     z-index: 4000;
   }
