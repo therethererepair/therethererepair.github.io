@@ -468,6 +468,7 @@ h5 {
     right: 0;
     font-size: 30px;
     color: #000000;
+    z-index: 2000;
   }
   .phones #ser {
     position: absolute;
@@ -477,6 +478,7 @@ h5 {
     right: 0;
     font-size: 15px;
     color: #000000;
+    z-index: 2000;
   }  
   .phones #under {
     position: absolute;
