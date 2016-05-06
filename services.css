@@ -387,6 +387,7 @@ h5 {
     width: 100%;
   }
  .wrapper .top {
+    position: absolute;
     background-color: transparent;
   }
   
@@ -423,7 +424,7 @@ h5 {
     position: absolute;
     list-style: none;
     left: 0;
-    top: 400px;
+    top: 320px;
     background-color: transparent;
     height: auto;
     width: 100%;
