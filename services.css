@@ -518,7 +518,7 @@ h5 {
   #col1 {
     position: absolute;
     left: 0;
-    top: 300px;
+    top: 280px;
     bottom: -100px;
     height: 600px;
     z-index: 1000;
@@ -545,7 +545,7 @@ h5 {
   }
   #col2 {
     position: absolute;
-    top: 405px;
+    top: 385px;
     height: 400px;
     z-index: 2000;
   }
@@ -562,7 +562,7 @@ h5 {
   }
   #col3 {
     position: absolute;
-    top: 510px;
+    top: 490px;
   }
   .jumbotron2 {
     display: none;
