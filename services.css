@@ -519,7 +519,7 @@ h5 {
   .phones .container #n1 {
     position: absolute;
     right: 0;
-    top: 0px;
+    height: auto;
     width: 100px;
     background-color: red;
   }
