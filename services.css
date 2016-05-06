@@ -498,7 +498,7 @@ h5 {
   }
   .container {
     position: absolute;
-    left: -2000px;
+    height: auto;
   }
   #col1 {
     position: absolute;
