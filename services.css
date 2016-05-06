@@ -541,6 +541,17 @@ h5 {
     top: 165px;
     z-index: 2000;
   }
+  .phones .container #g {
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    top: 0;
+    font-weight: 600;
+    line-height: 160%;
+    position: absolute;
+    color: #000000;
+    width: 100px;
+} 
+  }
   #col3 {
     position: absolute;
     top: 400px;
