@@ -531,13 +531,12 @@ h5 {
   }
   .phones .container #n {
     position: absolute;
-    top: -25px;
-    overflow: visible;
-    z-index: 2000;
+    top: 0;
   }
   .phones .container #n2 {
     position: absolute;
     overflow: visible;
+    top: -25px;
     z-index: 2000;
   }
   #col2 {
