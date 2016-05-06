@@ -461,7 +461,7 @@ h5 {
     
   }
   .phones #services {
-    position: static;
+    position: absolute;
     font-family: 'Play', sans-serif;
     top: 160;
     left: 0;
