@@ -419,7 +419,6 @@ h5 {
     display: none;
   }
   .texts {
-    position: absolute;
     list-style: none;
     left: 0;
     top: 400px;
@@ -458,7 +457,6 @@ h5 {
     border: 1px solid #FFFFFF;
   }
   .row {
-    position: absolute;
     height: auto;
     
   }
@@ -512,7 +510,6 @@ h5 {
     overflow: auto;
   }
   .phones {
-    position: absolute;
     top: 150px;
     height: 1000px;
     bottom: 0;
