@@ -506,7 +506,9 @@ h5 {
   }
   #col1 {
     position: absolute;
+    left: 0;
     top: 0;
+    background-color: red;
   }
   #col2 {
     position: absolute;
