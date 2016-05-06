@@ -510,7 +510,7 @@ h5 {
   #col1 {
     position: absolute;
     left: 0;
-    top: 50px;
+    top: 65px;
     bottom: -100px;
     height: 300px;
     z-index: 1000;
@@ -538,7 +538,7 @@ h5 {
   }
   #col2 {
     position: absolute;
-    top: 110px;
+    top: 120px;
     z-index: 2000;
   }
   #col3 {
