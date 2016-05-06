@@ -420,9 +420,11 @@ h5 {
     display: none;
   }
   .texts {
+    position: absolute;
     list-style: none;
     left: 0;
-    top: 400px;
+    top: 500px;
+    background-color: transparent;
     height: auto;
     width: 100%;
     display: none;
