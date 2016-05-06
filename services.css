@@ -518,18 +518,13 @@ h5 {
   }
   .phones .container #n1 {
     position: absolute;
-    right: 50px;
+    right: 120px;
     top: 0;
     background-color: red;
   }
   .phones .container #p {
     position: absolute; 
     left: 0;
-  }
-  .phones .container #n {
-    position: absolute;
-    right: 50px;
-    background-color: blue;
   }
   #col2 {
     position: absolute;
