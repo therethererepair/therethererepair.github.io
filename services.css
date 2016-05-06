@@ -528,6 +528,7 @@ h5 {
   .phones .container #n {
     position: absolute;
     right: 0;
+    width: 100px;
   }
   #col2 {
     position: absolute;
