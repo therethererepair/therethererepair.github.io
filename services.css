@@ -503,11 +503,17 @@ h5 {
   .container {
     position: absolute;
     top: 150px;
-    bottom: 0;
     height: 800px;
     background-color: red;
     z-index: 2010;
     overflow: visible;
+  }
+  .phones {
+    position: absolute;
+    top: 150px;
+    height: 900px;
+    background-color: blue;
+    
   }
   #col1 {
     position: absolute;
