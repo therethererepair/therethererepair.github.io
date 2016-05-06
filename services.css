@@ -508,6 +508,8 @@ h5 {
     position: absolute;
     left: 0;
     top: 0;
+    height: 400px;
+    z-index: 1000;
     background-color: red;
   }
   #col2 {
