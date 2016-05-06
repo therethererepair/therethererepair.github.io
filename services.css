@@ -427,14 +427,14 @@ h5 {
     background-color: transparent;
     height: auto;
     width: 100%;
-    display: none;
+    display: block;
   }
   .texts #cari {
     position: absolute;
     display: none;
   }
   .texts li {
-    display: none;
+    display: block;
     position: relative;
     background-color: black;
     height: 45px;
@@ -445,7 +445,7 @@ h5 {
   }
   .texts li a {
     color: #FFFFFF;
-    display: none;
+    display: block;
     position: relative;
     border: 1px solid white;
     font-family: 'Play', sans-serif;
