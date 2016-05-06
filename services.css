@@ -460,7 +460,7 @@ h5 {
     border: 1px solid #FFFFFF;
   }
   
-  .phones p {
+  .phones #services {
     position: absolute;
     font-family: 'Play', sans-serif;
     top: 165px;
