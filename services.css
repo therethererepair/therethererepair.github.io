@@ -499,8 +499,10 @@ h5 {
     position: absolute;
     top: 150px;
     bottom: -700px;
-    height: auto;
+    height: 900px;
     background-color: red;
+    z-index: 2010;
+    overflow: visible;
   }
   #col1 {
     position: absolute;
