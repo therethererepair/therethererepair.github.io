@@ -543,7 +543,7 @@ h5 {
   }
   #col2 {
     position: absolute;
-    top: 300px;
+    top: 0px;
     z-index: 2000;
   }
   #col3 {
