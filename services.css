@@ -362,7 +362,6 @@ h5 {
   body {
     height: 900px;
     top: 0;
-    background-color: yellow;
   }
   #alm {
     position: absolute;
@@ -385,12 +384,10 @@ h5 {
     top: 0;
     height: auto;
     width: 100%;
-    background-color: blue;
   }
   
   .wrapper .top {
     position: absolute;
-    background-color: red;
     height: auto;
     width: 100%;
     
