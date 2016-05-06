@@ -510,7 +510,12 @@ h5 {
     top: 0;
     height: 400px;
     z-index: 1000;
-    background-color: red;
+  }
+  .phones .container #p1 {
+    position:absolute;
+    left: 0;
+    top: 0;
+    
   }
   #col2 {
     position: absolute;
