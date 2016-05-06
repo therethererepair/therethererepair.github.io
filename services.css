@@ -577,6 +577,16 @@ h5 {
   .phones .container #col3 #other {
     font-family: 'Play', sans-serif;
     font-size: 20px;
+    top: 30px;
+    font-weight: 600;
+    line-height: 160%;
+    position: absolute;
+    color: #000000;
+    width: 100px;
+  } 
+  .phones .container #col3 #other {
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
     top: 45px;
     font-weight: 600;
     line-height: 160%;
