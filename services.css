@@ -521,7 +521,7 @@ h5 {
   #col1 {
     position: absolute;
     left: 0;
-    top: 280px;
+    top: 50px;
     bottom: -100px;
     height: 600px;
     z-index: 1000;
@@ -548,7 +548,7 @@ h5 {
   }
   #col2 {
     position: absolute;
-    top: 385px;
+    top: 155px;
     height: 400px;
     z-index: 2000;
   }
@@ -564,7 +564,7 @@ h5 {
   } 
   #col3 {
     position: absolute;
-    top: 490px;
+    top: 260px;
   }
   .phones .container #col3 #htc {
     font-family: 'Play', sans-serif;
