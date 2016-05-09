@@ -391,8 +391,6 @@ h5 {
     position: absolute;
     background-color: red;
   }
-  
-
   .top #agua {
     position: absolute;
     left: -3000px;
@@ -463,7 +461,6 @@ h5 {
   }
   .row {
     height: auto;
-    
   }
   .phones #services {
     position: absolute;
@@ -511,11 +508,11 @@ h5 {
     position: static;
   }
   .container {
-    height: 1000px;
+    height: 600px;
     top: 0;
-    bottom: -500px;
     overflow: visible;
     position: static;
+    background-color: blue;
   }
   #cont {
     height: 500px;
