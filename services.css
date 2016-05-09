@@ -465,7 +465,7 @@ h5 {
   .phones #services {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 175px;
+    top: 105px;
     left: 0;
     right: 0;
     font-size: 30px;
@@ -475,7 +475,7 @@ h5 {
   .phones #ser {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 220px;
+    top: 150px;
     left: 0;
     right: 0;
     font-size: 15px;
