@@ -520,10 +520,6 @@ h5 {
   }
  .thumbnail #other {
    display: none;
-}
-  #cont {
-    height: 500px;
-    background-color: purple;
   }
   #col1 {
     position: absolute;
