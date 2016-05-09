@@ -508,8 +508,8 @@ h5 {
     position: static;
   }
   .container {
-    height: 600px;
-    top: 100px;
+    height: 700px;
+    top: 250px;
     overflow: visible;
     position: absolute;
     background-color: blue;
