@@ -511,7 +511,7 @@ h5 {
     height: 600px;
     top: 100px;
     overflow: visible;
-    position: static;
+    position: relative;
     background-color: blue;
   }
   #cont {
