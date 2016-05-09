@@ -553,6 +553,7 @@ h5 {
   }
   #galx {
     position: absolute;
+    top: -15px;
   }
   
   .phones .container #iphon2 {
