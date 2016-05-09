@@ -515,6 +515,9 @@ h5 {
     background-color: blue;
     z-index: 5000;
   }
+  .thumbnail {
+    background-color: yellow;
+  }
   #cont {
     height: 500px;
   }
