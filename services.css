@@ -213,13 +213,13 @@ h5 {
 
  
 .thumbnail {
-   border-color: transparent;
-   height: auto;
-   width: 100%;
-   left: 0;
-   right: 0;
-   top: 0;
-   bottom: 0;
+  border-color: transparent;
+  height: auto;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .thumbnail #p {
@@ -234,12 +234,12 @@ h5 {
 
 
 .thumbnail #iphone {
-   border-radius: 5.5px;
-   height: 70px;
-   width: 31px;
-   position: absolute;
-   top: 35px;
-   left: 46%;
+  border-radius: 5.5px;
+  height: 70px;
+  width: 31px;
+  position: absolute;
+  top: 35px;
+  left: 46%;
 }
 
 .thumbnail #s {
