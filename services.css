@@ -519,12 +519,7 @@ h5 {
     background-color: yellow;
   }
  .thumbnail #other {
-   font-family: 'Play', sans-serif;
-   font-size: 16px;
-   top: 40px;
-   position: relative;
-   font-weight: 600;
-   color: #000000;
+   display: none;
 }
   #cont {
     height: 500px;
