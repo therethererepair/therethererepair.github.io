@@ -518,6 +518,14 @@ h5 {
   .thumbnail {
     background-color: yellow;
   }
+ .thumbnail #other {
+   font-family: 'Play', sans-serif;
+   font-size: 16px;
+   top: 40px;
+   position: relative;
+   font-weight: 600;
+   color: #000000;
+}
   #cont {
     height: 500px;
   }
