@@ -508,7 +508,7 @@ h5 {
     position: absolute;
   }
   .container {
-    height: 500px;
+    height: 700px;
     top: 250px;
     overflow: visible;
     position: absolute;
@@ -519,8 +519,6 @@ h5 {
     background-color: yellow;
   }
  .thumbnail #other {
-   position: absolute;
-   left: -2000px;
    display: none;
   }
   #col1 {
@@ -562,6 +560,7 @@ h5 {
     top: 155px;
     height: 400px;
     z-index: 2000;
+    background-color: purple;
   }
   .phones .container #g {
     font-family: 'Play', sans-serif;
