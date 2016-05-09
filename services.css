@@ -509,7 +509,7 @@ h5 {
   #s {
     position: absolute;
     left: -10px;
-    top: 0;
+    top: -5px;
   }
   .container {
     height: 400px;
