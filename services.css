@@ -535,7 +535,7 @@ h5 {
     text-align: center;
     top: 0;
     width: 60px;
-    right: 150px;
+    right: -50px;
     background-color: red;
     font-weight: 600;
     position: absolute;
