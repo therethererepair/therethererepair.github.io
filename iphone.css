@@ -423,3 +423,243 @@ h5 {
   color: #FFFFFF;
   z-index: 1000;
 }
+
+@media all and (max-width: 400px) {
+  body {
+    background-image: url("http://apclinic.co.uk/wp-content/uploads/2013/09/Light-Grey-Background.jpg");
+    overflow: visible;
+    height: 1000px;
+    top: 0;
+  }
+  #alm {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 170px;
+    width: 100%;
+  }
+  #alm2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 170px;
+    width: 100%;
+  }
+  .wrapper {
+    top: 0;
+    height: 1000px;
+    width: 100%;
+  }
+ .wrapper .top {
+    position: absolute;
+    z-index: 5;
+  }
+  .top #agua {
+    position: absolute;
+    left: -3000px;
+  }
+  .top h1 {
+    position: absolute;
+    left: -3500px;
+  }
+  .top #gua2 {
+    position: absolute;
+    right: -1050px;
+  }
+  .top #we {
+    position: absolute;
+    left: -1050px;
+  }
+  .top #call {
+    position: absolute;
+    right: -1050px;
+  }
+  .top #numbers {
+    position: absolute;
+    right: -1050px;
+  }
+  .logo {
+    position: absolute;
+    display: none;
+  }
+  .texts {
+    position: absolute;
+    list-style: none;
+    left: 0;
+    top: 700px;
+    background-color: transparent;
+    height: auto;
+    width: 100%;
+    display: block;
+    z-index: 4000;
+  }
+  .texts #cari {
+    position: absolute;
+    display: none;
+  }
+  .texts li {
+    display: block;
+    position: relative;
+    background-color: black;
+    height: 45px;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    left: -7%;
+    right: 0;
+    z-index: 4000;
+  }
+  .texts li a {
+    color: #FFFFFF;
+    display: block;
+    position: relative;
+    border: 1px solid white;
+    font-family: 'Play', sans-serif;
+    font-size: 15px;
+    font-weight: 5;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    left: 0;
+    right: 0;
+    z-index: 4000;
+  }
+  .row {
+    height: auto;
+  }
+  .phones #services {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    top: 15px;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    color: #000000;
+    z-index: 2000;
+  }
+  .phones #ser {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    top: 60px;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    color: #000000;
+    z-index: 2000;
+  }  
+  .phones #under {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    top: 200px;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    color: #000000;
+  }
+  .phones #broke {
+    position: absolute;
+    left: -1050px;
+  }
+  .phones #under3 {
+    position: absolute;
+    left: -2050px;
+  }
+
+  .phones {
+    top: 160px;
+    height: 425px;
+    z-index: 4000;
+    overflow: visible;
+    position: absolute;
+  }
+  #so {
+    position: absolute;
+    left: -10px;
+  }
+  .container {
+    height: 400px;
+    top: 75px;
+    overflow: visible;
+    position: absolute;
+    z-index: 5000;
+  }
+  .thumbnail {
+    background-color: transparent;
+  }
+ .thumbnail #other {
+   display: none;
+  }
+  #col1 {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    bottom: -100px;
+    height: 100px;
+    z-index: 1000;
+  }
+
+  .phones .container #p1 {
+    position: absolute;
+    left: 15px;
+    top: 0;
+  }
+  #galx1 {
+    position: absolute;
+    right: 65px;
+  }
+  #galx {
+    position: absolute;
+    top: 0;
+  }
+  
+  .phones .container #iphon2 {
+    position: absolute;
+    right: -1px;
+    top: -2px;
+  }
+  .phones .container #p {
+    position: absolute; 
+    left: 0;
+  }
+  #col2 {
+    position: absolute;
+    top: 155px;
+    height: 100px;
+    z-index: 2000;
+  }
+  .phones .container #g {
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    top: 0;
+    left: -15px;
+    font-weight: 600;
+    line-height: 160%;
+    position: absolute;
+    color: #000000;
+    width: 100px;
+  } 
+  #col3 {
+    position: absolute;
+    top: 260px;
+    height: 100px;
+    z-index: 3000;
+  }
+  .phones .container #col3 #htc {
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    line-height: 160%;
+    position: absolute;
+    color: #000000;
+    width: 100px;
+  } 
+  
+  .jumbotron2 {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+}
