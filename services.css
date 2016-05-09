@@ -508,7 +508,7 @@ h5 {
     position: absolute;
   }
   .container {
-    height: 700px;
+    height: 500px;
     top: 250px;
     overflow: visible;
     position: absolute;
@@ -519,6 +519,8 @@ h5 {
     background-color: yellow;
   }
  .thumbnail #other {
+   position: absolute;
+   left: -2000px;
    display: none;
   }
   #col1 {
