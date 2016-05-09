@@ -543,6 +543,10 @@ h5 {
     right: 65px;
     background-color: green;
   }
+  #galx {
+    position: absolute;
+    background-color: red;
+  }
   
   .phones .container #iphon2 {
     position: absolute;
