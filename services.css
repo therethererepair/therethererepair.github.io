@@ -505,7 +505,7 @@ h5 {
     height: 1000px;
     z-index: 4000;
     overflow: visible;
-    position: static;
+    position: absolute;
   }
   .container {
     height: 700px;
