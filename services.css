@@ -279,6 +279,15 @@ h5 {
   position: absolute;
   color: #000000;  
 } 
+.thumbnail #no {
+  font-family: 'Play', sans-serif;
+  font-size: 20px;
+  top: 0;
+  background-color: red;
+  font-weight: 600;
+  position: absolute;
+  color: #000000;  
+} 
 
 .thumbnail #iphone3 {
   border-radius: 5.5px;
@@ -521,6 +530,16 @@ h5 {
     left: -10px;
   }
   .thumbnail #n {
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    top: 0;
+    width: 60px;
+    background-color: red;
+    font-weight: 600;
+    position: absolute;
+    color: #000000;  
+  } 
+  .thumbnail #no {
     font-family: 'Play', sans-serif;
     font-size: 20px;
     top: 0;
