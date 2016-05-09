@@ -385,7 +385,6 @@ h5 {
     top: 0;
     height: 1000px;
     width: 100%;
-    background-color: red;
   }
  .wrapper .top {
     position: absolute;
@@ -506,18 +505,16 @@ h5 {
     z-index: 4000;
     overflow: visible;
     position: absolute;
-    background-color: green;
   }
   .container {
     height: 400px;
     top: 75px;
     overflow: visible;
     position: absolute;
-    background-color: blue;
     z-index: 5000;
   }
   .thumbnail {
-    background-color: yellow;
+    background-color: transparent;
   }
  .thumbnail #other {
    display: none;
@@ -529,7 +526,6 @@ h5 {
     bottom: -100px;
     height: 100px;
     z-index: 1000;
-    background-color: red;
   }
 
   .phones .container #p1 {
@@ -540,18 +536,15 @@ h5 {
   #galx1 {
     position: absolute;
     right: 65px;
-    background-color: green;
   }
   #galx {
     position: absolute;
-    background-color: red;
   }
   
   .phones .container #iphon2 {
     position: absolute;
     right: -1px;
     top: -2px;
-    background-color: purple;
   }
   .phones .container #p {
     position: absolute; 
@@ -562,7 +555,6 @@ h5 {
     top: 155px;
     height: 100px;
     z-index: 2000;
-    background-color: purple;
   }
   .phones .container #g {
     font-family: 'Play', sans-serif;
@@ -573,14 +565,12 @@ h5 {
     position: absolute;
     color: #000000;
     width: 100px;
-    background-color: white;
   } 
   #col3 {
     position: absolute;
     top: 260px;
     height: 100px;
     z-index: 3000;
-    background-color: green;
   }
   .phones .container #col3 #htc {
     font-family: 'Play', sans-serif;
