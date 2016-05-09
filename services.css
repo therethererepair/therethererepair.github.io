@@ -509,7 +509,7 @@ h5 {
   }
   .container {
     height: 600px;
-    top: 0;
+    top: 100px;
     overflow: visible;
     position: static;
     background-color: blue;
