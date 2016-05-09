@@ -523,6 +523,7 @@ h5 {
 }
   #cont {
     height: 500px;
+    background-color: purple;
   }
   #col1 {
     position: absolute;
