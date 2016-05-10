@@ -620,6 +620,14 @@ h5 {
     height: 100px;
     z-index: 3000;
   }
+  .thumbnail #home {
+    border-radius: 5.5px;
+    height: 70px;
+    width: 31px;
+    position: absolute;
+    top: 85px;
+    left: 46%;
+}
   .phones .container #col3 #htc {
     font-family: 'Play', sans-serif;
     font-size: 20px;
