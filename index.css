@@ -607,7 +607,10 @@ h5 {
   }
   .top #numbers {
     position: absolute;
-    right: -1050px;
+    left: 0;
+    right: 0;
+    top: 45px;
+    
   }
   .texts {
     position: absolute;
