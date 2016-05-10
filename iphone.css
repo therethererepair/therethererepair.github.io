@@ -664,6 +664,14 @@ h5 {
     z-index: 3000;
     background-color: red;
   }
+  .thumbnail #iphone2 {
+    border-radius: 5.5px;
+    height: 70px;
+    width: 31px;
+    position: absolute;
+    top: 30px;
+    left: 46%;
+  }
   .thumbnail #iphone3 {
     border-radius: 5.5px;
     height: 70px;
