@@ -548,6 +548,10 @@ h5 {
     position: absolute;
     left: -10px;
   }
+  #s {
+    position: absolute;
+    left: -10px;
+  }  
   .container {
     height: 400px;
     top: 75px;
