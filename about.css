@@ -306,14 +306,14 @@ h5 {
     left: 0;
     right: 0;
     text-align: center;
-    top: 110px;
+    top: 210px;
     
   }
   .texts {
     position: absolute;
     list-style: none;
     left: 0;
-    top: 180px;
+    top: 220px;
     height: auto;
     width: 100%;
     display: block;
