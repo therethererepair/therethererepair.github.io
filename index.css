@@ -595,7 +595,7 @@ h5 {
     color: #000000;
     text-align: center;
   }
-  .top h1 {
+  .top days {
     position: absolute;
     font-family: 'Play', sans-serif;
     top: 650px;
@@ -605,7 +605,7 @@ h5 {
     color: #000000;
     text-align: center;
   }
-  .top #gua2 {
+  .top #guagua {
     position: absolute;
     font-family: 'Play', sans-serif;
     top: 665px;
