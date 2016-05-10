@@ -693,6 +693,7 @@ h5 {
     font-weight: 600;
     position: absolute;
     color: #000000;
+    background-color: red;
 } 
   .thumbnail #home {
     border-radius: 5.5px;
