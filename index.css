@@ -591,10 +591,7 @@ h5 {
   }
   .top #days{
     position: absolute;
-    left: 0;
-    right: 0;
-    text-align: center;
-    top: 3px;
+    left: -2050px;
   }
   .top #guagua {
     position: absolute;
