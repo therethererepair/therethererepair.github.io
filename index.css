@@ -703,11 +703,23 @@ h5 {
   }
   .phones a {
     position: absolute;
-    right: -3000px;
+    font-family: 'Play', sans-serif;
+    top: 630px;
+    right: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
   }
   .phones #under3 {
     position: absolute;
-    left: -2050px;
+    font-family: 'Play', sans-serif;
+    top: 630px;
+    right: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
   }
   .container {
     position: absolute;
