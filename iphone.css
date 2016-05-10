@@ -551,6 +551,7 @@ h5 {
   #s {
     position: absolute;
     left: -10px;
+    background-color: purple;
   }  
   .container {
     height: 400px;
@@ -620,6 +621,15 @@ h5 {
     height: 100px;
     z-index: 3000;
   }
+  .thumbnail #ear {
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    top: 0;
+    font-weight: 600;
+    position: absolute;
+    color: #000000;
+    background-color: white;
+} 
   .thumbnail #home {
     border-radius: 5.5px;
     height: 70px;
@@ -638,11 +648,7 @@ h5 {
     position: absolute;
     color: #000000;
     width: 100px;
-    background-color: purple;
   } 
-  #p2 {
-    background-color: white;
-  }
   
   .jumbotron2 {
     display: none;
