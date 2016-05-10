@@ -586,6 +586,42 @@ h5 {
     font-weight: 160%;
     color: #000000;
   } 
+  .phones #i7 {
+  font-family: 'Play', sans-serif;
+  font-size: 23px;
+  top: 470px;
+  left: 10%;
+  right: 10%;
+  position: absolute;
+  text-align: center;
+  font-weight: 160%;
+  color: #000000;
+} 
+
+.phones #i8 {
+  font-family: 'Play', sans-serif;
+  font-size: 23px;
+  top: 500px;
+  left: 10%;
+  right: 10%;
+  position: absolute;
+  text-align: center;
+  font-weight: 160%;
+  color: #000000;
+} 
+
+.phones #i6sp {
+  font-family: 'Play', sans-serif;
+  font-size: 18px;
+  top: 600px;
+  left: 10%;
+  right: 10%;
+  position: absolute;
+  text-align: center;
+  line-height: 95%;
+  font-weight: 160%;
+  color: #000000;
+}
 
   .phones #i6sp {
     font-family: 'Play', sans-serif;
