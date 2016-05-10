@@ -604,6 +604,7 @@ h5 {
     font-weight: 600;
     color: #000000;
     text-align: center;
+    z-index: 2000;
   }
   h2 {
     position: absolute;
@@ -614,6 +615,7 @@ h5 {
     font-weight: 600;
     color: #000000;
     text-align: center;
+    z-index: 2000;
   }
   .top #we {
     position: absolute;
