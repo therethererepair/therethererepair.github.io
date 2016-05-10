@@ -657,6 +657,27 @@ h5 {
   .texts a:hover:not(#log) {
     border: 1px solid #FFFFFF;
   }
+  .phones #hours {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    top: 400px;
+    right: 0;
+    font-size: 15;
+    font-weight: 600;%;
+    color: #000000;
+    text-align: center;
+  }
+ 
+.phones #hours2 {
+  position: absolute;
+  font-family: 'Play', sans-serif;
+  top: 410px;
+  right: 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
   
   .phones p {
     position: absolute;
