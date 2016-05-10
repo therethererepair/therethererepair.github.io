@@ -303,7 +303,10 @@ h5 {
   }
   .top #numbers {
     position: absolute;
-    left: -2050px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 15px;
     
   }
   .texts {
@@ -371,6 +374,7 @@ h5 {
     font-weight: 500;
     color: #000000;
   }
+  
   .phones #under2 {
     text-align: center;
     position: absolute;
