@@ -471,4 +471,98 @@ h5 {
     right: -3000px;
     display: none;
   }
+  .phones #i4s {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 275px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+
+  .phones #i5 {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 310px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+
+  .phones #i5c {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 345px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+
+  .phones #i5s {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 385px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+
+  .phones #i6 {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 420px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+  .phones #i6p {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 455px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+ 
+  .phones #i6s {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 490px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  } 
+
+  .phones #i6sp {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 525px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  } 
 }
