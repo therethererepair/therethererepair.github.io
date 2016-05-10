@@ -231,6 +231,15 @@ h5 {
   color: #000000;  
   text-decoration: none;
 } 
+.thumbnail #htc {
+  font-family: 'Play', sans-serif;
+  font-size: 20px;
+  top: 0;
+  font-weight: 600;
+  position: absolute;
+  color: #000000;  
+  text-decoration: none;
+} 
 
 
 .thumbnail #iphone {
