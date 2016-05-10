@@ -709,7 +709,7 @@ h5 {
     position: absolute;
     font-family: 'Play', sans-serif;
     top: 630px;
-    right: 0;
+    right: -25px;
     font-size: 15px;
     font-weight: 600;
     color: #000000;
