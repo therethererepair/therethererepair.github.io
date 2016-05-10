@@ -287,6 +287,14 @@ h5 {
   top: 35px;
   left: 46%;
 }
+.thumbnail #charger {
+  border-radius: 5.5px;
+  height: 70px;
+  width: 31px;
+  position: absolute;
+  top: 35px;
+  left: 46%;
+}
 
 .thumbnail #n {
   font-family: 'Play', sans-serif;
@@ -589,6 +597,11 @@ h5 {
     position: absolute;
     top: 0;
   }
+  #charge {
+    position: absolute;
+    top: 0;
+    right: 100px;
+  }  
   #iphon2 {
     position: absolute;
     right: 1px;
@@ -620,6 +633,14 @@ h5 {
     top: 260px;
     height: 100px;
     z-index: 3000;
+  }
+  .thumbnail #charger {
+    border-radius: 5.5px;
+    height: 70px;
+   width: 31px;
+    position: absolute;
+    top: 35px;
+    left: 46%;
   }
   .thumbnail #ear {
     font-family: 'Play', sans-serif;
