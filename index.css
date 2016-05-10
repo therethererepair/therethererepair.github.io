@@ -587,7 +587,13 @@ h5 {
   
   .top #agua {
     position: absolute;
-    left: -3000px;
+    font-family: 'Play', sans-serif;
+    top: 650px;
+    right: 0;
+    font-size: 15;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
   }
   .top h1 {
     position: absolute;
