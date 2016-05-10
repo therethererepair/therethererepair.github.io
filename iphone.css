@@ -583,7 +583,10 @@ h5 {
     position: absolute;
     top: 0;
   }
-  
+  #iphon2 {
+    position: absolute;
+    right: -3px;
+  }
 
   .phones .container #p {
     position: absolute; 
