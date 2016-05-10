@@ -588,7 +588,7 @@ h5 {
   .top #agua {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 650px;
+    top: 150px;
     right: 0;
     font-size: 15;
     font-weight: 600;
@@ -598,7 +598,7 @@ h5 {
   .top #days{
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 50px;
+    top: 150px;
     right: 0;
     font-size: 15;
     font-weight: 600;
@@ -609,7 +609,7 @@ h5 {
   .top #guagua {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 65px;
+    top: 165px;
     right: 0;
     font-size: 15;
     font-weight: 600;
