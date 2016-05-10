@@ -250,6 +250,14 @@ h5 {
   top: 35px;
   left: 46%;
 }
+.thumbnail #home {
+  border-radius: 5.5px;
+  height: 70px;
+  width: 31px;
+  position: absolute;
+  top: 35px;
+  left: 46%;
+}
 
 .thumbnail #s {
   font-family: 'Play', sans-serif;
