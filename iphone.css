@@ -689,7 +689,7 @@ h5 {
   .thumbnail #ear {
     font-family: 'Play', sans-serif;
     font-size: 20px;
-    top: 15px;
+    top: 0;
     font-weight: 600;
     position: absolute;
     color: #000000;
