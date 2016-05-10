@@ -598,24 +598,24 @@ h5 {
   .top #days{
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 100px;
+    top: 50px;
     right: 0;
     font-size: 15;
     font-weight: 600;
     color: #000000;
     text-align: center;
-    z-index: 2000;
+    z-index: 5000;
   }
   .top #guagua {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 115px;
+    top: 65px;
     right: 0;
     font-size: 15;
     font-weight: 600;
     color: #000000;
     text-align: center;
-    z-index: 2000;
+    z-index: 5000;
   }
   .top #we {
     position: absolute;
