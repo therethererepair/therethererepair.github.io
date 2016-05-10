@@ -320,3 +320,155 @@ h5 {
   color: #FFFFFF;
   z-index: 1000;
 }
+@media all and (max-width: 400px) {
+  body {
+    height: auto;
+  }
+  #alm {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 170px;
+    width: 100%;
+  }
+  #alm2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 170px;
+    width: 100%;
+  }
+  .wrapper .top {
+    position: absolute;
+    background-color: transparent;
+    top: 300px;
+    height: auto;
+    width: 100%;
+    bottom: 0;
+    
+    
+  }
+  
+  .top #agua {
+    position: absolute;
+    left: -3000px;
+  }
+  .top h1 {
+    position: absolute;
+    left: -3500px;
+  }
+  .top #gua2 {
+    position: absolute;
+    right: -1050px;
+  }
+  .top #we {
+    position: absolute;
+    left: -1050px;
+  }
+  .top #call {
+    position: absolute;
+    right: -1050px;
+  }
+  .top #numbers {
+    position: absolute;
+    right: -1050px;
+  }
+  .texts {
+    position: absolute;
+    list-style: none;
+    left: 0;
+    top: 50px;
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+  .texts #cari {
+    position: absolute;
+    display: none;
+  }
+  .logo {
+    position: absolute;
+    display: none;
+  }
+
+  .texts li {
+    display: block;
+    position: relative;
+    background-color: black;
+    height: 45px;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    left: -7%;
+    right: 0;
+  }
+  .texts li a {
+    color: #FFFFFF;
+    display: block;
+    position: relative;
+    border: 1px solid white;
+    font-family: 'Play', sans-serif;
+    font-size: 15px;
+    font-weight: 5;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    left: 0;
+    right: 0;
+  }
+  .texts a:hover:not(#log) {
+    border: 1px solid #FFFFFF;
+  }
+  
+  .phones p {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    top: 180px;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    color: #000000;
+  }
+  .phones #under {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    top: 200px;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    color: #000000;
+  }
+  .phones #broke {
+    position: absolute;
+    left: -1050px;
+  }
+  .phones a {
+    position: absolute;
+    right: -3000px;
+  }
+  .phones #under3 {
+    position: absolute;
+    left: -2050px;
+  }
+  .container {
+    position: absolute;
+    left: -2000px;
+  }
+  #col1 {
+    position: absolute;
+    right: -2500px;
+  }
+  #col2 {
+    position: absolute;
+    left: -2500px;
+  }
+  #col3 {
+    position: absolute;
+    left: -3000px;
+  }
+  .jumbotron2 {
+    position: absolute;
+    right: -3000px;
+    display: none;
+  }
+}
