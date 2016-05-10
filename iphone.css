@@ -461,7 +461,6 @@ h5 {
     top: 0;
     height: 1000px;
     width: 100%;
-    background-color: red;    
   }
  .wrapper .top {
     position: absolute;
@@ -582,7 +581,6 @@ h5 {
     z-index: 4000;
     overflow: visible;
     position: absolute;
-    background-color: blue;
   }
   #so {
     position: absolute;
@@ -591,7 +589,6 @@ h5 {
   #s {
     position: absolute;
     right: -10px;
-    background-color: purple;
   }  
   .container {
     height: 400px;
@@ -599,7 +596,6 @@ h5 {
     overflow: visible;
     position: absolute;
     z-index: 5000;
-    background-color: yellow;
   }
   .thumbnail {
     background-color: transparent;
@@ -697,7 +693,6 @@ h5 {
     font-weight: 600;
     position: absolute;
     color: #000000;
-    background-color: white;
 } 
   .thumbnail #home {
     border-radius: 5.5px;
