@@ -6,6 +6,18 @@ body {
   overflow: hidden;
 }
 
+#alm2 {
+  height: 106px;
+  width: 190px;
+}
+#alm {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 106px;
+  z-index: 1000;
+}
+
 
 .wrapper {
   height: 100%;
