@@ -596,7 +596,6 @@ h5 {
     overflow: visible;
     position: absolute;
     z-index: 5000;
-    background-color: yellow;
   }
   .thumbnail {
     background-color: transparent;
@@ -662,7 +661,6 @@ h5 {
     top: 260px;
     height: 100px;
     z-index: 3000;
-    background-color: red;
   }
   .thumbnail #iphone2 {
     border-radius: 5.5px;
