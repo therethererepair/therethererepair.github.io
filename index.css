@@ -587,35 +587,15 @@ h5 {
   
   .top #agua {
     position: absolute;
-    font-family: 'Play', sans-serif;
-    top: 0;
-    right: 0;
-    font-size: 15;
-    font-weight: 600;
-    color: #000000;
-    text-align: center;
+    left: -2050px;
   }
   .top #days{
     position: absolute;
-    font-family: 'Play', sans-serif;
-    top: 0;
-    right: 0;
-    font-size: 15;
-    font-weight: 600;
-    color: #000000;
-    text-align: center;
-    z-index: 5000;
+    left: -2050px;
   }
   .top #guagua {
     position: absolute;
-    font-family: 'Play', sans-serif;
-    top: 0;
-    right: 0;
-    font-size: 15;
-    font-weight: 600;
-    color: #000000;
-    text-align: center;
-    z-index: 5000;
+    left: -2050px;
   }
   .top #we {
     position: absolute;
