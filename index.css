@@ -235,6 +235,15 @@ h5 {
    background-color: transparent;
    
  }
+  .thumbnail #home {
+   border-radius: 5.5px;
+   height: 70px;
+   width: 31px;
+   position: relative;
+   top: 35px;
+   background-color: transparent;
+   
+ }
  
 .thumbnail #p {
   font-family: 'Play', sans-serif;
@@ -357,15 +366,6 @@ h5 {
 } 
 
 .thumbnail #iphone2 {
-   border-radius: 5.5px;
-   height: 70px;
-   width: 31px;
-   position: relative;
-   top: 35px;
-   background-color: transparent;
-   
- }
- .thumbnail #home {
    border-radius: 5.5px;
    height: 70px;
    width: 31px;
