@@ -440,10 +440,7 @@ h5 {
   }
   .top #numbers {
     position: absolute;
-    left: 0;
-    right: 0;
-    text-align: center;
-    top: 20px;
+    left: -2050px;
 
   }
   .logo {
