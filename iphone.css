@@ -620,6 +620,7 @@ h5 {
   #galx1 {
     position: absolute;
     right: 65px;
+    background-color: red;
   }
   #galx {
     position: absolute;
@@ -681,7 +682,7 @@ h5 {
   .thumbnail #charger {
     border-radius: 5.5px;
     height: 70px;
-   width: 31px;
+    width: 31px;
     position: absolute;
     top: 35px;
     left: 46%;
@@ -689,11 +690,10 @@ h5 {
   .thumbnail #ear {
     font-family: 'Play', sans-serif;
     font-size: 20px;
-    top: 0;
+    top: 15px;
     font-weight: 600;
     position: absolute;
     color: #000000;
-    background-color: red;
 } 
   .thumbnail #home {
     border-radius: 5.5px;
