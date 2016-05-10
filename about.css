@@ -356,7 +356,7 @@ h5 {
   .phones #hours {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 750px;
+    top: 800px;
     right: 0;
     font-size: 15;
     font-weight: 600;
@@ -367,7 +367,7 @@ h5 {
     text-align: center;
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 760px;
+    top: 160px;
     left: 5%;
     right: 5%;
     font-size: 15px;
@@ -390,7 +390,7 @@ h5 {
   .phones #hours2 {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 615px;
+    top: 815px;
     right: -45px;
     font-size: 15px;
     font-weight: 600;
