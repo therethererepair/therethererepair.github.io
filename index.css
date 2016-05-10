@@ -668,16 +668,16 @@ h5 {
     text-align: center;
   }
  
-.phones #hours2 {
-  position: absolute;
-  font-family: 'Play', sans-serif;
-  top: 615px;
-  right: 0;
-  font-size: 15px;
-  font-weight: 600;
-  color: #000000;
-  text-align: center;
-}
+  .phones #hours2 {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    top: 615px;
+    left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+  }
   
   .phones p {
     position: absolute;
