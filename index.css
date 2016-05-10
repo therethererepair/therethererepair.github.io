@@ -591,7 +591,13 @@ h5 {
   }
   .top h1 {
     position: absolute;
-    left: -3500px;
+    font-family: 'Play', sans-serif;
+    top: 650px;
+    right: 0;
+    font-size: 15;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
   }
   .top #gua2 {
     position: absolute;
