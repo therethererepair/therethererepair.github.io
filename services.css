@@ -500,6 +500,14 @@ h5 {
     color: #000000;
     z-index: 2000;
   }
+  .thumbnail #iphone2 {
+    border-radius: 5.5px;
+    height: 70px;
+    width: 31px;
+    position: absolute;
+    top: 35px;
+    left: 46%;
+  }
   .phones #ser {
     position: absolute;
     font-family: 'Play', sans-serif;
