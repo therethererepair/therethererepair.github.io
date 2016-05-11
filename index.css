@@ -663,7 +663,7 @@ h5 {
   .phones #services {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 40px;
+    top: 25px;
     left: 0;
     right: 0;
     font-size: 15px;
@@ -673,7 +673,7 @@ h5 {
   .phones #under {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 65px;
+    top: 50px;
     left: 0;
     right: 0;
     font-size: 15px;
