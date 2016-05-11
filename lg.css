@@ -416,7 +416,7 @@ h5 {
     position: absolute;
     list-style: none;
     left: 0;
-    top: 650px;
+    top: 675px;
     background-color: transparent;
     height: auto;
     width: 100%;
@@ -476,7 +476,7 @@ h5 {
   .phones #hours {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 720px;
+    top: 745px;
     left: 0;
     right: 0;
     font-weight: 600;
@@ -486,7 +486,7 @@ h5 {
   .phones #hours2 {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 735px;
+    top: 760px;
     left: 0;
     right: -55px;
     font-weight: 600;
@@ -531,8 +531,8 @@ h5 {
     font-family: 'Play', sans-serif;
     font-size: 23px;
     top: 100px;
-    left: 25%;
-    right: 25%;
+    left: 0;
+    right: 0;
     position: absolute;
     text-align: center;
     font-weight: 160%;
@@ -543,8 +543,8 @@ h5 {
     font-family: 'Play', sans-serif;
     font-size: 23px;
     top: 130px;
-    left: 25%;
-    right: 25%;
+    left: 0;
+    right: 0;
     position: absolute;
     text-align: center;
     font-weight: 160%;
@@ -555,8 +555,8 @@ h5 {
     font-family: 'Play', sans-serif;
     font-size: 23px;
     top: 160px;
-    left: 25%;
-    right: 25%;
+    left: 0;
+    right: 0;
     position: absolute;
     text-align: center;
     font-weight: 160%;
@@ -567,8 +567,8 @@ h5 {
     font-family: 'Play', sans-serif;
     font-size: 23px;
     top: 190px;
-    left: 25%;
-    right: 25%;
+    left: 0;
+    right: 0;
     position: absolute;
     text-align: center;
     font-weight: 160%;
@@ -579,8 +579,8 @@ h5 {
     font-family: 'Play', sans-serif;
     font-size: 23px;
     top: 220px;
-    left: 25%;
-    right: 25%;
+    left: 0;
+    right: 0;
     position: absolute;
     text-align: center;
     font-weight: 160%;
@@ -591,8 +591,8 @@ h5 {
     font-family: 'Play', sans-serif;
     font-size: 23px;
     top: 250px;
-    left: 25%;
-    right: 25%;
+    left: 0;
+    right: 0;
     position: absolute;
     text-align: center;
     font-weight: 160%;
@@ -602,8 +602,8 @@ h5 {
     font-family: 'Play', sans-serif;
     font-size: 23px;
     top: 280px;
-    left: 25%;
-    right: 25%;
+    left: 0;
+    right: 0;
     position: absolute;
     text-align: center;
     font-weight: 160%;
@@ -614,8 +614,8 @@ h5 {
     font-family: 'Play', sans-serif;
     font-size: 23px;
     top: 310px;
-    left: 25%;
-    right: 25%;
+    left: 0;
+    right: 0;
     position: absolute;
     text-align: center;
     font-weight: 160%;
@@ -626,8 +626,8 @@ h5 {
     font-family: 'Play', sans-serif;
     font-size: 23px;
     top: 340px;
-    left: 25%;
-    right: 25%;
+    left: 0;
+    right: 0;
     position: absolute;
     text-align: center;
     font-weight: 160%;
@@ -638,8 +638,8 @@ h5 {
     font-family: 'Play', sans-serif;
     font-size: 23px;
     top: 370px;
-    left: 25%;
-    right: 25%;
+    left: 0;
+    right: 0;
     position: absolute;
     text-align: center;
     font-weight: 160%;
