@@ -695,19 +695,17 @@ h5 {
 
   .phones {
     top: 160px;
+    left: 0;
     height: 425px;
     z-index: 4000;
     overflow: visible;
     position: absolute;
     background-color: green;
   }
-  #so {
-    position: absolute;
-    left: -10px;
-  }
   .container {
     height: 400px;
     top: 75px;
+    left: 0;
     overflow: visible;
     position: absolute;
     z-index: 5000;
@@ -716,18 +714,21 @@ h5 {
   .thumbnail {
     background-color: transparent;
   }
-
+  .phones .container .row {
+    position: absolute;
+    display: none;
+  }
   #col1 {
     position: absolute;
-    left: -3000px;
+    display: none;
   }
   #col2 {
     position: absolute;
-    left: -3000px;
+    display: none;
   } 
   #col3 {
     position: absolute;
-    left: -3000px;
+    display: none;
   }
   .jumbotron2 {
     display: none;
