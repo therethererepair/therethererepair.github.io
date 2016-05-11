@@ -612,7 +612,7 @@ h5 {
   }
   .top #numbers {
     position: absolute;
-    left: -2050px;
+    top: 90px;
 
   }
   .logo {
