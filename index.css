@@ -665,8 +665,8 @@ h5 {
     position: absolute;
     font-family: 'Play', sans-serif;
     top: 15px;
-    left: 10%;
-    right: 10%;
+    left: 0;
+    right: 0;
     font-size: 20px;
     color: #000000;
     z-index: 2000;
