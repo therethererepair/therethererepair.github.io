@@ -416,7 +416,7 @@ h5 {
     position: absolute;
     list-style: none;
     left: 0;
-    top: 370px;
+    top: 600px;
     background-color: transparent;
     height: auto;
     width: 100%;
@@ -459,7 +459,8 @@ h5 {
     top: 25px;
     left: 0;
     right: 0;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 600;
     color: #000000;
   }
 
@@ -475,7 +476,7 @@ h5 {
   .phones #hours {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 440px;
+    top: 670px;
     left: 0;
     right: 0;
     font-weight: 600;
@@ -485,7 +486,7 @@ h5 {
   .phones #hours2 {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 455px;
+    top: 685px;
     left: 0;
     right: -55px;
     font-weight: 600;
