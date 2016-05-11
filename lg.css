@@ -400,7 +400,7 @@ h5 {
   .top #numbers {
     position: absolute;
     text-align: center;
-    top: 638px;
+    top: 625px;
     left: 0;
     right: 0;
     font-family: 'Play', sans-serif;
@@ -530,7 +530,7 @@ h5 {
   .phones #i4 {
     font-family: 'Play', sans-serif;
     font-size: 23px;
-    top: 100px;
+    top: 75px;
     left: 0;
     right: 0;
     position: absolute;
