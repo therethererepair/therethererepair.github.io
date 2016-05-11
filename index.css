@@ -660,11 +660,8 @@ h5 {
     right: 0;
     z-index: 4000;
   }
-  .row {
-    position: absolute;
-    display: none;
-  }
-  .phones p {
+
+  .phones #services {
     position: absolute;
     font-family: 'Play', sans-serif;
     top: 15px;
@@ -676,14 +673,7 @@ h5 {
     text-align: center;
     background-color: yellow;
   }
-  .thumbnail #iphone2 {
-    border-radius: 5.5px;
-    height: 70px;
-    width: 31px;
-    position: absolute;
-    top: 35px;
-    left: 35px;
-  }
+
   .phones #under {
     position: absolute;
     font-family: 'Play', sans-serif;
@@ -709,6 +699,7 @@ h5 {
     z-index: 4000;
     overflow: visible;
     position: absolute;
+    background-color: green;
   }
   #so {
     position: absolute;
@@ -725,70 +716,18 @@ h5 {
   .thumbnail {
     background-color: transparent;
   }
- .thumbnail #other {
-   display: none;
-  }
+
   #col1 {
     position: absolute;
-    left: 0;
-    top: 50px;
-    bottom: -100px;
-    height: 100px;
-    z-index: 1000;
-  }
-
-  .phones .container #p1 {
-    position: absolute;
-    left: 15px;
-    top: 0;
-  }
-  #galx1 {
-    position: absolute;
-    right: 65px;
-  }
-  #galx {
-    position: absolute;
-    top: 0;
-  }
-  
-  .phones .container #p {
-    position: absolute; 
-    left: 0;
+    left: -3000px;
   }
   #col2 {
     position: absolute;
-    top: 155px;
-    height: 100px;
-    z-index: 2000;
-  }
-  .phones .container #g {
-    font-family: 'Play', sans-serif;
-    font-size: 20px;
-    top: 0;
-    left: -20px;
-    font-weight: 600;
-    line-height: 160%;
-    position: absolute;
-    color: #000000;
-    width: 100px;
+    left: -3000px;
   } 
   #col3 {
     position: absolute;
-    top: 260px;
-    height: 100px;
-    z-index: 3000;
-  }
-  .phones .container #col3 #htc {
-    font-family: 'Play', sans-serif;
-    font-size: 20px;
-    top: 0;
-    left: 0;
-    font-weight: 600;
-    line-height: 160%;
-    position: absolute;
-    color: #000000;
-    width: 100px;
-  } 
+    left: -3000px;
   
   .jumbotron2 {
     display: none;
