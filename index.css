@@ -710,7 +710,6 @@ h5 {
     z-index: 4000;
     overflow: visible;
     position: absolute;
-    background-color: blue;
   }
   #so {
     position: absolute;
@@ -722,6 +721,7 @@ h5 {
     overflow: visible;
     position: absolute;
     z-index: 5000;
+    background-color: blue;
   }
   .thumbnail {
     background-color: transparent;
