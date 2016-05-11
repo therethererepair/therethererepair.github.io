@@ -506,7 +506,7 @@ h5 {
     width: 31px;
     position: absolute;
     top: 35px;
-    left: 46%;
+    left: 35px;
   }
   .phones #ser {
     position: absolute;
@@ -577,12 +577,10 @@ h5 {
   #galx1 {
     position: absolute;
     right: 65px;
-    background-color: red;
   }
   #galx {
     position: absolute;
     top: 0;
-    background-color: blue;
   }
   
   .phones .container #p {
