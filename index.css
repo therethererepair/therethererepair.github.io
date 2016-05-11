@@ -599,6 +599,10 @@ h5 {
     position: absolute;
     right: -1050px;
   }
+  .top #guagua {
+    position: absolute;
+    right: -1050px;
+  }  
   .top #we {
     position: absolute;
     left: -1050px;
@@ -671,6 +675,7 @@ h5 {
     color: #000000;
     z-index: 2000;
     text-align: center;
+    background-color: yellow;
   }
   .thumbnail #iphone2 {
     border-radius: 5.5px;
@@ -705,7 +710,7 @@ h5 {
     z-index: 4000;
     overflow: visible;
     position: absolute;
-    background-color: red;
+    background-color: blue;
   }
   #so {
     position: absolute;
