@@ -590,7 +590,7 @@ h5 {
     position: absolute;
     left: -3000px;
   }
-  .top h1 {
+  .top #days {
     position: absolute;
     left: -3500px;
   }
@@ -658,7 +658,7 @@ h5 {
   .row {
     height: auto;
   }
-  .phones #services {
+  .phones p {
     position: absolute;
     font-family: 'Play', sans-serif;
     top: 15px;
@@ -676,7 +676,7 @@ h5 {
     top: 35px;
     left: 35px;
   }
-  .phones #ser {
+  .phones #under {
     position: absolute;
     font-family: 'Play', sans-serif;
     top: 60px;
@@ -686,14 +686,7 @@ h5 {
     color: #000000;
     z-index: 2000;
   }  
-  .phones #under {
-    position: absolute;
-    font-family: 'Play', sans-serif;
-    top: 200px;
-    left: 0;
-    right: 0;
-    font-size: 15px;
-    color: #000000;
+color: #000000;
   }
   .phones #broke {
     position: absolute;
