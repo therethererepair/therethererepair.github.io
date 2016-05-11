@@ -581,11 +581,11 @@ h5 {
     top: 0;
     height: 1000px;
     width: 100%;
-    background-color: red;
   }
  .wrapper .top {
     position: absolute;
     z-index: 5;
+    background-color: red;
   }
   .top #agua {
     position: absolute;
