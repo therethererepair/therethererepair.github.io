@@ -614,8 +614,9 @@ h5 {
   .top #numbers {
     position: absolute;
     text-align: center;
-    top: 300px;
-    font-family: 'Roboto Condensed', sans-serif;
+    top: 320px;
+    right: 25%;
+    font-family: 'Play', sans-serif;
     font-size: 19px;
     font-weight: 5;
     color: #000000;
