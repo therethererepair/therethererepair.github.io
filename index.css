@@ -615,6 +615,11 @@ h5 {
     position: absolute;
     text-align: center;
     top: 300px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 19px;
+    font-weight: 5;
+    color: #000000;
+    text-decoration: none;
 
   }
   .logo {
