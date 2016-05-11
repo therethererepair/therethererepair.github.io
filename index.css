@@ -698,13 +698,13 @@ h5 {
     top: 160px;
     left: 0;
     right: 0;
-    height: 425px;
+    height: 250px;
     z-index: 4000;
     overflow: visible;
     position: absolute;
   }
   .container {
-    height: 425px;
+    height: 250px;
     top: 75px;
     left: 0;
     right: 0;
