@@ -663,10 +663,10 @@ h5 {
   .phones #services {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 20px;
+    top: 15px;
     left: 0;
     right: 0;
-    font-size: 18px;
+    font-size: 15px;
     color: #000000;
     z-index: 2000;
     text-align: center;
