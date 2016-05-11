@@ -614,12 +614,11 @@ h5 {
   .top #numbers {
     position: absolute;
     text-align: center;
-    top: 320px;
+    top: 315px;
     left: 0;
     right: 0;
     font-family: 'Play', sans-serif;
-    font-size: 19px;
-    font-weight: 5;
+    font-size: 17px;
     color: #000000;
     text-decoration: none;
 
