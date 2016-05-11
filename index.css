@@ -581,6 +581,7 @@ h5 {
     top: 0;
     height: 1000px;
     width: 100%;
+    background-color: red;
   }
  .wrapper .top {
     position: absolute;
@@ -656,7 +657,9 @@ h5 {
     z-index: 4000;
   }
   .row {
-    height: auto;
+    position: absolute;
+    left: -3050px;
+    display: none;
   }
   .phones p {
     position: absolute;
@@ -702,6 +705,7 @@ h5 {
     z-index: 4000;
     overflow: visible;
     position: absolute;
+    background-color: red;
   }
   #so {
     position: absolute;
