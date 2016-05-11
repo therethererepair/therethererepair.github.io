@@ -264,7 +264,10 @@ h5 {
 
 @media all and (max-width: 400px) {
   body {
-    height: auto;
+    background-image: url("http://apclinic.co.uk/wp-content/uploads/2013/09/Light-Grey-Background.jpg");
+    overflow: visible;
+    height: 1000px;
+    top: 0;
   }
   #alm {
     position: absolute;
@@ -282,29 +285,30 @@ h5 {
     height: 170px;
     width: 100%;
   }
-  .wrapper .top {
-    position: absolute;
-    background-color: transparent;
-    top: 300px;
-    height: auto;
+  .wrapper {
+    top: 0;
+    height: 1000px;
     width: 100%;
-    bottom: 0;
-    
-    
   }
-  
+ .wrapper .top {
+    position: absolute;
+  }
   .top #agua {
     position: absolute;
-    left: -2050px;
+    left: -3000px;
   }
-  .top #days{
+  .top #days {
     position: absolute;
-    left: -2050px;
+    left: -3500px;
+  }
+  .top #gua2 {
+    position: absolute;
+    right: -1050px;
   }
   .top #guagua {
     position: absolute;
-    left: -2050px;
-  }
+    right: -1050px;
+  }  
   .top #we {
     position: absolute;
     left: -1050px;
@@ -315,27 +319,34 @@ h5 {
   }
   .top #numbers {
     position: absolute;
-    left: -2050px;
-    
-  }
-  .texts {
-    position: absolute;
-    list-style: none;
+    text-align: center;
+    top: 625px;
     left: 0;
-    top: 300px;
-    height: auto;
-    width: 100%;
-    display: block;
-  }
-  .texts #cari {
-    position: absolute;
-    display: none;
+    right: 0;
+    font-family: 'Play', sans-serif;
+    font-size: 17px;
+    color: #000000;
+
   }
   .logo {
     position: absolute;
     display: none;
   }
-
+  .texts {
+    position: absolute;
+    list-style: none;
+    left: 0;
+    top: 675px;
+    background-color: transparent;
+    height: auto;
+    width: 100%;
+    display: block;
+    z-index: 4000;
+  }
+  .texts #cari {
+    position: absolute;
+    display: none;
+  }
   .texts li {
     display: block;
     position: relative;
@@ -345,6 +356,7 @@ h5 {
     padding: 5px 5px 5px 5px;
     left: -7%;
     right: 0;
+    z-index: 4000;
   }
   .texts li a {
     color: #FFFFFF;
@@ -358,110 +370,230 @@ h5 {
     padding: 5px 5px 5px 5px;
     left: 0;
     right: 0;
+    z-index: 4000;
   }
-  .texts a:hover:not(#log) {
-    border: 1px solid #FFFFFF;
-  }
-  .phones #hours {
+
+  .phones #services {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 800px;
-    right: 0;
-    font-size: 15;
-    font-weight: 600;
-    color: #000000;
-    text-align: center;
-  }
-  .phones #under1 {
-    text-align: center;
-    position: absolute;
-    font-family: 'Play', sans-serif;
-    top: 160px;
-    left: 5%;
-    right: 5%;
-    font-size: 15px;
-    font-weight: 500;
-    color: #000000;
-  }
-  
-  .phones #under2 {
-    text-align: center;
-    position: absolute;
-    font-family: 'Play', sans-serif;
-    top: 230px;
-    left: 5%;
-    right: 5%;
-    font-size: 15px;
-    font-weight: 500;
-    color: #000000;
-  }
- 
-  .phones #hours2 {
-    position: absolute;
-    font-family: 'Play', sans-serif;
-    top: 815px;
-    right: -45px;
-    font-size: 15px;
-    font-weight: 600;
-    color: #000000;
-    text-align: center;
-  }
-  
-  .phones p {
-    position: absolute;
-    font-family: 'Play', sans-serif;
-    top: 180px;
+    top: 25px;
     left: 0;
     right: 0;
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 600;
     color: #000000;
   }
+
   .phones #under {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 205px;
+    top: 50px;
     left: 0;
     right: 0;
     font-size: 15px;
     color: #000000;
-  }
+  }  
+  .phones #hours {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    top: 745px;
+    left: 0;
+    right: 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+  }    
+  .phones #hours2 {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    top: 760px;
+    left: 0;
+    right: -55px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+  }    
   .phones #broke {
     position: absolute;
     left: -1050px;
   }
-  .phones a {
-    position: absolute;
-    left: -3000px;
-  }
   .phones #under3 {
     position: absolute;
-    font-family: 'Play', sans-serif;
-    top: 630px;
-    right: -25px;
-    font-size: 15px;
-    font-weight: 600;
-    color: #000000;
-    text-align: center;
+    left: -2050px;
+  }
+
+  .phones {
+    top: 150px;
+    left: 0;
+    right: 0;
+    height: 45px;
+    z-index: 4000;
+    overflow: visible;
+    position: absolute;
   }
   .container {
+    height: 45px;
+    top: 75px;
+    left: 0;
+    right: 0;
+    overflow: visible;
     position: absolute;
-    left: -2000px;
+    z-index: 5000;
+  }
+  .thumbnail {
+    background-color: transparent;
+  }
+  .phones .container .row {
+    position: absolute;
+    display: none;
+  }
+  .phones #i4 {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 75px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+
+  .phones #i4s {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 105px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+
+  .phones #i5 {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 135px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+
+  .phones #i5c {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 165px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+
+  .phones #i5s {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 195px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+
+  .phones #i6 {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 225px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+  .phones #i6p {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 250px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+ 
+  .phones #i6s {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 285px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  } 
+
+  .phones #i7 {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 315px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  } 
+
+  .phones #i8 {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 345px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  } 
+
+  .phones #i6sp {
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+    top: 400px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    line-height: 95%;
+    font-weight: 160%;
+    color: #000000;
   }
   #col1 {
     position: absolute;
-    right: -2500px;
+    display: none;
   }
   #col2 {
     position: absolute;
-    left: -2500px;
-  }
+    display: none;
+  } 
   #col3 {
     position: absolute;
-    left: -3000px;
+    display: none;
   }
   .jumbotron2 {
-    position: absolute;
-    right: -3000px;
+    display: none;
+  }
+  .footer {
     display: none;
   }
 }
