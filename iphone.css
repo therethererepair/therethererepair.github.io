@@ -301,7 +301,7 @@ h5 {
   width: 31px;
   position: absolute;
   top: 35px;
-  left: 50px;
+  left: 46%;
 }
 .thumbnail #charger {
   border-radius: 5.5px;
@@ -625,11 +625,6 @@ h5 {
     position: absolute;
     top: 0;
   }
-  #charge {
-    position: absolute;
-    top: 0;
-    right: 100px;
-  }  
 
   .phones .container #p {
     position: absolute; 
@@ -680,7 +675,7 @@ h5 {
     width: 31px;
     position: absolute;
     top: 67px;
-    left: 46%;
+    left: 35px;
   }
   .thumbnail #earim {
     border-radius: 5.5px;
