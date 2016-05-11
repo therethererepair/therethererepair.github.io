@@ -695,10 +695,10 @@ h5 {
   }
 
   .phones {
-    top: 45px;
+    top: 150px;
     left: 0;
     right: 0;
-    height: 250px;
+    height: 45px;
     z-index: 4000;
     overflow: visible;
     position: absolute;
