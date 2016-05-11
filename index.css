@@ -584,8 +584,6 @@ h5 {
   }
  .wrapper .top {
     position: absolute;
-    background-color: transparent;
-    z-index: 3000;
   }
   .top #agua {
     position: absolute;
