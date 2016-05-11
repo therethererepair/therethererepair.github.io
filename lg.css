@@ -527,6 +527,137 @@ h5 {
     position: absolute;
     display: none;
   }
+  .phones #i4 {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 230px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+
+  .phones #i4s {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 260px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+
+  .phones #i5 {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 290px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+
+  .phones #i5c {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 320px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+
+  .phones #i5s {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 350px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+
+  .phones #i6 {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 380px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+  .phones #i6p {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 410px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  }
+ 
+  .phones #i6s {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 440px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  } 
+
+  .phones #i7 {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 470px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  } 
+
+  .phones #i8 {
+    font-family: 'Play', sans-serif;
+    font-size: 23px;
+    top: 500px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    font-weight: 160%;
+    color: #000000;
+  } 
+
+  .phones #i6sp {
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+    top: 550px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    line-height: 95%;
+    font-weight: 160%;
+    color: #000000;
+  }
   #col1 {
     position: absolute;
     display: none;
