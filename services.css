@@ -577,17 +577,14 @@ h5 {
   #galx1 {
     position: absolute;
     right: 65px;
+    background-color: red;
   }
   #galx {
     position: absolute;
     top: 0;
+    background-color: blue;
   }
   
-  .phones .container #iphon2 {
-    position: absolute;
-    right: -1px;
-    top: -2px;
-  }
   .phones .container #p {
     position: absolute; 
     left: 0;
