@@ -618,7 +618,6 @@ h5 {
     font-family: 'Play', sans-serif;
     font-size: 17px;
     color: #000000;
-    background-color: red;
 
   }
   .logo {
@@ -711,7 +710,6 @@ h5 {
     overflow: visible;
     position: absolute;
     z-index: 5000;
-    background-color: blue;
   }
   .thumbnail {
     background-color: transparent;
