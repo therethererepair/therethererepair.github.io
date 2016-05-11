@@ -684,6 +684,15 @@ h5 {
     font-size: 15px;
     color: #000000;
   }  
+  .phones #hours {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    top: 500px;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    color: #000000;
+  }    
   .phones #broke {
     position: absolute;
     left: -1050px;
