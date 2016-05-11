@@ -687,10 +687,21 @@ h5 {
   .phones #hours {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 500px;
+    top: 450px;
     left: 0;
     right: 0;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+  }    
+  .phones #hours2 {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    top: 465px;
+    left: 0;
+    right: -45;
+    font-weight: 600;
+    font-size: 18px;
     color: #000000;
   }    
   .phones #broke {
