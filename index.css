@@ -615,7 +615,8 @@ h5 {
     position: absolute;
     text-align: center;
     top: 320px;
-    right: 25%;
+    left: 0;
+    right: 0;
     font-family: 'Play', sans-serif;
     font-size: 19px;
     font-weight: 5;
