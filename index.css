@@ -711,6 +711,7 @@ h5 {
     overflow: visible;
     position: absolute;
     z-index: 5000;
+    background-color: red;
   }
   .thumbnail {
     background-color: transparent;
