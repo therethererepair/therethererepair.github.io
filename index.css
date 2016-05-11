@@ -585,7 +585,6 @@ h5 {
  .wrapper .top {
     position: absolute;
     z-index: 5;
-    background-color: red;
   }
   .top #agua {
     position: absolute;
@@ -667,11 +666,10 @@ h5 {
     top: 15px;
     left: 0;
     right: 0;
-    font-size: 20px;
+    font-size: 18px;
     color: #000000;
     z-index: 2000;
     text-align: center;
-    background-color: yellow;
   }
 
   .phones #under {
@@ -701,7 +699,6 @@ h5 {
     z-index: 4000;
     overflow: visible;
     position: absolute;
-    background-color: green;
   }
   .container {
     height: 400px;
@@ -711,7 +708,6 @@ h5 {
     overflow: visible;
     position: absolute;
     z-index: 5000;
-    background-color: blue;
   }
   .thumbnail {
     background-color: transparent;
