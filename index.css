@@ -662,11 +662,12 @@ h5 {
     position: absolute;
     font-family: 'Play', sans-serif;
     top: 15px;
-    left: 0;
-    right: 0;
-    font-size: 30px;
+    left: 10%;
+    right: 10%;
+    font-size: 20px;
     color: #000000;
     z-index: 2000;
+    text-align: center;
   }
   .thumbnail #iphone2 {
     border-radius: 5.5px;
