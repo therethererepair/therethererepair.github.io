@@ -318,13 +318,7 @@ h5 {
   }
   .top #numbers {
     position: absolute;
-    text-align: center;
-    top: 310px;
-    left: 0;
-    right: 0;
-    font-family: 'Play', sans-serif;
-    font-size: 17px;
-    color: #000000;
+    display: none;
 
   }
   .logo {
@@ -386,19 +380,19 @@ h5 {
   .phones #under1 {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 100px;
+    top: 110px;
     left: 0;
     right: 0;
-    font-size: 15px;
+    font-size: 18px;
     color: #000000;
   }  
   .phones #under2 {
     position: absolute;
     font-family: 'Play', sans-serif;
-    top: 150px;
+    top: 85px;
     left: 0;
     right: 0;
-    font-size: 15px;
+    font-size: 18px;
     color: #000000;
   }  
   .phones #hours {
