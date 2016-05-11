@@ -695,7 +695,7 @@ h5 {
   }
 
   .phones {
-    top: 160px;
+    top: 150px;
     left: 0;
     right: 0;
     height: 250px;
@@ -704,7 +704,7 @@ h5 {
     position: absolute;
   }
   .container {
-    height: 250px;
+    height: 150px;
     top: 75px;
     left: 0;
     right: 0;
