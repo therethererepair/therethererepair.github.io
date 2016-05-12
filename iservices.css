@@ -450,6 +450,16 @@ h5 {
     overflow: visible;
     position: absolute;
   }
+  
+  .container {
+    height: 45px;
+    top: 75px;
+    left: 0;
+    right: 0;
+    overflow: visible;
+    position: absolute;
+    z-index: 5000;
+  }
 
   .phones #services {
     position: absolute;
@@ -471,16 +481,6 @@ h5 {
     font-size: 15px;
     color: #000000;
   }  
-
-  .container {
-    height: 45px;
-    top: 75px;
-    left: 0;
-    right: 0;
-    overflow: visible;
-    position: absolute;
-    z-index: 5000;
-  }
   
   .thumbnail {
     background-color: transparent;
