@@ -18,6 +18,7 @@ body {
   height: 106px;
   z-index: 1000;
 }
+
 .wrapper {
   height: auto;
   width: 100%;
@@ -180,7 +181,6 @@ h5 {
   font-family: 'Play', sans-serif;
   top: 94.5%;
   right: 320px;
-  
   font-size: 30px;
   font-weight: 500;
   line-height: 160%;
@@ -219,6 +219,7 @@ h5 {
     height: 1000px;
     top: 0;
   }
+  
   #alm {
     position: absolute;
     left: 0;
@@ -227,6 +228,7 @@ h5 {
     height: 170px;
     width: 100%;
   }
+  
   #alm2 {
     position: absolute;
     left: 0;
@@ -235,38 +237,47 @@ h5 {
     height: 170px;
     width: 100%;
   }
+  
   .wrapper {
     top: 0;
     height: 1000px;
     width: 100%;
   }
+  
  .wrapper .top {
     position: absolute;
   }
+  
   .top #agua {
     position: absolute;
     left: -3000px;
   }
+  
   .top #days {
     position: absolute;
     left: -3500px;
   }
+  
   .top #gua2 {
     position: absolute;
     right: -1050px;
   }
+  
   .top #guagua {
     position: absolute;
     right: -1050px;
-  }  
+  }
+  
   .top #we {
     position: absolute;
     left: -1050px;
   }
+  
   .top #call {
     position: absolute;
     right: -1050px;
   }
+  
   .top #numbers {
     position: absolute;
     text-align: center;
@@ -277,10 +288,12 @@ h5 {
     font-size: 17px;
     color: #000000;
   }
+  
   .logo {
     position: absolute;
     display: none;
   }
+  
   .texts {
     position: absolute;
     list-style: none;
@@ -292,10 +305,12 @@ h5 {
     display: block;
     z-index: 4000;
   }
+  
   .texts #cari {
     position: absolute;
     display: none;
   }
+  
   .texts li {
     display: block;
     position: relative;
@@ -307,6 +322,7 @@ h5 {
     right: 0;
     z-index: 4000;
   }
+  
   .texts li a {
     color: #FFFFFF;
     display: block;
@@ -351,7 +367,8 @@ h5 {
     right: 0;
     font-size: 15px;
     color: #000000;
-  }  
+  }
+  
   .phones #hours {
     position: absolute;
     font-family: 'Play', sans-serif;
@@ -361,7 +378,8 @@ h5 {
     font-weight: 600;
     font-size: 18px;
     color: #000000;
-  }    
+  }
+  
   .phones #hours2 {
     position: absolute;
     font-family: 'Play', sans-serif;
@@ -387,9 +405,11 @@ h5 {
     position: absolute;
     z-index: 5000;
   }
+  
   .thumbnail {
     background-color: transparent;
   }
+  
   .phones .container .row {
     position: absolute;
     display: none;
@@ -399,17 +419,21 @@ h5 {
     position: absolute;
     display: none;
   }
+  
   #col2 {
     position: absolute;
     display: none;
   } 
+  
   #col3 {
     position: absolute;
     display: none;
   }
+  
   .jumbotron2 {
     display: none;
   }
+  
   .footer {
     display: none;
   }
