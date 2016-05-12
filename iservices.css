@@ -322,6 +322,7 @@ h5 {
     height: 1000px;
     top: 0;
   }
+  
   #alm {
     position: absolute;
     left: 0;
@@ -330,6 +331,7 @@ h5 {
     height: 170px;
     width: 100%;
   }
+  
   #alm2 {
     position: absolute;
     left: 0;
@@ -338,38 +340,47 @@ h5 {
     height: 170px;
     width: 100%;
   }
+  
   .wrapper {
     top: 0;
     height: 1000px;
     width: 100%;
   }
+  
  .wrapper .top {
     position: absolute;
   }
+  
   .top #agua {
     position: absolute;
     left: -3000px;
   }
+  
   .top #days {
     position: absolute;
     left: -3500px;
   }
+  
   .top #gua2 {
     position: absolute;
     right: -1050px;
   }
+  
   .top #guagua {
     position: absolute;
     right: -1050px;
   }  
+  
   .top #we {
     position: absolute;
     left: -1050px;
   }
+  
   .top #call {
     position: absolute;
     right: -1050px;
   }
+  
   .top #numbers {
     position: absolute;
     text-align: center;
@@ -379,12 +390,13 @@ h5 {
     font-family: 'Play', sans-serif;
     font-size: 17px;
     color: #000000;
-
   }
+  
   .logo {
     position: absolute;
     display: none;
   }
+  
   .texts {
     position: absolute;
     list-style: none;
@@ -396,10 +408,12 @@ h5 {
     display: block;
     z-index: 4000;
   }
+  
   .texts #cari {
     position: absolute;
     display: none;
   }
+  
   .texts li {
     display: block;
     position: relative;
@@ -411,6 +425,7 @@ h5 {
     right: 0;
     z-index: 4000;
   }
+  
   .texts li a {
     color: #FFFFFF;
     display: block;
@@ -424,6 +439,16 @@ h5 {
     left: 0;
     right: 0;
     z-index: 4000;
+  }
+  
+  .phones {
+    top: 150px;
+    left: 0;
+    right: 0;
+    height: 45px;
+    z-index: 4000;
+    overflow: visible;
+    position: absolute;
   }
 
   .phones #services {
@@ -446,44 +471,7 @@ h5 {
     font-size: 15px;
     color: #000000;
   }  
-  .phones #hours {
-    position: absolute;
-    font-family: 'Play', sans-serif;
-    top: 745px;
-    left: 0;
-    right: 0;
-    font-weight: 600;
-    font-size: 18px;
-    color: #000000;
-  }    
-  .phones #hours2 {
-    position: absolute;
-    font-family: 'Play', sans-serif;
-    top: 760px;
-    left: 0;
-    right: -55px;
-    font-weight: 600;
-    font-size: 18px;
-    color: #000000;
-  }    
-  .phones #broke {
-    position: absolute;
-    left: -1050px;
-  }
-  .phones #under3 {
-    position: absolute;
-    left: -2050px;
-  }
 
-  .phones {
-    top: 150px;
-    left: 0;
-    right: 0;
-    height: 45px;
-    z-index: 4000;
-    overflow: visible;
-    position: absolute;
-  }
   .container {
     height: 45px;
     top: 75px;
@@ -493,13 +481,16 @@ h5 {
     position: absolute;
     z-index: 5000;
   }
+  
   .thumbnail {
     background-color: transparent;
   }
+  
   .phones .container .row {
     position: absolute;
     display: none;
   }
+  
   .phones #i4 {
     font-family: 'Play', sans-serif;
     font-size: 23px;
@@ -571,6 +562,7 @@ h5 {
     font-weight: 160%;
     color: #000000;
   }
+  
   .phones #i6p {
     font-family: 'Play', sans-serif;
     font-size: 23px;
@@ -631,21 +623,53 @@ h5 {
     font-weight: 160%;
     color: #000000;
   }
+  
   #col1 {
     position: absolute;
     display: none;
   }
+  
   #col2 {
     position: absolute;
     display: none;
   } 
+  
   #col3 {
     position: absolute;
     display: none;
   }
+    
+  .phones #hours {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    top: 745px;
+    left: 0;
+    right: 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+  }  
+  
+  .phones #hours2 {
+    position: absolute;
+    font-family: 'Play', sans-serif;
+    top: 760px;
+    left: 0;
+    right: -55px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+  }    
+
+  .phones #under3 {
+    position: absolute;
+    left: -2050px;
+  }
+
   .jumbotron2 {
     display: none;
   }
+  
   .footer {
     display: none;
   }
