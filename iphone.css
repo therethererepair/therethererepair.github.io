@@ -27,6 +27,14 @@ body {
   z-index: 1;
 }
 
+#alm {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 106px;
+  z-index: 1000;
+}
+
 h1 {
   position: fixed;
   left: 1%;
@@ -106,10 +114,6 @@ h5 {
   text-decoration: none;
 }
 
-.container a:hover {
-  text-decoration: none;
-}
-
 .texts a:hover:not(#log) {
   border: 1px solid #FFFFFF;
 }
@@ -131,16 +135,22 @@ h5 {
   text-decoration: none;
 }
 
-.thumbnail {
-  background-color: transparent;
+.container {
+  position: absolute;
+  top: 100px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+ }
+ 
+.container a:hover {
+  text-decoration: none;
 }
 
-#alm {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 106px;
-  z-index: 1000;
+.thumbnail {
+  background-color: transparent;
 }
 
 .phones p {
@@ -150,7 +160,6 @@ h5 {
   top: 125px;
   left: 25%;
   right: 25%;
-  
   font-size: 37px;
   font-weight: 650;
   line-height: 160%;
@@ -181,28 +190,6 @@ h5 {
   color: #000000;
 }
  
-.jumbotron2 {
-  background-color: black;
-  background-position: center bottom;
-  top: 93%;
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-}
-
-.container {
-  position: absolute;
-  top: 100px;
-  text-align: center;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
- }
- 
 .row {
   position: relative;
   height: 33%;
@@ -211,7 +198,6 @@ h5 {
   top: 0;
 }
 
- 
 .thumbnail {
   border-color: transparent;
   height: auto;
@@ -231,6 +217,7 @@ h5 {
   color: #000000;  
   text-decoration: none;
 } 
+
 .thumbnail #htc {
   font-family: 'Play', sans-serif;
   font-size: 20px;
@@ -241,7 +228,6 @@ h5 {
   text-decoration: none;
 } 
 
-
 .thumbnail #iphone {
   border-radius: 5.5px;
   height: 70px;
@@ -250,6 +236,7 @@ h5 {
   top: 35px;
   left: 46%;
 }
+
 .thumbnail #home {
   border-radius: 5.5px;
   height: 70px;
@@ -268,6 +255,7 @@ h5 {
   position: absolute;
   color: #000000;  
 } 
+
 .thumbnail #so {
   font-family: 'Play', sans-serif;
   font-size: 20px;
@@ -277,6 +265,7 @@ h5 {
   position: absolute;
   color: #000000;  
 } 
+
 .thumbnail #g {
   font-family: 'Play', sans-serif;
   font-size: 20px;
@@ -337,7 +326,6 @@ h5 {
   color: #000000;  
 }
 
-
 .thumbnail #iphone3 {
   border-radius: 5.5px;
   height: 70px;
@@ -346,6 +334,7 @@ h5 {
   top: 35px;
   left: 46%;
 }
+
 .thumbnail #earim {
   border-radius: 5.5px;
   height: 70px;
@@ -378,7 +367,6 @@ h5 {
   color: #000000;  
 } 
  
- 
 .thumbnail #ipad {
   border-radius: 5.5px;
   height: 70px;
@@ -398,16 +386,6 @@ h5 {
   line-height: 160%;
   color: #FFFFFF;
   z-index: 1001;
-}
-
-.thumbnail #other {
- font-family: 'Play', sans-serif;
- font-size: 16px;
- top: 40px;
- position: relative;
- left: 0;
- font-weight: 600;
- color: #000000;
 }
  
 .phones #hours {
@@ -434,6 +412,19 @@ h5 {
   z-index: 1000;
 }
 
+.jumbotron2 {
+  background-color: black;
+  background-position: center bottom;
+  top: 93%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+
 @media all and (max-width: 400px) {
   body {
     background-image: url("http://apclinic.co.uk/wp-content/uploads/2013/09/Light-Grey-Background.jpg");
@@ -441,6 +432,7 @@ h5 {
     height: 1000px;
     top: 0;
   }
+  
   #alm {
     position: absolute;
     left: 0;
@@ -449,6 +441,7 @@ h5 {
     height: 170px;
     width: 100%;
   }
+  
   #alm2 {
     position: absolute;
     left: 0;
@@ -457,43 +450,53 @@ h5 {
     height: 170px;
     width: 100%;
   }
+  
   .wrapper {
     top: 0;
     height: 1000px;
     width: 100%;
   }
+  
  .wrapper .top {
     position: absolute;
     z-index: 5;
   }
+  
   .top #agua {
     position: absolute;
     left: -3000px;
   }
+  
   .top h1 {
     position: absolute;
     left: -3500px;
   }
+  
   .top #gua2 {
     position: absolute;
     right: -1050px;
   }
+  
   .top #we {
     position: absolute;
     left: -1050px;
   }
+  
   .top #call {
     position: absolute;
     right: -1050px;
   }
+  
   .top #numbers {
     position: absolute;
     right: -1050px;
   }
+  
   .logo {
     position: absolute;
     display: none;
   }
+  
   .texts {
     position: absolute;
     list-style: none;
@@ -505,10 +508,12 @@ h5 {
     display: block;
     z-index: 4000;
   }
+  
   .texts #cari {
     position: absolute;
     display: none;
   }
+  
   .texts li {
     display: block;
     position: relative;
@@ -520,6 +525,7 @@ h5 {
     right: 0;
     z-index: 4000;
   }
+  
   .texts li a {
     color: #FFFFFF;
     display: block;
@@ -534,9 +540,27 @@ h5 {
     right: 0;
     z-index: 4000;
   }
+  
+  .phones {
+    top: 160px;
+    height: 475px;
+    z-index: 4000;
+    overflow: visible;
+    position: absolute;
+  }
+  
+  .container {
+    height: 400px;
+    top: 75px;
+    overflow: visible;
+    position: absolute;
+    z-index: 5000;
+  }
+  
   .row {
     height: auto;
   }
+  
   .phones #services {
     position: absolute;
     font-family: 'Play', sans-serif;
@@ -547,6 +571,7 @@ h5 {
     color: #000000;
     z-index: 2000;
   }
+  
   .phones #ser {
     position: absolute;
     font-family: 'Play', sans-serif;
@@ -557,6 +582,7 @@ h5 {
     color: #000000;
     z-index: 2000;
   }  
+  
   .phones #under {
     position: absolute;
     font-family: 'Play', sans-serif;
@@ -566,43 +592,31 @@ h5 {
     font-size: 15px;
     color: #000000;
   }
+  
   .phones #broke {
     position: absolute;
     left: -1050px;
   }
+  
   .phones #under3 {
     position: absolute;
     left: -2050px;
   }
 
-  .phones {
-    top: 160px;
-    height: 475px;
-    z-index: 4000;
-    overflow: visible;
-    position: absolute;
-  }
   #so {
     position: absolute;
     left: -10px;
   }
+  
   #s {
     position: absolute;
     right: -10px;
-  }  
-  .container {
-    height: 400px;
-    top: 75px;
-    overflow: visible;
-    position: absolute;
-    z-index: 5000;
   }
+
   .thumbnail {
     background-color: transparent;
   }
- .thumbnail #other {
-   display: none;
-  }
+  
   #col1 {
     position: absolute;
     left: 0;
@@ -617,10 +631,12 @@ h5 {
     left: 15px;
     top: 0;
   }
+  
   #galx1 {
     position: absolute;
     right: 65px;
   }
+  
   #galx {
     position: absolute;
     top: 0;
@@ -630,12 +646,23 @@ h5 {
     position: absolute; 
     left: 0;
   }
+  
   #col2 {
     position: absolute;
     top: 155px;
     height: 100px;
     z-index: 2000;
   }
+    
+  .thumbnail #iphone2 {
+    border-radius: 5.5px;
+    height: 70px;
+    width: 31px;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+  }
+  
   .phones .container #g {
     font-family: 'Play', sans-serif;
     font-size: 20px;
@@ -646,21 +673,15 @@ h5 {
     position: absolute;
     color: #000000;
     width: 100px;
-  } 
+  }
+  
   #col3 {
     position: absolute;
     top: 260px;
     height: 100px;
     z-index: 3000;
   }
-  .thumbnail #iphone2 {
-    border-radius: 5.5px;
-    height: 70px;
-    width: 31px;
-    position: absolute;
-    top: 30px;
-    left: 35px;
-  }
+  
   .thumbnail #iphone3 {
     border-radius: 5.5px;
     height: 70px;
@@ -669,6 +690,7 @@ h5 {
     top: 35px;
     left: 46%;
   }
+  
   .thumbnail #chargeim {
     border-radius: 5.5px;
     height: 70px;
@@ -677,6 +699,7 @@ h5 {
     top: 67px;
     left: 35px;
   }
+  
   .thumbnail #earim {
     border-radius: 5.5px;
     height: 70px;
@@ -685,6 +708,7 @@ h5 {
     top: 70px;
     left: 46%;
   }
+  
   .thumbnail #charger {
     border-radius: 5.5px;
     height: 70px;
@@ -693,6 +717,7 @@ h5 {
     top: 35px;
     left: 46%;
   }
+  
   .thumbnail #ear {
     font-family: 'Play', sans-serif;
     font-size: 20px;
@@ -700,7 +725,8 @@ h5 {
     font-weight: 600;
     position: absolute;
     color: #000000;
-} 
+  } 
+  
   .thumbnail #home {
     border-radius: 5.5px;
     height: 70px;
@@ -708,7 +734,8 @@ h5 {
     position: absolute;
     top: 70px;
     left: 46%;
-}
+  }
+  
   .phones .container #col3 #htc {
     font-family: 'Play', sans-serif;
     font-size: 20px;
@@ -724,6 +751,7 @@ h5 {
   .jumbotron2 {
     display: none;
   }
+  
   .footer {
     display: none;
   }
