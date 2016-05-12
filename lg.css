@@ -27,6 +27,13 @@ body {
   z-index: 1;
 }
 
+#alm {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 106px;
+  z-index: 1000;
+}
 h1 {
   position: fixed;
   left: 1%;
@@ -125,14 +132,6 @@ h5 {
   text-decoration: none;
 }
 
-#alm {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 106px;
-  z-index: 1000;
-}
-
 .phones p {
   text-align: center;
   position: fixed;
@@ -140,7 +139,6 @@ h5 {
   top: 130px;
   left: 25%;
   right: 25%;
-  
   font-size: 40px;
   font-weight: 650;
   line-height: 160%;
@@ -154,14 +152,11 @@ h5 {
   top: 188px;
   left: 25%;
   right: 25%;
-  
   font-size: 17px;
   font-weight: 500;
   line-height: 160%;
   color: #000000;
 }
- 
-
 
 .phones #i4 {
   font-family: 'Play', sans-serif;
@@ -234,6 +229,7 @@ h5 {
   font-weight: 160%;
   color: #000000;
 }
+
 .phones #i6p {
   font-family: 'Play', sans-serif;
   font-size: 23px;
@@ -294,6 +290,7 @@ h5 {
   font-weight: 160%;
   color: #000000;
 }
+
 .jumbotron2 {
   background-color: black;
   background-position: center bottom;
@@ -342,6 +339,7 @@ h5 {
   color: #FFFFFF;
   z-index: 1000;
 }
+
 @media all and (max-width: 400px) {
   body {
     background-image: url("http://apclinic.co.uk/wp-content/uploads/2013/09/Light-Grey-Background.jpg");
@@ -349,6 +347,7 @@ h5 {
     height: 1000px;
     top: 0;
   }
+  
   #alm {
     position: absolute;
     left: 0;
@@ -357,6 +356,7 @@ h5 {
     height: 170px;
     width: 100%;
   }
+  
   #alm2 {
     position: absolute;
     left: 0;
@@ -365,38 +365,47 @@ h5 {
     height: 170px;
     width: 100%;
   }
+  
   .wrapper {
     top: 0;
     height: 1000px;
     width: 100%;
   }
+  
  .wrapper .top {
     position: absolute;
   }
+  
   .top #agua {
     position: absolute;
     left: -3000px;
   }
+  
   .top #days {
     position: absolute;
     left: -3500px;
   }
+  
   .top #gua2 {
     position: absolute;
     right: -1050px;
   }
+  
   .top #guagua {
     position: absolute;
     right: -1050px;
   }  
+  
   .top #we {
     position: absolute;
     left: -1050px;
   }
+  
   .top #call {
     position: absolute;
     right: -1050px;
   }
+  
   .top #numbers {
     position: absolute;
     text-align: center;
@@ -406,12 +415,13 @@ h5 {
     font-family: 'Play', sans-serif;
     font-size: 17px;
     color: #000000;
-
   }
+  
   .logo {
     position: absolute;
     display: none;
   }
+  
   .texts {
     position: absolute;
     list-style: none;
@@ -423,10 +433,12 @@ h5 {
     display: block;
     z-index: 4000;
   }
+  
   .texts #cari {
     position: absolute;
     display: none;
   }
+  
   .texts li {
     display: block;
     position: relative;
@@ -438,6 +450,7 @@ h5 {
     right: 0;
     z-index: 4000;
   }
+  
   .texts li a {
     color: #FFFFFF;
     display: block;
@@ -451,6 +464,26 @@ h5 {
     left: 0;
     right: 0;
     z-index: 4000;
+  }
+  
+  .phones {
+    top: 150px;
+    left: 0;
+    right: 0;
+    height: 45px;
+    z-index: 4000;
+    overflow: visible;
+    position: absolute;
+  }
+  
+  .container {
+    height: 45px;
+    top: 75px;
+    left: 0;
+    right: 0;
+    overflow: visible;
+    position: absolute;
+    z-index: 5000;
   }
 
   .phones #services {
@@ -473,6 +506,7 @@ h5 {
     font-size: 15px;
     color: #000000;
   }  
+  
   .phones #hours {
     position: absolute;
     font-family: 'Play', sans-serif;
@@ -483,6 +517,7 @@ h5 {
     font-size: 18px;
     color: #000000;
   }    
+  
   .phones #hours2 {
     position: absolute;
     font-family: 'Play', sans-serif;
@@ -493,40 +528,26 @@ h5 {
     font-size: 18px;
     color: #000000;
   }    
+  
   .phones #broke {
     position: absolute;
     left: -1050px;
   }
+  
   .phones #under3 {
     position: absolute;
     left: -2050px;
   }
 
-  .phones {
-    top: 150px;
-    left: 0;
-    right: 0;
-    height: 45px;
-    z-index: 4000;
-    overflow: visible;
-    position: absolute;
-  }
-  .container {
-    height: 45px;
-    top: 75px;
-    left: 0;
-    right: 0;
-    overflow: visible;
-    position: absolute;
-    z-index: 5000;
-  }
   .thumbnail {
     background-color: transparent;
   }
+  
   .phones .container .row {
     position: absolute;
     display: none;
   }
+  
   .phones #i4 {
     font-family: 'Play', sans-serif;
     font-size: 23px;
@@ -598,6 +619,7 @@ h5 {
     font-weight: 160%;
     color: #000000;
   }
+  
   .phones #i6p {
     font-family: 'Play', sans-serif;
     font-size: 23px;
@@ -658,21 +680,26 @@ h5 {
     font-weight: 160%;
     color: #000000;
   }
+  
   #col1 {
     position: absolute;
     display: none;
   }
+  
   #col2 {
     position: absolute;
     display: none;
   } 
+  
   #col3 {
     position: absolute;
     display: none;
   }
+  
   .jumbotron2 {
     display: none;
   }
+  
   .footer {
     display: none;
   }
