@@ -1052,27 +1052,8 @@ hr {
   
   .top {
     position: absolute;
-    top: 200px;
-  }
-  
-  .top #agua {
-    position: absolute;
-    left: -3000px;
-  }
-  
-  .top #days {
-    position: absolute;
-    left: -3500px;
-  }
-  
-  .top #gua2 {
-    position: absolute;
-    right: -1050px;
-  }
-  
-  .top #guagua {
-    position: absolute;
-    right: -1050px;
+    height: 200px;
+    top: 0;
   }
   
   .top #we {
