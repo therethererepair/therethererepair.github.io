@@ -155,15 +155,25 @@
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script>
-		var num=500;
+		$(document).ready(function() {
+			checkSize();
+			
+			$(window).resize(checkSize);
+		})
 		
-		$(window).bind('scroll', function() {
-			if($(window).scrollTop() > num) {
-				$('.menuwrap').addClass('fixed');
-			} else {
-				$('.menuwrap').removeClass('fixed');
+		function checkSize() {
+			if($(".top").css("height") != "200px"){
+				var num=500;
+		
+				$(window).bind('scroll', function() {
+					if($(window).scrollTop() > num) {
+						$('.menuwrap').addClass('fixed');
+					} else {
+						$('.menuwrap').removeClass('fixed');
+					}
+				});
 			}
-		});
+		}	
 		</script>
 	</body>
 </html>
