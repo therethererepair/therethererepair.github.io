@@ -1056,6 +1056,12 @@ hr {
     top: 0;
   }
   
+  .menuwrap {
+    position: absolute;
+    top: 180px;
+    left: 0;
+  }
+  
   .top #we {
     position: absolute;
     left: -1050px;
