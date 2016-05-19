@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+		<link rel="stylesheet" href="aboutcontact.css">
+
+  	</head>
+
+	<body>
+  		<div class="wrapper">
+		
+			<div class="top">
+				<img id="topimg" src="http://www.servicenerd.com/uploads/4/5/1/6/45160455/1445959109.jpg" style="width: 100%; height: auto;">
+			</div>	
+			
+			<nav class="menuwrap" id="navigation">
+				<a id="alm" href="index.html">
+					<img id="alm2" src="http://i.imgur.com/KEOGhfj.png">
+				</a>			
+	    	 	<h4 id="we">We come to YOU!</h3>
+	    	 	<h5 id="call">Call Today!</h4>
+	    		<h6 id="numbers">(909) 230-1537</h5>
+					
+					
+				<ul class="texts">
+			  	  <li id="ho"><a href="index.html">HOME</a></li>
+		  	  	  <li id="ser"><a href="services.html">SERVICES</a></li>
+		  	  	  <li id="cari"><a id="log" href="index.html"><img class="logo" src="http://i.imgur.com/eNcpmS3.png" align="top"></a></li>
+		  	  	  <li id="abo"><a href="#beforeline">ABOUT US</a></li>
+		  	  	  <li id="conta"><a href="#beforelineone">CONTACT</a></li>
+				</ul>
+			</nav>
+			<hr id="beforeline" style="height: 0px; width: 0px; color: transparent; background-color: transparent">
+			<div class="phones">
+				<p id="services">About Us</p>
+				<div class="textsquare">
+				<p id="under">THERE THERE was started when we figured out that THERE is always a way.
+				We are a small company which can only assure you that you will receive the time and effort 
+				that you deserve for your repair. We also only repair cell-phones, unlike other places which
+				try to do more than one thing, we specialize in providing you with the highest quality phone repairs guaranteed. 
+				Just remember that we here at THERE THERE are driven to bringing you the highest quality 
+				repairs at any location. Whether it be during your lunch hour, 
+				after work, or whenever else you are available, we will make the drive to wherever 
+				you ask us to. Your convenience and satisfaction is our highest concern. Every 
+				repair comes with a 30 Day Guarantee.</p>  		
+				</div>
+				<hr id="beforelineone" style="height: 0px; width: 0px; color: transparent; background-color: transparent">
+				<hr id="lineone">
+				<div id="littlesquare">
+				</div>
+				<p id="broke">Contact</p>				
+				<p id="lastthing">Email: werepairthere@gmail.com<p>
+				<p id="secondlastthing">Phone: 909.230.1537</p>
+			</div>
+			<hr id="linethree">
+			<hr id="linefive">
+			
+
+			<footer class="cf">
+				<div class="jumbotron2">
+					<p id="copyr">&copy; 2016 THERE THERE PHONE REPAIR, all rights reserved | 909.230.1537 | werepairthere@gmail.com</p>
+					<p id="botser">Services</p>
+					<p id="iphoneserv">iPhone Repair</p>
+					<p id="galaxsserv">Galaxy S Repair</p>
+					<p id="galaxnserv">Galaxy Note Repair</p>
+					<p id="oneplusserv">OnePlus Repair</p>
+					<p id="lgserv">LG G Repair</p>
+					<p id="htcserv">HTC One Repair</p>
+					<p id="nexusserv">Nexus Repair</p>
+					<p id="hoursser">Hours</p>
+					<p id="monday">Monday: 10AM-7PM</p>
+					<p id="tuesday">Tuesday: 10AM-7PM</p>
+					<p id="wednesday">Wednesday: 10AM-7PM</p>
+					<p id="thursday">Thursday: 10AM-7PM</p>
+					<p id="friday">Friday: 10AM-7PM</p>
+					<p id="saturday">Saturday: 10AM-5PM</p>
+					<p id="sunday">Sunday: CLOSED</p>
+				</div>
+			</footer>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>
+		var num=500;
+		
+		$(window).bind('scroll', function() {
+			if($(window).scrollTop() > num) {
+				$('.menuwrap').addClass('fixed');
+			} else {
+				$('.menuwrap').removeClass('fixed');
+			}
+		});
+		</script>
+	</body>
+</html>
