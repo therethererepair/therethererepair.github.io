@@ -1020,7 +1020,7 @@ hr {
 
 @media all and (max-width: 400px) {
   body {
-    background-image: url("http://apclinic.co.uk/wp-content/uploads/2013/09/Light-Grey-Background.jpg");
+    background-color: white;
     overflow: visible;
     height: 1000px;
     top: 0;
@@ -1030,7 +1030,7 @@ hr {
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
+    top: 170px;
     height: 170px;
     width: 100%;
   }
@@ -1039,7 +1039,7 @@ hr {
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
+    top: 170px;
     height: 170px;
     width: 100%;
   }
