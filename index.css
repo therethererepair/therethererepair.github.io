@@ -1050,8 +1050,9 @@ hr {
     width: 100%;
   }
   
- .wrapper .top {
+  .top {
     position: absolute;
+    top: 200px;
   }
   
   .top #agua {
