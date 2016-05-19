@@ -1030,7 +1030,7 @@ hr {
     position: absolute;
     left: 0;
     right: 0;
-    top: 170px;
+    top: 0;
     height: 170px;
     width: 100%;
   }
@@ -1039,7 +1039,7 @@ hr {
     position: absolute;
     left: 0;
     right: 0;
-    top: 170px;
+    top: 0;
     height: 170px;
     width: 100%;
   }
