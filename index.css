@@ -1354,6 +1354,7 @@ hr {
     position: relative;
     color: #000000;  
     width: 150px;
+    background-color: red;
   } 
 
   .thumbnail #p8 {
