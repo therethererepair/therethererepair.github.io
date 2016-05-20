@@ -944,6 +944,7 @@ hr {
     left: 0;
     right: 0;
     text-align: center;
+    background-color: red;
   }
   
   #galx1 {
@@ -952,6 +953,7 @@ hr {
     right: 0;
     top: 500px;
     text-align: center;
+    background-color: blue;
   }
   
   .thumbnail #iphone2 {
