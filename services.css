@@ -825,7 +825,7 @@ hr {
     position: absolute;
     list-style: none;
     left: 0;
-    top: 3000px;
+    top: 3500px;
     background-color: transparent;
     height: auto;
     width: 100%;
@@ -975,7 +975,7 @@ hr {
   }
   
   .thumbnail #iphone3 {
-    border-radius: 19px;
+    border-radius: 21px;
     height: 400px;
     width: 200px;
     position: absolute;
