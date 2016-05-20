@@ -1109,7 +1109,7 @@ hr {
     top: 0px;
     left: 0;
     right: 0;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 50;
     line-height: 150%;
     color: #000000;
@@ -1160,7 +1160,7 @@ hr {
     position: absolute;
     list-style: none;
     left: 0;
-    top: 700px;
+    top: 900px;
     background-color: transparent;
     height: auto;
     width: 100%;
