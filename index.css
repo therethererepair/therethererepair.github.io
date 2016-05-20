@@ -1459,7 +1459,8 @@ hr {
     font-weight: 300;
     position: relative;
     color: #000000;  
-    width: 200px;
+    width: 150px;
+    background-color: red;
   } 
 
   .thumbnail #n2 {
