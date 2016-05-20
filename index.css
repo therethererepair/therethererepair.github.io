@@ -1392,6 +1392,7 @@ hr {
     position: relative;
     color: #000000;  
     width: 150px;
+    overflow: hidden;
   } 
 
   .thumbnail #s2 {
@@ -1403,7 +1404,7 @@ hr {
     position: relative;
     color: #000000;  
     width: 160px;
-    background-color: red;    
+    overflow: hidden;
   }
 
   .thumbnail #s3 {
@@ -1415,6 +1416,7 @@ hr {
     position: relative;
     color: #000000;  
     width: 160px;
+    overflow: hidden;
   }
 
   .thumbnail #s4 {
@@ -1426,6 +1428,7 @@ hr {
     position: relative;
     color: #000000;  
     width: 160px;
+    overflow: hidden;
   }
 
   .thumbnail #s5 {
@@ -1437,6 +1440,7 @@ hr {
     position: relative;
     color: #000000;  
     width: 160px;
+    overflow: hidden;
   }
 
   #col3 {
