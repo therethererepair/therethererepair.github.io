@@ -1347,6 +1347,7 @@ hr {
     position: relative;
     color: #000000;  
     width: 100px;
+    background-color: red;
   } 
 
   .thumbnail #p7 {
@@ -1368,7 +1369,7 @@ hr {
     font-weight: 300;
     position: relative;
     color: #000000;  
-    width: 100px;
+    width: 140px;
   } 
 
   .thumbnail #p9 {
