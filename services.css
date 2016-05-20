@@ -826,6 +826,7 @@ hr {
     position: absolute;
     list-style: none;
     left: 0;
+    right: 0;
     top: 4600px;
     background-color: transparent;
     height: auto;
