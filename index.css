@@ -1276,6 +1276,7 @@ hr {
   #col1 {
     position: absolute;
     left: 0;
+    right: 0;
     top: 270px;
   }
   
@@ -1381,6 +1382,7 @@ hr {
   #col2 {
     position: absolute;
     left: 0;
+    right: 0;
     top: 850px;
   } 
 
