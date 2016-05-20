@@ -1022,7 +1022,7 @@ hr {
   body {
     background-color: white;
     overflow: visible;
-    height: 1000px;
+    height: 1800px;
     top: 0;
   }
   
@@ -1445,7 +1445,19 @@ hr {
 
   #col3 {
     position: absolute;
-    display: none;
+    top: 1400px;
+    left: 0;
+  }
+  
+  #please {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 100px;
+    left: 0;
+    right: 0;
+    font-size: 25px;
+    font-weight: 200;
+    color: #008080;
   }
   
   .jumbotron2 {
