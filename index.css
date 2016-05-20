@@ -1286,7 +1286,7 @@ hr {
     top: -310px;
     left: 182px;
     font-weight: 300;
-    position: relative;
+    position: absolute;
     color: #000000;  
     width: 100px;
   } 
