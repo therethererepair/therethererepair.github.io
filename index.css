@@ -665,7 +665,7 @@ hr {
   text-align: center;
 }
 
-#safetysec {
+.safetysec {
   position: absolute;
   top: 2850px;
   width: 100%;
@@ -1465,7 +1465,7 @@ hr {
     display: none;
   }
   
-  #safetysec {
+  .safetysec {
     position: absolute
     display: none;
   }
