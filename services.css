@@ -723,6 +723,7 @@ hr {
   
   .phones #services {
     position: absolute;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     top: -70px;
     left: 0;
