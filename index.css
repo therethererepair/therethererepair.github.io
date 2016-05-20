@@ -1062,6 +1062,28 @@ hr {
     left: 0;
   }
   
+  .phones {
+    top: 450px;
+    left: 0;
+    right: 0;
+    height: 45px;
+    z-index: 4000;
+    overflow: visible;
+    position: absolute;
+    background-color: red;
+    
+  }
+  
+  .container {
+    height: 45px;
+    top: 75px;
+    left: 0;
+    right: 0;
+    overflow: visible;
+    position: absolute;
+    z-index: 5000;
+  }
+  
   .top #we {
     position: absolute;
     left: -1050px;
@@ -1182,28 +1204,6 @@ hr {
   .phones #under3 {
     position: absolute;
     left: -2050px;
-  }
-
-  .phones {
-    top: 250px;
-    left: 0;
-    right: 0;
-    height: 45px;
-    z-index: 4000;
-    overflow: visible;
-    position: absolute;
-    background-color: red;
-    
-  }
-  
-  .container {
-    height: 45px;
-    top: 75px;
-    left: 0;
-    right: 0;
-    overflow: visible;
-    position: absolute;
-    z-index: 5000;
   }
   
   .thumbnail {
