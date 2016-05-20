@@ -1463,9 +1463,15 @@ hr {
   
   #linetwo{
   position: absolute;
-  top: 700px;
-  text-align: center;
-}
+  display: none;
+  }
+  
+ #linethree {
+    position: absolute;
+    top: 2965px;
+    text-align: center;
+  }
+  
   
   .theguaran {
     position: absolute;
