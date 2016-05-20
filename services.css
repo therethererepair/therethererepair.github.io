@@ -782,8 +782,7 @@ hr {
   
   #lineone {
     position: absolute;
-    top: 610px;
-    text-align: center;
+    display: none;
   }
   
   .container {
@@ -1161,14 +1160,13 @@ hr {
   
   #linethree {
     position: absolute;
-    top: 3060px;
-    text-align: center;
+    display: none;
   }
   
   #linefour {
     position: absolute;
     top: 3470px;
-    text-align: center;
+    display: none;
   }
   
   .theguaran {
