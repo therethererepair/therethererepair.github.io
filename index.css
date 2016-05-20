@@ -645,6 +645,7 @@ hr {
   font-weight: 300;
   color: #008080;
 }
+
 #insert {
   position: relative;
   font-family: 'Roboto', sans-serif;
@@ -653,6 +654,7 @@ hr {
   color: #008080;
   text-decoration: none;
 }
+
 #under3 {
   position: absolute;
   font-family: 'Roboto condensed', sans-serif;
@@ -1525,6 +1527,15 @@ hr {
     font-size: 25px;
     font-weight: 200;
     color: #008080;
+  }
+  
+  #insert {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 200x;
+    font-weight: 300;
+    color: #008080;
+    text-decoration: none;
   }
   
   #linetwo{
