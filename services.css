@@ -934,7 +934,6 @@ hr {
     right: 0;
     top: 0;
     text-align: center;
-    background-color: yellow;
   }
   
   .thumbnail #iphone {
@@ -946,7 +945,6 @@ hr {
     left: 0;
     right: 0;
     text-align: center;
-    background-color: red;
   }
   
   #galx1 {
@@ -954,9 +952,6 @@ hr {
     left: 0;
     right: 0;
     top: 500px;
-    text-align: center;
-    background-color: blue;
-    width: 100%;
   }
   
   .thumbnail #iphone2 {
@@ -999,15 +994,14 @@ hr {
     left: 0;
     right: 0;
     text-align: center;
-    background-color: purple;
   }
   
   #col2 {
     position: absolute;
     left: 0;
     right: 0;
-    width: 100%;
     top: 1100px;
+    text-align: center;
   } 
 
  
@@ -1016,7 +1010,6 @@ hr {
     top: 2600px;
     left: 0;
     right: 0;
-    width: 100%;
     text-align: center;
   }
 
