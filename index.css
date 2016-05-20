@@ -1180,6 +1180,7 @@ hr {
     position: absolute;
     list-style: none;
     left: 0;
+    right: 0;
     top: 3000px;
     background-color: transparent;
     height: auto;
