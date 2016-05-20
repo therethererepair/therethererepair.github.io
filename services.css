@@ -696,6 +696,7 @@ hr {
     top: 0;
     height: 2300px;
     width: 100%;
+    overflow: visible;
   }
   
   .top {
@@ -711,7 +712,7 @@ hr {
   }
   
   .phones {
-    top: 400px;
+    top: 470px;
     left: 0;
     right: 0;
     height: 45px;
