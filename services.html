@@ -143,17 +143,27 @@
 	   			</div>
 			</footer>
 		</div>
-   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script>
-		var num=500;
+		$(document).ready(function() {
+			checkSize();
+			
+			$(window).resize(checkSize);
+		})
 		
-		$(window).bind('scroll', function() {
-			if($(window).scrollTop() > num) {
-				$('.menuwrap').addClass('fixed');
-			} else {
-				$('.menuwrap').removeClass('fixed');
+		function checkSize() {
+			if($(".wrapper").css("height") != "1000px"){
+				var num=500;
+		
+				$(window).bind('scroll', function() {
+					if($(window).scrollTop() > num) {
+						$('.menuwrap').addClass('fixed');
+					} else {
+						$('.menuwrap').removeClass('fixed');
+					}
+				});
 			}
-		});
-		</script> 
+		};	
+		</script>
 	</body>
 </html>
