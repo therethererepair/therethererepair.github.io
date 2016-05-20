@@ -1070,11 +1070,9 @@ hr {
     z-index: 4000;
     overflow: visible;
     position: absolute;
-    background-color: red;
-    
   }
   
-    .phones #services {
+  .phones #services {
     position: absolute;
     font-family: 'Roboto', sans-serif;
     top: 25px;
@@ -1138,7 +1136,7 @@ hr {
     position: absolute;
     list-style: none;
     left: 0;
-    top: 370px;
+    top: 700px;
     background-color: transparent;
     height: auto;
     width: 100%;
