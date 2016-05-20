@@ -955,7 +955,7 @@ hr {
     text-align: center;
     background-color: blue;
     overflow: hidden;
-    width: 270px;
+    width: 100%;
   }
   
   .thumbnail #iphone2 {
