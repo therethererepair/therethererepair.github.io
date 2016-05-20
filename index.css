@@ -1521,6 +1521,7 @@ hr {
     top: 850px;
     left: 0;
     right: 0;
+    text-align: justify;
     font-size: 25px;
     font-weight: 200;
     color: #008080;
