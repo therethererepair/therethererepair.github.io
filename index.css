@@ -1116,7 +1116,7 @@ hr {
     text-align: justify;
   }
 
- .littlesquare {
+ #littlesquare {
     position: absolute;
     display: none;
  }  
