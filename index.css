@@ -1133,7 +1133,7 @@ hr {
   
   #lineone {
     position: absolute;
-    top: 620px;
+    top: 610px;
     text-align: center;
   }
   
@@ -1177,7 +1177,7 @@ hr {
     position: absolute;
     list-style: none;
     left: 0;
-    top: 900px;
+    top: 1500px;
     background-color: transparent;
     height: auto;
     width: 100%;
