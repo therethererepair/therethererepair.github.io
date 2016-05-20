@@ -1445,19 +1445,29 @@ hr {
 
   #col3 {
     position: absolute;
-    top: 1400px;
+    top: 1430px;
     left: 0;
   }
   
   #please {
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    top: 100px;
+    top: 400px;
     left: 0;
     right: 0;
     font-size: 25px;
     font-weight: 200;
     color: #008080;
+  }
+  
+  .theguaran {
+    position: absolute;
+    display: none;
+  }
+  
+  #safetysec {
+    position: absolute
+    display: none;
   }
   
   .jumbotron2 {
