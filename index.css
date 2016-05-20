@@ -1532,13 +1532,13 @@ hr {
   #insert {
     position: relative;
     font-family: 'Roboto', sans-serif;
-    font-size: 200x;
-    font-weight: 300;
+    font-size: 25px;
+    font-weight: 200;
     color: #008080;
     text-decoration: none;
   }
   
-  #linetwo{
+   #linetwo{
   position: absolute;
   display: none;
   }
