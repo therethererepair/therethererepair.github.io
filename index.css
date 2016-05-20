@@ -1278,12 +1278,6 @@ hr {
     top: 270px;
   }
   
-  #col2 {
-    position: absolute;
-    left: 0;
-    top: 850px;
-  } 
-  
   .thumbnail #p1 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
@@ -1382,8 +1376,69 @@ hr {
     color: #000000;  
     width: 160px;
   } 
-
   
+  #col2 {
+    position: absolute;
+    left: 0;
+    top: 850px;
+  } 
+
+  .thumbnail #s1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    top: -310px;
+    left: 165px;
+    font-weight: 300;
+    position: relative;
+    color: #000000;  
+    width: 160px;
+    background-color: red;
+  } 
+
+  .thumbnail #s2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    top: -310px;
+    left: 165px;
+    font-weight: 300;
+    position: relative;
+    color: #000000;  
+    width: 200px;
+  }
+
+  .thumbnail #s3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    top: -310px;
+    left: 165px;
+    font-weight: 300;
+    position: relative;
+    color: #000000;  
+    width: 200px;
+  }
+
+  .thumbnail #s4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    top: -310px;
+    left: 165px;
+    font-weight: 300;
+    position: relative;
+    color: #000000;  
+    width: 200px;
+  }
+
+  .thumbnail #s5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    top: -310px;
+    left: 165px;
+    font-weight: 300;
+    position: relative;
+    color: #000000;  
+    width: 200px;
+  }
+
   #col3 {
     position: absolute;
     display: none;
