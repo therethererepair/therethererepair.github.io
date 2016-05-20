@@ -1260,11 +1260,7 @@ hr {
     font-weight: 100;
     color: #000000;
   }
-  .phones #broke {
-    position: absolute;
-    background-color: red;
-    top: 630px;
-  }
+
   
   .phones #under3 {
     position: absolute;
