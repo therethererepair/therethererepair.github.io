@@ -1120,6 +1120,23 @@ hr {
     position: absolute;
     display: none;
  }  
+ 
+  hr {
+    color: #808080;
+    background-color: #808080;
+    width: 80%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    text-align: center;
+  }
+  
+  #lineone {
+    position: absolute;
+    top: 700px;
+    text-align: center;
+  }
+  
   .container {
     height: 45px;
     top: 500px;
