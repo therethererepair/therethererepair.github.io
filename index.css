@@ -1280,7 +1280,8 @@ hr {
   
   #col2 {
     position: absolute;
-    display: none;
+    left: 0;
+    top: 330px;
   } 
   
   .thumbnail #p1 {
