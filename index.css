@@ -1284,9 +1284,9 @@ hr {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     top: -310px;
-    left: 182px;
+    left: 30%;
     font-weight: 300;
-    position: absolute;
+    position: relative;
     color: #000000;  
     width: 100px;
   } 
@@ -1295,7 +1295,7 @@ hr {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     top: -310px;
-    left: 182px;
+    left: 40%;
     font-weight: 300;
     position: relative;
     color: #000000;  
