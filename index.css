@@ -1527,15 +1527,6 @@ hr {
     color: #008080;
   }
   
-  #insert {
-    position: relative;
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    font-weight: 300;
-    color: #008080;
-    text-decoration: none;
-  }
-  
   #linetwo{
   position: absolute;
   display: none;
