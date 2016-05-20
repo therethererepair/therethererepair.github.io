@@ -1074,6 +1074,29 @@ hr {
     
   }
   
+    .phones #services {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 25px;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    font-weight: 300px;
+    color: #000000;
+  }
+  
+  .phones  #servicestwo{
+    text-align: center;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 45px;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    font-weight: 300;
+    color: #008080;
+ }
+  
   .container {
     height: 45px;
     top: 500px;
@@ -1155,15 +1178,6 @@ hr {
     z-index: 4000;
   }
 
-  .phones #services {
-    position: absolute;
-    font-family: 'Roboto condensed', sans-serif;
-    top: 25px;
-    left: 0;
-    right: 0;
-    font-size: 15px;
-    color: #000000;
-  }
 
   .phones #under {
     position: absolute;
