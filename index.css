@@ -1358,7 +1358,6 @@ hr {
     position: relative;
     color: #000000;  
     width: 150px;
-    background-color: red;
   } 
 
   .thumbnail #p8 {
@@ -1376,11 +1375,11 @@ hr {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     top: -310px;
-    left: 130px;
+    left: 150px;
     font-weight: 300;
     position: relative;
     color: #000000;  
-    width: 200px;
+    width: 160px;
   } 
 
   
