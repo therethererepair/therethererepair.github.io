@@ -1094,7 +1094,32 @@ hr {
     font-weight: 300;
     color: #008080;
  }
+ 
+  .textsquare {
+    position: absolute;
+    left: 5px;
+    top: 360px;
+    right: 5px;
+    height: 500px;
+  }
   
+  .textsquare #under {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 0px;
+    left: 0;
+    right: 0;
+    font-size: 18px;
+    font-weight: 50;
+    line-height: 150%;
+    color: #000000;
+    text-align: justify;
+  }
+
+ .littlesquare {
+    position: absolute;
+    display: none;
+ }  
   .container {
     height: 45px;
     top: 500px;
