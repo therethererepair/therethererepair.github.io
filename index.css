@@ -1252,6 +1252,16 @@ hr {
   
   .phones #broke {
     position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 630px;
+    left: 5px;
+    right: 5px;
+    font-size: 30px;
+    font-weight: 100;
+    color: #000000;
+  }
+  .phones #broke {
+    position: absolute;
     background-color: red;
     top: 630px;
   }
