@@ -931,7 +931,14 @@ hr {
     position: absolute;
     left: 0;
     right: 0;
-    top: 200px;
+    top: 350px;
+  }
+  
+  #n1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 700px;
   }
   
   .thumbnail #p1 {
