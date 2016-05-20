@@ -1292,6 +1292,7 @@ hr {
     position: relative;
     color: #000000;  
     width: 200px;
+    background-color: red;
   } 
 
   .thumbnail #p2 {
