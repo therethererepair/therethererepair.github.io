@@ -1271,14 +1271,12 @@ hr {
     background-color: transparent;
   }
   
-  .phones .container .row {
-    position: absolute;
-    display: none;
-  }
   
   #col1 {
     position: absolute;
-    display: none;
+    left: 0;
+    top: 700px;
+    background-color: red;
   }
   
   #col2 {
