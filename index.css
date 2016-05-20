@@ -1452,8 +1452,8 @@ hr {
   .thumbnail #n1 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    top: 60%;
-    left: 160px;
+    top: -310px;
+    left: 60%;
     font-weight: 300;
     position: relative;
     color: #000000;  
