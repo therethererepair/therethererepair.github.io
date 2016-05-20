@@ -667,9 +667,9 @@ hr {
 }
 
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 500px) {
   body {
-    background-image: url("http://apclinic.co.uk/wp-content/uploads/2013/09/Light-Grey-Background.jpg");
+    background-color: white;
     overflow: visible;
     height: 1000px;
     top: 0;
