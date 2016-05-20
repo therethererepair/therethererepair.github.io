@@ -1252,7 +1252,8 @@ hr {
   
   .phones #broke {
     position: absolute;
-    left: -1050px;
+    background-color: red;
+    top: 630px;
   }
   
   .phones #under3 {
