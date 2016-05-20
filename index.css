@@ -1292,7 +1292,6 @@ hr {
     position: relative;
     color: #000000;  
     width: 100px;
-    background-color: red;
   } 
 
   .thumbnail #p2 {
@@ -1314,7 +1313,7 @@ hr {
     font-weight: 300;
     position: relative;
     color: #000000;  
-    width: 200px;
+    width: 100px;
   } 
 
   .thumbnail #p4 {
@@ -1325,7 +1324,7 @@ hr {
     font-weight: 400;
     position: relative;
     color: #000000;  
-    width: 200px;
+    width: 100px;
   } 
 
   .thumbnail #p5 {
@@ -1336,7 +1335,7 @@ hr {
     font-weight: 300;
     position: relative;
     color: #000000;  
-    width: 200px;
+    width: 100px;
   } 
 
   .thumbnail #p6 {
@@ -1347,7 +1346,7 @@ hr {
     font-weight: 400;
     position: relative;
     color: #000000;  
-    width: 200px;
+    width: 100px;
   } 
 
   .thumbnail #p7 {
@@ -1369,7 +1368,7 @@ hr {
     font-weight: 300;
     position: relative;
     color: #000000;  
-    width: 200px;
+    width: 100px;
   } 
 
   .thumbnail #p9 {
