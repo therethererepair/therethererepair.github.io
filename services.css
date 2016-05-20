@@ -935,6 +935,17 @@ hr {
     text-align: center;
   }
   
+  .thumbnail #iphone {
+    border-radius: 5.5px;
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
   #galx1 {
     position: absolute;
     left: 0;
