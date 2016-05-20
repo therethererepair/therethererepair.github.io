@@ -147,9 +147,6 @@ h5 {
   text-decoration: none;
 }
 
-.thumbnail {
-  background-color: transparent;
-}
 
 #alm {
   position: absolute;
@@ -227,6 +224,7 @@ h5 {
  
 .thumbnail {
   border-color: transparent;
+  background-color: transparent;
   height: auto;
   width: 100%;
   left: 0;
@@ -671,7 +669,10 @@ hr {
     background-color: white;
     overflow: visible;
     height: 2300px;
+    width: 100%;
     top: 0;
+    left: 0;
+    right: 0;
   }
   
   #alm {
@@ -694,6 +695,8 @@ hr {
   
   .wrapper {
     top: 0;
+    right: 0;
+    left: 0;
     height: 2300px;
     width: 100%;
     overflow: visible;
@@ -703,6 +706,8 @@ hr {
     position: absolute;
     height: 200px;
     top: -20px;
+    right: 0;
+    left: 0;
   }
   
   .menuwrap {
@@ -746,40 +751,8 @@ hr {
     color: #008080;
  }
  
-  .textsquare {
-    position: absolute;
-    left: 5px;
-    top: 120px;
-    right: 5px;
-    height: 500px;
-  }
-  
-  .textsquare #under {
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    top: 0px;
-    left: 0;
-    right: 0;
-    font-size: 22px;
-    font-weight: 50;
-    line-height: 150%;
-    color: #000000;
-    text-align: justify;
-  }
-
- #littlesquare {
-    position: absolute;
-    display: none;
- }  
- 
   hr {
-    color: #808080;
-    background-color: #808080;
-    width: 80%;
-    left: 0;
-    right: 0;
-    height: 1px;
-    text-align: center;
+    display: none;
   }
   
   #lineone {
@@ -797,14 +770,14 @@ hr {
     z-index: 5000;
   }
   
-  .top #we {
+  #we {
     position: absolute;
-    left: -1050px;
+    display: none;
   }
   
-  .top #call {
+  #call {
     position: absolute;
-    right: -1050px;
+    display: none;
   }
   
   .top #numbers {
@@ -867,59 +840,14 @@ hr {
     right: 0;
     z-index: 4000;
   }
-
-
-  .phones #under {
-    position: absolute;
-    font-family: 'Roboto condensed', sans-serif;
-    top: 50px;
-    left: 0;
-    right: 0;
-    font-size: 15px;
-    color: #000000;
-  }
-  
-  .phones #hours {
-    position: absolute;
-    font-family: 'Roboto condensed', sans-serif;
-    top: 440px;
-    left: 0;
-    right: 0;
-    font-weight: 600;
-    font-size: 18px;
-    color: #000000;
-  }
-  
-  .phones #hours2 {
-    position: absolute;
-    font-family: 'Roboto condensed', sans-serif;
-    top: 455px;
-    left: 0;
-    right: -55px;
-    font-weight: 600;
-    font-size: 18px;
-    color: #000000;
-  } 
-  
-  .phones #broke {
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    top: 660px;
-    left: 5px;
-    right: 5px;
-    font-size: 30px;
-    font-weight: 100;
-    color: #000000;
-  }
-
   
   .phones #under3 {
     position: absolute;
-    left: -2050px;
+    display: none;
   }
   
   .thumbnail {
-    background-color: red;
+    background-color: transparent;
   }
   
   
