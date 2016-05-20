@@ -992,7 +992,9 @@ hr {
     width: 260px;
     position: absolute;
     top: 50px;
-    left: 16%;
+    left: 0;
+    right: 0;
+    text-align: center;
   }
   
   #col2 {
@@ -1153,8 +1155,8 @@ hr {
   }
   
    #linetwo{
-  position: absolute;
-  display: none;
+    position: absolute;
+    display: none;
   }
   
   #linethree {
