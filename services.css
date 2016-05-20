@@ -925,6 +925,8 @@ hr {
     left: 0;
     right: 0;
     top: -400px;
+    width: 100%;
+    text-align: center;
   }
   
   #p1 {
@@ -998,12 +1000,14 @@ hr {
     left: 0;
     right: 0;
     text-align: center;
+    background-color: purple;
   }
   
   #col2 {
     position: absolute;
     left: 0;
     right: 0;
+    width: 100%;
     top: 1100px;
   } 
 
@@ -1068,6 +1072,8 @@ hr {
     top: 2600px;
     left: 0;
     right: 0;
+    width: 100%;
+    text-align: center;
   }
   
   .thumbnail #n1 {
