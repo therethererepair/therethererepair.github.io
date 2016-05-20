@@ -701,7 +701,7 @@ hr {
   .top {
     position: absolute;
     height: 200px;
-    top: 0;
+    top: -30px;
   }
   
   .menuwrap {
