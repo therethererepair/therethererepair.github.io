@@ -575,6 +575,7 @@ hr {
   top: 2155px;
   text-align: center;
 }
+
 .theguaran {
   position: absolute;
   top: 2150px;
@@ -1459,6 +1460,12 @@ hr {
     font-weight: 200;
     color: #008080;
   }
+  
+  #linetwo{
+  position: absolute;
+  top: 950px;
+  text-align: center;
+}
   
   .theguaran {
     position: absolute;
