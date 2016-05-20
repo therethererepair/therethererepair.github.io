@@ -854,7 +854,7 @@ hr {
    .thumbnail #p1 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    top: 5px;
+    top:30px;
     left: 60%;
     font-weight: 300;
     position: relative;
@@ -865,7 +865,7 @@ hr {
   .thumbnail #p2 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    top: 5px;
+    top: 25px;
     left: 61%;
     font-weight: 300;
     position: relative;
@@ -876,7 +876,7 @@ hr {
   .thumbnail #p3 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    top: 5px;
+    top: 25px;
     left: 61%;
     font-weight: 300;
     position: relative;
@@ -887,7 +887,7 @@ hr {
   .thumbnail #p4 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    top: 5px;
+    top: 25px;
     left: 61%;
     font-weight: 400;
     position: relative;
@@ -898,7 +898,7 @@ hr {
   .thumbnail #p5 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    top: 5px;
+    top: 25px;
     left: 60%;
     font-weight: 300;
     position: relative;
@@ -909,7 +909,7 @@ hr {
   .thumbnail #p6 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    top: 5px;
+    top: 25px;
     left: 60%;
     font-weight: 400;
     position: relative;
@@ -920,7 +920,7 @@ hr {
   .thumbnail #p7 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    top: 5px;
+    top: 25px;
     left: 52%;
     font-weight: 300;
     position: relative;
@@ -931,7 +931,7 @@ hr {
   .thumbnail #p8 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    top: 5px;
+    top: 25px;
     left: 57%;
     font-weight: 300;
     position: relative;
@@ -942,7 +942,7 @@ hr {
   .thumbnail #p9 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    top: 5px;
+    top: 25px;
     left: 58%;
     font-weight: 300;
     position: relative;
