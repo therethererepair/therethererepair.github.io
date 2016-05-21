@@ -981,6 +981,7 @@ hr {
     top: 1570px;
     height: 2px;
     text-align: center;
+    z-index: 5000;
   }
 
   #htcline {
@@ -990,6 +991,7 @@ hr {
     top: 2070px;
     height: 2px;
     text-align: center;
+    z-index: 5000;
   }
 
   #lgline {
@@ -999,6 +1001,7 @@ hr {
     top: 2570px;
     height: 2px;
     text-align: center;
+    z-index: 5000;
   }
 
   
