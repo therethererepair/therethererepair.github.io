@@ -954,8 +954,8 @@ hr {
 
   #oneplusline {
     position: absolute;
-    color: yellow;
-    background-color: yellow;
+    color: transparent;
+    background-color: transparent;
     top: 570px;
     height: 2px;
     text-align: center;
@@ -964,12 +964,42 @@ hr {
 
   #galaxysline {
     position: absolute;
-    color: blue;
-    background-color: blue;
+    color: transparent;
+    background-color: transparent;
     top: 1070px;
     height: 2px;
     text-align: center;
     z-index: 5000;
+  }
+  
+  #nexusline {
+    position: absolute;
+    color: red;
+    background-color: red;
+    top: 1570px;
+    height: 0px;
+    width: 0px;
+    text-align: center;
+  }
+
+  #htcline {
+    position: absolute;
+   color: yellow;
+    background-color: yellow
+    top: 2070px;
+    height: 0px;
+    width: 0px;
+    text-align: center;
+  }
+
+  #lgline {
+    position: absolute;
+    color: blue;
+    background-color: blue;
+    top: 2570px;
+    height: 0px;
+    width: 0px;
+    text-align: center;
   }
 
   
