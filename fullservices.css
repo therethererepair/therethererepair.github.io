@@ -944,10 +944,11 @@ hr {
   
   #galaxynline {
     position: absolute;
-    color: red;
-    background-color: red;
+    color: transparent;
+    background-color: transparent;
     top: 70px;
-    height: 2px;
+    height: 0px;
+    width: 0px;
     text-align: center;
     z-index: 5000;
   }
@@ -1009,8 +1010,8 @@ hr {
     color: transparent;
     background-color: transparent;
     top: 2670px;
-    width: 2px;
-    height: 2px;
+    width: 0px;
+    height: 0px;
     text-align: center;
   }
 
