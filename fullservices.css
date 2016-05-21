@@ -785,11 +785,31 @@ hr {
   text-align: center;
 }
 
-#linebeforeone {
+#nexusline {
   position: absolute;
   color: transparent;
   background-color: transparent;
   top: 460px;
+  height: 0px;
+  width: 0px;
+  text-align: center;
+}
+
+#htcline {
+  position: absolute;
+  color: transparent;
+  background-color: transparent;
+  top: 461px;
+  height: 0px;
+  width: 0px;
+  text-align: center;
+}
+
+#lgline {
+  position: absolute;
+  color: transparent;
+  background-color: transparent;
+  top: 459px;
   height: 0px;
   width: 0px;
   text-align: center;
