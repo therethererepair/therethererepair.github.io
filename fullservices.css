@@ -1173,6 +1173,13 @@ hr {
     right: 0;
     top: 500px;
   }
+   
+  #galxipad {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80px;
+  }
   
   .thumbnail #iphone2 {
     border-radius: 5.5px;
@@ -1209,13 +1216,13 @@ hr {
     top: 50px;
     left: 0;
   }
-
+  
   .thumbnail #ipadtwo {
     border-radius: 5.5px;
     height: 400px;
     width: 260px;
     position: absolute;
-    top: -350px;
+    top: 50px;
     left: 0;
   }
   
