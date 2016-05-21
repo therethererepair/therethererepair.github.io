@@ -921,11 +921,12 @@ hr {
     font-size: 22px;
     top: 200px;
     left: 45px;
-    right: 140px;
+    right: 300px;
     font-weight: 300;
     position: absolute;
     color: #000000;  
     width: 100%;
+    background-color: red;
   }
  
    .thumbnail #p1 {
