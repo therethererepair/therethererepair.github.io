@@ -976,8 +976,8 @@ hr {
   
   #nexusline {
     position: absolute;
-    color: red;
-    background-color: red;
+    color: transparent;
+    background-color: transparent;
     top: 1070px;
     height: 2px;
     text-align: center;
@@ -986,8 +986,8 @@ hr {
 
   #htcline {
     position: absolute;
-    color: yellow;
-    background-color: yellow;
+    color: transparent;
+    background-color: transparent;
     top: 1570px;
     height: 2px;
     text-align: center;
@@ -996,12 +996,22 @@ hr {
 
   #lgline {
     position: absolute;
-    color: blue;
-    background-color: blue;
+    color: transparent;
+    background-color: transparent;
     top: 2070px;
     height: 2px;
     text-align: center;
     z-index: 5000;
+  }
+  
+  #beforelinetwo{
+    position: absolute;
+    color: transparent;
+    background-color: transparent;
+    top: 2570px;
+    width: 2px;
+    height: 2px;
+    text-align: center;
   }
 
   
