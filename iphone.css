@@ -958,6 +958,17 @@ hr {
     color: #000000;  
     width: 120px;
   } 
+  
+  .thumbnail #pvol {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: 45px;
+    left: 60%;
+    font-weight: 300;
+    position: relative;
+    color: #000000;  
+    width: 100px;
+  } 
  
   hr {
     display: none;
@@ -1099,7 +1110,7 @@ hr {
     width: 200px;
     position: absolute;
     top: 50px;
-    left: 8px;
+    left: 11px;
   }
   
   
