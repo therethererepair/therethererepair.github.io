@@ -147,6 +147,36 @@ h5 {
   text-decoration: none;
 }
 
+#galaxynline {
+  position: absolute;
+  color: transparent;
+  background-color: transparent;
+  top: -85px;
+  height: 0px;
+  width: 0px;
+  text-align: center;
+}
+
+#oneplusline {
+  position: absolute;
+  color: transparent;
+  background-color: transparent;
+  top: -83px;
+  height: 0px;
+  width: 0px;
+  text-align: center;
+}
+
+#galaxysline {
+  position: absolute;
+  color: transparent;
+  background-color: transparent;
+  top: -84px;
+  height: 0px;
+  width: 0px;
+  text-align: center;
+}
+
 .thumbnail {
   background-color: transparent;
   overflow: visible;
