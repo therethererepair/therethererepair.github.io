@@ -1201,13 +1201,7 @@ hr {
   
   #numbers {
     position: absolute;
-    text-align: center;
-    top: 810px;
-    left: 0;
-    right: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-    color: #000000;
+    display: none;
   }
   
   .logo {
@@ -1494,7 +1488,7 @@ hr {
   .phones #lastthing {
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    top: 1030px;
+    top: 200px;
     left: 0;
     right: 0;
     font-size: 20px;
@@ -1504,7 +1498,7 @@ hr {
   .phones #secondlastthing {
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    top: 1100px;
+    top: 270px;
     left: 0;
     right: 0;
     font-size: 20px;
