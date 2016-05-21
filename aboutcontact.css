@@ -1064,7 +1064,7 @@ hr {
   body {
     background-color: white;
     overflow: visible;
-    height: 1200px;
+    height: 1000px;
     top: 0;
   }
   
@@ -1187,6 +1187,7 @@ hr {
     overflow: visible;
     position: absolute;
     z-index: 5000;
+    background-color: red;
   }
   
   .top #we {
