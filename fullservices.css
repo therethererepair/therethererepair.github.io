@@ -926,6 +926,7 @@ hr {
     font-weight: 300;
     position: absolute;
     color: #000000;  
+    width: 100%;
   }
  
    .thumbnail #p1 {
