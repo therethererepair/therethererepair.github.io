@@ -1290,7 +1290,7 @@ hr {
   .phones #broke {
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    top: 660px;
+    top: 675px;
     left: 5px;
     right: 5px;
     font-size: 30px;
@@ -1488,7 +1488,7 @@ hr {
   .phones #lastthing {
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    top: 200px;
+    top: 700px;
     left: 0;
     right: 0;
     font-size: 20px;
@@ -1498,7 +1498,7 @@ hr {
   .phones #secondlastthing {
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    top: 270px;
+    top: 770px;
     left: 0;
     right: 0;
     font-size: 20px;
