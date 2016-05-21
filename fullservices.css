@@ -914,7 +914,19 @@ hr {
     font-size: 25px;
     font-weight: 300;
     color: #008080;
- }
+  }
+ 
+  .thumbnail #ipadside {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: 50px;
+    left: 65%;
+    font-weight: 300;
+    position: relative;
+    color: #000000;  
+    width: 100px;
+    text-align: justify;
+  }
  
    .thumbnail #p1 {
     font-family: 'Roboto', sans-serif;
