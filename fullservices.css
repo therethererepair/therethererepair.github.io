@@ -942,6 +942,37 @@ hr {
     position: absolute;
   }
   
+  #galaxynline {
+    position: absolute;
+    color: red;
+    background-color: red;
+    top: -85px;
+    height: 2px;
+    text-align: center;
+    z-index: 5000;
+  }
+
+  #oneplusline {
+    position: absolute;
+    color: yellow;
+    background-color: yellow;
+    top: -83px;
+    height: 2px;
+    text-align: center;
+    z-index: 5000;
+  }
+
+  #galaxysline {
+    position: absolute;
+    color: blue;
+    background-color: blue;
+    top: -84px;
+    height: 2px;
+    text-align: center;
+    z-index: 5000;
+  }
+
+  
   .phones #services {
     position: absolute;
     font-family: 'Roboto', sans-serif;
@@ -1096,11 +1127,14 @@ hr {
     text-align: justify;
   } 
   
- 
   hr {
-    display: none;
+    width: 80%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    text-align: center;
   }
-  
+
   #lineone {
     position: absolute;
     display: none;
