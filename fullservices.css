@@ -149,8 +149,8 @@ h5 {
 
 #galaxynline {
   position: absolute;
-  color: transparent;
-  background-color: transparent;
+  color: red;
+  background-color: red;
   top: -85px;
   height: 0px;
   width: 0px;
@@ -159,8 +159,8 @@ h5 {
 
 #oneplusline {
   position: absolute;
-  color: transparent;
-  background-color: transparent;
+  color: yellow;
+  background-color: yellow;
   top: -83px;
   height: 0px;
   width: 0px;
@@ -169,8 +169,8 @@ h5 {
 
 #galaxysline {
   position: absolute;
-  color: transparent;
-  background-color: transparent;
+  color: blue;
+  background-color: blue;
   top: -84px;
   height: 0px;
   width: 0px;
