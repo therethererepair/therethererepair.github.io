@@ -609,18 +609,15 @@ hr {
     right: 5px;
     height: 500px;
   }
-  
-  .textsquare #under {
+
+  .phones #under {
     position: absolute;
-    font-family: 'Roboto', sans-serif;
-    top: 0px;
+    font-family: 'Roboto condensed', sans-serif;
+    top: 50px;
     left: 0;
     right: 0;
-    font-size: 22px;
-    font-weight: 50;
-    line-height: 150%;
+    font-size: 15px;
     color: #000000;
-    text-align: justify;
   }
    
   hr {
