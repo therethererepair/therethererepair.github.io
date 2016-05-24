@@ -1078,6 +1078,16 @@ hr {
     font-weight: 300;
     color: #008080;
   }
+  
+  .phones #under {
+    position: absolute;
+    font-family: 'Roboto condensed', sans-serif;
+    top: 50px;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    color: #000000;
+  }
  
   .textsquare {
     position: absolute;
@@ -1086,19 +1096,7 @@ hr {
     right: 5px;
     height: 500px;
   }
-  
-  .textsquare #under {
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    top: 0px;
-    left: 0;
-    right: 0;
-    font-size: 22px;
-    font-weight: 50;
-    line-height: 150%;
-    color: #000000;
-    text-align: justify;
-  }
+
 
   #littlesquare {
     position: absolute;
