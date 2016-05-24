@@ -43,27 +43,22 @@ body {
   position: fixed;
 }
 
-h1 {
-  position: fixed;
-  left: 1%;
-  top: 91.3%;
-  font-family: 'Roboto condensed', sans-serif;
-  font-size: 16px;
-  font-weight: 150;
-  color: #FFFFFF;
-  text-decoration: none; 
+#alm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 106px;
+  z-index: 1000;
 }
 
-h2 {
-  position: fixed;
+#alm2 {
+  position: absolute;
+  top: 0;
   left: 0;
-  top: 93.8%;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 16px;
-  font-weight: 5;
-  color: #FFFFFF;
-  text-decoration: none;
+  height: 106px;
+  z-index: 1000;
 }
+
 
 h3 {
   position: absolute;
@@ -185,14 +180,6 @@ h5 {
   overflow: visible;
 }
 
-#alm {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 106px;
-  z-index: 1000;
-}
-
 .phones #services {
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -218,27 +205,6 @@ h5 {
   line-height: 160%;
   color: #008080;
 }
- 
-.phones #broke {
-  position: absolute;
-  font-family: 'Play', sans-serif;
-  top: 220px;
-  left: 22%;
-  right: 25%;
-  font-size: 21px;
-  font-weight: 600;
-  color: #000000;
-}
-
-.jumbotron2 {
-  background-color: transparent;
-  background-position: center bottom;
-  bottom: 0;
-  height: 65px;
-  width: 100%;
-  overflow: visible;
-  position: absolute;
-}
 
 .container {
   position: absolute;
@@ -258,7 +224,6 @@ h5 {
   top: 0;
 }
 
- 
 .thumbnail {
   border-color: transparent;
   height: auto;
@@ -282,7 +247,6 @@ h5 {
   text-decoration: none;
 } 
 
-
 .thumbnail #iphone {
   border-radius: 5.5px;
   height: 400px;
@@ -291,6 +255,7 @@ h5 {
   top: 50px;
   left: 0;
 }
+
 .thumbnail #ipadtwo {
   border-radius: 5.5px;
   height: 400px;
@@ -333,6 +298,7 @@ h5 {
   color: #000000;  
   width: 200px;
 } 
+
 .thumbnail #optim{
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -470,6 +436,7 @@ h5 {
   position: absolute;
   color: #000000;  
 } 
+
 .thumbnail #htc {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
@@ -504,7 +471,6 @@ h5 {
   color: #000000;  
 } 
 
-
 .thumbnail #iphone3 {
   border-radius: 19px;
   height: 400px;
@@ -514,86 +480,56 @@ h5 {
   left: 0;
 }
 
-.thumbnail #vol {
-  font-family: 'Roboto', sans-serif;
-  font-size: 29px;
-  top: 0;
+hr {
+  color: #808080;
+  background-color: #808080;
+  width: 80%;
   left: 0;
   right: 0;
+  height: 1px;
   text-align: center;
-  width: 100px;
-  padding-right: 90px;
-  font-weight: 100;
-  position: absolute;
-  color: #000000;  
-} 
-
-.thumbnail #head {
-  font-family: 'Roboto', sans-serif;
-  font-size: 29px;
-  top: 0;
-  left: 55px;
-  width: 400px;
-  padding-right: 115px;
-  font-weight: 600;
-  position: absolute;
-  color: #000000;  
-} 
- 
- 
-.thumbnail #ipad {
-  border-radius: 5.5px;
-  height: 400px;
-  width: 260px;
-  position: absolute;
-  top: 50px;
-  left: 16%;
 }
 
-.phones #under3 {
-  position: fixed;
-  font-family: 'Play', sans-serif;
-  top: 94.5%;
-  right: 320px;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 160%;
-  color: #FFFFFF;
-  z-index: 1001;
+#linetwo{
+  position: absolute;
+  top: 1120px;
+  text-align: center;
 }
 
-.thumbnail #other {
- font-family: 'Roboto', sans-serif;
- font-size: 16px;
- top: 40px;
- position: relative;
- left: 0;
- font-weight: 400;
- color: #000000;
+#beforelinetwo{
+  position: absolute;
+  color: transparent;
+  background-color: transparent;
+  top: 1014px;
+  width: 0px;
+  height: 0px;
+  text-align: center;
 }
- 
-.phones #hours {
-  position: fixed;
-  font-family: 'Play', sans-serif;
-  top: 93%;
-  right: -780px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 160%;
-  color: #FFFFFF;
-  z-index: 1000;
+
+#linethree {
+  position: absolute;
+  top: 2585px;
+  text-align: center;
 }
- 
-.phones #hours2 {
-  position: fixed;
-  font-family: 'Play', sans-serif;
-  top: 96%;
-  right: -800px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 160%;
-  color: #FFFFFF;
-  z-index: 1000;
+
+#linefour{
+  position: absolute;
+  top: 2660px;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  right: 0;
+  height: 2px;
+}
+
+.jumbotron2 {
+  background-color: transparent;
+  background-position: center bottom;
+  bottom: 0;
+  height: 65px;
+  width: 100%;
+  overflow: visible;
+  position: absolute;
 }
 
 #copyr {
@@ -802,85 +738,6 @@ h5 {
   z-index: 1000;
 }
 
-hr {
-  color: #808080;
-  background-color: #808080;
-  width: 80%;
-  left: 0;
-  right: 0;
-  height: 1px;
-  text-align: center;
-}
-
-#lineone {
-  position: absolute;
-  top: 508px;
-  text-align: center;
-}
-
-#nexusline {
-  position: absolute;
-  color: transparent;
-  background-color: transparent;
-  top: 460px;
-  height: 0px;
-  width: 0px;
-  text-align: center;
-}
-
-#htcline {
-  position: absolute;
-  color: transparent;
-  background-color: transparent;
-  top: 461px;
-  height: 0px;
-  width: 0px;
-  text-align: center;
-}
-
-#lgline {
-  position: absolute;
-  color: transparent;
-  background-color: transparent;
-  top: 459px;
-  height: 0px;
-  width: 0px;
-  text-align: center;
-}
-
-#beforelinetwo{
-  position: absolute;
-  color: transparent;
-  background-color: transparent;
-  top: 1014px;
-  width: 0px;
-  height: 0px;
-
-  text-align: center;
-}
-
-#linetwo{
-  position: absolute;
-  top: 1120px;
-  text-align: center;
-}
-
-#linethree {
-  position: absolute;
-  top: 2585px;
-  text-align: center;
-}
-
-#linefour{
-  position: absolute;
-  top: 2660px;
-  text-align: center;
-  width: 100%;
-  left: 0;
-  right: 0;
-  height: 2px;
-}
-
 
 @media all and (max-width: 500px) {
   body {
@@ -891,24 +748,6 @@ hr {
     top: 0;
     left: 0;
     right: 0;
-  }
-  
-  #alm {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 190px;
-    width: 100%;
-  }
-  
-  #alm2 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 190px;
-    width: 100%;
   }
   
   .wrapper {
@@ -935,6 +774,24 @@ hr {
     right: 0;
   }
   
+  #alm {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 190px;
+    width: 100%;
+  }
+  
+  #alm2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 190px;
+    width: 100%;
+  }
+  
   .phones {
     top: 470px;
     left: 0;
@@ -943,6 +800,14 @@ hr {
     z-index: 4000;
     overflow: visible;
     position: absolute;
+  }
+  
+  #col1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -400px;
+    text-align: center;
   }
   
   #galaxynline {
@@ -978,48 +843,7 @@ hr {
     z-index: 5000;
   }
   
-  #nexusline {
-    position: absolute;
-    color: transparent;
-    background-color: transparent;
-    top: 1070px;
-    height: 2px;
-    text-align: center;
-    z-index: 5000;
-  }
-
-  #htcline {
-    position: absolute;
-    color: transparent;
-    background-color: transparent;
-    top: 1570px;
-    height: 2px;
-    text-align: center;
-    z-index: 5000;
-  }
-
-  #lgline {
-    position: absolute;
-    color: transparent;
-    background-color: transparent;
-    top: 2070px;
-    height: 2px;
-    text-align: center;
-    z-index: 5000;
-  }
-  
-  #beforelinetwo{
-    position: absolute;
-    color: transparent;
-    background-color: transparent;
-    top: 2670px;
-    width: 0px;
-    height: 0px;
-    text-align: center;
-  }
-
-  
-  .phones #services {
+    .phones #services {
     position: absolute;
     font-family: 'Roboto', sans-serif;
     top: -15px;
@@ -1040,7 +864,18 @@ hr {
     font-size: 25px;
     font-weight: 300;
     color: #008080;
- }
+  }
+  
+  #beforelinetwo{
+    position: absolute;
+    color: transparent;
+    background-color: transparent;
+    top: 2670px;
+    width: 0px;
+    height: 0px;
+    text-align: center;
+  }
+
  
   .thumbnail #ipadside {
     font-family: 'Roboto', sans-serif;
@@ -1276,16 +1111,6 @@ hr {
     background-color: transparent;
   }
   
-  
-  #col1 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -400px;
-    text-align: center;
-  }
-
-  
   .thumbnail #iphone {
     border-radius: 5.5px;
     height: 400px;
@@ -1363,7 +1188,36 @@ hr {
     top: 1100px;
     text-align: center;
   } 
+  
+  #nexusline {
+    position: absolute;
+    color: transparent;
+    background-color: transparent;
+    top: 1070px;
+    height: 2px;
+    text-align: center;
+    z-index: 5000;
+  }
 
+  #htcline {
+    position: absolute;
+    color: transparent;
+    background-color: transparent;
+    top: 1570px;
+    height: 2px;
+    text-align: center;
+    z-index: 5000;
+  }
+
+  #lgline {
+    position: absolute;
+    color: transparent;
+    background-color: transparent;
+    top: 2070px;
+    height: 2px;
+    text-align: center;
+    z-index: 5000;
+  }
  
   #col3 {
     position: absolute;
