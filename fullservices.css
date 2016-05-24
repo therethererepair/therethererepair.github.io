@@ -218,6 +218,52 @@ h5 {
   top: 0;
 }
 
+hr {
+  color: #808080;
+  background-color: #808080;
+  width: 80%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  text-align: center;
+}
+
+#lineone {
+  position: absolute;
+  top: 508px;
+  text-align: center;
+}
+
+#nexusline {
+  position: absolute;
+  color: transparent;
+  background-color: transparent;
+  top: 460px;
+  height: 0px;
+  width: 0px;
+  text-align: center;
+}
+ 
+#htcline {
+ position: absolute;
+ color: transparent;
+ background-color: transparent;
+ top: 461px;
+ height: 0px;
+ width: 0px;
+ text-align: center;
+}
+ 
+#lgline {
+  position: absolute;
+  color: transparent;
+  background-color: transparent;
+  top: 459px;
+  height: 0px;
+  width: 0px;
+  text-align: center;
+}
+
 .thumbnail {
   background-color: transparent;
   overflow: visible;
@@ -477,16 +523,6 @@ h5 {
   position: absolute;
   top: 50px;
   left: 0;
-}
-
-hr {
-  color: #808080;
-  background-color: #808080;
-  width: 80%;
-  left: 0;
-  right: 0;
-  height: 1px;
-  text-align: center;
 }
 
 #beforelinetwo{
