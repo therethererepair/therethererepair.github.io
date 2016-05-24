@@ -43,26 +43,20 @@ body {
   position: fixed;
 }
 
-h1 {
-  position: fixed;
-  left: 1%;
-  top: 91.3%;
-  font-family: 'Roboto condensed', sans-serif;
-  font-size: 16px;
-  font-weight: 150;
-  color: #FFFFFF;
-  text-decoration: none; 
+#alm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 106px;
+  z-index: 1000;
 }
 
-h2 {
-  position: fixed;
+#alm {
+  position: absolute;
+  top: 0;
   left: 0;
-  top: 93.8%;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 16px;
-  font-weight: 5;
-  color: #FFFFFF;
-  text-decoration: none;
+  height: 106px;
+  z-index: 1000;
 }
 
 h3 {
@@ -151,14 +145,6 @@ h5 {
   background-color: transparent;
 }
 
-#alm {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 106px;
-  z-index: 1000;
-}
-
 .phones #services {
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -196,16 +182,6 @@ h5 {
   color: #000000;
 }
 
-.jumbotron2 {
-  background-color: transparent;
-  background-position: center bottom;
-  bottom: 0;
-  height: 65px;
-  width: 100%;
-  overflow: visible;
-  position: absolute;
-}
-
 .container {
   position: absolute;
   top: 100px;
@@ -223,7 +199,6 @@ h5 {
   left: 0;
   top: 0;
 }
-
  
 .thumbnail {
   border-color: transparent;
@@ -248,7 +223,6 @@ h5 {
   text-decoration: none;
 } 
 
-
 .thumbnail #iphone {
   border-radius: 5.5px;
   height: 400px;
@@ -257,6 +231,7 @@ h5 {
   top: 50px;
   left: 0;
 }
+
 .thumbnail #p1 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -437,7 +412,6 @@ h5 {
   color: #000000;  
 } 
 
-
 .thumbnail #iphone3 {
   border-radius: 19px;
   height: 400px;
@@ -447,86 +421,14 @@ h5 {
   left: 0;
 }
 
-.thumbnail #vol {
-  font-family: 'Roboto', sans-serif;
-  font-size: 29px;
-  top: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  width: 100px;
-  padding-right: 90px;
-  font-weight: 100;
+.jumbotron2 {
+  background-color: transparent;
+  background-position: center bottom;
+  bottom: 0;
+  height: 65px;
+  width: 100%;
+  overflow: visible;
   position: absolute;
-  color: #000000;  
-} 
-
-.thumbnail #head {
-  font-family: 'Roboto', sans-serif;
-  font-size: 29px;
-  top: 0;
-  left: 55px;
-  width: 400px;
-  padding-right: 115px;
-  font-weight: 600;
-  position: absolute;
-  color: #000000;  
-} 
- 
- 
-.thumbnail #ipad {
-  border-radius: 5.5px;
-  height: 400px;
-  width: 260px;
-  position: absolute;
-  top: 50px;
-  left: 16%;
-}
-
-.phones #under3 {
-  position: fixed;
-  font-family: 'Play', sans-serif;
-  top: 94.5%;
-  right: 320px;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 160%;
-  color: #FFFFFF;
-  z-index: 1001;
-}
-
-.thumbnail #other {
- font-family: 'Roboto', sans-serif;
- font-size: 16px;
- top: 40px;
- position: relative;
- left: 0;
- font-weight: 400;
- color: #000000;
-}
- 
-.phones #hours {
-  position: fixed;
-  font-family: 'Play', sans-serif;
-  top: 93%;
-  right: -780px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 160%;
-  color: #FFFFFF;
-  z-index: 1000;
-}
- 
-.phones #hours2 {
-  position: fixed;
-  font-family: 'Play', sans-serif;
-  top: 96%;
-  right: -800px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 160%;
-  color: #FFFFFF;
-  z-index: 1000;
 }
 
 #copyr {
@@ -784,24 +686,6 @@ hr {
     right: 0;
   }
   
-  #alm {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 190px;
-    width: 100%;
-  }
-  
-  #alm2 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 190px;
-    width: 100%;
-  }
-  
   .wrapper {
     top: 0;
     right: 0;
@@ -824,6 +708,89 @@ hr {
     top: 180px;
     left: 0;
     right: 0;
+  }
+    
+  #alm {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 190px;
+    width: 100%;
+  }
+  
+  #alm2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 190px;
+    width: 100%;
+  }
+    
+  #we {
+    position: absolute;
+    display: none;
+  }
+  
+  #call {
+    position: absolute;
+    display: none;
+  }
+
+  #numbers {
+    position: absolute;
+    display: none;
+  }
+  
+  .logo {
+    position: absolute;
+    display: none;
+  }
+  
+  .texts {
+    position: absolute;
+    list-style: none;
+    left: 0;
+    right: 0;
+    top: 5000px;
+    background-color: transparent;
+    height: auto;
+    width: 100%;
+    display: block;
+    z-index: 4000;
+  }
+  
+  .texts #cari {
+    position: absolute;
+    display: none;
+  }
+  
+  .texts li {
+    display: block;
+    position: relative;
+    background-color: black;
+    height: 45px;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    left: -7%;
+    right: 0;
+    z-index: 4000;
+  }
+  
+  .texts li a {
+    color: #FFFFFF;
+    display: block;
+    position: relative;
+    border: 1px solid white;
+    font-family: 'Roboto condensed', sans-serif;
+    font-size: 15px;
+    font-weight: 5;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    left: 0;
+    right: 0;
+    z-index: 4000;
   }
   
   .phones {
@@ -967,7 +934,6 @@ hr {
     width: 100px;
     text-align: justify;
   } 
-  
  
   hr {
     display: none;
@@ -988,77 +954,6 @@ hr {
     z-index: 5000;
   }
   
-  #we {
-    position: absolute;
-    display: none;
-  }
-  
-  #call {
-    position: absolute;
-    display: none;
-  }
-  
-  .top #numbers {
-    position: absolute;
-    text-align: center;
-    top: 310px;
-    left: 0;
-    right: 0;
-    font-family: 'Roboto condensed', sans-serif;
-    font-size: 17px;
-    color: #000000;
-  }
-  
-  .logo {
-    position: absolute;
-    display: none;
-  }
-  
-  .texts {
-    position: absolute;
-    list-style: none;
-    left: 0;
-    right: 0;
-    top: 5000px;
-    background-color: transparent;
-    height: auto;
-    width: 100%;
-    display: block;
-    z-index: 4000;
-  }
-  
-  .texts #cari {
-    position: absolute;
-    display: none;
-  }
-  
-  .texts li {
-    display: block;
-    position: relative;
-    background-color: black;
-    height: 45px;
-    width: 100%;
-    padding: 5px 5px 5px 5px;
-    left: -7%;
-    right: 0;
-    z-index: 4000;
-  }
-  
-  .texts li a {
-    color: #FFFFFF;
-    display: block;
-    position: relative;
-    border: 1px solid white;
-    font-family: 'Roboto condensed', sans-serif;
-    font-size: 15px;
-    font-weight: 5;
-    text-decoration: none;
-    padding: 5px 5px 5px 5px;
-    left: 0;
-    right: 0;
-    z-index: 4000;
-  }
-  
   .phones #under3 {
     position: absolute;
     display: none;
@@ -1067,16 +962,6 @@ hr {
   .thumbnail {
     background-color: transparent;
   }
-  
-  
-  #col1 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -400px;
-    text-align: center;
-  }
-
   
   .thumbnail #iphone {
     border-radius: 5.5px;
@@ -1112,7 +997,6 @@ hr {
     left: 7px;
   }
   
-  
   #n1 {
     position: absolute;
     left: 0;
@@ -1141,6 +1025,14 @@ hr {
     text-align: center;
   }
   
+  #col1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -400px;
+    text-align: center;
+  }
+  
   #col2 {
     position: absolute;
     left: 0;
@@ -1148,7 +1040,6 @@ hr {
     top: 1100px;
     text-align: center;
   } 
-
  
   #col3 {
     position: absolute;
@@ -1157,30 +1048,8 @@ hr {
     right: 0;
     text-align: center;
   }
-
   
-  #please {
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    top: 850px;
-    left: 0;
-    right: 0;
-    text-align: justify;
-    font-size: 25px;
-    font-weight: 200;
-    color: #008080;
-  }
-  
-  #insert {
-    position: relative;
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    font-weight: 200;
-    color: #008080;
-    text-decoration: none;
-  }
-  
-   #linetwo{
+  #linetwo{
     position: absolute;
     display: none;
   }
@@ -1195,23 +1064,10 @@ hr {
     top: 3470px;
     display: none;
   }
-  
-  .theguaran {
-    position: absolute;
-    display: none;
-  }
-  
-  .safetysec {
-    position: absolute;
-    display: none;
-  }
-  
+
   .jumbotron2 {
     display: none;
   }
-  
-  .footer {
-    display: none;
-  }
+
 }
 
