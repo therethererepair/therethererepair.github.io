@@ -637,9 +637,9 @@ hr {
   }
   #beforelineone {
     position: absolute;
-    background-color: red;
-    color: red;
-    top: 630px;
+    background-color: transparent;
+    color: transparent;
+    top: 609px;
   }
   
   #lineone {
