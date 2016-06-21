@@ -633,13 +633,13 @@ hr {
     position; absolute;
     background-color: red;
     color: red;
-    top: 25px;
+    top: 100px;
   }
   #beforelineone {
     position: absolute;
     background-color: red;
     color: red;
-    top: 900px;
+    top: 750px;
   }
   
   #lineone {
