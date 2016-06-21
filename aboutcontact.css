@@ -629,10 +629,17 @@ hr {
     height: 1px;
     text-align: center;
   }
-  
+  #beforeline {
+    position; absolute;
+    background-color: red;
+    color: red;
+    top: 670px;
+  }
   #beforelineone {
     position: absolute;
-    display: none;
+    background-color: red;
+    color: red;
+    top: 200px;
   }
   
   #lineone {
