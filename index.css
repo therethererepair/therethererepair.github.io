@@ -116,8 +116,6 @@ hr {
 .texts li {
   display: inline-block;
   position: relative;
-  top: -26px;
-  padding: 26px 25px 29px;
 }
 
 .texts a {
@@ -128,6 +126,9 @@ hr {
   transition: .75s;
   font-weight: 5;
   text-decoration: none;
+  top: -26px;
+  padding: 26px 25px 29px;
+  background-color: red;
 }
 
 
