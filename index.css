@@ -34,7 +34,6 @@ body {
   top: 500px;
   margin: 0;
   z-index: 1000;
-  overflow: hidden;
 }
 
 .fixed {
@@ -120,7 +119,7 @@ hr {
   top: 0;
   bottom: 0;
   background-color: red;
-  padding: 25px 25px 25px;
+  padding: 30px 25px 30px;
 }
 
 .texts a {
