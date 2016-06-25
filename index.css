@@ -110,6 +110,7 @@ hr {
   text-align: center;
   top: 0px;
   z-index: 1000;
+  overflow: hidden;
 }
 
 .texts li {
