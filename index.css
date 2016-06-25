@@ -114,7 +114,6 @@ hr {
 
 .texts li {
   display: inline;
-  background-color: red;
   position: relative;
   padding: 0px 25px 0px;
 }
@@ -136,6 +135,7 @@ hr {
 .texts a:hover:not(#log) {
   background-color: white;
   color: #008080;
+  border-radius: 15px;
 }
 
 .logo {
