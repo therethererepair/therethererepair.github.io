@@ -115,6 +115,8 @@ hr {
 .texts li {
   display: inline;
   position: relative;
+  top: 0;
+  bottom: 0;
   background-color: red;
   padding: 0px 25px 0px;
 }
@@ -128,6 +130,8 @@ hr {
   font-weight: 5;
   background-color: blue;
   text-decoration: none;
+  top: 0;
+  bottom: 0;
 }
 
 .container a:hover {
