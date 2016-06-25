@@ -57,7 +57,7 @@ body {
   width: 140px;
 }
 
-h3 {
+h4 {
   position: absolute;
   right: 4px;
   top: -5px;
@@ -68,7 +68,7 @@ h3 {
   text-decoration: none;
 }
 
-h4 {
+h5 {
   position: absolute;
   right: 4px;
   top: 22px;
@@ -79,7 +79,7 @@ h4 {
   text-decoration: none;
 }
 
-h5 {
+h6 {
   position: absolute;
   right: 4px;
   top: 50px;
