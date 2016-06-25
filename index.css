@@ -116,7 +116,7 @@ hr {
 .texts li {
   display: inline-block;
   position: relative;
-  top: -28px;
+  top: -25px;
   background-color: red;
   padding: 27px 25px 25px;
 }
