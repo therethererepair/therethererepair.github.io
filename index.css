@@ -58,9 +58,9 @@ body {
 h4 {
   position: absolute;
   right: 4px;
-  top: 5px;
+  top: 0;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 5;
   color: #FFFFFF;
   text-decoration: none;
@@ -69,9 +69,9 @@ h4 {
 h5 {
   position: absolute;
   right: 4px;
-  top: 20px;
+  top: 35px;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 5;
   color: #FFFFFF;
   text-decoration: none;
@@ -82,7 +82,7 @@ h6 {
   right: 4px;
   top: 60px;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 5;
   color: #FFFFFF;
   text-decoration: none;
