@@ -113,7 +113,7 @@ hr {
 }
 
 .texts li {
-  display: inline;
+  display: inline-block;
   position: relative;
   top: 0;
   bottom: 0;
@@ -130,14 +130,8 @@ hr {
   font-weight: 5;
   background-color: blue;
   text-decoration: none;
-  top: 0;
-  bottom: 0;
-  position: absolute;
 }
 
-#id {
-  left: 200px;
-}
 
 .container a:hover {
   text-decoration: none;
