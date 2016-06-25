@@ -132,7 +132,7 @@ hr {
 }
 
 .texts a:hover:not(#log) {
-  color: #00808;
+  color: #008080;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 14px;
   font-weight: 5;
