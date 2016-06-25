@@ -132,6 +132,7 @@ hr {
   text-decoration: none;
   top: 0;
   bottom: 0;
+  position: absolute;
 }
 
 .container a:hover {
