@@ -124,7 +124,7 @@ hr {
   display: inline-block;
   font-family: 'Lato', sans-serif;
   font-size: 13px;
-  transition: .05s;
+  transition: .5s;
   font-weight: 5;
   text-decoration: none;
   padding: 26px 25px 29px;
