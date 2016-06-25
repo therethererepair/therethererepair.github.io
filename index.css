@@ -116,6 +116,7 @@ hr {
   display: inline;
   top: 0;
   bottom: 0;
+  background-color: red;
   position: relative;
   padding: 0px 25px 0px;
 }
