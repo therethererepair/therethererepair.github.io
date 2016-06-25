@@ -45,14 +45,14 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 108px;
+  height: 90px;
   z-index: 1000;
   overflow: hidden;
 }
 
 #alm2 {
-  height: 106px;
-  width: 190px;
+  height: 90px;
+  width: 170px;
 }
 
 h4 {
