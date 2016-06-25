@@ -135,7 +135,7 @@ hr {
 .texts a:hover:not(#log) {
   background-color: white;
   color: #008080;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .logo {
