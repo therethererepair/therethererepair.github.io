@@ -44,7 +44,7 @@ body {
 }
 
 #alm {
-  display: hidden;
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -60,7 +60,7 @@ body {
 
 h3 {
   position: absolute;
-  display: hidden;
+  display: none;
   right: 4px;
   top: -15px;
   font-family: 'Lato', sans-serif;
@@ -72,7 +72,7 @@ h3 {
 
 h4 {
   position: absolute;
-  display: hidden;
+  display: none;
   right: 4px;
   top: 22px;
   font-family: 'Lato', sans-serif;
@@ -84,7 +84,7 @@ h4 {
 
 h5 {
   position: absolute;
-  display: hidden;
+  display: none;
   right: 4px;
   top: 50px;
   font-family: 'Lato', sans-serif;
