@@ -48,7 +48,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 50px;
+  height: 60px;
   z-index: 1000;
   overflow: hidden;
 }
