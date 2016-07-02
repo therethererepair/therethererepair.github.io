@@ -46,7 +46,6 @@ body {
 
 #alm {
   position: absolute;
-  bottom: 0;
   top: 0;
   left: 0;
   height: 50px;
@@ -124,8 +123,6 @@ hr {
 .texts li {
   display: inline-block;
   position: relative;
-  vertical-align: middle;
-  top: -20px;
   outline: none;
 }
 
