@@ -693,7 +693,7 @@ hr {
 #safetybox {
   position: absolute;
   left: 2%;
-  top: 150px;
+  top: 100px;
   right: 40%;
   height: 500px;
 }
@@ -716,7 +716,7 @@ hr {
   background-image: url('http://files.technobezz.com/files/uploads/2015/05/FMaWSLOJiioj3iKM.jpg');
   right: 20px;
   background-size: cover;
-  top: 150px;
+  top: 100px;
   height: 75%;
   width: 35%;
 }
