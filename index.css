@@ -603,7 +603,7 @@ hr {
 #guaran {
   text-align: center;
   position: absolute;
-  top: 35px;
+  top: 30px;
   font-family: 'Oswald', sans-serif;
   left: 0;
   right: 0;
@@ -614,7 +614,7 @@ hr {
 
 .realguaran {
   position: absolute;
-  top: 225px;
+  top: 195px;
   height: 500px;
   left: 40%;
   right: 20px;
@@ -638,7 +638,7 @@ hr {
   position: absolute;
   background-image: url('http://www.cellside.ca/wp-content/uploads/2015/11/Cell-phone-repairs.jpg');
   left: 20px;
-  top: 235px;
+  top: 205px;
   background-size: cover;
   height: 58%;
   width: 35%;
