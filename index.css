@@ -28,6 +28,7 @@ body {
   
 .menuwrap {
   background-color: black;
+  opacity: 70%;
   position: absolute;
   width: 100%;
   height: 60px;
