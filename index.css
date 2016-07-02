@@ -46,8 +46,6 @@ body {
 
 #alm {
   position: absolute;
-  display: inline-block;
-  vertical-align: middle;
   bottom: 0;
   top: 0;
   left: 0;
@@ -57,8 +55,8 @@ body {
 }
 
 #alm2 {
-  height: 50px;
-  width: 85px;
+  height: 60px;
+  width: 95px;
 }
 
 h4 {
@@ -126,6 +124,7 @@ hr {
 .texts li {
   display: inline-block;
   position: relative;
+  vertical-align: middle;
   top: -20px;
   outline: none;
 }
