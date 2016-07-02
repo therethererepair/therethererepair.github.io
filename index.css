@@ -147,7 +147,8 @@ hr {
 }
 
 .texts a:hover:not(#log) {
-  background-color: white;
+  background-color: black;
+  opacity: 9;
   color: #008080;
   border-radius: 5px;
   outline: none;
