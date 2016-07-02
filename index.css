@@ -46,6 +46,9 @@ body {
 
 #alm {
   position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  bottom: 0;
   top: 0;
   left: 0;
   height: 50px;
