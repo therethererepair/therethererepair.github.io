@@ -608,7 +608,7 @@ hr {
   left: 0;
   right: 0;
   font-size: 55px;
-  font-weight: 400;
+  font-weight: 500;
   color: #000000;
 }
 
@@ -646,7 +646,7 @@ hr {
 
 #linethree {
   position: absolute;
-  top: 2765px;
+  top: 2565px;
   text-align: center;
 }
 
