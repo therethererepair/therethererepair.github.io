@@ -30,7 +30,7 @@ body {
   background-color: black;
   position: absolute;
   width: 100%;
-  height: 75px;
+  height: 60px;
   top: 500px;
   margin: 0;
   z-index: 1000;
@@ -44,17 +44,16 @@ body {
 
 #alm {
   position: absolute;
-  display: none;
   top: 0;
   left: 0;
-  height: 75px;
+  height: 60px;
   z-index: 1000;
   overflow: hidden;
 }
 
 #alm2 {
-  height: 75px;
-  width: 110px;
+  height: 60px;
+  width: 95px;
 }
 
 h4 {
@@ -153,8 +152,8 @@ hr {
 
 .logo {
   top: 0;
-  height: 75px;
-  width: 120px;
+  height: 60px;
+  width: 95px;
   overflow: hidden;
   border-radius: 7px;
 }
