@@ -49,14 +49,14 @@ body {
   display: none;
   top: 0;
   left: 0;
-  height: 40px;
+  height: 50px;
   z-index: 1000;
   overflow: hidden;
 }
 
 #alm2 {
-  height: 40px;
-  width: 75px;
+  height: 50px;
+  width: 85px;
 }
 
 h4 {
