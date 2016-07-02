@@ -41,7 +41,7 @@ body {
 .fixed {
   top: 0;
   position: fixed;
-  opacity: 1;
+  opacity: .9;
 }
 
 #alm {
