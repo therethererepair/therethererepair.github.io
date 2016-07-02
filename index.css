@@ -224,7 +224,7 @@ hr {
 .textsquare {
   position: absolute;
   left: 2%;
-  top: 330px;
+  top: 300px;
   right: 40%;
   height: 500px;
 }
@@ -234,7 +234,7 @@ hr {
   background-image: url('http://www.mgwirelessonline.com/uploads/7/1/3/4/7134168/6681975_orig.jpg');
   right: 20px;
   background-size: cover;
-  top: 335px;
+  top: 305px;
   height: 35%;
   width: 35%;
 }
