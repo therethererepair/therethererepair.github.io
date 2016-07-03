@@ -1,5 +1,5 @@
 body {
-  height: 2115px;
+  height: 1800px;
   width: 100%;
   margin: 0 auto;
   background-color: white;
@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-  height: 2115px;
+  height: 1800px;
   width: 100%;
   position: absolute; 
   left: 0;
