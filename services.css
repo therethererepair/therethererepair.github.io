@@ -19,8 +19,8 @@ body {
 
 .top {
   position: absolute;
-  height: 600px;
-  top: -50px;
+  top: 0;
+  height: 555px;
   background-image: url('http://cdn.shopify.com/s/files/1/0435/4629/t/4/assets/slideshow_4.jpg?2179536023810732177');
   background-size: cover; 
   width: 100%;
