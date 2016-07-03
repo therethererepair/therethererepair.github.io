@@ -2,7 +2,7 @@ body {
   min-height: 2900px;
   min-width: 100%;
   margin: 0 auto;
-  background-color: white;
+  background-color: #f7f7f7;
   overflow: visible;
 }
 
@@ -30,6 +30,7 @@ body {
 
 .menuwrap {
   background-color: black;
+  overflow: hidden;
   position: absolute;
   width: 100%;
   height: 55px;
@@ -42,6 +43,7 @@ body {
 .fixed {
   top: 0;
   position: fixed;
+  opacity: .82;
 }
 
 #alm {
@@ -55,7 +57,7 @@ body {
 
 #alm2 {
   height: 55px;
-  width: 70px;
+  width: 90px;
 }
 
 h3 {
