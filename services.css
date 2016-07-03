@@ -164,7 +164,6 @@ h5 {
   position: absolute;
   font-size: 55px;
   font-weight: 500;
-  line-height: 160%;
   color: #000000;
 }
 
@@ -175,8 +174,8 @@ h5 {
   top: -65px;
   left: 0;
   right: 0;
-  font-size: 30px;
-  font-weight: 300;
+  font-size: 33px;
+  font-weight: 150;
   color: #008080;
 }
 
