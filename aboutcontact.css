@@ -189,7 +189,7 @@ hr {
 .textsquare {
   position: absolute;
   left: 2%;
-  top: 190px;
+  top: 230px;
   right: 40%;
   height: 500px;
 }
@@ -228,7 +228,7 @@ hr {
   right: 20px;
   background-size: contain;
   background-repeat: no-repeat;
-  top: 190px;
+  top: 230px;
   height: 35%;
   width: 35%;
 }
