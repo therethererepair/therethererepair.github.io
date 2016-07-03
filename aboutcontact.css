@@ -189,7 +189,7 @@ hr {
 .textsquare {
   position: absolute;
   left: 2%;
-  top: 280px;
+  top: 150px;
   right: 40%;
   height: 500px;
 }
@@ -224,11 +224,11 @@ hr {
 
 #littlesquare {
   position: absolute;
-  background-image: url('http://i.imgur.com/KEOGhfj.png');
+  background-image: url('http://i.imgur.com/d91h7x7.png');
   right: 20px;
   background-size: contain;
   background-repeat: no-repeat;
-  top: 370px;
+  top: 150px;
   height: 35%;
   width: 35%;
 }
