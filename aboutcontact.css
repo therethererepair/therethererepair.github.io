@@ -129,7 +129,7 @@ h6 {
 }
 
 .texts a:hover:not(#log) {
-  background-color: white;
+  background-color: black;
   color: #008080;
   border-radius: 5px;
   outline: none;
