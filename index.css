@@ -1025,7 +1025,7 @@ hr {
   }
   
   .texts {
-    position: relative;
+    position: absolute;
     list-style: none;
     opacity: .82;
     left: 0;
