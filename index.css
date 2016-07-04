@@ -1048,10 +1048,30 @@ hr {
     font-size: 13px;
     font-weight: 5;
     text-decoration: none;
-    padding: 2px 2px 2px;
     z-index: 4000;
     outline: none;
   }
+  
+  #ho {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  #ser {
+    position: absolute;
+    display: none;
+  }
+  
+  #abo {
+    position: absolute;
+    display: none;
+  }  
+  
+  #conta {
+    position: absolute;
+    display: none;
+  }  
   
   .phones {
     top: 400px;
