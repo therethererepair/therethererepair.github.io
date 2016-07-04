@@ -1024,12 +1024,8 @@ hr {
     position: absolute;
     list-style: none;
     opacity: .82;
-    left: 0;
-    right: 0;
     top: 0;
-    background-color: transparent;
     height: auto;
-    width: 100%;
     z-index: 4000;
   }
   
@@ -1047,14 +1043,12 @@ hr {
   
   .texts li a {
     color: #FFFFFF;
-    position: relative;
     display: inline-block;
     font-family: 'Lato', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 5;
     text-decoration: none;
-    left: 0;
-    right: 0;
+    padding: 2px 2px 2px;
     z-index: 4000;
     outline: none;
   }
