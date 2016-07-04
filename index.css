@@ -955,7 +955,7 @@ hr {
 
 @media all and (max-width: 500px) {
   body {
-    background-color: white;
+    background-color: #f7f7f7;
     overflow: visible;
     height: 1800px;
     top: 0;
@@ -984,8 +984,9 @@ hr {
     left: 0;
     right: 0;
     top: 0;
-    height: 190px;
+    height: 210px;
     width: 100%;
+    opacity: 1;
   }
   
   #alm2 {
@@ -993,8 +994,9 @@ hr {
     left: 0;
     right: 0;
     top: 0;
-    height: 190px;
+    height: 210px;
     width: 100%;
+    opacity: 1;
   }
   
   #we {
@@ -1075,7 +1077,7 @@ hr {
   
   .phones #services {
     position: absolute;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
     top: -15px;
     left: 0;
     right: 0;
