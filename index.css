@@ -975,6 +975,8 @@ hr {
   
   .menuwrap {
     position: absolute;
+    left: 0;
+    right: 0;
     opacity: .82;
     top: 200px;
     left: 0;
