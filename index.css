@@ -987,8 +987,6 @@ hr {
     left: 0;
     right: 0;
     top: 0;
-    height: 170px;
-    width: 100%;
     opacity: 1;
   }
   
@@ -998,8 +996,6 @@ hr {
     left: 0;
     right: 0;
     top: 0;
-    height: 170px;
-    width: 100%;
     opacity: 1;
   }
   
@@ -1057,7 +1053,6 @@ hr {
     font-size: 15px;
     font-weight: 5;
     text-decoration: none;
-    padding: 5px 5px 5px 5px;
     left: 0;
     right: 0;
     z-index: 4000;
