@@ -975,10 +975,10 @@ hr {
   
   .menuwrap {
     position: absolute;
-    opacity: 1;
+    opacity: .82;
     top: 190px;
     left: 0;
-    height: 60px;
+    height: 50px;
   }
     
   #alm {
@@ -1034,7 +1034,6 @@ hr {
     background-color: transparent;
     height: auto;
     width: 100%;
-    display: block;
     z-index: 4000;
   }
   
@@ -1044,9 +1043,7 @@ hr {
   }
   
   .texts li {
-    display: block;
     position: relative;
-    background-color: black;
     width: 100%;
     padding: 5px 5px 5px 5px;
     left: -7%;
@@ -1056,7 +1053,6 @@ hr {
   
   .texts li a {
     color: #FFFFFF;
-    display: block;
     position: relative;
     border: 1px solid white;
     font-family: 'Roboto condensed', sans-serif;
