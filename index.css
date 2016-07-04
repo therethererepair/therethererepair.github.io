@@ -985,18 +985,17 @@ hr {
     
   #alm {
     position: absolute;
-    display: none;
+    height: 50px;
     left: 0;
-    right: 0;
     top: 0;
     opacity: 1;
   }
   
   #alm2 {
     position: absolute;
-    display: none;
+    height: 50px;
+    width: 90px;
     left: 0;
-    right: 0;
     top: 0;
     opacity: 1;
   }
