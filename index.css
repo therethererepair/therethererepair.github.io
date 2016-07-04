@@ -975,29 +975,23 @@ hr {
   
   .menuwrap {
     position: absolute;
-    left: 0;
-    right: 0;
+    width: 100%;
+    overflow: 0;
     opacity: .82;
     top: 200px;
-    left: 0;
     height: 50px;
   }
     
   #alm {
     position: absolute;
     height: 50px;
-    left: 0;
     top: 0;
-    opacity: 1;
+    left: 0;
   }
   
   #alm2 {
-    position: absolute;
     height: 50px;
     width: 90px;
-    left: 0;
-    top: 0;
-    opacity: 1;
   }
   
   #we {
