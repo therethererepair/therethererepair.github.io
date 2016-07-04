@@ -976,8 +976,9 @@ hr {
   .menuwrap {
     position: absolute;
     opacity: 1;
-    top: 210px;
+    top: 190px;
     left: 0;
+    height: 200px;
   }
     
   #alm {
@@ -985,7 +986,7 @@ hr {
     left: 0;
     right: 0;
     top: 0;
-    height: 210px;
+    height: 200px;
     width: 100%;
     opacity: 1;
   }
@@ -995,7 +996,7 @@ hr {
     left: 0;
     right: 0;
     top: 0;
-    height: 210px;
+    height: 200px;
     width: 100%;
     opacity: 1;
   }
