@@ -1445,12 +1445,12 @@ hr {
   
   #linefour {
     position: absolute;
-    display: none;
+    top: 4000px;
   }
   
   #linefive{
     position: absolute;
-    top: 4000px;
+    top: 4100px;
     text-align: center;
     width: 100%;
     left: 0;
@@ -1504,7 +1504,7 @@ hr {
   #safefirst {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
-    top: 10px;
+    top: 20px;
     left: 2px;
     right: 2px;
     text-align: center;
