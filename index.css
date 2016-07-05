@@ -1484,12 +1484,12 @@ hr {
 
   #picforguar{
     position: absolute;
-    top: 3400px; 
+    display: none;
   }
 
   .safetysec {
     position: absolute;
-    display: none;
+    top: 3400px;
   }
   
   .jumbotron2 {
