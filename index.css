@@ -1454,6 +1454,11 @@ hr {
     top: 3000px;
   }
   
+  #guaran { 
+    position: absolute;
+    top: 10px;
+}
+
   .safetysec {
     position: absolute;
     display: none;
