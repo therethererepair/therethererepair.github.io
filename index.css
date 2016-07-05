@@ -1460,7 +1460,7 @@ hr {
     position: absolute;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
-    top: 5px;
+    top: -20px;
     text-align: center;
   }
 
