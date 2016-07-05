@@ -1499,6 +1499,7 @@ hr {
   .safetysec {
     position: absolute;
     top: 3550px;
+    overflow: hidden;
   }
   
   #safefirst {
