@@ -1460,20 +1460,20 @@ hr {
     position: absolute;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
-    top: -20px;
+    top: -7px;
     text-align: center;
   }
 
   .realguaran{
     position: absolute;
-    top: 20px;
+    top: 40px;
     left: 0;
     right: 0;
   }
   
   #moreguaran {
     position: absolute;
-    top: 15px;
+    top: 20px;
     font-family: 'Roboto condensed', sans-serif;
     font-size: 15px;
     color: #000000;
