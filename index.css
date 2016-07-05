@@ -1451,18 +1451,34 @@ hr {
   
   .theguaran {
     position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    left: 0;
+    right: 0;
     top: 3000px;
   }
   
   #guaran { 
     position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
     top: 10px;
+    text-align: center;
   }
 
   .realguaran{
     position: absolute;
     top: 5px;
   }
+  
+  #moreguaran {
+    position: absolute;
+    top: 15px;
+    font-family: 'Roboto condensed', sans-serif;
+    font-size: 15px;
+    color: #000000;
+  }
+  
 
   #picforguar{
     position: absolute;
