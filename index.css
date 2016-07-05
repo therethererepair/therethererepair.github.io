@@ -969,7 +969,7 @@ hr {
   
   .top {
     position: absolute;
-    height: 255px;
+    height: 275px;
     top: 0;
   }
   
@@ -1016,7 +1016,7 @@ hr {
   }
   
   .texts {
-    position: absolute;
+    position: relative;
     list-style: none;
     opacity: .82;
     top: 0;
@@ -1036,7 +1036,7 @@ hr {
     z-index: 4000;
   }
   
-  .texts li a {
+  .texts a {
     color: #FFFFFF;
     display: inline-block;
     font-family: 'Lato', sans-serif;
@@ -1045,6 +1045,22 @@ hr {
     text-decoration: none;
     z-index: 4000;
     outline: none;
+  }
+  
+  #ho {
+    right: 5px;
+  }
+  
+  #ser {
+    display: none;
+  }
+  
+  #abo {
+    display: none;
+  }
+  
+  #conta {
+    display: none;
   }
   
   .phones {
