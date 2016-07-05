@@ -1047,27 +1047,6 @@ hr {
     outline: none;
   }
   
-  #ho {
-    position: relative;
-    right: 0;
-    top: 0;
-  }
-  
-  #ser {
-    position: absolute;
-    display: none;
-  }
-  
-  #abo {
-    position: absolute;
-    display: none;
-  }  
-  
-  #conta {
-    position: absolute;
-    display: none;
-  }  
-  
   .phones {
     top: 400px;
     left: 0;
