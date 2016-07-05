@@ -969,7 +969,7 @@ hr {
   
   .top {
     position: absolute;
-    height: 202px;
+    height: 200px;
     top: 0;
   }
   
@@ -979,7 +979,7 @@ hr {
     overflow: 0;
     left: 0;
     right: 0;
-    opacity: .82;
+    opacity: .7;
     top: 200px;
     height: 50px;
   }
