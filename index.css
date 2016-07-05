@@ -1521,6 +1521,7 @@ hr {
     font-family: 'Roboto condensed', sans-serif;
     font-size: 15px;
     color: #000000;
+    top: -10px;
     left: 2px;
     right: 2px;
   }
