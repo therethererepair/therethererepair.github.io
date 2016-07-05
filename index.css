@@ -1457,7 +1457,17 @@ hr {
   #guaran { 
     position: absolute;
     top: 10px;
-}
+  }
+
+  .realguaran{
+    position: absolute;
+    top: 5px;
+  }
+
+  #picforguar{
+    position: absolute;
+    display: none; 
+  }
 
   .safetysec {
     position: absolute;
