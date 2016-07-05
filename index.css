@@ -1467,6 +1467,8 @@ hr {
   .realguaran{
     position: absolute;
     top: 20px;
+    left: 0;
+    right: 0;
   }
   
   #moreguaran {
@@ -1475,6 +1477,8 @@ hr {
     font-family: 'Roboto condensed', sans-serif;
     font-size: 15px;
     color: #000000;
+    left: 0;
+    right: 0;
   }
   
 
