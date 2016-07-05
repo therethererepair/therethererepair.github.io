@@ -957,13 +957,13 @@ hr {
   body {
     background-color: #f7f7f7;
     overflow: visible;
-    height: 1800px;
+    height: 3800px;
     top: 0;
   }
 
   .wrapper {
     top: 0;
-    height: 1000px;
+    height: 3800px;
     width: 100%;
   }
   
@@ -1439,13 +1439,13 @@ hr {
   
   #linethree {
     position: absolute;
-    top: 2920px;
+    top: 36000px;
     text-align: center;
   }
   
   #linefour {
     position: absolute;
-    top: 3150px;
+    top: 3750px;
     text-align: center;
   }
   
@@ -1484,7 +1484,7 @@ hr {
 
   #picforguar{
     position: absolute;
-    display: none; 
+    top: 3400px; 
   }
 
   .safetysec {
