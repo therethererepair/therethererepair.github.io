@@ -983,6 +983,12 @@ hr {
     top: 200px;
     height: 50px;
   }
+  
+  .fixed {
+    position: fixed;
+    top: 0;
+    opacity: .7;
+  }
     
   #alm {
     position: absolute;
