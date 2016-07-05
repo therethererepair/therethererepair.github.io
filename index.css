@@ -1156,7 +1156,7 @@ hr {
   
   .phones #broke {
     position: absolute;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
     top: 660px;
     left: 5px;
     right: 5px;
@@ -1460,20 +1460,20 @@ hr {
     position: absolute;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
-    top: -7px;
+    top: 10px;
     text-align: center;
   }
 
   .realguaran{
     position: absolute;
-    top: 40px;
+    top: 60px;
     left: 0;
     right: 0;
   }
   
   #moreguaran {
     position: absolute;
-    top: 20px;
+    top: 40px;
     font-family: 'Roboto condensed', sans-serif;
     font-size: 15px;
     color: #000000;
