@@ -1451,8 +1451,6 @@ hr {
   
   .theguaran {
     position: absolute;
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
     left: 0;
     right: 0;
     top: 3000px;
@@ -1462,13 +1460,13 @@ hr {
     position: absolute;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
-    top: 10px;
+    top: 5px;
     text-align: center;
   }
 
   .realguaran{
     position: absolute;
-    top: 5px;
+    top: 20px;
   }
   
   #moreguaran {
