@@ -1451,7 +1451,7 @@ hr {
   
   .theguaran {
     position: absolute;
-    display: none;
+    top: 3100px;
   }
   
   .safetysec {
