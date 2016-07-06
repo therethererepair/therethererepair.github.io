@@ -1036,7 +1036,7 @@ hr {
   
   #othermenu {
     list-style: none;
-    position: relative;
+    position: absolute;
     display: inline-block;
     top: 0;
     right: 0;
@@ -1052,7 +1052,6 @@ hr {
   
   #dropdown {
     display: none;
-    position: absolute;
   }
   
   #dropdown li a {
@@ -1077,6 +1076,11 @@ hr {
   }
   
   #menuicon:hover #dropdown {
+    display: block;
+    position: absolute;
+  }
+  
+  #menuicon:hover li {
     display: block;
     position: absolute;
   }
