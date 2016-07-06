@@ -987,7 +987,8 @@ hr {
   .fixed {
     position: fixed;
     top: 0;
-    opacity: .7;
+    opacity: .82;
+    z-index: 6000;
   }
     
   #alm {
