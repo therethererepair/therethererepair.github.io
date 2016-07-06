@@ -1042,7 +1042,8 @@ hr {
     right: 0;
     z-index: 5000;
   }
-  #othermenu ul {
+  
+  #othermenu li {
     display: block;
     position: relative;
     top: 0;
