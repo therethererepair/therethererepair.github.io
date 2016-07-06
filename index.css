@@ -1042,12 +1042,11 @@ hr {
     right: 0;
     z-index: 5000;
   }
-  
-  #menuicon {
+  #othermenu ul {
+    display: block;
     position: relative;
     top: 0;
     right: 0;
-    display: block;
   }
   
   #dropdown {
