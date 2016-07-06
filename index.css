@@ -981,7 +981,7 @@ hr {
   .menuwrap {
     position: absolute;
     width: 100%;
-    overflow: 0;
+    overflow: visible;
     left: 0;
     right: 0;
     opacity: .82;
