@@ -1034,6 +1034,10 @@ hr {
     display: none;
   }
   
+  #othermenu {
+    display: initial;
+  }
+  
   ul {
     font-family: Arial, Verdana;
     font-size: 14px;
@@ -1045,7 +1049,7 @@ hr {
   ul li {
     display: block;
     position: relative;
-    float: left;
+    right: 0;
   }
   
   li ul {
