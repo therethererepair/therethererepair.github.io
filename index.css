@@ -1036,6 +1036,7 @@ hr {
   
   #othermenu {
     display: initial;
+    z-index: 5000;
   }
   
   ul {
