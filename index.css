@@ -1049,7 +1049,7 @@ hr {
   ul li {
     display: block;
     position: relative;
-    right: 0;
+    float: right;
   }
   
   li ul {
