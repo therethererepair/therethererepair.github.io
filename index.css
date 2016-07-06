@@ -38,6 +38,11 @@ body {
   overflow: hidden;
 }
 
+#othermenu {
+  position: absolute;
+  display: none;
+}
+
 .fixed {
   top: 0;
   position: fixed;
@@ -979,7 +984,7 @@ hr {
     overflow: 0;
     left: 0;
     right: 0;
-    opacity: .7;
+    opacity: .82;
     top: 200px;
     height: 50px;
   }
@@ -1025,51 +1030,60 @@ hr {
   }
   
   .texts {
-    position: relative;
-    list-style: none;
-    opacity: .82;
-    top: 0;
-    height: auto;
-    z-index: 4000;
-  }
-  
-  .texts #cari {
     position: absolute;
     display: none;
   }
   
-  .texts li {
+  #othermenu {
+    list-style: none;
     position: relative;
-    display: inline-block;
-    outline: none;
-    z-index: 4000;
+    top: 0;
+    z-index: 5000;
   }
   
-  .texts a {
-    color: #FFFFFF;
-    display: inline-block;
+  #menuicon {
+    position: relative;
+    top: 0;
+    right: 0;
+    display: block;
+  }
+  
+  #dropdown {
+    display: none;
+    position: absolute;
+  }
+  
+  #dropdown li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    background: black;
+    opacity: .82;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  #dropdown li a:hover {
+    background: black;
+    opacity: .82;
+    text-decoration: none;
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     font-weight: 5;
-    text-decoration: none;
-    z-index: 4000;
+    z-index: 5000;
     outline: none;
   }
   
-  #ho {
-    right: -115px;
+  #menuicon:hover #dropdown {
+    display: block;
+    position: absolute;
   }
   
-  #ser {
-    display: none;
-  }
-  
-  #abo {
-    display: none;
-  }
-  
-  #conta {
-    display: none;
+  #menuicon: hover li a:hover {
+    background-color: black;
+    opacity: .82;
+    text-decoration: none;
+    outline: none;
   }
   
   .phones {
