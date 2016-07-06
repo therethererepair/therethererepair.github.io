@@ -1043,7 +1043,7 @@ hr {
     z-index: 5000;
   }
   
-  #othermenu li {
+  #menuicon {
     display: block;
     position: relative;
     top: 0;
@@ -1056,15 +1056,8 @@ hr {
   
   #dropdown li a {
     display: block;
-    text-decoration: none;
-    padding: 5px 10px 5px 10px;
-    background: black;
-    opacity: .82;
-    text-align: center;
     white-space: nowrap;
-  }
-  
-  #dropdown li a:hover {
+    text-align: center;
     background: black;
     opacity: .82;
     text-decoration: none;
@@ -1081,13 +1074,12 @@ hr {
   }
   
   #menuicon:hover li {
-    display: block;
-    position: absolute;
+    float: none;
   }
   
   #menuicon: hover li a:hover {
     background-color: black;
-    opacity: .82;
+    opacity: .7;
     text-decoration: none;
     outline: none;
   }
