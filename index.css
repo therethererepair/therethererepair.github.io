@@ -1046,7 +1046,7 @@ hr {
   #menuicon {
     position: relative;
     top: 0;
-    right: 0;
+    right: -95px;
     display: block;
   }
   
