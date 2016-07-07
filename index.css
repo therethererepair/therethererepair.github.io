@@ -1044,6 +1044,8 @@ hr {
     display: initial;
     position: relative;
     z-index: 5000;
+    height: auto;
+    width: 100%;
     top: 0;
     padding: 0;
     right: 0;
@@ -1056,7 +1058,7 @@ hr {
   .othermenu li {
     display: block;
     position: relative;
-    float: left;
+    float: right;
   }
   .othermenu li ul {
     display: none;
