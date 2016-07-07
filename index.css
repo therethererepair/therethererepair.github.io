@@ -44,6 +44,8 @@ body {
 }
 
 .littleme {
+  margin: 0;
+  padding: 0;
   position: absolute;
   display: none;
 }
@@ -65,17 +67,16 @@ body {
 .littleme ul li {
   margin: 0px;
   display: inline-block;
-  float: left;
+  float: right;
   background-color: black;
   opacity: .82;
 }
 
 .littleme a {
   display: block;
-  padding: 0 20px;
+  padding: 0;
   color: #FFF;
   font-size: 20px;
-  line-height: 60px;
   text-decoration: none;
 }
 
@@ -1126,10 +1127,9 @@ hr {
     overflow: visible;
     background-color: black;
     opacity: .82;
-    padding: 0 20px;
+    padding: 0;
     color: #FFF;
     font-size: 20px;
-    line-height: 60px;
     text-decoration: none;
     border: none;
   }
@@ -1145,6 +1145,7 @@ hr {
 
   .littleme ul li {
     display: block;
+    height: auto;
     width: 100%;
   }
 
