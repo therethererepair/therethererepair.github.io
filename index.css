@@ -70,7 +70,7 @@ body {
 }
 
 .littleme ul li {
-  left: 90px;
+  left: -90px;
   right: 90px;
   height: auto;
   width: 100%;
