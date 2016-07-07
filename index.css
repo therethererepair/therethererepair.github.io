@@ -43,11 +43,6 @@ body {
  display: none;
 }
 
-.menuwrap p { text-align: center; }
- .toggle, [id^=drop] {
- display: none;
-}
-
 .littleme {
   margin: 0;
   padding: 0;
