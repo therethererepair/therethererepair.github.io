@@ -44,82 +44,9 @@ body {
 }
 
 .othermenu {
-  height: auto;
-  width: 100%;
-  margin: 0;
-  padding: 0;
   position: absolute;
   display: none;
 }
-
-.othermenu:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.othermenu ul {
-  float: right;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  position: relative;
-}
-
-.othermenu ul li {
-  height: auto;
-  width: 100%;
-  display: inline-block;
-  float: right;
-  background-color: black;
-  opacity: .82;
-}
-
-.othermenu a {
-  display: block;
-  padding: 0 20px;
-  color: #FFF;
-  font-size: 20px;
-  line-height: 50px;
-  height: auto;
-  width: 100%;
-  text-decoration: none;
-}
-
-.othermenu ul li ul li:hover {
-  background: black;
-  opacity: .82;
-}
-
-.othermenu a:hover { 
-  background-color: black; 
-  opacity: .82;
-}
-
-.othermenu ul ul {
-  display: none;
-  position: absolute;
-  top: 60px;
-}
-
-.othermenu ul li:hover > ul { display: inherit; }
-
-.othermenu ul ul li {
-  width: 170px;
-  float: none;
-  display: list-item;
-  position: relative;
-}
-
-.othermenu ul ul ul li {
-  position: relative;
-  top: -60px;
-  left: 170px;
-}
-
-.othermenu li > a:after { content: ' +'; }
-
-.othermenu li > a:only-child:after { content: ''; }
 
 .fixed {
   top: 0;
@@ -1129,69 +1056,49 @@ hr {
     opacity: .82;
   }
 
-  .othermenu { top: 0; right: 0; }
-
-  .toggle + a,
-   .othermenu { display: none; }
-
-  .toggle {
+  .menuicon {
+    position: relative;
+    top: 0;
+    right: 0;
     display: block;
-    overflow: visible;
-    background-color: black;
-    opacity: .82;
-    padding: 0 20px;
-    color: #FFF;
-    font-size: 20px;
-    line-height: 50px;
-    height: auto;
-    width: 100%;
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute;
+  }
+  
+  .dropdown li a {
+    display: block;
     text-decoration: none;
-    border: none;
+    padding: 5px 10px 5px 10px;
+    background-color: black;
+    opacity: .95;
+    text-align: center;
+    white-space: nowrap;
   }
-
-  .toggle:hover { 
-    background-color: black; 
-    opacity: .82;
+    
+  .dropdown li a:hover {
+    background-color: black;
+    opacity: .95;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 5;
+    z-index: 5000;
+    outline: none;
   }
-
-  [id^=drop]:checked + ul { 
-    display: block; 
-  }
-
-  .othermenu ul li {
+    
+  .menuicon:hover .dropdown {
     display: block;
-    height: auto;
-    width: 100%;
-  }
-
-  .othermenu ul ul .toggle,
-   .othermenu ul ul a { padding: 0 40px; }
-
-  .othermenu ul ul ul a { padding: 0 80px; }
-
-  .othermenu a:hover,
-   .othermenu ul ul ul a { background-color: black; }
-
-  .othermenu ul li ul li .toggle,
-   .othermenu ul ul a { background-color: #212121; }
-
-  .othermenu ul ul {
-    float: none;
-    position: static;
-    color: #ffffff;
-  }
-
-  .othermenu ul ul li:hover > ul,
-  .othermenu ul li:hover > ul { display: none; }
-
-  .othermenu ul ul li {
-    display: block;
-    height: auto;
-    width: 100%;
-  }
-
-  .othermenu ul ul ul li { 
-    position: static;
+    position: absolute;
+  }  
+  
+  .menuicon:hover li a:hover {
+    background-color: black;
+    opacity: .95;
+    text-decoration: none;
+    outline: none;
   }
     
   .phones {
