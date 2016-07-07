@@ -38,7 +38,7 @@ body {
   overflow: hidden;
 }
 
-#othermenu {
+.littleme {
   position: absolute;
   display: none;
 }
@@ -1034,60 +1034,85 @@ hr {
     display: none;
   }
   
-  #othermenu {
+  .littleme {
     display: initial;
+    position: absolute;
     z-index: 5000;
     right: 0;
     left: 0;
-
   }
   
-  ul {
-    font-family: Arial, Verdana;
-    font-size: 14px;
-    padding: 0;
-    list-style: none;
+  .littleme:after {
+    content: "";
+    display: table;
+    clear: both;
   }
   
-  ul li {
-    display: block;
-    position: relative;
+  .littleme #othermenu {
     float: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
   }
   
-  li ul {
+  .littleme #othermenu li {
+    margin: 0px;
+    display: block;
+    float: right;
+    background-color: black;
+    opacity: .82;
+    width: 100%;
+  }
+  
+  .littleme a {
+    display: block;
+    padding: 0 20px;
+    font-size: 13px;
+    line-height: 10px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .littleme a:hover {
+    background-color: yellow;
+  }
+  
+  .littleme li > a:after {
+    content: ' +';
+  }
+  
+  .littleme li > a:only-child:after {
+    content: '';
+  }
+  
+  .littleme #othermenu li:hover > ul {
     display: none;
   }
   
-  ul li a {
+  .toggle + a,
+   #othermenu {
+     display: none;
+  }
+   
+  .toggle {
     display: block;
+    background-color: black;
+    opacity: .82;
+    padding: 0 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    line-height: 10px;
     text-decoration: none;
-    color: #ffffff;
-    border-top: 1px solid #ffffff;
-    padding: 5px 15px 5px 15px;
-    background: #1e7c9a;
-    margin-left: 1px;
-    white-space: nowrap;
+    border: none;
   }
   
-  ul li a:hover {
-    background: #3b3b3b;                
+  .toggle:hover {
+    background-color: blue;
   }
   
-  li:hover ul {
+  [id^=drop]:checked + ul {
     display: block;
-    position: absolute;
-  }
-  
-  li:hover li {
-    float: none;
-    font-size: 11px;
-  }
-  
-  li:hover a { background: #3b3b3b; }
-  
-  li:hover li a:hover {
-    background: #1e7c9a;
   }
   
   .phones {
