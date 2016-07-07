@@ -75,7 +75,6 @@ body {
   height: auto;
   width: 100%;
   display: inline-block;
-  background-color: red;
   opacity: .98;
 }
 
@@ -1176,6 +1175,7 @@ hr {
   }
 
   .littleme ul li {
+    position: absolute;
     display: block;
     height: auto;
     left: 0;
