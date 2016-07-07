@@ -43,7 +43,7 @@ body {
  display: none;
 }
 
-.littleme {
+.othermenu {
   height: auto;
   width: 100%;
   margin: 0;
@@ -52,13 +52,13 @@ body {
   display: none;
 }
 
-.littleme:after {
+.othermenu:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.littleme ul {
+.othermenu ul {
   float: right;
   padding: 0;
   margin: 0;
@@ -66,7 +66,7 @@ body {
   position: relative;
 }
 
-.littleme ul li {
+.othermenu ul li {
   height: auto;
   width: 100%;
   display: inline-block;
@@ -75,7 +75,7 @@ body {
   opacity: .82;
 }
 
-.littleme a {
+.othermenu a {
   display: block;
   padding: 0 20px;
   color: #FFF;
@@ -86,40 +86,40 @@ body {
   text-decoration: none;
 }
 
-.littleme ul li ul li:hover {
+.othermenu ul li ul li:hover {
   background: black;
   opacity: .82;
 }
 
-.littleme a:hover { 
+.othermenu a:hover { 
   background-color: black; 
   opacity: .82;
 }
 
-.littleme ul ul {
+.othermenu ul ul {
   display: none;
   position: absolute;
   top: 60px;
 }
 
-.littleme ul li:hover > ul { display: inherit; }
+.othermenu ul li:hover > ul { display: inherit; }
 
-.littleme ul ul li {
+.othermenu ul ul li {
   width: 170px;
   float: none;
   display: list-item;
   position: relative;
 }
 
-.littleme ul ul ul li {
+.othermenu ul ul ul li {
   position: relative;
   top: -60px;
   left: 170px;
 }
 
-.littleme li > a:after { content: ' +'; }
+.othermenu li > a:after { content: ' +'; }
 
-.littleme li > a:only-child:after { content: ''; }
+.othermenu li > a:only-child:after { content: ''; }
 
 .fixed {
   top: 0;
@@ -1064,7 +1064,7 @@ hr {
     overflow: visible;
     left: 0;
     right: 0;
-    opacity: .82;
+    opacity: .95;
     top: 200px;
     height: auto;
   }
@@ -1076,7 +1076,7 @@ hr {
     left: 0;
     right: 0;
     top: 0;
-    opacity: .82;
+    opacity: .95;
     z-index: 6000;
   }
     
@@ -1118,7 +1118,7 @@ hr {
     display: none;
   }
   
-  .littleme {
+  .othermenu {
     display: initial;
     position: absolute;
     z-index: 5000;
@@ -1129,7 +1129,7 @@ hr {
     opacity: .82;
   }
 
-  .littleme { top: 0; right: 0; }
+  .othermenu { top: 0; right: 0; }
 
   .toggle + a,
    .othermenu { display: none; }
@@ -1158,39 +1158,39 @@ hr {
     display: block; 
   }
 
-  .littleme ul li {
+  .othermenu ul li {
     display: block;
     height: auto;
     width: 100%;
   }
 
-  .littleme ul ul .toggle,
-   .littleme ul ul a { padding: 0 40px; }
+  .othermenu ul ul .toggle,
+   .othermenu ul ul a { padding: 0 40px; }
 
-  .littleme ul ul ul a { padding: 0 80px; }
+  .othermenu ul ul ul a { padding: 0 80px; }
 
-  .littleme a:hover,
-   .littleme ul ul ul a { background-color: black; }
+  .othermenu a:hover,
+   .othermenu ul ul ul a { background-color: black; }
 
-  .littleme ul li ul li .toggle,
-   .littleme ul ul a { background-color: #212121; }
+  .othermenu ul li ul li .toggle,
+   .othermenu ul ul a { background-color: #212121; }
 
-  .littleme ul ul {
+  .othermenu ul ul {
     float: none;
     position: static;
     color: #ffffff;
   }
 
-  .littleme ul ul li:hover > ul,
-  .littleme ul li:hover > ul { display: none; }
+  .othermenu ul ul li:hover > ul,
+  .othermenu ul li:hover > ul { display: none; }
 
-  .littleme ul ul li {
+  .othermenu ul ul li {
     display: block;
     height: auto;
     width: 100%;
   }
 
-  .littleme ul ul ul li { 
+  .othermenu ul ul ul li { 
     position: static;
   }
     
