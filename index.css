@@ -46,7 +46,7 @@ body {
 .littleme {
   z-index: 5000;
   top: 0;
-  height: ;
+  height: 50px;
   left: 90px;
   right: 90px;
   margin: 0;
@@ -1131,8 +1131,8 @@ hr {
     position: absolute;
     z-index: 5000;
     height: 50px;
-    right: 90px;
-    left: 90px;
+    right: 80%;
+    left: 5px;
     overflow: visible;
     background-color: black;
     opacity: .98;
