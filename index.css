@@ -43,6 +43,76 @@ body {
   display: none;
 }
 
+.littleme p { text-align: center; }
+ .toggle, [id^=drop] {
+ display: none;
+}
+
+.littleme {
+  margin: 0;
+  padding: 0;
+  background-color: #254441;
+}
+
+.littleme:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.littleme ul {
+  float: right;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+.littleme ul li {
+  margin: 0px;
+  display: inline-block;
+  float: left;
+  background-color: #254441;
+}
+
+.littleme a {
+  display: block;
+  padding: 0 20px;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+}
+
+.littleme ul li ul li:hover { background: blue; }
+
+.littleme a:hover { background-color: red; }
+
+.littleme ul ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+
+.littleme ul li:hover > ul { display: inherit; }
+
+.littleme ul ul li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+.littleme ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 170px;
+}
+
+.littleme li > a:after { content: ' +'; }
+
+.littleme li > a:only-child:after { content: ''; }
+
 .fixed {
   top: 0;
   position: fixed;
@@ -1043,77 +1113,70 @@ hr {
     overflow: visible;
   }
   
-  .littleme:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  .littleme #othermenu {
-    float: right;
+  #logo {
+    display: block;
     padding: 0;
-    list-style: none;
-    position: relative;
-  }
-  
-  .littleme #othermenu li {
-    display: block;
-    float: right;
-    background-color: black;
-    opacity: .82;
     width: 100%;
+    text-align: center;
+    float: none;
   }
-  
-  .littleme a {
-    display: block;
-    padding: 0 20px;
-    font-size: 13px;
-    line-height: 10px;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-  }
-  
-  .littleme a:hover {
-    background-color: yellow;
-  }
-  
-  .littleme li > a:after {
-    content: ' +';
-  }
-  
-  .littleme li > a:only-child:after {
-    content: '';
-  }
-  
-  .littleme #othermenu li:hover > ul {
-    display: none;
-  }
-  
+
+  .littleme { margin: 0; }
+
   .toggle + a,
-   #othermenu {
-     display: none;
-  }
-   
+   #othermenu { display: none; }
+
   .toggle {
     display: block;
-    background-color: black;
-    opacity: .82;
-    padding: 0 15px;
-    font-family: 'Lato', sans-serif;
-    font-size: 13px;
-    line-height: 10px;
+    background-color: #254441;
+    padding: 0 20px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 60px;
     text-decoration: none;
     border: none;
   }
-  
-  .toggle:hover {
-    background-color: blue;
+
+  .toggle:hover { background-color: blue; }
+
+  .littleme [id^=drop]:checked + ul { 
+    display: block; 
   }
-  
-  [id^=drop]:checked + ul {
+
+  .littleme ul li {
     display: block;
+    width: 100%;
   }
-  
+
+  .littleme ul ul .toggle,
+   .littleme ul ul a { padding: 0 40px; }
+
+  .littleme ul ul ul a { padding: 0 80px; }
+
+  .littleme a:hover,
+   .littleme ul ul ul a { background-color: red; }
+
+  .littleme ul li ul li .toggle,
+   .littleme ul ul a { background-color: #212121; }
+
+  .littleme ul ul {
+    float: none;
+    position: static;
+    color: #ffffff;
+  }
+
+  .littleme ul ul li:hover > ul,
+  .littleme ul li:hover > ul { display: none; }
+
+  .littleme ul ul li {
+    display: block;
+    width: 100%;
+  }
+
+  .littleme ul ul ul li { 
+    position: static;
+  }
+    
   .phones {
     top: 290px;
     left: 0;
