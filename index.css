@@ -44,6 +44,8 @@ body {
 }
 
 .littleme {
+  height: auto;
+  width: 100%;
   margin: 0;
   padding: 0;
   position: absolute;
@@ -65,7 +67,6 @@ body {
 }
 
 .littleme ul li {
-  margin: 0px;
   height: auto;
   width: 100%;
   display: inline-block;
@@ -122,6 +123,8 @@ body {
 
 .fixed {
   top: 0;
+  left: 0;
+  right: 0;
   position: fixed;
   opacity: .82;
 }
@@ -1068,6 +1071,8 @@ hr {
   
   .fixed {
     position: fixed;
+    left: 0;
+    right: 0;
     top: 0;
     opacity: .82;
     z-index: 6000;
@@ -1122,7 +1127,7 @@ hr {
     opacity: .82;
   }
 
-  .littleme { margin: 0; }
+  .littleme { top: 0; right: 0; }
 
   .toggle + a,
    .othermenu { display: none; }
@@ -1179,6 +1184,7 @@ hr {
 
   .littleme ul ul li {
     display: block;
+    height: auto;
     width: 100%;
   }
 
