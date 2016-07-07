@@ -70,16 +70,18 @@ body {
 }
 
 .littleme ul li {
-  left: 0;
-  right: 0;
+  left: 90px;
+  right: 90px;
   height: auto;
   width: 100%;
   display: inline-block;
+  background-color: black;
   opacity: .98;
 }
 
 .littleme a {
   display: block;
+  background-color: blue;
   padding: 0 20px;
   color: #FFF;
   font-size: 20px;
