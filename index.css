@@ -1055,6 +1055,9 @@ hr {
 
   .wrapper {
     top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
     height: 3800px;
     width: 100%;
   }
@@ -1131,8 +1134,8 @@ hr {
     position: absolute;
     z-index: 5000;
     height: 50px;
-    right: 5px;
-    left: 80%;
+    right: 0px;
+    left: 70%;
     overflow: visible;
     background-color: black;
     opacity: .98;
@@ -1146,6 +1149,7 @@ hr {
   .toggle {
     display: block;
     overflow: visible;
+    text-align: center;
     background-color: yellow;
     opacity: .98;
     padding: 0 20px;
@@ -1167,11 +1171,15 @@ hr {
 
   [id^=drop]:checked + ul { 
     display: block; 
+    right: 0;
+    left: 70%;
   }
 
   .littleme ul li {
     display: block;
     height: auto;
+    left: 0;
+    right: 0;
     width: 100%;
     z-index: 6000;
   }
