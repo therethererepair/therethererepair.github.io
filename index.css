@@ -66,6 +66,8 @@ body {
 
 .littleme ul li {
   margin: 0px;
+  height: auto;
+  width: 100%;
   display: inline-block;
   float: right;
   background-color: black;
