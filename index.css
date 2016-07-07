@@ -70,7 +70,7 @@ body {
 }
 
 .littleme ul li {
-  left: -250px;
+  left: -90px;
   right: 90px;
   height: auto;
   width: 100%;
@@ -1136,7 +1136,7 @@ hr {
     z-index: 5000;
     height: 50px;
     right: 0px;
-    left: 70%;
+    left: 90px;
     overflow: visible;
     background-color: black;
     opacity: .98;
@@ -1161,6 +1161,7 @@ hr {
     width: 100%;
     top: 0;
     right: 0;
+    left: 70%;
     text-decoration: none;
     border: none;
   }
