@@ -74,9 +74,12 @@ body {
 
 .littleme a {
   display: block;
-  padding: 0;
+  padding: 0 20px;
   color: #FFF;
   font-size: 20px;
+  line-height: 50px;
+  height: auto;
+  width: 100%;
   text-decoration: none;
 }
 
@@ -1127,9 +1130,12 @@ hr {
     overflow: visible;
     background-color: black;
     opacity: .82;
-    padding: 0;
+    padding: 0 20px;
     color: #FFF;
     font-size: 20px;
+    line-height: 50px;
+    height: auto;
+    width: 100%;
     text-decoration: none;
     border: none;
   }
