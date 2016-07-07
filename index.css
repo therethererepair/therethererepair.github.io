@@ -1047,7 +1047,7 @@ hr {
   
   .othermenu {
     display: initial;
-    position: absolute;
+    position: relative;
     z-index: 5000;
     right: 0;
     left: 0;
