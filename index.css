@@ -70,7 +70,7 @@ body {
   width: 100%;
   display: inline-block;
   background-color: black;
-  opacity: .95;
+  opacity: .98;
 }
 
 .littleme a {
@@ -86,12 +86,12 @@ body {
 
 .littleme ul li ul li:hover {
   background: black;
-  opacity: .95;
+  opacity: .98;
 }
 
 .littleme a:hover { 
   background-color: black; 
-  opacity: .95;
+  opacity: .98;
 }
 
 .littleme ul ul {
@@ -1063,9 +1063,10 @@ hr {
     overflow: visible;
     left: 0;
     right: 0;
-    opacity: .95;
+    opacity: .98;
     top: 200px;
     height: auto;
+    z-index: 6000;
   }
   
   .fixed {
@@ -1075,7 +1076,7 @@ hr {
     left: 0;
     right: 0;
     top: 0;
-    opacity: .95;
+    opacity: .98;
     z-index: 6000;
   }
     
@@ -1125,7 +1126,7 @@ hr {
     left: 0;
     overflow: visible;
     background-color: black;
-    opacity: .95;
+    opacity: .98;
   }
 
   .littleme { margin: 0; }
@@ -1137,7 +1138,7 @@ hr {
     display: block;
     overflow: visible;
     background-color: black;
-    opacity: .95;
+    opacity: .98;
     padding: 0 20px;
     color: #FFF;
     font-size: 20px;
@@ -1150,7 +1151,7 @@ hr {
 
   .toggle:hover { 
     background-color: black; 
-    opacity: .95;
+    opacity: .98;
   }
 
   [id^=drop]:checked + ul { 
