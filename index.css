@@ -1066,11 +1066,13 @@ hr {
     right: 0;
     opacity: .82;
     top: 200px;
-    height: 50px;
+    height: auto;
   }
   
   .fixed {
     position: fixed;
+    height: auto;
+    width: 100%;
     left: 0;
     right: 0;
     top: 0;
