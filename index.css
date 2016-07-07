@@ -1040,11 +1040,12 @@ hr {
     display: none;
   }
   
-  #othermenu {
+  .othermenu {
     display: initial;
     z-index: 5000;
     right: 0;
     left: 0;
+
   }
   
   ul {
@@ -1094,6 +1095,7 @@ hr {
   li:hover li a:hover {
     background: #1e7c9a;
   }
+  
     
   .phones {
     top: 290px;
