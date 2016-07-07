@@ -1047,8 +1047,11 @@ hr {
   
   .othermenu {
     display: initial;
-    position: relative;
+    position: absolute;
     z-index: 5000;
+    height: auto;
+    width: 100%;
+    top: 0;
     right: 0;
     left: 0;
     overflow: visible;
