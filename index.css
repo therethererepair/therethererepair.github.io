@@ -1040,26 +1040,31 @@ hr {
     display: none;
   }
   
-  .othermenu {
+  #othermenu {
     display: initial;
-    position: absolute;
     z-index: 5000;
     right: 0;
     left: 0;
-    overflow: visible;
-    background-color: black;
-    opacity: .82;
   }
-
-  .othermenu li {
+  
+  ul {
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  ul li {
     display: block;
     position: relative;
     float: right;
   }
-  .othermenu li ul {
+  
+  li ul {
     display: none;
   }
-  .othermenu li a {
+  
+  ul li a {
     display: block;
     text-decoration: none;
     color: #ffffff;
@@ -1069,19 +1074,24 @@ hr {
     margin-left: 1px;
     white-space: nowrap;
   }
-  .othermenu li a:hover {
+  
+  ul li a:hover {
     background: #3b3b3b;                
   }
-  .othermenu li:hover ul {
+  
+  li:hover ul {
     display: block;
     position: absolute;
   }
-  .othermenu li:hover li {
+  
+  li:hover li {
     float: none;
-    font-size: 13px;
+    font-size: 11px;
   }
-  .othermenu li:hover a { background: #3b3b3b; }
-  .othermenu li:hover li a:hover {
+  
+  li:hover a { background: #3b3b3b; }
+  
+  li:hover li a:hover {
     background: #1e7c9a;
   }
     
