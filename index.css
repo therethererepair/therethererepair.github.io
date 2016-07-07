@@ -48,7 +48,7 @@ body {
   top: 0;
   height: auto;
   left: 90px;
-  right: 0;
+  right: 90px;
   margin: 0;
   padding: 0;
   position: absolute;
@@ -63,17 +63,15 @@ body {
 
 .littleme ul {
   left: 90px;
-  right: 0;
+  right: 90px;
   padding: 0;
-  margin: 0;
   list-style: none;
   position: relative;
 }
 
 .littleme ul li {
   left: 90px;
-  right: 0;
-  margin: 0;
+  right: 90px;
   height: auto;
   width: 100%;
   display: inline-block;
@@ -91,7 +89,7 @@ body {
   width: 100%;
   text-decoration: none;
   left: 90px;
-  right: 0;
+  right: 90px;
 }
 
 .littleme ul li ul li:hover {
@@ -1133,7 +1131,7 @@ hr {
     position: absolute;
     z-index: 5000;
     height: auto;
-    right: 0;
+    right: 90px;
     left: 90px;
     overflow: visible;
     background-color: black;
@@ -1148,7 +1146,7 @@ hr {
   .toggle {
     display: block;
     overflow: visible;
-    background-color: black;
+    background-color: yellow;
     opacity: .98;
     padding: 0 20px;
     color: #FFF;
