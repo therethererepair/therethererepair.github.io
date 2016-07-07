@@ -38,11 +38,6 @@ body {
   overflow: hidden;
 }
 
-.menuwrap p { text-align: center; }
- .toggle, [id^=drop] {
- display: none;
-}
-
 .othermenu {
   position: absolute;
   display: none;
@@ -1047,11 +1042,10 @@ hr {
   
   .othermenu {
     display: initial;
-    position: absolute;
+    position: relative;
     z-index: 5000;
-    height: auto;
-    width: 100%;
     top: 0;
+    padding: 0;
     right: 0;
     left: 0;
     overflow: visible;
@@ -1059,49 +1053,38 @@ hr {
     opacity: .82;
   }
 
-  .menuicon {
-    position: relative;
-    top: 0;
-    right: 0;
+  .othermenu li {
     display: block;
+    position: relative;
+    float: left;
   }
-  
-  .dropdown {
+  .othermenu li ul {
     display: none;
-    position: absolute;
   }
-  
-  .dropdown li a {
+  .othermenu li a {
     display: block;
     text-decoration: none;
-    padding: 5px 10px 5px 10px;
-    background-color: black;
-    opacity: .95;
-    text-align: center;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 5px 15px;
+    background: #1e7c9a;
+    margin-left: 1px;
     white-space: nowrap;
   }
-    
-  .dropdown li a:hover {
-    background-color: black;
-    opacity: .95;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-size: 13px;
-    font-weight: 5;
-    z-index: 5000;
-    outline: none;
+  .othermenu li a:hover {
+    background: #3b3b3b;                
   }
-    
-  .menuicon:hover .dropdown {
+  .othermenu li:hover ul {
     display: block;
     position: absolute;
-  }  
-  
-  .menuicon:hover li a:hover {
-    background-color: black;
-    opacity: .95;
-    text-decoration: none;
-    outline: none;
+  }
+  .othermenu li:hover li {
+    float: none;
+    font-size: 11px;
+  }
+  .othermenu li:hover a { background: #3b3b3b; }
+  .othermenu li:hover li a:hover {
+    background: #1e7c9a;
   }
     
   .phones {
