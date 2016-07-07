@@ -1131,8 +1131,8 @@ hr {
     position: absolute;
     z-index: 5000;
     height: 50px;
-    right: 80%;
-    left: 5px;
+    right: 5px;
+    left: 80%;
     overflow: visible;
     background-color: black;
     opacity: .98;
