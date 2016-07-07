@@ -43,22 +43,25 @@ body {
  display: none;
 }
 
-.othermenu {
-  height: auto;
-  width: 100%;
+.menuwrap p { text-align: center; }
+ .toggle, [id^=drop] {
+ display: none;
+}
+
+.littleme {
   margin: 0;
   padding: 0;
   position: absolute;
   display: none;
 }
 
-.othermenu:after {
+.littleme:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.othermenu ul {
+.littleme ul {
   float: right;
   padding: 0;
   margin: 0;
@@ -66,7 +69,8 @@ body {
   position: relative;
 }
 
-.othermenu ul li {
+.littleme ul li {
+  margin: 0px;
   height: auto;
   width: 100%;
   display: inline-block;
@@ -75,7 +79,7 @@ body {
   opacity: .82;
 }
 
-.othermenu a {
+.littleme a {
   display: block;
   padding: 0 20px;
   color: #FFF;
@@ -86,40 +90,41 @@ body {
   text-decoration: none;
 }
 
-.othermenu ul li ul li:hover {
+.littleme ul li ul li:hover {
   background: black;
   opacity: .82;
 }
 
-.othermenu a:hover { 
+.littleme a:hover { 
   background-color: black; 
   opacity: .82;
 }
 
-.othermenu ul ul {
+.littleme ul ul {
   display: none;
   position: absolute;
   top: 60px;
 }
 
-.othermenu ul li:hover > ul { display: inherit; }
+.littleme ul li:hover > ul { display: inherit; }
 
-.othermenu ul ul li {
+.littleme ul ul li {
   width: 170px;
   float: none;
   display: list-item;
   position: relative;
 }
 
-.othermenu ul ul ul li {
+.littleme ul ul ul li {
   position: relative;
   top: -60px;
   left: 170px;
 }
 
-.othermenu li > a:after { content: ' +'; }
+.littleme li > a:after { content: ' +'; }
 
-.othermenu li > a:only-child:after { content: ''; }
+.littleme li > a:only-child:after { content: ''; }
+
 
 .fixed {
   top: 0;
@@ -1118,7 +1123,7 @@ hr {
     display: none;
   }
   
-  .othermenu {
+  .littleme {
     display: initial;
     position: absolute;
     z-index: 5000;
@@ -1129,7 +1134,7 @@ hr {
     opacity: .82;
   }
 
-  .othermenu { top: 0; right: 0; }
+  .littleme { margin: 0; }
 
   .toggle + a,
    .othermenu { display: none; }
@@ -1158,44 +1163,41 @@ hr {
     display: block; 
   }
 
-  .othermenu ul li {
+  .littleme ul li {
     display: block;
     height: auto;
     width: 100%;
   }
 
-  .othermenu ul ul .toggle,
-   .othermenu ul ul a { padding: 0 40px; }
+  .littleme ul ul .toggle,
+   .littleme ul ul a { padding: 0 40px; }
 
-  .othermenu ul ul ul a { padding: 0 80px; }
+  .littleme ul ul ul a { padding: 0 80px; }
 
-  .othermenu a:hover,
-   .othermenu ul ul ul a { background-color: black; }
+  .littleme a:hover,
+   .littleme ul ul ul a { background-color: black; }
 
-  .othermenu ul li ul li .toggle,
-   .othermenu ul ul a { background-color: #212121; }
+  .littleme ul li ul li .toggle,
+   .littleme ul ul a { background-color: #212121; }
 
-  .othermenu ul ul {
+  .littleme ul ul {
     float: none;
     position: static;
     color: #ffffff;
   }
 
-  .othermenu ul ul li:hover > ul,
-  .othermenu ul li:hover > ul { display: none; }
+  .littleme ul ul li:hover > ul,
+  .littleme ul li:hover > ul { display: none; }
 
-  .othermenu ul ul li {
+  .littleme ul ul li {
     display: block;
-    height: auto;
     width: 100%;
   }
 
-  .othermenu ul ul ul li { 
+  .littleme ul ul ul li { 
     position: static;
   }
-    
-  
-    
+
   .phones {
     top: 290px;
     left: 0;
