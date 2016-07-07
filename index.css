@@ -46,7 +46,7 @@ body {
 .littleme {
   z-index: 5000;
   top: 0;
-  height: auto;
+  height: ;
   left: 90px;
   right: 90px;
   margin: 0;
@@ -1073,13 +1073,13 @@ hr {
     right: 0;
     opacity: .98;
     top: 200px;
-    height: auto;
+    height: 50px;
     z-index: 6000;
   }
   
   .fixed {
     position: fixed;
-    height: auto;
+    height: 50px;
     width: 100%;
     left: 0;
     right: 0;
@@ -1130,7 +1130,7 @@ hr {
     display: initial;
     position: absolute;
     z-index: 5000;
-    height: auto;
+    height: 50px;
     right: 90px;
     left: 90px;
     overflow: visible;
