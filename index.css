@@ -70,8 +70,8 @@ body {
 }
 
 .littleme ul li {
-  left: 90px;
-  right: 90px;
+  left: 0;
+  right: 0;
   height: auto;
   width: 100%;
   display: inline-block;
