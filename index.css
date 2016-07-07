@@ -1112,14 +1112,6 @@ hr {
     left: 0;
     overflow: visible;
   }
-  
-  #logo {
-    display: block;
-    padding: 0;
-    width: 100%;
-    text-align: center;
-    float: none;
-  }
 
   .littleme { margin: 0; }
 
@@ -1128,7 +1120,8 @@ hr {
 
   .toggle {
     display: block;
-    background-color: #254441;
+    overflow: visible;
+    background-color: red;
     padding: 0 20px;
     color: #FFF;
     font-size: 20px;
@@ -1137,7 +1130,7 @@ hr {
     border: none;
   }
 
-  .toggle:hover { background-color: blue; }
+  .toggle:hover { background-color: black; }
 
   .littleme [id^=drop]:checked + ul { 
     display: block; 
@@ -1154,7 +1147,7 @@ hr {
   .littleme ul ul ul a { padding: 0 80px; }
 
   .littleme a:hover,
-   .littleme ul ul ul a { background-color: red; }
+   .littleme ul ul ul a { background-color: black; }
 
   .littleme ul li ul li .toggle,
    .littleme ul ul a { background-color: #212121; }
