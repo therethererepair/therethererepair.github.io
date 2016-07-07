@@ -1177,7 +1177,7 @@ hr {
   .littleme ul li {
     display: block;
     height: auto;
-    left: -70%;
+    left: 0;
     right: 0;
     width: 100%;
     z-index: 6000;
