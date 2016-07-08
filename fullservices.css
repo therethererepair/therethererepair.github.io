@@ -879,7 +879,7 @@ hr {
 @media all and (max-width: 700px) {
   body {
     background-color: #f7f7f7;
-    overflow: hidden;
+    overflow: visible;
     height: 4000px;
     width: 100%;
     top: 0;
@@ -1077,7 +1077,7 @@ hr {
     position: absolute;
     left: 0;
     right: 0;
-    top: -400px;
+    top: 00px;
     text-align: center;
   }
   
@@ -1085,13 +1085,13 @@ hr {
     position: absolute;
     left: 0;
     right: 0;
-    top: 1100px;
+    top: 1500px;
     text-align: center;
   } 
  
   #col3 {
     position: absolute;
-    top: 2600px;
+    top: 3000px;
     left: 0;
     right: 0;
     text-align: center;
