@@ -1113,7 +1113,6 @@ hr {
     height: 0px;
     width: 0px;
     text-align: center;
-    z-index: 5000;
   }
 
   #oneplusline {
@@ -1124,7 +1123,6 @@ hr {
     height: 0;
     width: 0;
     text-align: center;
-    z-index: 5000;
   }
 
   #galaxysline {
@@ -1135,7 +1133,6 @@ hr {
     height: 0;
     width: 0;
     text-align: center;
-    z-index: 5000;
   }
     
   #nexusline {
@@ -1145,7 +1142,6 @@ hr {
     top: 1070px;
     height: 2px;
     text-align: center;
-    z-index: 5000;
   }
 
   #htcline {
@@ -1155,7 +1151,6 @@ hr {
     top: 1570px;
     height: 2px;
     text-align: center;
-    z-index: 5000;
   }
 
   #lgline {
@@ -1165,7 +1160,6 @@ hr {
     top: 2070px;
     height: 2px;
     text-align: center;
-    z-index: 5000;
   }
   
   #lineone {
