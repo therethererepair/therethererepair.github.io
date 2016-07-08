@@ -187,7 +187,7 @@
 		})
 		
 		function checkSize() {
-			if($(".wrapper").css("height") != "4010px"){
+			if($(".wrapper").css("overflow") != "visible"){
 				var num=500;
 		
 				$(window).bind('scroll', function() {
@@ -199,7 +199,7 @@
 				});
 			}
 			
-			if($(".wrapper").css("height") == "4010px"){
+			if($(".wrapper").css("overflow") == "hidden"){
 				var num=200;
 		
 				$(window).bind('scroll', function() {
