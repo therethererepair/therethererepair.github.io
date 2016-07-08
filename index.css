@@ -1048,7 +1048,7 @@ hr {
   body {
     background-color: #f7f7f7;
     overflow: visible;
-    height: 4010px;
+    height: 4020px;
     top: 0;
   }
 
@@ -1057,7 +1057,7 @@ hr {
     left: 0;
     right: 0;
     overflow: hidden;
-    height: 4010px;
+    height: 4020px;
     width: 100%;
   }
   
@@ -1077,7 +1077,6 @@ hr {
     top: 200px;
     height: 50px;
     z-index: 6000;
-    -webkit-backface-visibility: hidden;
   }
   
   .fixed {
