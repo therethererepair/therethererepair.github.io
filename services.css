@@ -40,6 +40,93 @@ body {
   opacity: .7;
 }
 
+.menuwrap p { text-align: right; }
+ .toggle, [id^=drop] {
+ display: none;
+}
+
+.littleme {
+  z-index: 5000;
+  top: 0;
+  left: 90px;
+  right: 0;
+  text-align: right;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  display: none;
+}
+
+.littleme:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.littleme ul {
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+
+.littleme ul li {
+  margin: 0;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  background-color: black;
+  opacity: 1;
+}
+
+.littleme a {
+  text-align: center;
+  opacity: 1;
+  display: block;
+  background-color: #008080;
+  padding: 0 20px;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 45px;
+  text-decoration: none;
+}
+
+.littleme ul li ul li:hover {
+  background: black;
+  opacity: 1;
+}
+
+.littleme a:hover { 
+  background-color: black; 
+  opacity: 1;
+}
+
+.littleme ul ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+
+.littleme ul li:hover > ul { display: inherit; }
+
+.littleme ul ul li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+.littleme ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 170px;
+}
+
+.littleme li > a:after { content: ' +'; }
+
+.littleme li > a:only-child:after { content: ''; }
+
 .fixed {
   top: 0;
   position: fixed;
