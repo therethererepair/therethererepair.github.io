@@ -1068,7 +1068,7 @@ hr {
   }
   
   .menuwrap {
-    transform: translate3d(0px,0px,0px)
+    transform: translateZ(0)
     position: absolute;
     width: 100%;
     overflow: visible;
