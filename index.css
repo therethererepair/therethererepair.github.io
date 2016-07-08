@@ -1169,7 +1169,10 @@ hr {
   }
 
   .littleme ul li {
-    border: solid 2px black;
+    border-top: solid black 1px;
+    border-right: solid black 2px;
+    border-left: solid black 2px;
+    border-bottom: solid black 1px;
     display: block;
     width: 100%;
     z-index: 6000;
