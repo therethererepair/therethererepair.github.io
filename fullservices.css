@@ -898,6 +898,7 @@ hr {
     position: absolute;
     height: 200px;
     top: 0;
+    background-color: blue;
   }
   
   .menuwrap {
@@ -1039,6 +1040,7 @@ hr {
     height: 45px;
     overflow: visible;
     position: absolute;
+    background-color: red;
   }
   
   .phones #services {
@@ -1071,6 +1073,7 @@ hr {
     right: 0;
     overflow: visible;
     position: absolute;
+    background-color: yello;
   }
   
   #col1 {
