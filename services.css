@@ -728,8 +728,6 @@ hr {
     height: 3400px;
     width: 100%;
     top: 0;
-    left: 0;
-    right: 0;
   }
   
   .wrapper {
@@ -745,12 +743,11 @@ hr {
     position: absolute;
     height: 200px;
     top: 0;
-    right: 0;
-    left: 0;
   }
   
   .menuwrap {
     transform: translate3d(0px,0px,0px);
+    overflow: visible;
     position: absolute;
     width: 100%;
     opacity: 1;
