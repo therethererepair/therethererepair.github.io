@@ -1165,7 +1165,7 @@ hr {
     width: 100%;
     top: 0;
     right: 0;
-    left: 70%;
+    left: -200px;
     text-decoration: none;
     border: none;
   }
