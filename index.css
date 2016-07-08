@@ -1152,9 +1152,6 @@ hr {
     color: #FFF;
     font-size: 20px;
     line-height: 50px;
-    top: 0;
-    left: 0;
-    right: 0;
     text-decoration: none;
     border: none;
   }
@@ -1170,9 +1167,6 @@ hr {
 
   .littleme ul li {
     display: block;
-    height: auto;
-    left: 0;
-    right: 0;
     width: 100%;
     z-index: 6000;
   }
