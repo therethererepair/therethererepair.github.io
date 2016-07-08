@@ -725,7 +725,7 @@ hr {
   body {
     background-color: #f7f7f7;
     overflow: visible;
-    height: 4000px;
+    height: 4200px;
     width: 100%;
     top: 0;
   }
@@ -734,7 +734,7 @@ hr {
     top: 0;
     right: 0;
     left: 0;
-    height: 4000px;
+    height: 4200px;
     width: 100%;
     overflow: hidden;
   }
@@ -900,7 +900,7 @@ hr {
   }
   
   .container {
-    height: 45px;
+    height: 20px;
     top: 540px;
     left: 0;
     right: 0;
