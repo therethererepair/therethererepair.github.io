@@ -38,7 +38,7 @@ body {
   overflow: hidden;
 }
 
-.menuwrap p { text-align: center; }
+.menuwrap p { text-align: right; }
  .toggle, [id^=drop] {
  display: none;
 }
@@ -62,7 +62,7 @@ body {
 }
 
 .littleme ul {
-  left: 0;
+  top: 0;
   right: 0;
   padding: 0;
   list-style: none;
@@ -70,8 +70,7 @@ body {
 }
 
 .littleme ul li {
-  left: -90px;
-  right: 90px;
+  margin: 0;
   height: auto;
   width: 100%;
   display: inline-block;
@@ -86,8 +85,6 @@ body {
   color: #FFF;
   font-size: 20px;
   line-height: 50px;
-  height: auto;
-  width: 100%;
   text-decoration: none;
   left: -290px;
   right: 90px;
@@ -1132,11 +1129,8 @@ hr {
   
   .littleme {
     display: initial;
-    position: absolute;
     z-index: 5000;
     height: 50px;
-    right: 0px;
-    left: 0;
     overflow: visible;
     background-color: black;
     opacity: .98;
@@ -1151,26 +1145,18 @@ hr {
 
   .toggle {
     display: block;
-    overflow: visible;
-    text-align: center;
+    text-align: right;
     background-color: yellow;
     opacity: .98;
     padding: 0 20px;
     color: #FFF;
     font-size: 20px;
     line-height: 50px;
-    height: auto;
-    width: 100%;
     top: 0;
+    left: 0;
     right: 0;
     text-decoration: none;
     border: none;
-  }
-  
-  #smallmen {
-    position: absolute;
-    right: 0;
-    top: 0;
   }
 
   .toggle:hover { 
@@ -1179,9 +1165,7 @@ hr {
   }
 
   [id^=drop]:checked + ul { 
-    display: block; 
-    right: 0;
-    left: 70%;
+    display: block;
   }
 
   .littleme ul li {
