@@ -1146,12 +1146,12 @@ hr {
   .toggle {
     display: block;
     text-align: right;
-    background-color: yellow;
+    background-color: black;
     opacity: .98;
     padding: 0 20px;
     color: #FFF;
     font-size: 20px;
-    line-height: 50px;
+    line-height: 30px;
     text-decoration: none;
     border: none;
   }
@@ -1166,9 +1166,6 @@ hr {
   }
 
   .littleme ul li {
-    position: absolute;
-    left: 0;
-    right: 0;
     display: block;
     width: 100%;
     z-index: 6000;
