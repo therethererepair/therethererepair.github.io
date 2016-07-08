@@ -47,6 +47,9 @@ body {
 .littleme {
   z-index: 5000;
   top: 0;
+  left: 90px;
+  right: 0;
+  text-align: right;
   height: 50px;
   margin: 0;
   padding: 0;
@@ -1124,6 +1127,8 @@ hr {
   
   .littleme {
     display: initial;
+    left: 90px;
+    right: 0;
     z-index: 5000;
     height: 50px;
     overflow: visible;
@@ -1161,6 +1166,9 @@ hr {
   }
 
   .littleme ul li {
+    position: absolute;
+    left: 0;
+    right: 0;
     display: block;
     width: 100%;
     z-index: 6000;
