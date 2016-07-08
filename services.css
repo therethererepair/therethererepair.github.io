@@ -908,7 +908,6 @@ hr {
     right: 0;
     overflow: visible;
     position: absolute;
-    z-index: 5000;
   }
   
   #we {
