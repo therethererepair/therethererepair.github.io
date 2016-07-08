@@ -1050,7 +1050,7 @@ hr {
   body {
     background-color: #f7f7f7;
     overflow: visible;
-    height: 3800px;
+    height: 4000px;
     top: 0;
   }
 
@@ -1059,7 +1059,7 @@ hr {
     left: 0;
     right: 0;
     overflow: hidden;
-    height: 3800px;
+    height: 4000px;
     width: 100%;
   }
   
@@ -1147,8 +1147,6 @@ hr {
   .toggle + a,
    .othermenu { 
      display: none; 
-     left: 0;
-     right: 0;
    }
 
   .toggle {
