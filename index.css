@@ -1073,7 +1073,7 @@ hr {
     overflow: visible;
     left: 0;
     right: 0;
-    opacity: .98;
+    opacity: 1;
     top: 200px;
     height: 50px;
     z-index: 6000;
@@ -1086,7 +1086,7 @@ hr {
     left: 0;
     right: 0;
     top: 0;
-    opacity: .98;
+    opacity: 1;
     z-index: 6000;
   }
     
