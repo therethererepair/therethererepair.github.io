@@ -1136,7 +1136,7 @@ hr {
     z-index: 5000;
     height: 50px;
     right: 0px;
-    left: 75%;
+    left: 0;
     overflow: visible;
     background-color: black;
     opacity: .98;
