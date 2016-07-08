@@ -1145,7 +1145,11 @@ hr {
   .littleme { margin: 0; }
 
   .toggle + a,
-   .othermenu { display: none; }
+   .othermenu { 
+     display: none; 
+     left: 0;
+     right: 0;
+   }
 
   .toggle {
     display: block;
