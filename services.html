@@ -30,6 +30,17 @@
 	    	 	 	<h3 id="we">You Say Where!</h3>
 	    	 	 	<h4 id="call">Call Today!</h4>
 	    		 	<h5 id="numbers">(909) 230-1537</h5>
+	    		 	
+				<nav class="littleme" id="smallmen">
+					<label for="drop" class="toggle">Menu</label>
+					<input type="checkbox" id="drop" />
+					<ul class="othermenu">					
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="services.html">SERVICES</a></li>
+						<li><a href="aboutcontact.html#beforeline">ABOUT US</a></li>
+						<li><a href="aboutcontact.html#beforelineone">CONTACT</a></li>
+					</ul>
+				</nav>	    		 	
 			</nav>
 			
 			<div class="phones">
@@ -150,7 +161,7 @@
 		})
 		
 		function checkSize() {
-			if($(".wrapper").css("height") != "2300px"){
+			if($(".wrapper").css("overflow") == "visible"){
 				var num=500;
 		
 				$(window).bind('scroll', function() {
@@ -161,6 +172,18 @@
 					}
 				});
 			}
+			
+			if($(".wrapper").css("overflow") == "hidden"){
+				var num=200;
+		
+				$(window).bind('scroll', function() {
+					if($(window).scrollTop() > num) {
+						$('.menuwrap').addClass('fixed');
+					} else {
+						$('.menuwrap').removeClass('fixed');
+					}
+				});
+			}			
 		};	
 		</script>
 	</body>
