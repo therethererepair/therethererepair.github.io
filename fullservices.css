@@ -896,7 +896,7 @@ hr {
   .top {
     position: absolute;
     height: 200px;
-    top: 0;
+    top: -20px;
     background-color: blue;
   }
   
@@ -1072,7 +1072,7 @@ hr {
     right: 0;
     overflow: visible;
     position: absolute;
-    background-color: yello;
+    background-color: yellow;
   }
   
   #col1 {
