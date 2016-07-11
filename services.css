@@ -93,6 +93,11 @@ body {
   text-decoration: none;
 }
 
+#nobottom {
+  border-bottom: none;
+}
+
+
 .littleme ul li ul li:hover {
   background: black;
   opacity: 1;
