@@ -319,7 +319,7 @@ h5 {
 }
 
 .thumbnail #iphonetester {
-  border: none;
+  border-radius: 7px;
   height: 400px;
   width: 200px;
   position: absolute;
