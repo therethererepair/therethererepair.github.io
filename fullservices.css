@@ -397,7 +397,7 @@ hr {
 } 
 
 .thumbnail #iphone {
-  border-radius: 32px;
+  border-radius: 35px;
   height: 400px;
   width: 200px;
   position: absolute;
@@ -621,7 +621,7 @@ hr {
 } 
 
 .thumbnail #iphone3 {
-  border-radius: 19px;
+  border-radius: 24px;
   height: 400px;
   width: 200px;
   position: absolute;
