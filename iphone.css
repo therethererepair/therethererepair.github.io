@@ -279,7 +279,6 @@ h5 {
 
 .container {
   position: absolute;
-  background-color: #f7f7f7;
   top: 20px;
   text-align: center;
   left: 0;
@@ -298,7 +297,7 @@ h5 {
  
 .thumbnail {
   border-color: transparent;
-  background-color: #f7f7f7;
+  background-color: transparent;
   height: auto;
   width: 100%;
   left: 0;
@@ -470,6 +469,7 @@ h5 {
 
 .thumbnail #g {
   font-family: 'Roboto', sans-serif;
+  border-style: none;
   font-size: 29px;
   top: 0;
   left: 0;
