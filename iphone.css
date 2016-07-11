@@ -320,6 +320,7 @@ h5 {
 
 .thumbnail #iphonetester {
   border-radius: 10px;
+  display: block;
   height: 400px;
   width: 200px;
   position: absolute;
