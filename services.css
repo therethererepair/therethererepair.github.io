@@ -85,7 +85,6 @@ body {
   opacity: 1;
   display: block;
   background-color: #008080;
-  border-bottom: solid 1px white;
   padding: 0 20px;
   color: #FFF;
   font-size: 20px;
@@ -93,8 +92,22 @@ body {
   text-decoration: none;
 }
 
-#nobottom {
-  border: none;
+#menuline {
+  height: 1px;
+  background-color: black;
+  color: black;
+}
+
+#menulinetw {
+  height: 1px;
+  background-color: black;
+  color: black;
+}
+
+#menulinethr {
+  height: 1px;
+  background-color: black;
+  color: black;
 }
 
 
