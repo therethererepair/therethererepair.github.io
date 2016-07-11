@@ -803,6 +803,7 @@ hr {
     transform: translate3d(0px,0px,0px);
     overflow: visible;
     position: absolute;
+    opacity: 1;
     width: 100%;
     top: 200px;
     height: 50px;
@@ -996,7 +997,7 @@ hr {
     color: #000000;
   }
   
-  .phones  #servicestwo{
+  .phones  #ser{
     text-align: center;
     position: absolute;
     font-family: 'Roboto', sans-serif;
