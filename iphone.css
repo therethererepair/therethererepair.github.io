@@ -311,7 +311,6 @@ h5 {
 
 .thumbnail #iphone {
   border-radius: 5.5px;
-  padding-left: 2px;
   height: 400px;
   width: 200px;
   position: absolute;
@@ -320,7 +319,8 @@ h5 {
 }
 
 .thumbnail #iphonetester {
-  border-radius: 10px;
+  border-radius: 14px;
+  border-left: 2px;
   display: block;
   height: 400px;
   width: 200px;
