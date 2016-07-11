@@ -592,7 +592,7 @@ hr {
   body {
     background-color: white;
     overflow: visible;
-    height: 1300px;
+    height: 1100px;
     top: 0;
   }
   
@@ -600,7 +600,7 @@ hr {
     top: 0;
     right: 0;
     left: 0;
-    height: 1300px;
+    height: 1100px;
     width: 100%;
     overflow: hidden;
   }
