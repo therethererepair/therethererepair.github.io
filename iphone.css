@@ -301,8 +301,7 @@ h5 {
 }
  
 .thumbnail {
-  border-color: transparent;
-  background-color: transparent;
+  background-color: #f7f7f7;
   height: auto;
   width: 100%;
   left: 0;
