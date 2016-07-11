@@ -283,6 +283,7 @@ h5 {
 
 .container {
   position: absolute;
+  background-color: #f7f7f7;
   top: 20px;
   text-align: center;
   left: 0;
@@ -301,6 +302,7 @@ h5 {
  
 .thumbnail {
   border-color: transparent;
+  background-color: transparent;
   height: auto;
   width: 100%;
   left: 0;
