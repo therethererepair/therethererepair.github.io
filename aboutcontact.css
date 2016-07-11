@@ -1,14 +1,14 @@
 body {
-  height: 1900px;
+  height: 1600px;
   width: 100%;
   margin: 0 auto;
-  background-color: white;
+  background-color: #f7f7f7;
   overflow: visible;
   position: absolute;
 }
 
 .wrapper {
-  height: 1900px;
+  height: 1600px;
   width: 100%;
   position: absolute; 
   left: 0;
