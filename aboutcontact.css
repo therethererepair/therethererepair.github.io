@@ -791,7 +791,7 @@ hr {
     position: absolute;
     background-color: transparent;
     color: transparent;
-    top: 609px;
+    top: 509px;
   }
   
   #lineone {
@@ -808,7 +808,7 @@ hr {
   .phones #broke {
     position: absolute;
     font-family: 'Oswald', sans-serif;
-    top: 675px;
+    top: 540px;
     left: 5px;
     right: 5px;
     font-size: 30px;
