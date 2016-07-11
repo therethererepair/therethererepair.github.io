@@ -311,6 +311,7 @@ h5 {
 
 .thumbnail #iphone {
   border-radius: 5.5px;
+  padding-left: 2px;
   height: 400px;
   width: 200px;
   position: absolute;
