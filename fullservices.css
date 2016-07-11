@@ -19,8 +19,8 @@ body {
 
 .top {
   position: absolute;
-  height: 550px;
-  top: -50px;
+  height: 555px;
+  top: 0px;
   background-image: url('http://cdn.shopify.com/s/files/1/0435/4629/t/4/assets/slideshow_4.jpg?2179536023810732177');
   background-size: cover; 
   width: 100%;
@@ -37,6 +37,11 @@ body {
   margin: 0;
   z-index: 1000;
   opacity: .7;
+}
+
+.littleme {
+  position: absolute;
+  display: none;
 }
 
 .fixed {
@@ -189,13 +194,12 @@ h5 {
 .phones #services {
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  top: -85px;
+  top: -155px;
   left: 0;
   right: 0;
   position: absolute;
   font-size: 55px;
-  font-weight: 650;
-  line-height: 160%;
+  font-weight: 500;
   color: #000000;
 }
 
@@ -203,7 +207,7 @@ h5 {
   text-align: center;
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  top: -18px;
+  top: -65px;
   left: 0;
   right: 0;
   font-size: 33px;
@@ -214,7 +218,7 @@ h5 {
 
 .container {
   position: absolute;
-  top: 100px;
+  top: 20px;
   text-align: center;
   left: 0;
   right: 0;
@@ -287,6 +291,7 @@ hr {
 
 .thumbnail {
   border-color: transparent;
+  background-color: transparent;
   height: auto;
   width: 100%;
   left: 0;
