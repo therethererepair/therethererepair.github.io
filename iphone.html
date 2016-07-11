@@ -6,6 +6,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,300italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>		
 		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
 		<link rel="stylesheet" href="iphone.css"> 
   	</head>
@@ -30,6 +31,18 @@
 	    	 	 	<h3 id="we">You Say Where!</h3>
 	    	 	 	<h4 id="call">Call Today!</h4>
 	    		 	<h5 id="numbers">(909) 230-1537</h5>
+	    		 	
+				<nav class="littleme" id="smallmen">
+					<label for="drop" class="toggle">Menu</label>
+					<input type="checkbox" id="drop" />
+					<ul class="othermenu">					
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="services.html">SERVICES</a></li>
+						<li><a href="aboutcontact.html#beforeline">ABOUT US</a></li>
+						<li><a href="aboutcontact.html#beforelineone">CONTACT</a></li>
+					</ul>
+				</nav>	
+	    		 	
 			</nav>
 			
 			<div class="phones">
@@ -206,6 +219,17 @@
 	   			</div>
 			</footer>
 		</div>
+		
+		<script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  			
+  			ga('create', 'UA-46156385-1', 'cssscript.com');
+  			ga('send', 'pageview');
+		</script>
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script>
 		$(document).ready(function() {
@@ -215,7 +239,7 @@
 		})
 		
 		function checkSize() {
-			if($(".wrapper").css("height") != "1000px"){
+			if($(".wrapper").css("overflow") == "visible"){
 				var num=500;
 		
 				$(window).bind('scroll', function() {
@@ -226,6 +250,18 @@
 					}
 				});
 			}
+			
+			if($(".wrapper").css("overflow") == "hidden"){
+				var num=200;
+		
+				$(window).bind('scroll', function() {
+					if($(window).scrollTop() > num) {
+						$('.menuwrap').addClass('fixed');
+					} else {
+						$('.menuwrap').removeClass('fixed');
+					}
+				});
+			}			
 		};	
 		</script>
 	</body>
