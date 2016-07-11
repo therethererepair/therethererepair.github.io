@@ -509,6 +509,7 @@ h5 {
 }
 
 .thumbnail #iphonevol {
+  border-style: hidden;
   border-radius: 40px;
   border-left: 18px;
   height: 400px;
