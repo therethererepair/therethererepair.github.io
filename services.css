@@ -92,25 +92,6 @@ body {
   text-decoration: none;
 }
 
-#menuline {
-  height: 1px;
-  background-color: black;
-  color: black;
-}
-
-#menulinetw {
-  height: 1px;
-  background-color: black;
-  color: black;
-}
-
-#menulinethr {
-  height: 1px;
-  background-color: black;
-  color: black;
-}
-
-
 .littleme ul li ul li:hover {
   background: black;
   opacity: 1;
