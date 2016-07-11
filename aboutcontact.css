@@ -840,7 +840,8 @@ hr {
 
   #linethree {
     position: absolute;
-    display: none;
+    text-align: center;
+    top: 1000px;
   }
 
   #linefive {
