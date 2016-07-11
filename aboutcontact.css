@@ -756,7 +756,7 @@ hr {
   .textsquare {
     position: absolute;
     left: 5px;
-    top: 60px;
+    top: 40px;
     right: 5px;
     height: 500px;
   }
@@ -807,7 +807,7 @@ hr {
   .phones #broke {
     position: absolute;
     font-family: 'Oswald', sans-serif;
-    top: 565px;
+    top: 675px;
     left: 5px;
     right: 5px;
     font-size: 30px;
@@ -818,7 +818,7 @@ hr {
   .phones #lastthing {
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    top: 680px;
+    top: 790px;
     left: 0;
     right: 0;
     font-size: 20px;
@@ -829,7 +829,7 @@ hr {
   .phones #secondlastthing {
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    top: 750px;
+    top: 860px;
     left: 0;
     right: 0;
     font-size: 20px;
