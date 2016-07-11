@@ -1181,7 +1181,7 @@ hr {
   .littleme ul ul ul a { padding: 0 80px; }
 
   .littleme a:hover,
-   .littleme ul ul ul a { background-color: white; }    /* What happens when you press menu button in mobile */
+   .littleme ul ul ul a { background-color: black; }    /* What happens when you press menu button in mobile */
 
   .littleme ul li ul li .toggle,
    .littleme ul ul a { background-color: #212121; }
