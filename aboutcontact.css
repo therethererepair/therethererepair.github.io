@@ -756,7 +756,7 @@ hr {
   .textsquare {
     position: absolute;
     left: 5px;
-    top: 40px;
+    top: 20px;
     right: 5px;
     height: 500px;
   }
@@ -782,6 +782,7 @@ hr {
   }
   #beforeline {
     position; absolute;
+    display: none;
     background-color: transparent;
     color: transparent;
     top: 380px;
