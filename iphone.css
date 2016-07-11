@@ -331,7 +331,7 @@ h5 {
   background-image: url('http://i.imgur.com/OrOKyma.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #f7f7f7;
+  background-color: transparent;
 }
 
 .thumbnail #p1 {
@@ -509,7 +509,7 @@ h5 {
 }
 
 .thumbnail #iphonevol {
-  border-radius: 25px;
+  border-radius: 32px;
   height: 400px;
   position: absolute;
   top: 50px;
