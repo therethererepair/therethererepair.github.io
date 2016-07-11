@@ -327,7 +327,8 @@ h5 {
   left: 0;
   background-image: url('http://i.imgur.com/OrOKyma.png');
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
+  background-color: #f7f7f7;
 }
 
 .thumbnail #p1 {
