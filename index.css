@@ -92,12 +92,12 @@ body {
 }
 
 .littleme ul li ul li:hover {
-  background: black;
+  background: white;
   opacity: 1;
 }
 
 .littleme a:hover { 
-  background-color: black; 
+  background-color: white; 
   opacity: 1;
 }
 
