@@ -592,7 +592,7 @@ hr {
   body {
     background-color: white;
     overflow: visible;
-    height: 1600px;
+    height: 1300px;
     top: 0;
   }
   
@@ -600,7 +600,7 @@ hr {
     top: 0;
     right: 0;
     left: 0;
-    height: 1600px;
+    height: 1300px;
     width: 100%;
     overflow: hidden;
   }
@@ -819,7 +819,7 @@ hr {
   .phones #lastthing {
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    top: 790px;
+    top: 610px;
     left: 0;
     right: 0;
     font-size: 20px;
@@ -830,7 +830,7 @@ hr {
   .phones #secondlastthing {
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    top: 860px;
+    top: 670px;
     left: 0;
     right: 0;
     font-size: 20px;
