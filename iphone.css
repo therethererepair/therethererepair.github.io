@@ -484,7 +484,7 @@ h5 {
 } 
 
 .thumbnail #iphone2 {
-  border-radius: 19px;
+  border-radius: 25px;
   height: 400px;
   width: 200px;
   position: absolute;
@@ -493,7 +493,7 @@ h5 {
 }
 
 .thumbnail #iphonevol {
-  border-radius: 5.5px;
+  border-radius: 25px;
   height: 400px;
   width: 200px;
   position: absolute;
