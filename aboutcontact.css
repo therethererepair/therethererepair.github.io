@@ -592,7 +592,7 @@ hr {
   body {
     background-color: white;
     overflow: visible;
-    height: 1000px;
+    height: 1600px;
     top: 0;
   }
   
@@ -600,7 +600,7 @@ hr {
     top: 0;
     right: 0;
     left: 0;
-    height: 1000px;
+    height: 1600px;
     width: 100%;
     overflow: hidden;
   }
@@ -724,53 +724,9 @@ hr {
   
   .texts {
     position: absolute;
-    list-style: none;
-    left: 0;
-    right: 0;
-    top: 1300px;
-    background-color: transparent;
-    height: auto;
-    width: 100%;
-    display: block;
-    z-index: 4000;
-  }
-  
-  .texts #cari {
-    position: absolute;
     display: none;
   }
-  
-  .texts li {
-    display: block;
-    position: relative;
-    background-color: black;
-    height: 45px;
-    width: 100%;
-    padding: 5px 5px 5px 5px;
-    left: -7%;
-    right: 0;
-    z-index: 4000;
-  }
-  
-  .texts li a {
-    color: #FFFFFF;
-    display: block;
-    position: relative;
-    border: 1px solid white;
-    font-family: 'Roboto condensed', sans-serif;
-    font-size: 15px;
-    font-weight: 5;
-    text-decoration: none;
-    padding: 5px 5px 5px 5px;
-    left: 0;
-    right: 0;
-    z-index: 4000;
-  }
-  
-  .logo {
-    position: absolute;
-    display: none;
-  }
+
   
   #numbers {
     position: absolute;
@@ -778,19 +734,18 @@ hr {
   }
   
   .phones {
-    top: 400px;
+    top: 290px;
     left: 0;
     right: 0;
     height: 45px;
-    z-index: 4000;
     overflow: visible;
     position: absolute;
   }
   
   .phones #services {
     position: absolute;
-    font-family: 'Roboto', sans-serif;
-    top: 5px;
+    font-family: 'Oswald', sans-serif;
+    top: -15px;
     left: 0;
     right: 0;
     font-size: 30px;
@@ -801,7 +756,7 @@ hr {
   .textsquare {
     position: absolute;
     left: 5px;
-    top: 40px;
+    top: 60px;
     right: 5px;
     height: 500px;
   }
@@ -851,8 +806,8 @@ hr {
   
   .phones #broke {
     position: absolute;
-    font-family: 'Roboto', sans-serif;
-    top: 675px;
+    font-family: 'Oswald', sans-serif;
+    top: 565px;
     left: 5px;
     right: 5px;
     font-size: 30px;
@@ -863,7 +818,7 @@ hr {
   .phones #lastthing {
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    top: 790px;
+    top: 680px;
     left: 0;
     right: 0;
     font-size: 20px;
@@ -874,7 +829,7 @@ hr {
   .phones #secondlastthing {
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    top: 860px;
+    top: 750px;
     left: 0;
     right: 0;
     font-size: 20px;
