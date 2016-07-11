@@ -242,10 +242,6 @@ h5 {
   text-decoration: none;
 }
 
-.thumbnail {
-  background-color: transparent;
-}
-
 .phones #services {
   text-align: center;
   font-family: 'Oswald', sans-serif;
@@ -301,6 +297,7 @@ h5 {
 }
  
 .thumbnail {
+  border-color: transparent;
   background-color: #f7f7f7;
   height: auto;
   width: 100%;
