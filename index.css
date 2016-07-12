@@ -1161,6 +1161,7 @@ hr {
     text-decoration: none;
     border-top: double 24px white;
     border-bottom: solid 8px white;
+    border-width: 4px;
   }
 
   .toggle:hover { 
