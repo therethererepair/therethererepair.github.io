@@ -349,12 +349,12 @@ h5 {
 }
 
 .thumbnail #iphonetestedother {                  /*Actual Image But Different*/
-  height: 406px;
+  height: 400px;
   width: 200px;
   position: absolute;
   left: -5.75px;
   top: 0;
-  bottom: -3.5px;
+  bottom: 0;
 }
 
 .thumbnail #p1 {
