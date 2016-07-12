@@ -590,9 +590,10 @@ hr {
 
 @media all and (max-width: 700px) {
   body {
-    background-color: white;
+    background-color: #f7f7f7;
     overflow: visible;
     height: 1100px;
+    width: 100%;
     top: 0;
   }
   
