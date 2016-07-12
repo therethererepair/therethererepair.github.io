@@ -1157,6 +1157,7 @@ hr {
     font-family: 'Material Icons', sans-serif;
     border: none;
     z-index: 7000;
+    vertical-align: middle;
   }
 
   .toggle:hover { 
