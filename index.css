@@ -1048,6 +1048,7 @@ hr {
     background-color: #f7f7f7;
     overflow: visible;
     height: 4035px;
+    width: 100%;
     top: 0;
   }
 
@@ -1081,6 +1082,7 @@ hr {
   
   .fixed {
     position: fixed;
+    overflow: visible;
     height: 50px;
     width: 100%;
     left: 0;
