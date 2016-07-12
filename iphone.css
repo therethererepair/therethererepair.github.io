@@ -330,7 +330,9 @@ h5 {
 }
 
 .thumbnail #iphonetestested {
-  position: absolute;
+  height: 400px;
+  width: 200px;
+  position: relative;
   left: -5.75px;
 }
 
