@@ -92,12 +92,12 @@ body {
 }
 
 .littleme ul li ul li:hover {
-  background: white;
+  background: black;
   opacity: 1;
 }
 
 .littleme a:hover { 
-  background-color: white; 
+  background-color: black; 
   opacity: 1;
 }
 
@@ -1156,12 +1156,13 @@ hr {
     position: absolute;
     opacity: 1;
     text-decoration: none;
-    border-style: none;
+    font-weight: 100;
     font-family: 'Material Icons', sans-serif;
     font-size: 48px;
     color: white;
     line-height: 45px;
     z-index: 7000;
+    border: none;
   }
 
   .toggle:hover { 
