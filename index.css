@@ -70,7 +70,6 @@ body {
 }
 
 .littleme ul li {
-  top: 50px;
   margin: 0;
   text-align: center;
   height: auto;
@@ -1146,20 +1145,18 @@ hr {
     display: block;
     text-align: right;
     background-color: black;
-    height: auto;
-    padding: 0 20px;
+    opacity: 1;
     top: 2px;
     right: 2px;
-    position: absolute;
-    opacity: 1;
-    text-decoration: none;
-    font-weight: 100;
-    font-family: 'Material Icons', sans-serif;
+    padding: 0 20px;
+    color: #FFF;
     font-size: 48px;
-    color: white;
+    font-weight: 100;
     line-height: 45px;
+    text-decoration: none;
+    font-family: 'Material Icons', sans-serif;
+    border: none;
     z-index: 7000;
-    border: hidden;
   }
 
   .toggle:hover { 
@@ -1183,7 +1180,7 @@ hr {
   .littleme ul ul ul a { padding: 0 80px; }
 
   .littleme a:hover,
-   .littleme ul ul ul a { background-color: black; }    /* What happens when you press menu button in mobile */
+   .littleme ul ul ul a { background-color: black; }
 
   .littleme ul li ul li .toggle,
    .littleme ul ul a { background-color: #212121; }
