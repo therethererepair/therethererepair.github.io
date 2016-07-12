@@ -691,10 +691,6 @@ hr {
   #drop:checked + label {
     color: #008080;
   }
-  
-  .littleme ul li a:hover {
-    display: none;
-  }
 
   [id^=drop]:checked + label + ul { 
     display: block;
