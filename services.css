@@ -819,8 +819,13 @@ hr {
 
   .toggle:hover { 
     background-color: black;
-    color: #008080;
     opacity: 1;
+  }
+  
+  .toggle:checked {
+    opacity: 1;
+    background-color: black;
+    color: #008080;
   }
 
   [id^=drop]:checked + ul { 
