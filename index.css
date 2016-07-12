@@ -1163,7 +1163,7 @@ hr {
     font-size: 20px;
     line-height: 45px;
     text-decoration: none;
-    border: double 2.5px white;
+    border-bottom: double 7px white;
   }
 
   .toggle:hover { 
