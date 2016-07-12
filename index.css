@@ -1156,7 +1156,7 @@ hr {
     width: 10px;
     height: auto;
     bottom: 0;
-    position: relative;
+    position: absolute;
     opacity: 1;
     padding: 0 20px;
     color: #FFF;
