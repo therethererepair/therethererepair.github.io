@@ -823,9 +823,7 @@ hr {
     opacity: 1;
   }
   
-  .toggle:checked {
-    opacity: 1;
-    background-color: black;
+  #drop:checked + label {
     color: #008080;
   }
 
