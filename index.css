@@ -1147,7 +1147,7 @@ hr {
     background-color: black;
     opacity: 1;
     top: 20px;
-    position: absolute;
+    position: relative;
     right: 20px;
     color: #FFFFFF;
     font-size: 48px;
