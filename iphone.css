@@ -323,7 +323,7 @@ h5 {
   text-align: center;
   display: block;
   height: 400px;
-  width: 135.5px;
+  width: 200px;
   position: absolute;
   top: 50px;
   left: 0;
@@ -335,6 +335,7 @@ h5 {
   width: 200px;
   position: absolute;
   left: -5.75px;
+  right: -8px;
 }
 
 .thumbnail #p1 {
@@ -459,7 +460,8 @@ h5 {
   font-weight: 100;
   line-height: 160%;
   position: absolute;
-  color: #000000;  
+  color: #000000;
+  text-decoration: none;
 } 
 
 
