@@ -1110,13 +1110,7 @@ hr {
   
   #numbers {
     position: absolute;
-    text-align: center;
-    top: 810px;
-    left: 0;
-    right: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-    color: #000000;
+    display: none;
   }
   
   .logo {
@@ -1133,7 +1127,7 @@ hr {
     display: initial;
     left: 90px;
     right: 0;
-    z-index: 5000;
+    z-index: 7000;
     height: 50px;
     overflow: visible;
     background-color: black;
