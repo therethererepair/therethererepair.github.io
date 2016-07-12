@@ -827,7 +827,7 @@ hr {
     color: #008080;
   }
 
-  [id^=drop]:checked + ul { 
+  [id^=drop]:checked + label + ul { 
     display: block;
   }
 
