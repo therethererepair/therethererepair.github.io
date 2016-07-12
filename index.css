@@ -1147,6 +1147,7 @@ hr {
     text-align: right;
     background-color: black;
     height: auto;
+    padding: 0 20px;
     top: 2px;
     right: 2px;
     position: absolute;
@@ -1158,7 +1159,7 @@ hr {
     color: white;
     line-height: 45px;
     z-index: 7000;
-    border: none;
+    border: hidden;
   }
 
   .toggle:hover { 
