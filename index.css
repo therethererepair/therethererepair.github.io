@@ -1151,14 +1151,13 @@ hr {
     display: block;
     text-align: right;
     background-color: black;
-    right: 5px;
+    right: 2px;
     position: absolute;
     opacity: 1;
     text-decoration: none;
     border-style: none;
     font-family: 'Material Icons', sans-serif;
     font-size: 45px;
-    padding: 0 20px;
     color: white;
     line-height: 45px;
     z-index: 7000;
