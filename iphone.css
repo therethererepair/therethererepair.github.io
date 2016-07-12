@@ -916,7 +916,11 @@ hr {
     opacity: 1;
   }
 
-  [id^=drop]:checked + ul { 
+  #drop:checked + label {
+    color: #008080;
+  }
+
+  [id^=drop]:checked + label + ul { 
     display: block;
   }
 
