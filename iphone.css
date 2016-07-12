@@ -340,10 +340,11 @@ h5 {
 }
 
 .thumbnail #iphonetestedbig {                  /*Actual Image But Bigger*/
-  height: 410px;
+  height: 400px;
   width: 200px;
   position: absolute;
   left: -5.75px;
+  top: -5px;
 }
 
 .thumbnail #p1 {
