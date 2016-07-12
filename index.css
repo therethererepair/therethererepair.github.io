@@ -70,6 +70,7 @@ body {
 }
 
 .littleme ul li {
+  top: 50px;
   margin: 0;
   text-align: center;
   height: auto;
@@ -129,8 +130,6 @@ body {
 
 .fixed {
   top: 0;
-  left: 0;
-  right: 0;
   position: fixed;
   opacity: .82;
 }
