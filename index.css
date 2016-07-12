@@ -1165,6 +1165,7 @@ hr {
   }
 
   [id^=drop]:checked + ul { 
+    color: #008080;
     display: block;
   }
 
