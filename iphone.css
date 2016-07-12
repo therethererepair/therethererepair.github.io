@@ -345,6 +345,7 @@ h5 {
   position: absolute;
   left: -5.75px;
   top: -5px;
+  bottom: 0;
 }
 
 .thumbnail #p1 {
