@@ -1151,17 +1151,16 @@ hr {
     display: block;
     text-align: right;
     background-color: black;
-    top: 0;
+    top: 10px;
     right: 5px;
-    width: 25px;
+    width: 75px;
     height: auto;
     bottom: 0;
     position: absolute;
     opacity: 1;
-    line-height: 45px;
     text-decoration: none;
-    border-top: double 15px white;
-    border-bottom: solid 9px white;
+    border-top: double 40px white;
+    border-bottom: solid 15px white;
   }
 
   .toggle:hover { 
