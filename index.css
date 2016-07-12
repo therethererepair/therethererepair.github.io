@@ -1151,11 +1151,11 @@ hr {
     display: block;
     text-align: right;
     background-color: black;
-    top: 3px;
+    top: 5px;
     right: 5px;
-    width: 50px;
+    width: 40px;
     height: auto;
-    bottom: 1px;
+    bottom: 0;
     position: absolute;
     opacity: 1;
     text-decoration: none;
