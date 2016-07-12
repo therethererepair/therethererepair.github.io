@@ -1153,14 +1153,14 @@ hr {
     background-color: black;
     top: 10px;
     right: 5px;
-    width: 75px;
+    width: 50px;
     height: auto;
     bottom: 0;
     position: absolute;
     opacity: 1;
     text-decoration: none;
-    border-top: double 40px white;
-    border-bottom: solid 15px white;
+    border-top: double 25px white;
+    border-bottom: solid 10px white;
   }
 
   .toggle:hover { 
