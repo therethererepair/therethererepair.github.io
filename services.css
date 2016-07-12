@@ -806,7 +806,8 @@ hr {
     opacity: 1;
     padding: 0 20px;
     color: #FFF;
-    font-size: 20px;
+    font-size: 48px;
+    font-weight: 100;
     line-height: 45px;
     text-decoration: none;
     font-family: 'Material Icons', sans-serif;
