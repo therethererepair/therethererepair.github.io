@@ -1146,9 +1146,9 @@ hr {
     text-align: right;
     background-color: black;
     opacity: 1;
-    top: 2px;
-    right: 2px
-    color: #FFF;
+    top: 5px;
+    right: 5px
+    color: white;
     font-size: 48px;
     font-weight: 100;
     line-height: 45px;
