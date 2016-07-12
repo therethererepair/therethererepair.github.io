@@ -320,18 +320,18 @@ h5 {
 }
 
 .thumbnail #iphonetester {
-  margin-left: -5px;
-  border-radius: 30px;
   display: block;
   height: 400px;
   width: 200px;
   position: absolute;
   top: 50px;
   left: 0;
-  background-image: url('http://i.imgur.com/OrOKyma.png');
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: transparent;
+}
+
+.thumbnail #iphonetestested {
+  position: absolute;
+  left: -5.75px;
 }
 
 .thumbnail #p1 {
