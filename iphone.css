@@ -339,6 +339,13 @@ h5 {
   left: -5.75px;
 }
 
+.thumbnail #iphonetestedbig {                  /*Actual Image But Bigger*/
+  height: 410px;
+  width: 200px;
+  position: absolute;
+  left: -5.75px;
+}
+
 .thumbnail #p1 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
