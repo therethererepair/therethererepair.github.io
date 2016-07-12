@@ -1144,10 +1144,10 @@ hr {
   .toggle {
     display: block;
     text-align: right;
-    background-color: transparent;
+    background-color: black;
     opacity: 1;
-    top: 5px;
-    right: 5px
+    top: 8px;
+    right: 10px;
     color: #FFFFFF;
     font-size: 48px;
     line-height: 45px;
