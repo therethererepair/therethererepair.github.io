@@ -1146,10 +1146,11 @@ hr {
     text-align: right;
     background-color: black;
     opacity: 1;
-    top: 8px;
+    top: 15px;
     right: 10px;
     color: #FFFFFF;
     font-size: 48px;
+    font-weight: 100;
     line-height: 45px;
     text-decoration: none;
     font-family: 'Material Icons', sans-serif;
