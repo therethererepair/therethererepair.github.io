@@ -1146,7 +1146,8 @@ hr {
     text-align: right;
     background-color: black;
     opacity: 1;
-    top: 5px;
+    top: 0;
+    bottom: 0;
     position: relative;
     right: 5px;
     color: #FFFFFF;
