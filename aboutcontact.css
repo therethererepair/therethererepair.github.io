@@ -691,6 +691,10 @@ hr {
   #drop:checked + label {
     color: #008080;
   }
+  
+  .littleme ul li a:hover {
+    display: none;
+  }
 
   [id^=drop]:checked + label + ul { 
     display: block;
@@ -708,7 +712,7 @@ hr {
   .littleme ul ul ul a { padding: 0 80px; }
 
   .littleme a:hover,
-   .littleme ul ul ul a { background-color: black; }
+   .littleme ul ul ul a { background-color: #008080; }
 
   .littleme ul li ul li .toggle,
    .littleme ul ul a { background-color: #212121; }
