@@ -1144,7 +1144,7 @@ hr {
   .toggle {
     display: block;
     text-align: right;
-    background-color: black;
+    background-color: transparent;
     opacity: 1;
     top: 5px;
     right: 5px
