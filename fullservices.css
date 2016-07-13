@@ -694,6 +694,18 @@ hr {
   text-align: center;
 }
 
+#takethisout {
+  position: absolute;
+  display: none;
+}
+
+#takethisouttoo {
+  position: absolute;
+  display: none;
+}
+
+
+
 #lineone {
   position: absolute;
   top: 527px;
