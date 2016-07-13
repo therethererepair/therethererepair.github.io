@@ -694,12 +694,12 @@ hr {
   text-align: center;
 }
 
-#takethisout {
+#takethisaway {
   position: absolute;
   display: none;
 }
 
-#takethisouttoo {
+#takethisawaytoo {
   position: absolute;
   display: none;
 }
@@ -958,12 +958,12 @@ hr {
     background-color: transparent;
   }
   
-  #takethisout {
+  #takethisaway {
     position: absolute;
     display: none;
   }
 
-  #takethisouttoo {
+  #takethisawaytoo {
     position: absolute;
     display: none;
   }
