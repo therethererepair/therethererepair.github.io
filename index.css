@@ -500,7 +500,7 @@ hr {
 .thumbnail #iphone2 {
   position: relative;
   top: 90px;
-  border-radius: 8px;
+  border-radius: 20px;
   height: 400px;
   width: 190px;
   display: block;
@@ -596,7 +596,7 @@ hr {
 
 .thumbnail #iphone3 {
   position: relative;
-  border-radius: 8px;
+  border-radius: 25px;
   height: 400px;
   width: 190px;
   top: 90px;
