@@ -958,6 +958,16 @@ hr {
     background-color: transparent;
   }
   
+  #takethisout {
+    position: absolute;
+    display: none;
+  }
+
+  #takethisouttoo {
+    position: absolute;
+    display: none;
+  }
+  
   #p1 {
     position: absolute;
     left: 0;
