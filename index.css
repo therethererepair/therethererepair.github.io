@@ -350,12 +350,14 @@ hr {
  }
  
  .thumbnail #iphone {
+  position: relative;
   border-radius: 8px;
   height: 400px;
   width: 190px;
-  position: relative;
   top: 90px;
-  left: -90px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
  }
 
 .thumbnail #p {
@@ -496,6 +498,7 @@ hr {
 }
 
 .thumbnail #iphone2 {
+  position: relative;
   top: 90px;
   border-radius: 8px;
   height: 400px;
@@ -592,6 +595,7 @@ hr {
 }
 
 .thumbnail #iphone3 {
+  position: relative;
   border-radius: 8px;
   height: 400px;
   width: 190px;
