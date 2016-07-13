@@ -499,9 +499,9 @@ hr {
   border-radius: 8px;
   height: 400px;
   width: 190px;
-  position: relative;
-  top: 90px;
-  left: -90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background-color: transparent;
 }
 
