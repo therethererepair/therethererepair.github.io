@@ -496,6 +496,7 @@ hr {
 }
 
 .thumbnail #iphone2 {
+  top: 90px;
   border-radius: 8px;
   height: 400px;
   width: 190px;
@@ -594,9 +595,9 @@ hr {
   border-radius: 8px;
   height: 400px;
   width: 190px;
-  position: relative;
   top: 90px;
-  left: -85px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: transparent;
 }
 
