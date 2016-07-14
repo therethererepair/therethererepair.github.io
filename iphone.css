@@ -658,7 +658,14 @@ h5 {
 
 #col2 {
   position: absolute;
-  top: 33%;
+  top: 30%;
+  left: 0;
+  right: 0;
+}
+
+#col3 {
+  position: absolute;
+  top: 30%;
   left: 0;
   right: 0;
 }
