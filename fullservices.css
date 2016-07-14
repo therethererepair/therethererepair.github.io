@@ -415,6 +415,19 @@ hr {
   overflow: visible;
 }
 
+#other {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  color: #000000;
+  position: relative;
+  top: -200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+}
+
 .thumbnail #ipadside {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
