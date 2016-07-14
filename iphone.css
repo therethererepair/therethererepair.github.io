@@ -321,15 +321,14 @@ h5 {
 
 .thumbnail #iphonetester {                    /*Container for phone image */
   border-radius: 33.5px;
-  text-align: center;
   display: block;
   height: 398px;
   width: 190px;
-  position: absolute;
-  top: 50px;
-  left: 8px;
+  position: relative;
+  top: 90px;
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
-  background-color: yellow;
 }
 
 .thumbnail #iphonetested {                  /*Actual Image*/
