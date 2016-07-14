@@ -299,7 +299,7 @@ h5 {
 .thumbnail #p {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
-  top: 20px;
+  top: 0;
   left: 0;
   right: 0;
   text-align: center;
@@ -1118,6 +1118,19 @@ hr {
     left: -5.75px;
     top: 0;
     bottom: -4.5px;
+  } 
+  
+  .thumbnail #p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    top: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 100;
+    position: absolute;
+    color: #000000;  
+    text-decoration: none;
   } 
  
   .thumbnail #p1 {
