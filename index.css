@@ -381,7 +381,6 @@ hr {
 
 .thumbnail #p1 {
   font-family: 'Roboto', sans-serif;
-  color: white;
   font-size: 20px;
   top: -310px;
   margin-left: auto;
@@ -389,7 +388,7 @@ hr {
   text-align: center;
   font-weight: 300;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;  
   width: 200px;
 } 
 
@@ -403,7 +402,7 @@ hr {
   text-align: center;
   font-weight: 300;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;  
   width: 200px;
 } 
 
