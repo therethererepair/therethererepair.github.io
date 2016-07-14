@@ -310,13 +310,13 @@ h5 {
 } 
 
 .thumbnail #iphone {
-  text-align: center;
-  border-radius: 5.5px;
+  border-radius: 8px;
   height: 400px;
-  width: 200px;
-  position: absolute;
-  top: 50px;
-  left: 0;
+  width: 190px;
+  position: relative;
+  top: 90px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .thumbnail #iphonetester {                    /*Container for phone image */
@@ -360,33 +360,36 @@ h5 {
 .thumbnail #p1 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 300;
+  top: -260px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;  
   width: 200px;
 } 
 
 .thumbnail #p2 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 300;
+  top: -264px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;  
   width: 200px;
 } 
 
 .thumbnail #p3 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 300;
+  top: -268px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;  
   width: 200px;
 } 
 
