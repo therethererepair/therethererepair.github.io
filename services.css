@@ -94,12 +94,12 @@ body {
 }
 
 .littleme ul li ul li:hover {
-  background: black;
+  background: #008080;
   opacity: 1;
 }
 
 .littleme a:hover { 
-  background-color: black; 
+  background-color: #008080; 
   opacity: 1;
 }
 
@@ -722,7 +722,7 @@ hr {
   height: 2px;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 1024px) {
   body {
     background-color: #f7f7f7;
     overflow: visible;
@@ -843,7 +843,7 @@ hr {
   .littleme ul ul ul a { padding: 0 80px; }
 
   .littleme a:hover,
-   .littleme ul ul ul a { background-color: black; }
+   .littleme ul ul ul a { background-color: #008080; }
 
   .littleme ul li ul li .toggle,
    .littleme ul ul a { background-color: #212121; }
