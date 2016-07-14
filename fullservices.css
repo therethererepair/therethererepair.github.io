@@ -941,7 +941,7 @@ hr {
 }
 
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1024px) {
   body {
     background-color: #f7f7f7;
     overflow: visible;
