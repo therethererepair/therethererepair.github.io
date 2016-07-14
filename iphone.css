@@ -1063,7 +1063,7 @@ hr {
   .thumbnail #so {
     font-family: 'Roboto', sans-serif;
     font-size: 29px;
-    top: 20px;
+    top: 30px;
     right: 0;
     left: 0;
     text-align: center;
@@ -1074,11 +1074,24 @@ hr {
     text-decoration: none;
   } 
   
+  .thumbnail #s {
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    top: 30px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-weight: 100;
+    line-height: 160%;
+    position: absolute;
+    color: #000000;  
+  } 
+  
   .thumbnail #g {
     font-family: 'Roboto', sans-serif;
     border-style: none;
     font-size: 29px;
-    top: 0;
+    top: 30;
     left: 0;
     right: 0;
     text-align: center;
@@ -1091,7 +1104,7 @@ hr {
   .thumbnail #htc {
     font-family: 'Roboto', sans-serif;
     font-size: 29px;
-    top: 20px;
+    top: 30px;
     right: 0;
     left: 0;
     text-align: center;
@@ -1104,7 +1117,7 @@ hr {
   .thumbnail #htc {
     font-family: 'Roboto', sans-serif;
     font-size: 29px;
-    top: 20px;
+    top: 30px;
     right: 0;
     left: 0;
     text-align: center;
@@ -1117,7 +1130,7 @@ hr {
   .thumbnail #n {
     font-family: 'Roboto', sans-serif;
     font-size: 29px;
-    top: 0;
+    top: 30px;
     left: 0;
     right: 0;
     text-align: center;
@@ -1190,7 +1203,7 @@ hr {
   .thumbnail #p {
     font-family: 'Roboto', sans-serif;
     font-size: 29px;
-    top: 20px;
+    top: 30px;
     left: 0;
     right: 0;
     text-align: center;
