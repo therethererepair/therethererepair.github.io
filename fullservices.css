@@ -397,7 +397,7 @@ hr {
 } 
 
 .thumbnail #iphone {
-  position: relative;
+  position: absolute;
   border-radius: 35px;
   height: 400px;
   width: 200px;
@@ -624,7 +624,7 @@ hr {
   border-radius: 19px;
   height: 400px;
   width: 200px;
-  position: relative;
+  position: absolute;
   top: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -646,7 +646,7 @@ hr {
   border-radius: 28px;
   height: 400px;
   width: 200px;
-  position: relative;
+  position: absolute;
   top: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -1391,7 +1391,7 @@ hr {
     border-radius: 5.5px;
     height: 400px;
     width: 200px;
-    position: relative;
+    position: absolute;
     top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -1415,7 +1415,7 @@ hr {
     border-radius: 5.5px;
     height: 400px;
     width: 200px;
-    position: relative;
+    position: absolute;
     top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -1433,7 +1433,7 @@ hr {
     border-radius: 5.5px;
     height: 400px;
     width: 200px;
-    position: relative;
+    position: absolute;
     top: 50px;
     margin-left: auto;
     margin-right: auto;
