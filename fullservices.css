@@ -408,7 +408,7 @@ hr {
   border-radius: 5.5px;
   height: 400px;
   width: 260px;
-  position: relative;
+  position: absolute;
   top: -100px;
   margin-left: auto;
   margin-right: auto;
