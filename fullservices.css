@@ -660,7 +660,7 @@ hr {
 .thumbnail #othertext {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
-  top: -150;
+  top: -150px;
   left: 0;
   right: 0;
   text-align: center;
