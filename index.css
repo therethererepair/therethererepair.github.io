@@ -1297,9 +1297,9 @@ hr {
  
   .textsquare {
     position: absolute;
-    left: 5px;
+    left: 10%;
     top: 60px;
-    right: 5px;
+    right: 10%;
     height: 500px;
   }
 
