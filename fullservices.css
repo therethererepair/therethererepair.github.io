@@ -941,7 +941,7 @@ hr {
 }
 
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 900px) {
   body {
     background-color: #f7f7f7;
     overflow: visible;
@@ -1298,7 +1298,7 @@ hr {
   .thumbnail #padtext {
     font-family: 'Roboto', sans-serif;
     font-size: 29px;
-    top: -480px;
+    top: -485px;
     left: 0;
     right: 0;
     text-align: center;
