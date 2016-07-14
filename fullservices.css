@@ -409,7 +409,7 @@ hr {
   height: 400px;
   width: 260px;
   position: relative;
-  top: 50px;
+  top: -150px;
   margin-left: auto;
   margin-right: auto;
   overflow: visible;
@@ -418,11 +418,13 @@ hr {
 .thumbnail #ipadside {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 210px;
-  font-weight: 300;
+  top: -110px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;  
   width: 200px;
 } 
 
@@ -1245,11 +1247,11 @@ hr {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     top: 200px;
-    left: 70px;
-    right: 300px;
-    font-weight: 300;
-    position: absolute;
-    color: #000000;  
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
   }
  
   .thumbnail #p1 {
@@ -1438,14 +1440,14 @@ hr {
     margin-right: auto;
   }
   
-  .thumbnail #ipadtwo {
+  .thumbnail #ipad {
     border-radius: 5.5px;
     height: 400px;
     width: 260px;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    right: 0;
+    position: relative;
+    top: -150px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
   }
 
