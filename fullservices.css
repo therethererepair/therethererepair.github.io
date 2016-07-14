@@ -399,18 +399,19 @@ hr {
   border-radius: 35px;
   height: 400px;
   width: 200px;
-  top: 90px;
+  top: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.thumbnail #ipadtwo {
+.thumbnail #ipad {
   border-radius: 5.5px;
   height: 400px;
   width: 260px;
-  position: absolute;
+  position: relative;
   top: 50px;
-  left: -60px;
+  margin-left: auto;
+  margin-right: auto;
   overflow: visible;
 }
 
@@ -428,7 +429,7 @@ hr {
 .thumbnail #p1 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: -260px;
+  top: -300px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -441,7 +442,7 @@ hr {
 .thumbnail #p2 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: -260px;
+  top: -300px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -465,7 +466,7 @@ hr {
 .thumbnail #p3 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: -260px;
+  top: -300px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -478,7 +479,7 @@ hr {
 .thumbnail #p4 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: -260px;
+  top: -300px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -491,7 +492,7 @@ hr {
 .thumbnail #p5 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: -260px;
+  top: -300px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -504,7 +505,7 @@ hr {
 .thumbnail #p6 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: -260px;
+  top: -300px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -517,7 +518,7 @@ hr {
 .thumbnail #p7 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: -260px;
+  top: -300px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -530,7 +531,7 @@ hr {
 .thumbnail #p8 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: -260px;
+  top: -300px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -543,7 +544,7 @@ hr {
 .thumbnail #p9 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: -260px;
+  top: -300px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -556,7 +557,7 @@ hr {
 .thumbnail #p10 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: -260px;
+  top: -300px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -623,7 +624,7 @@ hr {
   height: 400px;
   width: 200px;
   position: relative;
-  top: 90px;
+  top: 50px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1254,7 +1255,7 @@ hr {
   .thumbnail #p1 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -260px;
+    top: -300px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -1267,7 +1268,7 @@ hr {
   .thumbnail #p2 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -260px;
+    top: -300px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -1280,7 +1281,7 @@ hr {
   .thumbnail #p3 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -260px;
+    top: -300px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -1293,7 +1294,7 @@ hr {
   .thumbnail #p4 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -260px;
+    top: -300px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -1306,7 +1307,7 @@ hr {
   .thumbnail #p5 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -260px;
+    top: -300px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -1319,7 +1320,7 @@ hr {
   .thumbnail #p6 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -260px;
+    top: -300px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -1332,7 +1333,7 @@ hr {
   .thumbnail #p7 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -260px;
+    top: -300px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -1345,7 +1346,7 @@ hr {
   .thumbnail #p8 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -260px;
+    top: -300px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -1358,7 +1359,7 @@ hr {
   .thumbnail #p9 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -260px;
+    top: -300px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -1371,7 +1372,7 @@ hr {
   .thumbnail #p10 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -260px;
+    top: -300px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -1390,7 +1391,7 @@ hr {
     height: 400px;
     width: 200px;
     position: relative;
-    top: 90px;
+    top: 50px;
     margin-left: auto;
     margin-right: auto;
   }
