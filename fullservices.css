@@ -367,14 +367,12 @@ hr {
   text-align: center;
 }
 
-.thumbnail {
-  background-color: transparent;
-  overflow: visible;
-}
 
 .thumbnail {
+  position: relative;
   border-color: transparent;
   background-color: transparent;
+  overflow: visible;
   height: auto;
   width: 100%;
   left: 0;
