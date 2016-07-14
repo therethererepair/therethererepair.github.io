@@ -409,7 +409,7 @@ hr {
   height: 400px;
   width: 260px;
   position: relative;
-  top: -150px;
+  top: -100px;
   margin-left: auto;
   margin-right: auto;
   overflow: visible;
@@ -418,7 +418,7 @@ hr {
 .thumbnail #ipadside {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: -110px;
+  top: -90px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -1264,7 +1264,7 @@ hr {
     font-weight: 100;
     position: relative;
     color: #FFFFFF;    
-    width: 100px;
+    width: 200px;
   } 
 
   .thumbnail #p2 {
@@ -1277,7 +1277,7 @@ hr {
     font-weight: 100;
     position: relative;
     color: #FFFFFF;   
-    width: 100px;
+    width: 200px;
   } 
 
   .thumbnail #p3 {
@@ -1290,7 +1290,7 @@ hr {
     font-weight: 100;
     position: relative;
     color: #FFFFFF;  
-    width: 100px;
+    width: 200px;
   } 
 
   .thumbnail #p4 {
@@ -1303,7 +1303,7 @@ hr {
     font-weight: 100;
     position: relative;
     color: #FFFFFF;  
-    width: 100px;
+    width: 200px;
   } 
 
   .thumbnail #p5 {
@@ -1316,7 +1316,7 @@ hr {
     font-weight: 100;
     position: relative;
     color: #FFFFFF;  
-    width: 100px;
+    width: 200px;
   } 
 
   .thumbnail #p6 {
@@ -1329,7 +1329,7 @@ hr {
     font-weight: 100;
     position: relative;
     color: #FFFFFF;    
-    width: 100px;
+    width: 200px;
   } 
 
   .thumbnail #p7 {
@@ -1342,7 +1342,7 @@ hr {
     font-weight: 100;
     position: relative;
     color: #FFFFFF;   
-    width: 100px;
+    width: 200px;
   } 
 
   .thumbnail #p8 {
@@ -1355,7 +1355,7 @@ hr {
     font-weight: 100;
     position: relative;
     color: #FFFFFF;  
-    width: 100px;
+    width: 200px;
   } 
 
   .thumbnail #p9 {
@@ -1368,7 +1368,7 @@ hr {
     font-weight: 100;
     position: relative;
     color: #FFFFFF;   
-    width: 100px;
+    width: 200px;
   } 
   
   .thumbnail #p10 {
@@ -1381,7 +1381,7 @@ hr {
     font-weight: 100;
     position: relative;
     color: #FFFFFF;   
-    width: 100px;
+    width: 200px;
   } 
   
   .thumbnail {
