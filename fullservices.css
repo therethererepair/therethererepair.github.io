@@ -1285,7 +1285,7 @@ hr {
   .thumbnail #ipadside {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -375px;
+    top: -475px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -1298,7 +1298,7 @@ hr {
   .thumbnail #padtext {
     font-family: 'Roboto', sans-serif;
     font-size: 29px;
-    top: -150px;
+    top: -420px;
     left: 0;
     right: 0;
     text-align: center;
@@ -1498,7 +1498,7 @@ hr {
     height: 400px;
     width: 260px;
     position: relative;
-    top: -300px;
+    top: -450px;
     margin-left: auto;
     margin-right: auto;
     overflow: visible;
