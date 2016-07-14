@@ -1705,8 +1705,8 @@ hr {
     font-family: 'Roboto condensed', sans-serif;
     font-size: 15px;
     color: #000000;
-    left: 2px;
-    right: 2px;
+    left: 5%;
+    right: 5%;
   }
   
 
@@ -1732,8 +1732,8 @@ hr {
   
   #safetybox {
     position: absolute;
-    left: 0px;
-    right: 0px;
+    left: 5%;
+    right: 5%;
   }
   
   #safetext {
