@@ -359,7 +359,7 @@ h5 {
 .thumbnail #p1 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 60px;
+  top: -260px;
   margin-left: auto;
   margin-right: auto;
   font-weight: 100;
@@ -371,7 +371,7 @@ h5 {
 .thumbnail #p2 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 64px;
+  top: -264px;
   margin-left: auto;
   margin-right: auto;
   font-weight: 100;
@@ -383,7 +383,7 @@ h5 {
 .thumbnail #p3 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 68px;
+  top: -268px;
   margin-left: auto;
   margin-right: auto;
   font-weight: 100;
@@ -395,66 +395,71 @@ h5 {
 .thumbnail #p4 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 72px;
-  left: 165px;
-  font-weight: 400;
+  top: -272px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;  
   width: 200px;
 } 
 
 .thumbnail #p5 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 300;
+  top: -275px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;  
   width: 200px;
 } 
 
 .thumbnail #p6 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
+  top: -278px;
   left: 165px;
-  font-weight: 400;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;  
   width: 200px;
 } 
 
 .thumbnail #p7 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 300;
+  top: -282px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;  
   width: 200px;
 } 
 
 .thumbnail #p8 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 300;
+  top: -286px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;  
   width: 200px;
 } 
 
 .thumbnail #p9 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 300;
+  top: -290px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;  
   width: 200px;
 } 
 
