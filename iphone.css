@@ -656,6 +656,13 @@ h5 {
   z-index: 1000;
 }
 
+#col2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 #lgserv {
   position: absolute;
   font-family: 'Roboto', sans-serif;
