@@ -639,7 +639,7 @@ hr {
   right: 0;
   text-align: center;
   font-weight: 100;
-  position: absolute;
+  position: relative;
   color: #000000;  
 } 
 
