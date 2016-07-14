@@ -1360,100 +1360,118 @@ hr {
   .thumbnail #p1 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -310px;
-    left: 60%;
-    font-weight: 300;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
-    width: 100px;
+    color: #FFFFFF;  
+    width: 200px;
   } 
 
   .thumbnail #p2 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -310px;
-    left: 61%;
-    font-weight: 300;
+    top: -264px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
-    width: 100px;
+    color: #FFFFFF;  
+    width: 200px;
   } 
 
   .thumbnail #p3 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -310px;
-    left: 61%;
-    font-weight: 300;
+    top: -268px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
-    width: 100px;
+    color: #FFFFFF;  
+    width: 200px;
   } 
 
   .thumbnail #p4 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -310px;
-    left: 61%;
-    font-weight: 400;
+    top: -272px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
-    width: 100px;
+    color: #FFFFFF;  
+    width: 200px;
   } 
 
   .thumbnail #p5 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -310px;
-    left: 60%;
-    font-weight: 300;
+    top: -275px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
-    width: 100px;
+    color: #FFFFFF;  
+    width: 200px;
   } 
 
   .thumbnail #p6 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -310px;
-    left: 60%;
-    font-weight: 400;
+    top: -278px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
-    width: 100px;
+    color: #FFFFFF;
+    width: 200px;
   } 
 
   .thumbnail #p7 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -310px;
-    left: 52%;
-    font-weight: 300;
+    top: -282px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
-    width: 150px;
+    color: #FFFFFF;  
+    width: 200px;
   } 
 
   .thumbnail #p8 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -310px;
-    left: 54%;
-    font-weight: 300;
+    top: -286px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
-    width: 140px;
+    color: #FFFFFF;  
+    width: 200px;
   } 
 
   .thumbnail #p9 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: -310px;
-    left: 59%;
-    font-weight: 300;
+    top: -290px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
-    width: 120px;
+    color: #FFFFFF;  
+    width: 200px;
   } 
   
   #col2 {
