@@ -386,7 +386,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-weight: 300;
+  font-weight: 100;
   position: relative;
   color: #FFFFFF;  
   width: 200px;
@@ -399,7 +399,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-weight: 300;
+  font-weight: 100;
   position: relative;
   color: #FFFFFF;  
   width: 200px;
@@ -412,7 +412,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-weight: 300;
+  font-weight: 100;
   position: relative;
   color: #FFFFFF;  
   width: 200px;
@@ -425,7 +425,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-weight: 400;
+  font-weight: 100;
   position: relative;
   color: #FFFFFF;  
   width: 200px;
@@ -438,7 +438,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-weight: 300;
+  font-weight: 100;
   position: relative;
   color: #FFFFFF;  
   width: 200px;
@@ -451,7 +451,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-weight: 400;
+  font-weight: 100;
   position: relative;
   color: #FFFFFF;
   width: 200px;
@@ -464,7 +464,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-weight: 300;
+  font-weight: 100;
   position: relative;
   color: #FFFFFF;  
   width: 200px;
@@ -477,7 +477,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-weight: 300;
+  font-weight: 100;
   position: relative;
   color: #FFFFFF;  
   width: 200px;
@@ -486,11 +486,11 @@ hr {
 .thumbnail #p9 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: -310px;
+  top: -330px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-weight: 300;
+  font-weight: 100;
   position: relative;
   color: #FFFFFF;  
   width: 200px;
