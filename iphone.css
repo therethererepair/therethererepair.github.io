@@ -518,6 +518,7 @@ h5 {
   color: #000000;  
   text-decoration: none;
 } 
+
 .thumbnail #htc {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
@@ -1058,6 +1059,72 @@ hr {
     overflow: visible;
     position: absolute;
   }
+  
+  .thumbnail #so {
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    top: 20px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-weight: 100;
+    line-height: 160%;
+    position: absolute;
+    color: #000000;
+    text-decoration: none;
+  } 
+  
+  .thumbnail #g {
+    font-family: 'Roboto', sans-serif;
+    border-style: none;
+    font-size: 29px;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 100;
+    position: absolute;
+    color: #000000;  
+    text-decoration: none;
+  } 
+  
+  .thumbnail #htc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    top: 20px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-weight: 100;
+    position: absolute;
+    color: #000000;  
+    text-decoration: none;
+  } 
+  
+  .thumbnail #htc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    top: 20px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-weight: 100;
+    position: absolute;
+    color: #000000;  
+    text-decoration: none;
+  } 
+  
+  .thumbnail #n {
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 100;
+    position: absolute;
+    color: #000000;  
+  } 
   
   .phones #services {
     position: absolute;
