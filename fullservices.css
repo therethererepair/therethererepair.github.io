@@ -1285,14 +1285,27 @@ hr {
   .thumbnail #ipadside {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: 100px;
-    text-align: center;
+    top: -375px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     font-weight: 100;
     position: relative;
     color: #FFFFFF;  
-  }
+    width: 200px;
+  } 
+  
+  .thumbnail #padtext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    top: -150px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 100;
+    position: absolute;
+    color: #000000;  
+  } 
  
   .thumbnail #p1 {
     font-family: 'Roboto', sans-serif;
@@ -1485,11 +1498,12 @@ hr {
     height: 400px;
     width: 260px;
     position: relative;
-    top: -150px;
+    top: -100px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    overflow: visible;
   }
+
 
   .jumbotron2 {
     display: none;
