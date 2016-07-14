@@ -1634,9 +1634,9 @@ hr {
     position: absolute;
     font-family: 'Roboto', sans-serif;
     top: 790px;
-    left: 0;
-    right: 0;
-    text-align: justify;
+    left: 5%;
+    right: 5%;
+    text-align: center;
     font-size: 25px;
     font-weight: 200;
     color: #008080;
