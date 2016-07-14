@@ -429,22 +429,26 @@ hr {
 .thumbnail #p1 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 300;
+  top: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;  
   width: 200px;
 } 
 
 .thumbnail #p2 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 300;
+  top: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;   
   width: 200px;
 } 
 
@@ -462,88 +466,104 @@ hr {
 .thumbnail #p3 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 300;
+  top: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;  
   width: 200px;
 } 
 
 .thumbnail #p4 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 400;
+  top: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;    
   width: 200px;
 } 
 
 .thumbnail #p5 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 300;
+  top: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;    
   width: 200px;
 } 
 
 .thumbnail #p6 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 400;
+  top: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;   
   width: 200px;
 } 
 
 .thumbnail #p7 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 300;
+  top: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;    
   width: 200px;
 } 
 
 .thumbnail #p8 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 300;
+  top: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;    
   width: 200px;
 } 
 
 .thumbnail #p9 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 300;
+  top: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;    
   width: 200px;
 } 
 
 .thumbnail #p10 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  top: 50px;
-  left: 165px;
-  font-weight: 300;
+  top: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
   position: relative;
-  color: #000000;  
+  color: #FFFFFF;   
   width: 200px;
 } 
 
@@ -1233,121 +1253,131 @@ hr {
   .thumbnail #p1 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: 50px;
-    left: 65%;
-    font-weight: 300;
+    top: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
+    color: #FFFFFF;    
     width: 100px;
-    text-align: justify;
   } 
 
   .thumbnail #p2 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: 45px;
-    left: 65%;
-    font-weight: 300;
+    top: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
+    color: #FFFFFF;   
     width: 100px;
-    text-align: justify;
   } 
 
   .thumbnail #p3 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: 45px;
-    left: 65%;
-    font-weight: 300;
+    top: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
+    color: #FFFFFF;  
     width: 100px;
-    text-align: justify;
   } 
 
   .thumbnail #p4 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: 45px;
-    left: 65%;
-    font-weight: 400;
+    top: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
+    color: #FFFFFF;  
     width: 100px;
-    text-align: justify;
   } 
 
   .thumbnail #p5 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: 45px;
-    left: 65%;
-    font-weight: 300;
+    top: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
+    color: #FFFFFF;  
     width: 100px;
-    text-align: justify;
   } 
 
   .thumbnail #p6 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: 45px;
-    left: 65%;
-    font-weight: 400;
+    top: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
+    color: #FFFFFF;    
     width: 100px;
-    text-align: justify;
   } 
 
   .thumbnail #p7 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: 45px;
-    left: 65%;
-    font-weight: 300;
+    top: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
+    color: #FFFFFF;   
     width: 100px;
-    text-align: justify;
   } 
 
   .thumbnail #p8 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: 45px;
-    left: 65%;
-    font-weight: 300;
+    top: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
+    color: #FFFFFF;  
     width: 100px;
-    text-align: justify;
   } 
 
   .thumbnail #p9 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: 45px;
-    left: 65%;
-    font-weight: 300;
+    top: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
+    color: #FFFFFF;   
     width: 100px;
-    text-align: justify;
   } 
   
   .thumbnail #p10 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    top: 45px;
-    left: 65%;
-    font-weight: 300;
+    top: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
     position: relative;
-    color: #000000;  
+    color: #FFFFFF;   
     width: 100px;
-    text-align: justify;
   } 
   
   .thumbnail {
