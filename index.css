@@ -1188,7 +1188,7 @@ hr {
    }
 
   .toggle {
-    display: inline-block;
+    display: block;
     text-align: right;
     background-color: black;
     opacity: 1;
