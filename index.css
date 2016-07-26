@@ -352,7 +352,7 @@ hr {
   color: #008080;
 }
 
-/*All the p(number) from here on style the text inside the iphone images*/
+/*All the p(number) from here on style the text inside the iphone image*/
 .thumbnail #p1 {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
@@ -1249,7 +1249,8 @@ switches to mobile styling of site.*/
     font-size: 15px;
     color: #000000;
   }
- 
+  
+  /*First square of text*/
   .textsquare {
     position: absolute;
     left: 5%;
@@ -1257,12 +1258,14 @@ switches to mobile styling of site.*/
     right: 5%;
     height: 500px;
   }
-
+  
+  /*Hides square with image in it*/
   #littlesquare {
     position: absolute;
     display: none;
   }  
- 
+  
+  /*General seperating lines*/
   hr {
     color: #808080;
     background-color: #808080;
@@ -1279,6 +1282,7 @@ switches to mobile styling of site.*/
     text-align: center;
   }
   
+  /*Section holding phone images + pricing. Bootstrap used here*/
   .container {
     height: 45px;
     top: 500px;
@@ -1304,6 +1308,7 @@ switches to mobile styling of site.*/
     background-color: transparent;
   }
   
+  /*Reposition Column (Bootstrap)*/
   #col1 {
     position: absolute;
     left: 0;
@@ -1311,6 +1316,7 @@ switches to mobile styling of site.*/
     top: 270px;
   }
   
+  /*All the p(number) from here on style the text inside the iphone image*/
   .thumbnail #p1 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -1428,6 +1434,7 @@ switches to mobile styling of site.*/
     width: 200px;
   } 
   
+  /*Reposition Second Column (Bootstrap)*/
   #col2 {
     position: absolute;
     left: 0;
@@ -1435,6 +1442,7 @@ switches to mobile styling of site.*/
     top: 850px;
   } 
 
+  /*All the s(number) from here on style the text inside the GalaxyS image*/
   .thumbnail #s1 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -1499,6 +1507,8 @@ switches to mobile styling of site.*/
     color: #FFFFFF;  
     width: 200px;
   }
+  
+  /*Reposition Third Column (Bootstrap)*/
   #col3 {
     position: absolute;
     top: 1430px;
@@ -1506,6 +1516,7 @@ switches to mobile styling of site.*/
     right: 0;
   }
   
+  /*All the s(number) from here on style the text inside the GalaxyNote image*/
   .thumbnail #n1 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -1584,6 +1595,7 @@ switches to mobile styling of site.*/
     width: 200px;
   }
   
+  /*Styles text in .checkser*/
   #please {
     position: absolute;
     font-family: 'Roboto', sans-serif;
@@ -1596,6 +1608,7 @@ switches to mobile styling of site.*/
     color: #008080;
   }
   
+  /*Makes "SERVICES" clickable inside #please*/
   #insert {
     position: relative;
     font-family: 'Roboto', sans-serif;
@@ -1631,6 +1644,7 @@ switches to mobile styling of site.*/
     height: 2px;
   }
   
+  /*30Day Guarantee Section*/
   .theguaran {
     position: absolute;
     left: 0;
@@ -1638,6 +1652,7 @@ switches to mobile styling of site.*/
     top: 3000px;
   }
   
+  /*Styles 30Day Guarantee header Text*/
   #guaran { 
     position: absolute;
     font-family: 'Oswald', sans-serif;
@@ -1646,6 +1661,7 @@ switches to mobile styling of site.*/
     text-align: center;
   }
 
+  /*Text box for Guarantee section*/
   .realguaran{
     position: absolute;
     top: 60px;
@@ -1653,6 +1669,7 @@ switches to mobile styling of site.*/
     right: 0;
   }
   
+  /*Styles text in Guarantee Section*/
   #moreguaran {
     position: absolute;
     top: 40px;
@@ -1663,18 +1680,20 @@ switches to mobile styling of site.*/
     right: 5%;
   }
   
-
+  /*Hides picture for Guarantee Section*/
   #picforguar{
     position: absolute;
     display: none;
   }
 
+  /*Safety Section*/
   .safetysec {
     position: absolute;
     top: 3550px;
     overflow: hidden;
   }
   
+  /*Styles Safety Section Header Text*/
   #safefirst {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
@@ -1684,12 +1703,14 @@ switches to mobile styling of site.*/
     text-align: center;
   }
   
+  /*Section for Text in Safety Section*/
   #safetybox {
     position: absolute;
     left: 5%;
     right: 5%;
   }
   
+  /*Styles Text in #safetybox*/
   #safetext {
     position: absolute;
     font-family: 'Roboto condensed', sans-serif;
@@ -1700,11 +1721,13 @@ switches to mobile styling of site.*/
     right: 2px;
   }
   
+  /*Hides picture for Safety section*/
   #safepic {
     position: absolute;
     display: none;
   }
   
+  /*Hides footer*/
   .jumbotron2 {
     display: none;
   }
