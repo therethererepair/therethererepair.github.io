@@ -1190,11 +1190,12 @@ switches to mobile styling of site.*/
     z-index: 7000;
   }
 
-  
+  /*Makes Menu Icon Site green after getting clicked*/
   #drop:checked + label {
     color: #008080;
   }
 
+  /*Displays Dropdown Menu after Menu Icon is clicked*/
   [id^=drop]:checked + label + ul {
     display: block;
   }
@@ -1203,37 +1204,10 @@ switches to mobile styling of site.*/
     display: block;
     width: 100%;
     z-index: 6000;
+    border: none;
   }
 
-  .littleme ul ul .toggle,
-   .littleme ul ul a { padding: 0 40px; }
-
-  .littleme ul ul ul a { padding: 0 80px; }
-
-  .littleme a:hover,
-   .littleme ul ul ul a { background-color: #008080; }
-
-  .littleme ul li ul li .toggle,
-   .littleme ul ul a { background-color: #212121; }
-
-  .littleme ul ul {
-    float: none;
-    position: static;
-    color: #ffffff;
-  }
-
-  .littleme ul ul li:hover > ul,
-  .littleme ul li:hover > ul { display: none; }
-
-  .littleme ul ul li {
-    display: block;
-    width: 100%;
-  }
-
-  .littleme ul ul ul li { 
-    position: static;
-  }
-
+  /*Section holding Intro + Screen Repair and Pricing*/
   .phones {
     top: 290px;
     left: 0;
@@ -1283,7 +1257,6 @@ switches to mobile styling of site.*/
     right: 5%;
     height: 500px;
   }
-
 
   #littlesquare {
     position: absolute;
