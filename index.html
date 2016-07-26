@@ -181,6 +181,10 @@
 		</script>			<!--Small script for the function of dropdown menu used in Mobile site-->
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!--Script used on both Mobile and Desktop versions of site. Makes menu fixed after
+		    scrolling past certain amount of pixels on page. The amount of pixels depend on whether
+		    site is mobile or desktop, which depends on whether overflow: on wrapper is either hidden(Mobile)
+		    or visible(Desktop)-->
 		<script>
 		$(document).ready(function() {
 			
@@ -214,7 +218,6 @@
 				});
 			}			
 		};	
-		</script>				<!--Script used on both Mobile and Desktop versions of site. Makes menu fixed after
-							scrolling past certain amount of pixels on page-->
+		</script>				
 	</body>
 </html>
