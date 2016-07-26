@@ -1,4 +1,5 @@
-body {
+/*Desktop version website height and width*/
+body {                             
   height: 3525px;
   width: 100%;
   margin: 0 auto;
@@ -7,7 +8,8 @@ body {
   position: absolute;
 }
 
-.wrapper {
+/*Wraps around, is same height and width, changes on Mobile Version of site*/
+.wrapper {                            
   height: 3525px;
   width: 100%;
   position: absolute; 
@@ -17,7 +19,8 @@ body {
   overflow: visible;
 } 
 
-.top {
+/*Height and width of image on top of Desktop site*/
+.top {                                
   position: absolute;
   top: 0;
   left: 0;
@@ -25,7 +28,8 @@ body {
   width: 100%;
   overflow: hidden;
 }
-  
+
+/*Wraps arond menu, for both Mobile and Desktop site*/  
 .menuwrap {
   background-color: black;
   opacity: .7;
