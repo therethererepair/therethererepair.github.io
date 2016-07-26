@@ -131,8 +131,8 @@ body {
 
 .littleme li > a:only-child:after { content: ''; }
 
-/*This is used with the Java script in order to 
-fix the nav menu on both Desktop and Mobile*/
+/*This is used with the Java script in order to make 
+the Menu position Fixed on both Desktop and Mobile*/
 .fixed {
   overflow: hidden;
   top: 0;
@@ -1075,7 +1075,10 @@ I will use classes next time, but for now it is organized and contained.*/
   z-index: 1000;
 }
 
+/*For Mobile Site. Reads width of monitor size and
+switches to mobile styling of site.*/
 @media all and (max-width: 1024px) {
+  /*Mobile version website height and width*/
   body {
     background-color: #f7f7f7;
     overflow: visible;
@@ -1083,7 +1086,7 @@ I will use classes next time, but for now it is organized and contained.*/
     width: 100%;
     top: 0;
   }
-
+  /*Wraps around, is same height and width, changes on Desktop Version of site*/
   .wrapper {
     top: 0;
     left: 0;
@@ -1093,12 +1096,14 @@ I will use classes next time, but for now it is organized and contained.*/
     width: 100%;
   }
   
+  /*Height and width of image on top of Mobile site*/
   .top {
     position: absolute;
     height: 200px;
     top: 0;
   }
   
+  /*Wraps arond menu, for both Mobile and Desktop site*/  
   .menuwrap {
     transform: translate3d(0px,0px,0px);
     position: absolute;
@@ -1112,6 +1117,8 @@ I will use classes next time, but for now it is organized and contained.*/
     z-index: 6000;
   }
   
+  /*This is used with the Java script in order to make the Menu
+  positioning Fixed on both Desktop and Mobile*/
   .fixed {
     position: fixed;
     overflow: visible;
@@ -1123,7 +1130,8 @@ I will use classes next time, but for now it is organized and contained.*/
     opacity: 1;
     z-index: 6000;
   }
-    
+  
+  /*Container/Link for Logo Image*/
   #alm {
     position: absolute;
     height: 50px;
@@ -1131,31 +1139,19 @@ I will use classes next time, but for now it is organized and contained.*/
     left: 0;
   }
   
+  /*Defining container for Logo Image*/
   #alm2 {
     height: 50px;
     width: 90px;
   }
   
-  #we {
-    position: absolute;
-    display: none;
-  }
-  
-  #numbers {
-    position: absolute;
-    display: none;
-  }
-  
-  .logo {
-    position: absolute;
-    display: none;
-  }
-  
+  /*Hides the original texts from Desktop Version of Menu*/
   .texts {
     position: absolute;
     display: none;
   }
   
+  /*Makes Mobile Version of Menu visible*/
   .littleme {
     display: initial;
     left: 90px;
@@ -1174,6 +1170,9 @@ I will use classes next time, but for now it is organized and contained.*/
      display: none; 
    }
 
+  /*Used a Character Font to make the Menu Icon. 
+  It was the most effecient way to get to what I needed.
+  This styles the Menu Icon*/
   .toggle {
     display: block;
     text-align: right;
@@ -1191,10 +1190,6 @@ I will use classes next time, but for now it is organized and contained.*/
     z-index: 7000;
   }
 
-  .toggle:hover { 
-    background-color: black; 
-    opacity: 1;
-  }
   
   #drop:checked + label {
     color: #008080;
