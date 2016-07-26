@@ -248,6 +248,15 @@ hr {
   color: #008080;
 }
 
+/*First square of text*/
+.textsquare {
+  position: absolute;
+  left: 2%;
+  top: 280px;
+  right: 40%;
+  height: 500px;
+}
+
 /*Text style in textsquare*/
 .textsquare #under {
   position: absolute;
@@ -262,14 +271,7 @@ hr {
   text-align: justify;
 }
 
-.textsquare {
-  position: absolute;
-  left: 2%;
-  top: 280px;
-  right: 40%;
-  height: 500px;
-}
-
+/*First square with image. Hidden on mobile site*/
 #littlesquare {
   position: absolute;
   background-image: url('http://files.technobezz.com/files/uploads/2015/05/FMaWSLOJiioj3iKM.jpg');
@@ -280,7 +282,19 @@ hr {
   width: 35%;
 }
 
+.phones #broke {
+  text-align: center;
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  top: 790px;
+  left: 0;
+  right: 0;
+  font-size: 55px;
+  font-weight: 500;
+  color: #000000;
+}
 
+/*Section holding phone images + pricing. Bootstrap used here*/
 .container {
   position: absolute;
   top: 940px;
@@ -305,6 +319,7 @@ hr {
   right: 0;
  }
  
+ /*Iphone image*/
  .thumbnail #iphone {
   position: relative;
   border-radius: 8px;
@@ -316,7 +331,7 @@ hr {
   background-color: transparent;
  }
 
-.thumbnail #p {
+.thumbnail #ph {
   font-family: 'Roboto', sans-serif;
   font-size: 35px;
   top: 0;
@@ -335,6 +350,7 @@ hr {
   color: #008080;
 }
 
+/*All the p(number) from here on style the text inside the iphone images*/
 .thumbnail #p1 {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
@@ -483,6 +499,7 @@ hr {
   background-color: transparent;
 }
 
+/*All the s(number) from here on style the text in GalaxyS image*/
 .thumbnail #s1 {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
@@ -547,18 +564,6 @@ hr {
   color: #FFFFFF;  
   width: 200px;
 }
-.thumbnail #s {
-  font-family: 'Lato', sans-serif;
-  font-size: 35px;
-  top: 0;
-  right: 0;
-  left: 0;
-  font-weight: 300;
-  line-height: 160%;
-  position: absolute;
-  text-align: center;
-  color: #008080;  
-} 
 
 .thumbnail #n {
   font-family: 'Roboto', sans-serif;
@@ -589,6 +594,7 @@ hr {
   background-color: transparent;
 }
 
+/*All the n(number) from here on style the text inside the GalaxyNote Image*/
 .thumbnail #n1 {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
