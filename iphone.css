@@ -278,6 +278,18 @@ h5 {
   top: 0;
 }
 
+#n1 {
+  position: absolute;
+}
+
+#t1 {
+  position: absolute;
+}
+
+#r1 {
+  position: absolute;
+}
+
 
  
 .thumbnail {
