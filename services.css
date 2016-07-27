@@ -1,3 +1,4 @@
+/*Desktop version website height and width*/
 body {
   min-height: 2900px;
   min-width: 100%;
@@ -6,6 +7,7 @@ body {
   overflow: visible;
 }
 
+/*Wraps around body, is same height and width, changes on Mobile Version of site*/
 .wrapper {
   height: 2900px;
   width: 100%;
@@ -17,6 +19,7 @@ body {
   overflow: visible;
 } 
 
+/*Height and width of image on top of Desktop site*/
 .top {
   position: absolute;
   top: 0;
@@ -28,6 +31,8 @@ body {
   right: 0;
 }
 
+
+/*Wraps arond menu, for both Mobile and Desktop site*/ 
 .menuwrap {
   background-color: black;
   overflow: hidden;
@@ -45,6 +50,7 @@ body {
  display: none;
 }
 
+/*Dropdown Menu for mobile site. Hidden on desktop*/
 .littleme {
   z-index: 5000;
   top: 0;
@@ -128,12 +134,15 @@ body {
 
 .littleme li > a:only-child:after { content: ''; }
 
+/*This is used with the Java script in order to make 
+the Menu position Fixed on both Desktop and Mobile*/
 .fixed {
   top: 0;
   position: fixed;
   opacity: .82;
 }
 
+/*Container Link for Logo Image*/
 #alm {
   position: absolute;
   top: 0;
@@ -143,47 +152,13 @@ body {
   overflow: hidden;
 }
 
+/*Defining container for Logo Image*/
 #alm2 {
   height: 55px;
   width: 90px;
 }
 
-h3 {
-  position: absolute;
-  display: none;
-  right: 4px;
-  top: -15px;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  font-weight: 5;
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-h4 {
-  position: absolute;
-  display: none;
-  right: 4px;
-  top: 22px;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  font-weight: 5;
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-h5 {
-  position: absolute;
-  display: none;
-  right: 4px;
-  top: 50px;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  font-weight: 5;
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
+/*Desktop menu texts. Hidden on Mobile site.*/
 .texts {
   position: relative;
   list-style: none;
@@ -213,11 +188,6 @@ h5 {
   outline: none;
 }
 
-
-.container a:hover {
-  text-decoration: none;
-}
-
 .texts a:hover:not(#log) {
   background-color: black;
   color: #008080;
@@ -233,6 +203,7 @@ h5 {
   border-radius: 7px;
 }
 
+/*Section After Top. Contains Most of Page Content (Bootstrap used in Container)*/
 .phones {
   position: absolute;
   top: 750px;
@@ -266,19 +237,6 @@ h5 {
   font-weight: 150;
   color: #008080;
 }
-
-.phones #ser {
-  text-align: center;
-  position: absolute;
-  font-family: 'Roboto', sans-serif;
-  top: -18px;
-  left: 0;
-  right: 0;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 160%;
-  color: #008080;
-}
  
 .phones #broke {
   position: absolute;
@@ -291,6 +249,7 @@ h5 {
   color: #000000;
 }
 
+/*Section holding phone images. Bootstrap used here*/
 .container {
   position: absolute;
   top: 20px;
@@ -299,7 +258,11 @@ h5 {
   right: 0;
   bottom: 0;
   overflow: hidden;
- }
+}
+
+.container a:hover {
+  text-decoration: none;
+}
  
 .row {
   position: relative;
@@ -320,7 +283,8 @@ h5 {
   bottom: 0;
 }
 
-.thumbnail #p {
+/*Styles text for iPhone header*/
+.thumbnail #ph {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
