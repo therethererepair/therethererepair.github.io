@@ -224,13 +224,6 @@ h5 {
   outline: none;
 }
 
-.logo {
-  top: 0;
-  height: 75px;
-  width: 100px;
-  overflow: hidden;
-  border-radius: 7px;
-}
 
 .phones {
   position: absolute;
@@ -489,7 +482,7 @@ h5 {
   color: #000000;  
 } 
 
-.thumbnail #so {
+.thumbnail #t {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
@@ -504,7 +497,7 @@ h5 {
 } 
 
 
-.thumbnail #p {
+.thumbnail #n {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
@@ -564,7 +557,7 @@ h5 {
   background-color: transparent;
 }
 
-.thumbnail #n {
+.thumbnail #r {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
@@ -1072,7 +1065,7 @@ hr {
     position: absolute;
   }
   
-  .thumbnail #so {
+  .thumbnail #t {
     font-family: 'Roboto', sans-serif;
     font-size: 29px;
     top: 30px;
@@ -1224,7 +1217,7 @@ hr {
     bottom: -4.5px;
   } 
   
-  .thumbnail #p {
+  .thumbnail #r {
     font-family: 'Roboto', sans-serif;
     font-size: 29px;
     top: 30px;
@@ -1381,9 +1374,7 @@ hr {
     left: 0;
   }
   
-  
-  
-  #galx1 {
+  #t1 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1408,7 +1399,7 @@ hr {
     left: 7px;
   }
   
-  #n1 {
+  #r1 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1436,7 +1427,7 @@ hr {
     text-align: center;
   }
   
-  #col1 {
+  #row1 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1444,7 +1435,7 @@ hr {
     text-align: center;
   }
   
-  #col2 {
+  #row2 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1452,7 +1443,7 @@ hr {
     text-align: center;
   } 
  
-  #col3 {
+  #row3 {
     position: absolute;
     top: 2600px;
     left: 0;
