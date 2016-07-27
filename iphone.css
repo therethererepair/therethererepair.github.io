@@ -277,6 +277,22 @@ h5 {
   left: 0;
   top: 0;
 }
+
+#row1 {
+  position: absolute;
+  top: 0;
+}
+
+#row2 {
+  position: absolute;
+  top: 0;
+}
+
+#row3 {
+  position: absolute;
+  top: 0;
+}
+
  
 .thumbnail {
   border-color: transparent;
