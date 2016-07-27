@@ -279,18 +279,15 @@ h5 {
 }
 
 #row1 {
-  position: absolute;
-  top: 0;
+  position: relative;
 }
 
 #row2 {
-  position: absolute;
-  top: 0;
+  position: relative;
 }
 
 #row3 {
-  position: absolute;
-  top: 0;
+  position: relative;
 }
 
  
