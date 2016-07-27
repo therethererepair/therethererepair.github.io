@@ -44,8 +44,8 @@
 				<p id="services">Services</p>
 				<p id="servicestwo">Please Select Your Device</p>
 				<div id="cont" class="container">
-					<div class="row" id="row1">
-						<div class="col-md-4" id="p1">
+					<div class="row" id="row1">				<!--First row of Phones-->
+						<div class="col-md-4" id="p1">							<!--Galaxy Note Section-->
 							<div class="thumbnail" id="p2">
 							  <p id="n"><a href="fullservices.html#galaxynline" style="color: #000000; text-decoration: none">Galaxy Note</a></p> 
 							   <a id="iphon" href="fullservices.html#galaxynline">
@@ -53,7 +53,7 @@
 							   </a>	
 							</div>
 						</div>
-						<div class="col-md-4" id="galx1">
+						<div class="col-md-4" id="galx1">						<!--OnePlus Section-->
 							<div class="thumbnail" id="galx2">
 							  <p id="p"><a href="fullservices.html#oneplusline" style="color: #000000">OnePlus</a></p>
 							   <a id="iphon2" href="fullservices.html#oneplusline">
@@ -61,7 +61,7 @@
 							   </a>							  
 							</div>
 						</div>
-						<div class="col-md-4" id="n1">
+						<div class="col-md-4" id="n1">							<!--GalaxyS Section-->
 							<div class="thumbnail" id="n2">
 							  <p id="so"><a id="galx" href="fullservices.html#galaxysline" style="color: #000000">GalaxyS</a></p>  
 							   <a id="iphon3" href="fullservices.html#galaxysline">
@@ -71,9 +71,9 @@
 						</div>	
 					</div>
 					<hr id="lineone">
-					<div class="row" id="row2">
+					<div class="row" id="row2">				<!--Second row of Phones-->
 						<div class="col-md-4" id="p1">
-							<div class="thumbnail" id="p2">
+							<div class="thumbnail" id="p2">						<!--Nexus Section-->
 							  <p id="s"><a id="galx" href="fullservices.html#nexusline" style="color: #000000">Nexus</a></p>  
 							   <a id="iphon3" href="fullservices.html#nexusline">
 								<img id="iphone3" src="http://i.imgur.com/SR4gHZ1.png">
@@ -81,14 +81,14 @@
 							</div>
 						</div>
 						<div class="col-md-4" id="galx1">
-							<div class="thumbnail" id="galx2">
+							<div class="thumbnail" id="galx2">					<!--HTC One Section-->
 							  <p id="htc"><a href="fullservices.html#htcline" style="color: #000000">HTC One</a></p> 
 							   <a id="iphon2" href="fullservices.html#htcline">
 								<img id="iphone2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/HTC_One.png/297px-HTC_One.png">
 							   </a>						  
 							</div>
 						</div>
-						<div class="col-md-4" id="n1">
+						<div class="col-md-4" id="n1">							<!--LG G Section-->
 							<div class="thumbnail" id="n2">
 							  <p id="g"><a id="galx" href="fullservices.html#lgline" style="color: #000000">LG G</a></p>
 							   <a id="iphon" href="fullservices.html#lgline">
@@ -98,16 +98,16 @@
 						</div>	
 					</div>
 					<hr id="linetwo">
-					<div class="row" id="row3">
-						<div class="col-md-4" id="p1">
+					<div class="row" id="row3">						<!--Third row of Phones-->
+						<div class="col-md-4" id="p1">							<!--iPhone Section-->
 							<div class="thumbnail" id="p2">
-							  <p id="p"><a href="iphone.html" style="text-decoration: none; color: #000000">Iphone</a></p> 
+							  <p id="p"><a href="iphone.html" style="text-decoration: none; color: #000000">iPhone</a></p> 
 							   <a id="iphon" href="iphone.html">
 								<img id="iphone" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/IPhone_6S_Rose_Gold.png">
 							   </a>							 
 							</div>
 						</div>
-						<div class="col-md-4" id="galx1">
+						<div class="col-md-4" id="galx1">						<!--iPad section-->
 							<div class="thumbnail" id="galx2">
 							  <p id="n"><a href="fullservices.html#beforelinetwo" style="color: #000000">iPad</a></p>  
 							   <a id="iphon2" href="fullservices.html#beforelinetwo">
@@ -115,7 +115,7 @@
 							   </a>							  
 							</div>
 						</div>
-						<div class="col-md-4" id="n1">
+						<div class="col-md-4" id="n1">							<!--Other Section-->
 							<div class="thumbnail" id="n2">
 							  <p id="n">Other</p>
 							  <p id="other">Please give us a call at (909)230-1537 if you do not see your device listed.</p>
@@ -127,8 +127,8 @@
 			<hr id="linethree">
 			<hr id="linefour">
 			
-			<footer class="cf">
-				<div class="jumbotron2">
+			<footer class="cf">					<!--Obvious footer. Hidden on Mobile site for reasons.-->
+				<div class="jumbotron2">				<!--Another protective section that coves footer. Hidden on Mobile-->
 					<p id="copyr">&copy; 2016 via phone repair, all rights reserved | 909.230.1537 | werepairthere@gmail.com</p>
 					<p id="botser">Services</p>
 					<p id="iphoneserv">iPhone Repair</p>
@@ -159,9 +159,13 @@
   			ga('create', 'UA-46156385-1', 'cssscript.com');
   			ga('send', 'pageview');
 
-		</script>
+		</script>					<!--Small script for the function of dropdown menu used in Mobile site-->
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!--Script used on both Mobile and Desktop versions of site. Makes menu fixed after
+		    scrolling past certain amount of pixels on page. The amount of pixels depend on whether
+		    site is mobile or desktop, which depends on whether overflow: on wrapper is either hidden(Mobile)
+		    or visible(Desktop)-->		
 		<script>
 		$(document).ready(function() {
 			checkSize();
