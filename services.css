@@ -297,7 +297,8 @@ the Menu position Fixed on both Desktop and Mobile*/
   text-decoration: none;
 } 
 
-.thumbnail #iphone {
+/*First Phone Image on Every Row. (Left on Desktop page and Top on Mobile page)*/
+.thumbnail #phone {
   border-radius: 5.5px;
   height: 400px;
   width: 200px;
@@ -357,7 +358,7 @@ the Menu position Fixed on both Desktop and Mobile*/
   text-decoration: none;
 } 
 
-.thumbnail #iphone2 {
+.thumbnail #phone2 {
   border-radius: 19px;
   height: 400px;
   width: 200px;
@@ -378,7 +379,7 @@ the Menu position Fixed on both Desktop and Mobile*/
   color: #000000;  
 } 
 
-.thumbnail #iphone3 {
+.thumbnail #phone3 {
   border-radius: 5.5px;
   height: 400px;
   width: 200px;
@@ -918,7 +919,7 @@ hr {
     text-align: center;
   }
   
-  .thumbnail #iphone {
+  .thumbnail #phone {
     border-radius: 5.5px;
     height: 400px;
     width: 200px;
@@ -936,7 +937,7 @@ hr {
     top: 500px;
   }
   
-  .thumbnail #iphone2 {
+  .thumbnail #phone2 {
     border-radius: 19px;
     height: 400px;
     width: 200px;
@@ -955,7 +956,7 @@ hr {
     text-align: center;
   }
   
-  .thumbnail #iphone3 {
+  .thumbnail #phone3 {
     border-radius: 21px;
     height: 400px;
     width: 200px;
