@@ -1399,6 +1399,15 @@ hr {
     left: 7px;
   }
   
+  /*Positions the First Section for Mobile site (Left in Row on Desktop Page)*/  
+  #n1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+  }
+  
   #r1 {
     position: absolute;
     left: 0;
