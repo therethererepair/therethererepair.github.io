@@ -264,20 +264,6 @@ the Menu position Fixed on both Desktop and Mobile*/
   bottom: 0;
 }
 
-/*Styles text for iPhone header*/
-.thumbnail #ph {
-  font-family: 'Roboto', sans-serif;
-  font-size: 29px;
-  top: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  font-weight: 100;
-  position: absolute;
-  color: #000000;  
-  text-decoration: none;
-} 
-
 /*First Phone Image on Every Row. (Left on Desktop page and Top on Mobile page)*/
 .thumbnail #phone {
   border-radius: 5.5px;
@@ -288,43 +274,45 @@ the Menu position Fixed on both Desktop and Mobile*/
   left: 23%;
 }
 
-/*Styles header text for Nexus Section*/
-.thumbnail #s {
-  font-family: 'Roboto', sans-serif;
-  font-size: 29px;
-  top: 0;
-  right: 0;
-  left: 0;
-  text-align: center;
-  font-weight: 100;
-  line-height: 160%;
+/*Second Phone Image on Every Row. (Center on Desktop and Middle on Mobile)*/
+.thumbnail #phone2 {
+  border-radius: 19px;
+  height: 400px;
+  width: 200px;
   position: absolute;
-  color: #000000;  
-} 
+  top: 50px;
+  left: 24%;
+}
 
-.thumbnail #so {
-  font-family: 'Roboto', sans-serif;
-  font-size: 29px;
-  top: 0;
-  right: 0;
-  left: 0;
-  text-align: center;
-  font-weight: 100;
-  line-height: 160%;
+/*Third Phone Image on Every Row. (Right on Desktop and Bottom on Mobile)*/
+.thumbnail #phone3 {
+  border-radius: 5.5px;
+  height: 400px;
+  width: 200px;
   position: absolute;
-  color: #000000;  
-} 
+  top: 50px;
+  left: 24%;
+}
 
-/*Styles Header Text on Third Image in Row (Right on Desktop, Bottom on Mobile)*/
-.thumbnail #r {
+/*iPad Image Size and Styling*/
+.thumbnail #ipad {
+  border-radius: 5.5px;
+  height: 400px;
+  width: 260px;
+  position: absolute;
+  top: 50px;
+  left: 16%;
+}
+
+/*Styles Header Text for First Image In Row (Left Desktop, Top Mobile)*/
+.thumbnail #n {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
-  right: 0;
   left: 0;
+  right: 0;
   text-align: center;
   font-weight: 100;
-  line-height: 160%;
   position: absolute;
   color: #000000;  
 } 
@@ -343,72 +331,21 @@ the Menu position Fixed on both Desktop and Mobile*/
   text-decoration: none;
 } 
 
-.thumbnail #phone2 {
-  border-radius: 19px;
-  height: 400px;
-  width: 200px;
-  position: absolute;
-  top: 50px;
-  left: 24%;
-}
-
-/*Styles Header Text for First Image In Row (Left Desktop, Top Mobile)*/
-.thumbnail #n {
+/*Styles Header Text on Third Image in Row (Right on Desktop, Bottom on Mobile)*/
+.thumbnail #r {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
-  left: 0;
   right: 0;
+  left: 0;
   text-align: center;
   font-weight: 100;
+  line-height: 160%;
   position: absolute;
   color: #000000;  
 } 
 
-.thumbnail #phone3 {
-  border-radius: 5.5px;
-  height: 400px;
-  width: 200px;
-  position: absolute;
-  top: 50px;
-  left: 24%;
-}
-
-.thumbnail #vol {
-  font-family: 'Roboto', sans-serif;
-  font-size: 29px;
-  top: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  width: 100px;
-  padding-right: 90px;
-  font-weight: 100;
-  position: absolute;
-  color: #000000;  
-} 
-
-.thumbnail #head {
-  font-family: 'Roboto', sans-serif;
-  font-size: 29px;
-  top: 0;
-  left: 55px;
-  width: 400px;
-  padding-right: 115px;
-  font-weight: 600;
-  position: absolute;
-  color: #000000;  
-} 
- 
-.thumbnail #ipad {
-  border-radius: 5.5px;
-  height: 400px;
-  width: 260px;
-  position: absolute;
-  top: 50px;
-  left: 16%;
-}
-
+/*Styles text in Other Section*/
 .thumbnail #other {
  font-family: 'Roboto', sans-serif;
  font-size: 16px;
@@ -419,6 +356,7 @@ the Menu position Fixed on both Desktop and Mobile*/
  color: #000000;
 }
 
+/*Safety wrapper for footer. Hidden on Mobile*/
 .jumbotron2 {
   background-color: transparent;
   background-position: center bottom;
@@ -429,6 +367,8 @@ the Menu position Fixed on both Desktop and Mobile*/
   position: absolute;
 }
 
+/*From here to "Sunday" the texts were tediously arranged based on their #id. 
+I will use classes next time, but for now it is organized and contained.*/
 #copyr {
   position: absolute;
   font-family: 'Roboto', sans-serif;
@@ -635,6 +575,7 @@ the Menu position Fixed on both Desktop and Mobile*/
   z-index: 1000;
 }
 
+/*General seperating lines*/
 hr {
   color: #808080;
   background-color: #808080;
@@ -673,7 +614,10 @@ hr {
   height: 2px;
 }
 
+/*For Mobile Site. Reads width of monitor size and
+switches to mobile styling of site.*/
 @media all and (max-width: 1024px) {
+  /*Mobile version website height and width*/
   body {
     background-color: #f7f7f7;
     overflow: visible;
@@ -682,6 +626,7 @@ hr {
     top: 0;
   }
   
+  /*Wraps around body, is same height and width, changes on Desktop Version of site*/
   .wrapper {
     top: 0;
     right: 0;
@@ -691,12 +636,14 @@ hr {
     overflow: hidden;
   }
   
+  /*Height and width of image on top of Mobile site*/  
   .top {
     position: absolute;
     height: 200px;
     top: 0;
   }
   
+  /*Wraps arond menu, for both Mobile and Desktop site*/  
   .menuwrap {
     transform: translate3d(0px,0px,0px);
     overflow: visible;
@@ -710,6 +657,8 @@ hr {
     right: 0;
   }
   
+  /*This is used with the Java script in order to make the Menu
+  positioning Fixed on both Desktop and Mobile*/  
   .fixed {
     position: fixed;
     height: 50px;
@@ -721,6 +670,7 @@ hr {
     z-index: 6000;
   }
   
+  /*Container and Link for Logo Image (Smaller than in Desktop Page)*/
   #alm {
     position: absolute;
     height: 50px;
@@ -728,11 +678,13 @@ hr {
     left: 0;
   }
   
+  /*Defining container for Logo Image (Also smaller than in Desktop Page)*/
   #alm2 {
     height: 50px;
     width: 90px;
   }
   
+  /*Makes Mobile Version of Menu visible (Icon, and Dropdown when clicked)*/
   .littleme {
     display: initial;
     left: 90px;
@@ -751,6 +703,9 @@ hr {
      display: none; 
    }
 
+  /*Used a Character Font to make the Menu Icon. 
+  It was the most effecient way to get to what I needed.
+  This styles the Menu Icon*/
   .toggle {
     display: block;
     text-align: right;
@@ -768,16 +723,13 @@ hr {
     border: none;
     z-index: 7000;
   }
-
-  .toggle:hover { 
-    background-color: black;
-    opacity: 1;
-  }
   
+  /*Makes Menu Icon Site green after getting clicked*/
   #drop:checked + label {
     color: #008080;
   }
 
+  /*Displays Dropdown Menu after Menu Icon is clicked*/
   [id^=drop]:checked + label + ul { 
     display: block;
   }
@@ -788,35 +740,7 @@ hr {
     z-index: 6000;
   }
 
-  .littleme ul ul .toggle,
-   .littleme ul ul a { padding: 0 40px; }
-
-  .littleme ul ul ul a { padding: 0 80px; }
-
-  .littleme a:hover,
-   .littleme ul ul ul a { background-color: #008080; }
-
-  .littleme ul li ul li .toggle,
-   .littleme ul ul a { background-color: #212121; }
-
-  .littleme ul ul {
-    float: none;
-    position: static;
-    color: #ffffff;
-  }
-
-  .littleme ul ul li:hover > ul,
-  .littleme ul li:hover > ul { display: none; }
-
-  .littleme ul ul li {
-    display: block;
-    width: 100%;
-  }
-
-  .littleme ul ul ul li { 
-    position: static;
-  }
-  
+  /*Section After Top. Contains Most of Page Content (Bootstrap used in Container)*/
   .phones {
     top: 290px;
     left: 0;
@@ -850,7 +774,9 @@ hr {
     color: #008080;
  }
  
+  /*Hides all Seperating Lines*/
   hr {
+    position: absolute;
     display: none;
   }
   
@@ -859,6 +785,7 @@ hr {
     display: none;
   }
   
+  /*Section holding phone images. Bootstrap used here*/
   .container {
     height: 45px;
     top: 510px;
@@ -868,26 +795,7 @@ hr {
     position: absolute;
   }
   
-  #we {
-    position: absolute;
-    display: none;
-  }
-  
-  #call {
-    position: absolute;
-    display: none;
-  }
-  
-  #numbers {
-    position: absolute;
-    display: none;
-  }
-  
-  .logo {
-    position: absolute;
-    display: none;
-  }
-  
+  /*Hides the original texts from Desktop Version of Menu*/
   .texts {
     position: absolute;
     display: none;
@@ -897,7 +805,8 @@ hr {
     background-color: transparent;
   }
   
-  #p1 {
+  /*Positions the First Section for Mobile site (Left in Row on Desktop Page)*/  
+  #n1 {
     position: absolute;
     left: 0;
     right: 0;
@@ -905,6 +814,24 @@ hr {
     text-align: center;
   }
   
+  /*Positions the Second Section for Mobile Page (Center in Row on Desktop Page)*/
+  #t1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 500px;
+  }
+
+  /*Positions the Third Section for Mobile Page (Right in Row on Desktop Page)*/
+  #r1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1000px;
+    text-align: center;
+  }
+  
+  /*Positions Image in First Section for Mobile Page (#n1)*/
   .thumbnail #phone {
     border-radius: 5.5px;
     height: 400px;
@@ -916,13 +843,7 @@ hr {
     text-align: center;
   }
   
-  #galx1 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 500px;
-  }
-  
+  /*Positions Image in Third Section for Mobile Page (#t1)*/
   .thumbnail #phone2 {
     border-radius: 19px;
     height: 400px;
@@ -934,14 +855,7 @@ hr {
     text-align: center;
   }
   
-  #n1 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 1000px;
-    text-align: center;
-  }
-  
+  /*Positions Image in First Section for Mobile Page (#r1)*/
   .thumbnail #phone3 {
     border-radius: 21px;
     height: 400px;
@@ -953,6 +867,7 @@ hr {
     text-align: center;
   }
 
+  /*Positions iPad Image in Second Section for Mobile Page (#t1, Has to be a bit wider)*/
   .thumbnail #ipad {
     border-radius: 5.5px;
     height: 400px;
@@ -964,6 +879,7 @@ hr {
     text-align: center;
   }
     
+  /*Positions First Row in Mobile site*/
   #row1 {
     position: absolute;
     left: 0;
@@ -972,6 +888,7 @@ hr {
     text-align: center;
   }
   
+  /*Positions Second Row in Mobile Site*/
   #row2 {
     position: absolute;
     left: 0;
@@ -980,6 +897,7 @@ hr {
     text-align: center;
   } 
  
+  /*Positions Third Row in Mobile Site*/
   #row3 {
     position: absolute;
     top: 2600px;
@@ -988,22 +906,7 @@ hr {
     text-align: center;
   }
 
-   #linetwo{
-    position: absolute;
-    display: none;
-  }
-  
-  #linethree {
-    position: absolute;
-    display: none;
-  }
-  
-  #linefour {
-    position: absolute;
-    top: 3470px;
-    display: none;
-  }
-
+  /*Hides Footer*/
   .jumbotron2 {
     display: none;
   }
