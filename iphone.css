@@ -224,6 +224,13 @@ h5 {
   outline: none;
 }
 
+.logo {
+  top: 0;
+  height: 75px;
+  width: 100px;
+  overflow: hidden;
+  border-radius: 7px;
+}
 
 .phones {
   position: absolute;
@@ -316,18 +323,6 @@ h5 {
   border-radius: 33.5px;
   display: block;
   height: 398px;
-  width: 190px;
-  position: relative;
-  top: 90px;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
-}
-
-.thumbnail #iphonetesterbat {                    /*Container for phone image */
-  border-radius: 33.5px;
-  display: block;
-  height: 401px;
   width: 190px;
   position: relative;
   top: 90px;
@@ -482,7 +477,7 @@ h5 {
   color: #000000;  
 } 
 
-.thumbnail #t {
+.thumbnail #so {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
@@ -497,7 +492,7 @@ h5 {
 } 
 
 
-.thumbnail #n {
+.thumbnail #p {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
@@ -523,7 +518,6 @@ h5 {
   color: #000000;  
   text-decoration: none;
 } 
-
 .thumbnail #htc {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
@@ -557,7 +551,7 @@ h5 {
   background-color: transparent;
 }
 
-.thumbnail #r {
+.thumbnail #n {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
@@ -1065,85 +1059,6 @@ hr {
     position: absolute;
   }
   
-  .thumbnail #t {
-    font-family: 'Roboto', sans-serif;
-    font-size: 29px;
-    top: 30px;
-    right: 0;
-    left: 0;
-    text-align: center;
-    font-weight: 100;
-    line-height: 160%;
-    position: absolute;
-    color: #000000;
-    text-decoration: none;
-  } 
-  
-  .thumbnail #s {
-    font-family: 'Roboto', sans-serif;
-    font-size: 29px;
-    top: 30px;
-    right: 0;
-    left: 0;
-    text-align: center;
-    font-weight: 100;
-    line-height: 160%;
-    position: absolute;
-    color: #000000;  
-  } 
-  
-  .thumbnail #g {
-    font-family: 'Roboto', sans-serif;
-    border-style: none;
-    font-size: 29px;
-    top: 30px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-weight: 100;
-    position: absolute;
-    color: #000000;  
-    text-decoration: none;
-  } 
-  
-  .thumbnail #htc {
-    font-family: 'Roboto', sans-serif;
-    font-size: 29px;
-    top: 30px;
-    right: 0;
-    left: 0;
-    text-align: center;
-    font-weight: 100;
-    position: absolute;
-    color: #000000;  
-    text-decoration: none;
-  } 
-  
-  .thumbnail #htc {
-    font-family: 'Roboto', sans-serif;
-    font-size: 29px;
-    top: 30px;
-    right: 0;
-    left: 0;
-    text-align: center;
-    font-weight: 100;
-    position: absolute;
-    color: #000000;  
-    text-decoration: none;
-  } 
-  
-  .thumbnail #n {
-    font-family: 'Roboto', sans-serif;
-    font-size: 29px;
-    top: 30px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-weight: 100;
-    position: absolute;
-    color: #000000;  
-  } 
-  
   .phones #services {
     position: absolute;
     text-align: center;
@@ -1179,18 +1094,6 @@ hr {
     margin-right: auto;
     overflow: hidden;
   }
-  
-  .thumbnail #iphonetester {                    /*Container for phone image */
-    border-radius: 33.5px;
-    display: block;
-    height: 398px;
-    width: 190px;
-    position: relative;
-    top: 90px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-  }
 
   .thumbnail #iphonetested {                  /*Actual Image*/
     height: 400px;
@@ -1215,19 +1118,6 @@ hr {
     left: -5.75px;
     top: 0;
     bottom: -4.5px;
-  } 
-  
-  .thumbnail #r {
-    font-family: 'Roboto', sans-serif;
-    font-size: 29px;
-    top: 30px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-weight: 100;
-    position: absolute;
-    color: #000000;  
-    text-decoration: none;
   } 
  
   .thumbnail #p1 {
@@ -1374,7 +1264,9 @@ hr {
     left: 0;
   }
   
-  #t1 {
+  
+  
+  #galx1 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1399,7 +1291,7 @@ hr {
     left: 7px;
   }
   
-  #r1 {
+  #n1 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1427,7 +1319,7 @@ hr {
     text-align: center;
   }
   
-  #row1 {
+  #col1 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1435,7 +1327,7 @@ hr {
     text-align: center;
   }
   
-  #row2 {
+  #col2 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1443,7 +1335,7 @@ hr {
     text-align: center;
   } 
  
-  #row3 {
+  #col3 {
     position: absolute;
     top: 2600px;
     left: 0;
