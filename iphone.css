@@ -247,6 +247,14 @@ images, and pricing*/
 }
  
 
+.row {
+  position: relative;
+  height: 33%;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
 
 #row1 {
   position: relative;
