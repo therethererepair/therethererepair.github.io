@@ -99,37 +99,6 @@ body {
   text-decoration: none;
 }
 
-.littleme ul li ul li:hover {
-  background: #008080;
-  opacity: 1;
-}
-
-.littleme a:hover { 
-  background-color: #008080; 
-  opacity: 1;
-}
-
-.littleme ul ul {
-  display: none;
-  position: absolute;
-  top: 60px;
-}
-
-.littleme ul li:hover > ul { display: inherit; }
-
-.littleme ul ul li {
-  width: 170px;
-  float: none;
-  display: list-item;
-  position: relative;
-}
-
-.littleme ul ul ul li {
-  position: relative;
-  top: -60px;
-  left: 170px;
-}
-
 .littleme li > a:after { content: ' +'; }
 
 .littleme li > a:only-child:after { content: ''; }
