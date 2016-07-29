@@ -913,6 +913,21 @@ and switches to mobile styling.*/
     top: 0;
     bottom: -4.5px;
   } 
+  
+  #galx1 {				
+    position: absolute;				
+    left: 0;				
+    right: 0;				
+    top: 500px;				
+  }
+  
+  #n1 {		
+    position: absolute;		
+    left: 0;		
+    right: 0;		
+    top: 1000px;		
+    text-align: center;		
+  }
  
   .thumbnail #p1 {
     font-family: 'Roboto', sans-serif;
