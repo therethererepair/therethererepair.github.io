@@ -224,6 +224,13 @@ h5 {
   outline: none;
 }
 
+.logo {
+  top: 0;
+  height: 75px;
+  width: 100px;
+  overflow: hidden;
+  border-radius: 7px;
+}
 
 .phones {
   position: absolute;
@@ -277,33 +284,17 @@ h5 {
   left: 0;
   top: 0;
 }
-
-#n1 {
-  position: absolute;
-  padding-left: 2px;
-}
-
-#t1 {
-  position: absolute;
-  padding-left: 2px;
-}
-
-#r1 {
-  position: absolute;
-  padding-left: 2px;
-}
-
-
  
 .thumbnail {
   border-color: transparent;
   background-color: transparent;
   height: auto;
   width: 100%;
+  left: 0;
+  right: 0;
   top: 0;
   bottom: 0;
 }
-
 
 .thumbnail #p {
   font-family: 'Roboto', sans-serif;
@@ -498,7 +489,7 @@ h5 {
   color: #000000;  
 } 
 
-.thumbnail #t {
+.thumbnail #so {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
@@ -513,7 +504,7 @@ h5 {
 } 
 
 
-.thumbnail #n {
+.thumbnail #p {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
@@ -573,7 +564,7 @@ h5 {
   background-color: transparent;
 }
 
-.thumbnail #r {
+.thumbnail #n {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
@@ -1081,7 +1072,7 @@ hr {
     position: absolute;
   }
   
-  .thumbnail #t {
+  .thumbnail #so {
     font-family: 'Roboto', sans-serif;
     font-size: 29px;
     top: 30px;
@@ -1233,7 +1224,7 @@ hr {
     bottom: -4.5px;
   } 
   
-  .thumbnail #r {
+  .thumbnail #p {
     font-family: 'Roboto', sans-serif;
     font-size: 29px;
     top: 30px;
@@ -1390,7 +1381,9 @@ hr {
     left: 0;
   }
   
-  #t1 {
+  
+  
+  #galx1 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1415,16 +1408,7 @@ hr {
     left: 7px;
   }
   
-  /*Positions the First Section for Mobile site (Left in Row on Desktop Page)*/  
   #n1 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    text-align: center;
-  }
-  
-  #r1 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1452,7 +1436,7 @@ hr {
     text-align: center;
   }
   
-  #row1 {
+  #col1 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1460,7 +1444,7 @@ hr {
     text-align: center;
   }
   
-  #row2 {
+  #col2 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1468,7 +1452,7 @@ hr {
     text-align: center;
   } 
  
-  #row3 {
+  #col3 {
     position: absolute;
     top: 2600px;
     left: 0;
@@ -1497,4 +1481,3 @@ hr {
   }
 
 }
-
