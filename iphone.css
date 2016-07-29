@@ -231,7 +231,8 @@ images, and pricing*/
   color: #008080;
 }
 
-/*Section holding phone images(Bootstrap)*/
+/*Section holding phone images(Bootstrap) in
+rows of 3*/
 .container {
   position: absolute;
   top: 20px;
@@ -265,19 +266,6 @@ images, and pricing*/
   bottom: 0;
 }
 
-.thumbnail #n {
-  font-family: 'Roboto', sans-serif;
-  font-size: 29px;
-  top: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  font-weight: 100;
-  position: absolute;
-  color: #000000;  
-  text-decoration: none;
-} 
-
 /*Container box for Image. Makes it possible to 
 cut and crop image*/
 .thumbnail #iphonebox {
@@ -300,7 +288,9 @@ cut and crop image*/
   left: -5.75px;
 }
 
-.thumbnail #iphoneimbig {                  /*Actual Image But Bigger*/
+/*Had to adjust image size. This is a bit 
+bigger image. (Height)*/
+.thumbnail #iphoneimbig {
   height: 406px;
   width: 200px;
   position: absolute;
@@ -309,7 +299,9 @@ cut and crop image*/
   bottom: -1.5px;
 }
 
-.thumbnail #iphoneimother {                  /*Actual Image But Different*/
+/*Had to adjust image a tiny bit more.
+Also a bit bigger. (Height)*/
+.thumbnail #iphoneimother {       
   height: 408px;
   width: 200px;
   position: absolute;
@@ -317,6 +309,33 @@ cut and crop image*/
   top: 0;
   bottom: -4.5px;
 }
+
+/*Styles Header Text All Sections*/
+.thumbnail #n {
+  font-family: 'Roboto', sans-serif;
+  font-size: 29px;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: 100;
+  position: absolute;
+  color: #000000;  
+  text-decoration: none;
+} 
+
+
+.thumbnail #t {
+  font-family: 'Roboto', sans-serif;
+  font-size: 29px;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: 100;
+  position: absolute;
+  color: #000000;  
+} 
 
 .thumbnail #p1 {
   font-family: 'Roboto', sans-serif;
@@ -512,18 +531,6 @@ cut and crop image*/
   left: 0;
   background-color: transparent;
 }
-
-.thumbnail #t {
-  font-family: 'Roboto', sans-serif;
-  font-size: 29px;
-  top: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  font-weight: 100;
-  position: absolute;
-  color: #000000;  
-} 
 
 .thumbnail #iphone3 {
   border-radius: 19px;
