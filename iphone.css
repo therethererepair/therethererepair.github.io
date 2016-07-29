@@ -278,17 +278,9 @@ images, and pricing*/
   text-decoration: none;
 } 
 
-.thumbnail #iphone {
-  border-radius: 8px;
-  height: 400px;
-  width: 190px;
-  position: relative;
-  top: 90px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.thumbnail #iphonetester {                    /*Container for phone image */
+/*Container box for Image. Makes it possible to 
+cut and crop image*/
+.thumbnail #iphonebox {
   border-radius: 33.5px;
   display: block;
   height: 398px;
@@ -300,14 +292,15 @@ images, and pricing*/
   overflow: hidden;
 }
 
-.thumbnail #iphonetested {                  /*Actual Image*/
+/*Actual image positioning and styling*/
+.thumbnail #iphoneim {
   height: 400px;
   width: 200px;
   position: absolute;
   left: -5.75px;
 }
 
-.thumbnail #iphonetestedbig {                  /*Actual Image But Bigger*/
+.thumbnail #iphoneimbig {                  /*Actual Image But Bigger*/
   height: 406px;
   width: 200px;
   position: absolute;
@@ -316,7 +309,7 @@ images, and pricing*/
   bottom: -1.5px;
 }
 
-.thumbnail #iphonetestedother {                  /*Actual Image But Different*/
+.thumbnail #iphoneimother {                  /*Actual Image But Different*/
   height: 408px;
   width: 200px;
   position: absolute;
