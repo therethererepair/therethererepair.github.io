@@ -245,7 +245,6 @@ images, and pricing*/
 .container a:hover {
   text-decoration: none;
 }
- 
 
 .row {
   position: relative;
@@ -254,32 +253,6 @@ images, and pricing*/
   left: 0;
   top: 0;
 }
-
-
-#row1 {
-  position: relative;
-  height: 33%;
-  right: 0;
-  left: 0;
-  top: 0;
-}
-
-#row2 {
-  position: relative;
-  height: 33%;
-  right: 0;
-  left: 0;
-  top: 0;
-}
-
-#row3 {
-  position: relative;
-  height: 33%;
-  right: 0;
-  left: 0;
-  top: 0;
-}
- 
 
 .thumbnail {
   border-color: transparent;
@@ -292,7 +265,7 @@ images, and pricing*/
   bottom: 0;
 }
 
-.thumbnail #p {
+.thumbnail #n {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
@@ -473,7 +446,7 @@ images, and pricing*/
   color: #000000;  
 } 
 
-.thumbnail #so {
+.thumbnail #r {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
@@ -547,7 +520,7 @@ images, and pricing*/
   background-color: transparent;
 }
 
-.thumbnail #n {
+.thumbnail #t {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
