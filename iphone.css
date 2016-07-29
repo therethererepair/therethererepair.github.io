@@ -864,6 +864,18 @@ and switches to mobile styling.*/
     font-weight: 300px;
     color: #000000;
   }
+  
+  .phones  #ser{
+    text-align: center;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 30px;
+    left: 0;
+    right: 0;
+    font-size: 25px;
+    font-weight: 300;
+    color: #008080;
+  }
  
   .thumbnail #iphonebox {                    /*Container for phone image */
     border-radius: 33.5px;
