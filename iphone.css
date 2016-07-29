@@ -63,6 +63,8 @@ body {
   display: none;
 }
 
+/*Describes what happens after Mobile Menu is active(Pressed).
+It drops down the menu*/
 .littleme:after {
   content: "";
   display: table;
