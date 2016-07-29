@@ -865,7 +865,7 @@ and switches to mobile styling.*/
     color: #000000;
   }
  
-  .thumbnail #iphonebo {                    /*Container for phone image */
+  .thumbnail #iphonebox {                    /*Container for phone image */
     border-radius: 33.5px;
     display: block;
     height: 398px;
@@ -877,14 +877,14 @@ and switches to mobile styling.*/
     overflow: hidden;
   }
 
-  .thumbnail #iphonei {                  /*Actual Image*/
+  .thumbnail #iphoneim {                  /*Actual Image*/
     height: 400px;
     width: 200px;
     position: absolute;
     left: -5.75px;
   }
 
-  .thumbnail #iphoneimbi {                  /*Actual Image But Bigger*/
+  .thumbnail #iphoneimbig {                  /*Actual Image But Bigger*/
     height: 406px;
     width: 200px;
     position: absolute;
@@ -893,7 +893,7 @@ and switches to mobile styling.*/
     bottom: -1.5px;
   }
 
-  .thumbnail #iphoneimothe {                  /*Actual Image But Different*/
+  .thumbnail #iphoneimother {                  /*Actual Image But Different*/
     height: 408px;
     width: 200px;
     position: absolute;
@@ -1028,53 +1028,10 @@ and switches to mobile styling.*/
     position: absolute;
   }
   
-  .phones #under3 {
-    position: absolute;
-    display: none;
-  }
-  
   .thumbnail {
     background-color: transparent;
   }
 
-  
-  .thumbnail #iphone2 {
-    border-radius: 5.5px;
-    height: 400px;
-    width: 200px;
-    position: absolute;
-    top: 50px;
-    left: 0;
-  }
-  
-  .thumbnail #iphonevol {
-    border-radius: 19px;
-    height: 400px;
-    width: 200px;
-    position: absolute;
-    top: 50px;
-    left: 7px;
-  }
-  
-  #n1 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 1000px;
-    text-align: center;
-  }
-  
-
-  .thumbnail #ipad {
-    border-radius: 5.5px;
-    height: 400px;
-    width: 260px;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    right: 0;
-    text-align: center;
-  }
   
   #row1 {
     position: absolute;
