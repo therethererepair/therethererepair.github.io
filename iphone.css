@@ -1,3 +1,4 @@
+/*Desktop version website height and width*/
 body {
   min-height: 2900px;
   min-width: 100%;
@@ -6,6 +7,7 @@ body {
   overflow: visible;
 }
 
+/*Wraps around body, is same height and width, changes on Mobile Versino of site*/
 .wrapper {
   height: 2900px;
   width: 100%;
@@ -17,6 +19,7 @@ body {
   overflow: visible;
 } 
 
+/*Height and width of image on top of Desktop site*/
 .top {
   position: absolute;
   height: 555px;
@@ -28,6 +31,7 @@ body {
   right: 0;
 }
 
+/*Wraps around menu on both Mobile and Desktop*/
 .menuwrap {
   background-color: black;
   overflow: hidden;
@@ -45,6 +49,7 @@ body {
    display: none;
  }
 
+/*Dropdown Menu for Mobile site. Hidden on desktop*/
 .littleme {
   z-index: 5000;
   top: 0;
@@ -127,12 +132,15 @@ body {
 
 .littleme li > a:only-child:after { content: ''; }
 
+/*This is used with the JavaScript in order to make 
+the Menu opsition Fixed on both esktop and Mobile*/
 .fixed {
   top: 0;
   position: fixed;
   opacity: .82;
 }
 
+/*Container/Link for Logo Image*/
 #alm {
   position: absolute;
   top: 0;
@@ -142,47 +150,13 @@ body {
   overflow: hidden;
 }
 
+/*Defining/Cutting container for Logo Image*/
 #alm2 {
   height: 55px;
   width: 90px;
 }
 
-h3 {
-  position: absolute;
-  display: none;
-  right: 4px;
-  top: -15px;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  font-weight: 5;
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-h4 {
-  position: absolute;
-  display: none;
-  right: 4px;
-  top: 22px;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  font-weight: 5;
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-h5 {
-  position: absolute;
-  display: none;
-  right: 4px;
-  top: 50px;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  font-weight: 5;
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
+/*Desktop Menu texts. Hidden on Mobile site.*/
 .texts {
   position: relative;
   list-style: none;
@@ -212,11 +186,8 @@ h5 {
   outline: none;
 }
 
-
-.container a:hover {
-  text-decoration: none;
-}
-
+/*When you hover over text in the Menu(Desktop)
+this turns the text green*/
 .texts a:hover:not(#log) {
   background-color: black;
   color: #008080;
@@ -224,14 +195,8 @@ h5 {
   outline: none;
 }
 
-.logo {
-  top: 0;
-  height: 75px;
-  width: 100px;
-  overflow: hidden;
-  border-radius: 7px;
-}
-
+/*Section after Top. Contains iPhone services, 
+images, and pricing*/
 .phones {
   position: absolute;
   top: 750px;
@@ -266,7 +231,7 @@ h5 {
   color: #008080;
 }
 
-
+/*Section holding phone images(Bootstrap)*/
 .container {
   position: absolute;
   top: 20px;
@@ -276,6 +241,10 @@ h5 {
   bottom: 0;
   overflow: hidden;
  }
+ 
+.container a:hover {
+  text-decoration: none;
+}
  
 .row {
   position: relative;
@@ -1319,7 +1288,7 @@ hr {
     text-align: center;
   }
   
-  #col1 {
+  #row1 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1327,7 +1296,7 @@ hr {
     text-align: center;
   }
   
-  #col2 {
+  #row2 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1335,7 +1304,7 @@ hr {
     text-align: center;
   } 
  
-  #col3 {
+  #row3 {
     position: absolute;
     top: 2600px;
     left: 0;
