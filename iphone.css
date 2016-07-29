@@ -842,6 +842,16 @@ and switches to mobile styling.*/
     display: none;
   }
   
+  /*Section holding phone images. Bootstrap used here*/
+  .container {
+    height: 45px;
+    top: 510px;
+    left: 0;
+    right: 0;
+    overflow: visible;
+    position: absolute;
+  }
+  
   /*Section After Top. Contains iPhone images,
   services, and pricing*/
   .phones {
@@ -876,8 +886,14 @@ and switches to mobile styling.*/
     font-weight: 300;
     color: #008080;
   }
- 
-  .thumbnail #iphonebox {                    /*Container for phone image */
+  
+  .thumbnail {
+    background-color: transparent;
+  }
+  
+  /*Container box for Image. Makes it possible to 
+  cut and crop image*/
+  .thumbnail #iphonebox {
     border-radius: 33.5px;
     display: block;
     height: 398px;
@@ -889,14 +905,17 @@ and switches to mobile styling.*/
     overflow: hidden;
   }
 
-  .thumbnail #iphoneim {                  /*Actual Image*/
+  /*Actual image positioning and styling*/
+  .thumbnail #iphoneim {
     height: 400px;
     width: 200px;
     position: absolute;
     left: -5.75px;
   }
 
-  .thumbnail #iphoneimbig {                  /*Actual Image But Bigger*/
+  /*Had to adjust image size. This is a bit 
+  bigger image. (Height, Left, Bottom)*/
+  .thumbnail #iphoneimbig {
     height: 406px;
     width: 200px;
     position: absolute;
@@ -905,7 +924,9 @@ and switches to mobile styling.*/
     bottom: -1.5px;
   }
 
-  .thumbnail #iphoneimother {                  /*Actual Image But Different*/
+  /*Had to adjust image a tiny bit more.
+  Also a bit bigger. (Height, Left, Bottom)*/
+  .thumbnail #iphoneimother {
     height: 408px;
     width: 200px;
     position: absolute;
@@ -914,14 +935,16 @@ and switches to mobile styling.*/
     bottom: -4.5px;
   } 
   
-  #galx1 {				
+  /*Used this to move the Second Image(Middle on Desktop) in Mobile site*/
+  #mob {				
     position: absolute;				
     left: 0;				
     right: 0;				
     top: 500px;				
   }
   
-  #n1 {		
+  /*Used this to move the Third Image(Right on Desktop) in Mobile site*/
+  #mob2 {		
     position: absolute;		
     left: 0;		
     right: 0;		
@@ -929,6 +952,7 @@ and switches to mobile styling.*/
     text-align: center;		
   }
  
+  /*All the p(Number) from here on style the text inside all the iPhone images*/
   .thumbnail #p1 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -1037,29 +1061,12 @@ and switches to mobile styling.*/
     width: 200px;
   } 
  
+  /*Hides all of the seperating lines*/
   hr {
     display: none;
   }
-  
-  #lineone {
-    position: absolute;
-    display: none;
-  }
-  
-  .container {
-    height: 45px;
-    top: 510px;
-    left: 0;
-    right: 0;
-    overflow: visible;
-    position: absolute;
-  }
-  
-  .thumbnail {
-    background-color: transparent;
-  }
 
-  
+  /*Positions First Row in Mobile site*/
   #row1 {
     position: absolute;
     left: 0;
@@ -1068,6 +1075,7 @@ and switches to mobile styling.*/
     text-align: center;
   }
   
+  /*Positions Second Row in Mobile site*/
   #row2 {
     position: absolute;
     left: 0;
@@ -1076,6 +1084,7 @@ and switches to mobile styling.*/
     text-align: center;
   } 
  
+  /*Positions Third Row in Mobile site*/
   #row3 {
     position: absolute;
     top: 2600px;
@@ -1083,23 +1092,8 @@ and switches to mobile styling.*/
     right: 0;
     text-align: center;
   }
-  
-  #linetwo{
-    position: absolute;
-    display: none;
-  }
-  
-  #linethree {
-    position: absolute;
-    display: none;
-  }
-  
-  #linefour {
-    position: absolute;
-    top: 3470px;
-    display: none;
-  }
 
+  /*Hides Footer*/
   .bottom {
     display: none;
   }
