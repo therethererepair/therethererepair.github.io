@@ -865,7 +865,7 @@ and switches to mobile styling.*/
     color: #000000;
   }
  
-  .thumbnail #iphonebox {                    /*Container for phone image */
+  .thumbnail #iphonebo {                    /*Container for phone image */
     border-radius: 33.5px;
     display: block;
     height: 398px;
@@ -877,14 +877,14 @@ and switches to mobile styling.*/
     overflow: hidden;
   }
 
-  .thumbnail #iphoneim {                  /*Actual Image*/
+  .thumbnail #iphonei {                  /*Actual Image*/
     height: 400px;
     width: 200px;
     position: absolute;
     left: -5.75px;
   }
 
-  .thumbnail #iphoneimbig {                  /*Actual Image But Bigger*/
+  .thumbnail #iphoneimbi {                  /*Actual Image But Bigger*/
     height: 406px;
     width: 200px;
     position: absolute;
@@ -893,7 +893,7 @@ and switches to mobile styling.*/
     bottom: -1.5px;
   }
 
-  .thumbnail #iphoneimother {                  /*Actual Image But Different*/
+  .thumbnail #iphoneimothe {                  /*Actual Image But Different*/
     height: 408px;
     width: 200px;
     position: absolute;
