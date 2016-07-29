@@ -32,7 +32,7 @@ body {
 }
 
 
-/*Wraps arond menu, for both Mobile and Desktop site*/ 
+/*Wraps around menu, on both Mobile and Desktop*/ 
 .menuwrap {
   background-color: black;
   overflow: hidden;
