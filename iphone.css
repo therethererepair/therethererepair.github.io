@@ -720,7 +720,13 @@ and switches to mobile styling.*/
     top: 0;
     left: 0;
   }
-  
+   
+  #galx1 {		
+    position: absolute;		
+    left: 0;		
+    right: 0;		
+    top: 500px;		
+  }
   /*Wraps around body, is same height and width, 
   changes on Desktop Version of site*/
   .wrapper {
