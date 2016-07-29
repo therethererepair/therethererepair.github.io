@@ -253,7 +253,32 @@ images, and pricing*/
   left: 0;
   top: 0;
 }
+
+#row1 {
+  position: relative;
+  height: 33%;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+#row2 {
+  position: relative;
+  height: 33%;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+#row3 {
+  position: relative;
+  height: 33%;
+  right: 0;
+  left: 0;
+  top: 0;
+}
  
+
 .thumbnail {
   border-color: transparent;
   background-color: transparent;
