@@ -1315,7 +1315,7 @@ hr {
     text-align: center;
   }
   
-  #row1 {
+  #col1 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1323,7 +1323,7 @@ hr {
     text-align: center;
   }
   
-  #row2 {
+  #col2 {
     position: absolute;
     left: 0;
     right: 0;
@@ -1331,7 +1331,7 @@ hr {
     text-align: center;
   } 
  
-  #row3 {
+  #col3 {
     position: absolute;
     top: 2600px;
     left: 0;
