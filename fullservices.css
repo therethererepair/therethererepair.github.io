@@ -165,7 +165,7 @@ to make the Menu position Fixed on both Desktop and Mobile*/
   outline: none;
 }
 
-/*when you hover over text in the Menu(Desktop)
+/*When you hover over text in the Menu(Desktop)
 this turns the text green*/
 .texts a:hover:not(#log) {
   background-color: black;
