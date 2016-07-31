@@ -1,3 +1,4 @@
+/*Desktop version height and width*/
 body {
   min-height: 2900px;
   min-width: 100%;
@@ -6,6 +7,7 @@ body {
   overflow: visible;
 }
 
+/*Wraps around body, is same height and width, changes on Mobile Version of site*/
 .wrapper {
   height: 2900px;
   width: 100%;
@@ -17,6 +19,7 @@ body {
   overflow: visible;
 } 
 
+/*Height and width of image on top of esktop site*/
 .top {
   position: absolute;
   height: 555px;
@@ -28,6 +31,7 @@ body {
   right: 0;
 }
 
+/*Wraps around menu on both Mobile and Desktop*/
 .menuwrap {
   background-color: black;
   overflow: hidden;
@@ -45,6 +49,7 @@ body {
    display: none;
  }
 
+/*Dropdown Menu for Mobile site. Hidden on desktop*/
 .littleme {
   z-index: 5000;
   top: 0;
@@ -102,37 +107,19 @@ body {
   opacity: 1;
 }
 
-.littleme ul ul {
-  display: none;
-  position: absolute;
-  top: 60px;
-}
-
-.littleme ul li:hover > ul { display: inherit; }
-
-.littleme ul ul li {
-  width: 170px;
-  float: none;
-  display: list-item;
-  position: relative;
-}
-
-.littleme ul ul ul li {
-  position: relative;
-  top: -60px;
-  left: 170px;
-}
-
 .littleme li > a:after { content: ' +'; }
 
 .littleme li > a:only-child:after { content: ''; }
 
+/*This is used with the JavaScript script in HTML in order
+to make the Menu position Fixed on both Desktop and Mobile*/
 .fixed {
   top: 0;
   position: fixed;
   opacity: .82;
 }
 
+/*Container/Link for Logo Image*/
 #alm {
   position: absolute;
   top: 0;
@@ -142,47 +129,13 @@ body {
   overflow: hidden;
 }
 
+/*Defining/Cutting container for Logo Image*/
 #alm2 {
   height: 55px;
   width: 90px;
 }
 
-h3 {
-  position: absolute;
-  display: none;
-  right: 4px;
-  top: -15px;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  font-weight: 5;
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-h4 {
-  position: absolute;
-  display: none;
-  right: 4px;
-  top: 22px;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  font-weight: 5;
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-h5 {
-  position: absolute;
-  display: none;
-  right: 4px;
-  top: 50px;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  font-weight: 5;
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
+/*Desktop Menu texts. Hidden on Mobile site*/
 .texts {
   position: relative;
   list-style: none;
@@ -212,11 +165,8 @@ h5 {
   outline: none;
 }
 
-
-.container a:hover {
-  text-decoration: none;
-}
-
+/*when you hover over text in the Menu(Desktop)
+this turns the text green*/
 .texts a:hover:not(#log) {
   background-color: black;
   color: #008080;
@@ -224,13 +174,8 @@ h5 {
   outline: none;
 }
 
-.logo {
-  top: 0;
-  height: 75px;
-  width: 100px;
-  overflow: hidden;
-  border-radius: 7px;
-}
+/*Section after Top. Contains Phone services, 
+images, and pricing*/
 .phones {
   position: absolute;
   top: 750px;
@@ -299,6 +244,8 @@ h5 {
   color: #008080;
 }
 
+/*Section holding phone images(Bootstrap) in
+rows of 3*/
 .container {
   position: absolute;
   top: 20px;
@@ -307,7 +254,7 @@ h5 {
   right: 0;
   bottom: 0;
   overflow: visible;
- }
+}
 
 .container a:hover {
   text-decoration: none;
@@ -321,6 +268,7 @@ h5 {
   top: 0;
 }
 
+/*General styling for seperating lines*/
 hr {
   color: #808080;
   background-color: #808080;
@@ -441,6 +389,7 @@ hr {
   width: 200px;
 } 
 
+/*All the p(Number) from here on style the text inside all the iPhone images*/
 .thumbnail #p1 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -464,17 +413,6 @@ hr {
   font-weight: 100;
   position: relative;
   color: #FFFFFF;   
-  width: 200px;
-} 
-
-.thumbnail #optim{
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  top: 50px;
-  left: 173px;
-  font-weight: 300;
-  position: relative;
-  color: #000000;  
   width: 200px;
 } 
 
@@ -582,6 +520,8 @@ hr {
   width: 200px;
 } 
 
+/*All the g(Number) from here on style the text inside all the Phone images.
+Had to make some adjustments due to too many prices.*/
 .thumbnail #g1 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -854,6 +794,7 @@ hr {
   height: 2px;
 }
 
+/*Safety wrapper for footer. Hidden on Mobile*/
 .jumbotron2 {
   background-color: transparent;
   background-position: center bottom;
@@ -864,6 +805,9 @@ hr {
   position: absolute;
 }
 
+/*From here to "Sunday" the texts were tediously arranged based on their #id.
+I will use classes and better positioning next time, but for now texts are
+organized and contained and responsive on Desktop (Hidden on mobile)*/
 #copyr {
   position: absolute;
   font-family: 'Roboto', sans-serif;
@@ -1070,8 +1014,10 @@ hr {
   z-index: 1000;
 }
 
-
+/*For Mobile Site. Reads width of device/monitor
+and switches to mobile styling.*/
 @media all and (max-width: 1024px) {
+  /*Mobile site version height and width*/
   body {
     background-color: #f7f7f7;
     overflow: visible;
@@ -1080,6 +1026,8 @@ hr {
     top: 0;
   }
   
+  /*Wraps around body, is same height and width, 
+  changes on Desktop Version of site*/
   .wrapper {
     top: 0;
     right: 0;
@@ -1089,12 +1037,14 @@ hr {
     overflow: hidden;
   }
   
+  /*Height and width of image on top of Mobile site*/
   .top {
     position: absolute;
     height: 200px;
     top: 0;
   }
   
+  /*Wraps around menu, for both Mobile and Desktop site*/
   .menuwrap {
     transform: translate3d(0px,0px,0px);
     overflow: visible;
@@ -1108,6 +1058,8 @@ hr {
     z-index: 6000;
   }
   
+  /*This is used with the JavaScript in HTML in order to make the Menu
+  positioning Fixed on both Desktop and Mobile*/
   .fixed {
     position: fixed;
     height: 50px;
@@ -1119,6 +1071,7 @@ hr {
     z-index: 6000;
   }
   
+  /*Container/Link for Logo Image*/
   #alm {
     position: absolute;
     height: 50px;
@@ -1126,11 +1079,13 @@ hr {
     left: 0;
   }
   
+  /*Defining container for Logo Image*/
   #alm2 {
     height: 50px;
     width: 90px;
   }
   
+  /*Makes Mobile Version of menu visible*/
   .littleme {
     display: initial;
     left: 90px;
@@ -1149,6 +1104,9 @@ hr {
      display: none; 
    }
 
+  /*Used a Character Font to make the Menu Icon.
+  It was the most effecient way to get what I needed.
+  This styles the Menu Icon*/
   .toggle {
     display: block;
     text-align: right;
@@ -1166,16 +1124,13 @@ hr {
     border: none;
     z-index: 7000;
   }
-
-  .toggle:hover { 
-    background-color: black; 
-    opacity: 1;
-  }
   
+  /*Makes Menu Icon Site green after getting clicked*/
   #drop:checked + label {
     color: #008080;
   }
 
+  /*Dislpays Dropdown menu after menu Icon is clicked*/
   [id^=drop]:checked + label + ul { 
     display: block;
   }
@@ -1186,60 +1141,14 @@ hr {
     z-index: 6000;
   }
 
-  .littleme ul ul .toggle,
-   .littleme ul ul a { padding: 0 40px; }
-
-  .littleme ul ul ul a { padding: 0 80px; }
-
-  .littleme a:hover,
-   .littleme ul ul ul a { background-color: black; }
-
-  .littleme ul li ul li .toggle,
-   .littleme ul ul a { background-color: #212121; }
-
-  .littleme ul ul {
-    float: none;
-    position: static;
-    color: #ffffff;
-  }
-
-  .littleme ul ul li:hover > ul,
-  .littleme ul li:hover > ul { display: none; }
-
-  .littleme ul ul li {
-    display: block;
-    width: 100%;
-  }
-
-  .littleme ul ul ul li { 
-    position: static;
-  }
-  
+  /*Hides the texts for Desktop Menu*/
   .texts {
     position: absolute;
     display: none;
   }
-  
-  #we {
-    position: absolute;
-    display: none;
-  }
-  
-  #call {
-    position: absolute;
-    display: none;
-  }
-  
-  #numbers {
-    position: absolute;
-    display: none;
-  }
-  
-  .logo {
-    position: absolute;
-    display: none;
-  }
-  
+
+  /*Section After Top. Contains iPhone images,
+  services, and pricing*/  
   .phones {
     top: 290px;
     left: 0;
@@ -1271,7 +1180,8 @@ hr {
     font-weight: 300;
     color: #008080;
   }
-    
+  
+  /*Section holding phone images(Bootstrap)*/  
   .container {
     height: 45px;
     top: 510px;
@@ -1437,6 +1347,7 @@ hr {
     color: #000000;  
   } 
  
+  /*All the p(Number) from here on style the text inside all the Phone images*/
   .thumbnail #p1 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -1567,6 +1478,8 @@ hr {
     width: 200px;
   } 
   
+  /*All the p(Number) from here on style the text inside all the Phone images
+  Had to make adjustments because there was too many prices.*/
   .thumbnail #g1 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -1764,7 +1677,7 @@ hr {
     overflow: visible;
   }
 
-
+  /*Hides Footer*/
   .jumbotron2 {
     display: none;
   }
