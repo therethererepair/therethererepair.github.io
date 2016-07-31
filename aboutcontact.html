@@ -13,10 +13,12 @@
   	</head>
 
 	<body>
-  		<div class="wrapper">
+  		<div class="wrapper">				<!--Overprotective wrapper. Just in case, it covers body-->
 		
 			<div class="top">
-				<img id="topimg" src="http://www.servicenerd.com/uploads/4/5/1/6/45160455/1445959109.jpg" style="width: 100%; height: auto;">
+				<img id="topimg" src="http://www.servicenerd.com/
+				uploads/4/5/1/6/45160455/1445959109.jpg" 
+				style="width: 100%; height: auto;">			<!--Image on top of website-->
 			</div>	
 			
 			<nav class="menuwrap" id="navigation">
@@ -25,18 +27,15 @@
 					<img id="alm2" src="http://i.imgur.com/d91h7x7.png">
 				</a>
 
-				<ul class="texts">
+				<ul class="texts">				<!--Menu on Desktop version of site. Hidden on Mobile-->
 			  	  <li id="ho"><a href="index.html">HOME</a></li>
 		  	  	  <li id="ser"><a href="services.html">SERVICES</a></li>
 		  	  	  <li id="abo"><a href="aboutcontact.html#beforeline">ABOUT US</a></li>
 		  	  	  <li id="conta"><a href="aboutcontact.html#beforelineone">CONTACT</a></li>
 				</ul>
+
 				
-	    	 		<h4 id="we">You Say Where!</h3>
-	    	 		<h5 id="call">Call Today!</h4>
-	    			<h6 id="numbers">(909) 230-1537</h5>
-				
-				<nav class="littleme" id="smallmen">
+				<nav class="littleme" id="smallmen">		<!--Menu on Mobile version of site. Hidden on Desktop-->
 					<input type="checkbox" id="drop" />
 					<label for="drop" class="toggle">&#xE5D2;</label>
 					<ul class="othermenu">					
@@ -51,9 +50,9 @@
 			
 			<hr id="beforeline" style="height: 0px; width: 0px; color: transparent; background-color: transparent">
 			
-			<div class="phones">
+			<div class="phones">					<!--Section after top. Contains About Us and Contact info.-->
 				<p id="services">About Us</p>
-					<div class="textsquare">
+					<div class="textsquare">					<!--Text square for About Us section-->
 						<p id="under">via phone repair was started when we figured out that there is always a way to get to where
 						you want to be. We are a small company which only assures you that you will receive the time and effort 
 						that you deserve on your phone repair. Unlike many place, via phone repair is dedicated to the repair of 
@@ -68,10 +67,10 @@
 				<hr id="beforelineone" style="height: 0px; width: 0px; color: transparent; background-color: transparent">
 				<hr id="lineone">
 				
-					<div id="littlesquare">
+					<div id="littlesquare">			<!--Image for About Us section-->
 					</div>
 					
-				<p id="broke">Contact</p>				
+				<p id="broke">Contact</p>						<!--Contact Section-->
 				<p id="lastthing">Email: werepairthere@gmail.com<p>
 				<p id="secondlastthing">Phone: 909.230.1537</p>
 				
@@ -80,8 +79,8 @@
 			<hr id="linethree">
 			<hr id="linefive">
 
-			<footer class="cf">
-				<div class="jumbotron2">
+			<footer class="cf">			<!--Footer, hidden on Mobile for reasons.-->
+				<div class="jumbotron2">		<!--Another overprotective section that covers footer. Hidden on Mobile.-->
 					<p id="copyr">&copy; 2016 via phone repair, all rights reserved | 909.230.1537 | werepairthere@gmail.com</p>
 					<p id="botser">Services</p>
 					<p id="iphoneserv">iPhone Repair</p>
@@ -103,6 +102,7 @@
 			</footer>
 		</div>
 		
+		<!--Small script for the function of dropdown menu used in Mobile site-->
 		<script>
   			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -113,6 +113,10 @@
   			ga('send', 'pageview');
 		</script>
 		
+		<!--Script used on both Mobile and Desktop versions of site. Makes menu fixed after
+		    scrolling past certain amount of pixels on page. The amount of pixels depend on whether
+		    site is Mobile or Desktop, which depends on whether overflow: on wrapper is either hidden(Mobile)
+		    or visible(Desktop)-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script>
 		$(document).ready(function() {
