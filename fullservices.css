@@ -329,20 +329,7 @@ hr {
   bottom: 0;
 }
 
-.thumbnail #p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 29px;
-  top: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  font-weight: 100;
-  position: absolute;
-  color: #000000;  
-  text-decoration: none;
-} 
-
-.thumbnail #iphone {
+.thumbnail #phone {
   position: relative;
   border-radius: 35px;
   height: 400px;
@@ -389,7 +376,7 @@ hr {
   width: 200px;
 } 
 
-/*All the p(Number) from here on style the text inside all the iPhone images*/
+/*All the p(Number) from here on style the text inside all the Phone images*/
 .thumbnail #p1 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -704,7 +691,7 @@ Had to make some adjustments due to too many prices.*/
   text-decoration: none;
 } 
 
-.thumbnail #iphone2 {
+.thumbnail #phone2 {
   border-radius: 19px;
   height: 400px;
   width: 200px;
@@ -752,7 +739,7 @@ Had to make some adjustments due to too many prices.*/
   color: #000000;  
 } 
 
-.thumbnail #iphone3 {
+.thumbnail #phone3 {
   border-radius: 28px;
   height: 400px;
   width: 200px;
@@ -1147,7 +1134,7 @@ and switches to mobile styling.*/
     display: none;
   }
 
-  /*Section After Top. Contains iPhone images,
+  /*Section After Top. Contains Phone images,
   services, and pricing*/  
   .phones {
     top: 290px;
@@ -1215,6 +1202,7 @@ and switches to mobile styling.*/
     text-align: center;
   }
     
+  /*General styling for seperating lines*/  
   hr {
     width: 80%;
     left: 0;
@@ -1614,7 +1602,7 @@ and switches to mobile styling.*/
     background-color: transparent;
   }
   
-  .thumbnail #iphone {
+  .thumbnail #phone {
     border-radius: 5.5px;
     height: 400px;
     width: 200px;
@@ -1638,7 +1626,7 @@ and switches to mobile styling.*/
     top: 100px;
   }
   
-  .thumbnail #iphone2 {
+  .thumbnail #phone2 {
     border-radius: 5.5px;
     height: 400px;
     width: 200px;
@@ -1656,7 +1644,7 @@ and switches to mobile styling.*/
     text-align: center;
   }
   
-  .thumbnail #iphone3 {
+  .thumbnail #phone3 {
     border-radius: 5.5px;
     height: 400px;
     width: 200px;
