@@ -1145,6 +1145,7 @@ and switches to mobile styling.*/
     position: absolute;
   }
   
+  /*Positions First row of 3 Images*/
   #row1 {
     position: absolute;
     left: 0;
@@ -1153,6 +1154,7 @@ and switches to mobile styling.*/
     text-align: center;
   }
   
+  /*Positions Second row of 3 Images*/
   #row2 {
     position: absolute;
     left: 0;
@@ -1161,6 +1163,7 @@ and switches to mobile styling.*/
     text-align: center;
   } 
  
+  /*Positions Third row of 3 Images*/
   #row3 {
     position: absolute;
     top: 2600px;
@@ -1277,6 +1280,7 @@ and switches to mobile styling.*/
     background-color: transparent;
   }
 
+  /*Styles text in iPad section*.
   .thumbnail #ipadside {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -1290,6 +1294,7 @@ and switches to mobile styling.*/
     width: 200px;
   } 
   
+  /*Styles Header text in iPad section*/
   .thumbnail #padtext {
     font-family: 'Roboto', sans-serif;
     font-size: 29px;
@@ -1569,6 +1574,24 @@ and switches to mobile styling.*/
     background-color: transparent;
   }
   
+  /*Used this to move the Second Image(Middle on Desktop) in Mobile site*/
+  #mob {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 500px;
+  }
+  
+  /*Used this to move the Third Image(Right on Desktop) in Mobile site*/  
+  #mob2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1000px;
+    text-align: center;
+  }
+  
+  /*Styles the First image in every row (Right on Desktop, Bottom on Mobile)*/
   .thumbnail #phone {
     border-radius: 5.5px;
     height: 400px;
@@ -1579,20 +1602,7 @@ and switches to mobile styling.*/
     margin-right: auto;
   }
   
-  #mob {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 500px;
-  }
-   
-  #galxipad {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 100px;
-  }
-  
+  /*Styles the Second image in every row (Right on Desktop, Bottom on Mobile)*/
   .thumbnail #phone2 {
     border-radius: 5.5px;
     height: 400px;
@@ -1602,15 +1612,8 @@ and switches to mobile styling.*/
     margin-left: auto;
     margin-right: auto;
   }
-  
-  #mob2 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 1000px;
-    text-align: center;
-  }
-  
+
+  /*Styles the Third image in every row (Right on Desktop, Bottom on Mobile)*/
   .thumbnail #phone3 {
     border-radius: 5.5px;
     height: 400px;
@@ -1621,6 +1624,7 @@ and switches to mobile styling.*/
     margin-right: auto;
   }
   
+  /*Styles image in iPad section*/
   .thumbnail #ipad {
     border-radius: 5.5px;
     height: 400px;
