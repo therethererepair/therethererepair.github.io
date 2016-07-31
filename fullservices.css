@@ -315,7 +315,6 @@ hr {
   text-align: center;
 }
 
-
 .thumbnail {
   position: relative;
   border-color: transparent;
@@ -329,6 +328,7 @@ hr {
   bottom: 0;
 }
 
+/*Styles first image in every row (Left on Desktop, Top on Mobile)*/
 .thumbnail #phone {
   position: relative;
   border-radius: 35px;
@@ -339,6 +339,29 @@ hr {
   margin-right: auto;
 }
 
+/*Styles the second image in every row (Center on Desktop, Middle on Mobile)*/
+.thumbnail #phone2 {
+  border-radius: 19px;
+  height: 400px;
+  width: 200px;
+  position: relative;
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Styles the second image in every row (Right on Desktop, Bottom on Mobile)*/
+.thumbnail #phone3 {
+  border-radius: 28px;
+  height: 400px;
+  width: 200px;
+  position: relative;
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Styles image in iPad section*/
 .thumbnail #ipad {
   border-radius: 5.5px;
   height: 400px;
@@ -350,19 +373,7 @@ hr {
   overflow: visible;
 }
 
-#other {
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  font-weight: 100;
-  color: #000000;
-  position: relative;
-  top: -100px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  
-}
-
+/*Styles Text in iPad section*/
 .thumbnail #ipadside {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -374,6 +385,32 @@ hr {
   position: relative;
   color: #FFFFFF;  
   width: 200px;
+}
+
+/*Styles Text in Other section*/
+#other {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  color: #000000;
+  position: relative;
+  top: -100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/*Styles Header text in most sections (Except iPad, Other, and LG G section)*/
+.thumbnail #n {
+  font-family: 'Roboto', sans-serif;
+  font-size: 29px;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: 100;
+  position: absolute;
+  color: #000000;  
 } 
 
 /*All the p(Number) from here on style the text inside all the Phone images*/
@@ -507,6 +544,20 @@ hr {
   width: 200px;
 } 
 
+/*Styles Header text in LG G Section*/
+.thumbnail #g {
+  font-family: 'Roboto', sans-serif;
+  font-size: 29px;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  font-weight: 100;
+  line-height: 160%;
+  position: absolute;
+  color: #000000;  
+}
+
 /*All the g(Number) from here on style the text inside all the Phone images.
 Had to make some adjustments due to too many prices.*/
 .thumbnail #g1 {
@@ -639,41 +690,7 @@ Had to make some adjustments due to too many prices.*/
   width: 200px;
 }
 
-.thumbnail #g {
-  font-family: 'Roboto', sans-serif;
-  font-size: 29px;
-  top: 0;
-  right: 0;
-  left: 0;
-  text-align: center;
-  font-weight: 100;
-  line-height: 160%;
-  position: absolute;
-  color: #000000;  
-} 
-
-.thumbnail #phone2 {
-  border-radius: 19px;
-  height: 400px;
-  width: 200px;
-  position: relative;
-  top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.thumbnail #n {
-  font-family: 'Roboto', sans-serif;
-  font-size: 29px;
-  top: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  font-weight: 100;
-  position: absolute;
-  color: #000000;  
-} 
-
+/*Styles Header text in iPad section*/
 .thumbnail #padtext {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
@@ -686,6 +703,7 @@ Had to make some adjustments due to too many prices.*/
   color: #000000;  
 } 
 
+/*Styles Header text in Other section*/
 .thumbnail #othertext {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
@@ -697,16 +715,6 @@ Had to make some adjustments due to too many prices.*/
   position: absolute;
   color: #000000;  
 } 
-
-.thumbnail #phone3 {
-  border-radius: 28px;
-  height: 400px;
-  width: 200px;
-  position: relative;
-  top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 #beforelinetwo{
   position: absolute;
@@ -741,7 +749,7 @@ Had to make some adjustments due to too many prices.*/
 }
 
 /*Safety wrapper for footer. Hidden on Mobile*/
-.jumbotron2 {
+.bottom {
   background-color: transparent;
   background-position: center bottom;
   bottom: 0;
@@ -1625,7 +1633,7 @@ and switches to mobile styling.*/
   }
 
   /*Hides Footer*/
-  .jumbotron2 {
+  .bottom {
     display: none;
   }
   
