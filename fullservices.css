@@ -975,7 +975,7 @@ and switches to mobile styling.*/
   body {
     background-color: #f7f7f7;
     overflow: visible;
-    height: 3980px;
+    height: 4000px;
     width: 100%;
     top: 0;
   }
@@ -986,7 +986,7 @@ and switches to mobile styling.*/
     top: 0;
     right: 0;
     left: 0;
-    height: 3980px;
+    height: 4000px;
     width: 100%;
     overflow: hidden;
   }
