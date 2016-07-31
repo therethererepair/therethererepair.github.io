@@ -1144,6 +1144,32 @@ and switches to mobile styling.*/
     overflow: visible;
     position: absolute;
   }
+    
+  /*Styles Header text in Other section*/
+  .thumbnail #othertext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    top: -15px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 100;
+    position: absolute;
+    color: #000000;  
+  } 
+  
+  /*Styles Text in Other section*/
+  #other {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: #000000;
+    position: relative;
+    top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
   
   /*Positions First row of 3 Images*/
   #row1 {
