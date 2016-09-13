@@ -67,6 +67,7 @@ body {
 }
 
 .littleme:after {
+  color: #008080;
   content: "";
   display: table;
   clear: both;
