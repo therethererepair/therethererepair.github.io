@@ -102,12 +102,12 @@ body {
 }
 
 .littleme ul li ul li:hover {
-  background: black;
+  background: #008080;
   opacity: 1;
 }
 
 .littleme a:hover { 
-  background-color: black; 
+  background-color: #008080; 
   opacity: 1;
 }
 
