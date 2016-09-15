@@ -689,9 +689,9 @@ switches to mobile styling of site.*/
   /*Square for text in About Us section*/
   .textsquare {
     position: absolute;
-    left: 5px;
+    left: 5%;
     top: 20px;
-    right: 5px;
+    right: 5%;
     height: 500px;
   }
 
