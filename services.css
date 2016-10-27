@@ -127,7 +127,7 @@ the Menu position Fixed on both Desktop and Mobile*/
 /*Defining container for Logo Image*/
 #alm2 {
   height: 55px;
-  width: 90px;
+  width: 55px;
 }
 
 /*Desktop menu texts. Hidden on Mobile site.*/
@@ -652,7 +652,7 @@ switches to mobile styling of site.*/
   /*Defining container for Logo Image (Also smaller than in Desktop Page)*/
   #alm2 {
     height: 50px;
-    width: 90px;
+    width: 50px;
   }
   
   /*Makes Mobile Version of Menu visible (Icon, and Dropdown when clicked)*/
