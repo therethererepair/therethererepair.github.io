@@ -742,7 +742,7 @@ and switches to mobile styling.*/
   /*Container/Link for Logo Image*/  
   #alm {
     position: absolute;
-    left: 0;
+    left: 7px
     top: 0;
     height: 50px;
   }
