@@ -118,7 +118,7 @@ the Menu position Fixed on both Desktop and Mobile*/
 #alm {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 10px;
   height: 55px;
   z-index: 1000;
   overflow: hidden;
