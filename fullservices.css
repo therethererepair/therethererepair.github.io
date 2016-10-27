@@ -136,7 +136,7 @@ to make the Menu position Fixed on both Desktop and Mobile*/
 /*Defining/Cutting container for Logo Image*/
 #alm2 {
   height: 55px;
-  width: 90px;
+  width: 55px;
 }
 
 /*Desktop Menu texts. Hidden on Mobile site*/
@@ -1039,7 +1039,7 @@ and switches to mobile styling.*/
   /*Defining container for Logo Image*/
   #alm2 {
     height: 50px;
-    width: 90px;
+    width: 50px;
   }
   
   /*Makes Mobile Version of menu visible*/
