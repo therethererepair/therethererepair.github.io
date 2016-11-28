@@ -1,4 +1,5 @@
-<!DOCTYPE html>																						<!--CLEAN!!!-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">																					<!--CLEAN!!!-->
 <html lang="en">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,300italic' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="bootstrap.css">
-		<link rel="stylesheet" href="services.css"> 
+		<link rel="stylesheet" href="services.css">
   	</head>
 
 	<body>
@@ -49,26 +50,38 @@
 					<div class="row" id="row1">				<!--First row of Phones-->
 						<div class="col-md-4">							<!--Galaxy Note Section-->
 							<div class="thumbnail">
-							  <p class="n"><a href="fullservices.html#galaxynline" style="color: #000000; text-decoration: none">Galaxy Note</a></p> 
-							   <a href="fullservices.html#galaxynline">
-								<img class="phone" src="http://pre02.deviantart.net/deae/th/pre/f/2016/001/2/b/samsung_galaxy_note_5_by_gadgetsguy-d9manyp.png"  alt="galaxynoten">
+							  <p class="n"><a href="iphone.html" style="color: #000000; text-decoration: none">iPhone</a></p> 
+							   <a href="iphone.html">
+								<img class="phone" src="http://i.imgur.com/zcATD2t.png"  alt="galaxynoten">
 							   </a>	
 							</div>
 						</div>
 						<div class="col-md-4" id="mob">						<!--OnePlus Section-->
 							<div class="thumbnail">
-							  <p class="t"><a href="fullservices.html#oneplusline" style="color: #000000">OnePlus</a></p>
-							   <a href="fullservices.html#oneplusline">
-								<img class="phone2" src="http://i.imgur.com/Z0BiHki.jpg"  alt="oneplusn">
-							   </a>							  
+							  <button class="t" id="butNote">Galaxy Note</button>
+							   <button id="imNote">							    
+							   </button>
+							   <div id="gNote">
+								   <p class="p1">2-($155)</p>
+								   <p class="p2">3-($160)</p>
+								   <p class="p3">3Neo-($165)</p>
+								   <p class="p4">4-($175)</p>
+								   <p class="p5">Edge-($205)</p>
+								</div>
 							</div>
 						</div>
 						<div class="col-md-4" id="mob2">							<!--GalaxyS Section-->
 							<div class="thumbnail">
-							  <p class="r"><a href="fullservices.html#galaxysline" style="color: #000000">GalaxyS</a></p>  
-							   <a href="fullservices.html#galaxysline">
-								<img class="phone3" src="http://orig15.deviantart.net/56cb/f/2016/080/4/3/samsung_galaxy_s7_edge_by_gadgetsguy-d9w09lk.png"  alt="galaxysn">
-							   </a>							 
+							  <button class="r" id="butS">GalaxyS</button>  
+							   <button id="imS">
+							   </button>
+							   <div id="gS">
+								   <p class="p1">3-(From $75)</p>
+								   <p class="p2">4-(From $100)</p>
+								   <p class="p3">5-(From $130)</p>
+								   <p class="p4">6-(From $185)</p>
+								   <p class="p5">7-(From $220)</p>
+							   </div>
 							</div>
 						</div>	
 					</div>
@@ -76,26 +89,48 @@
 					<div class="row" id="row2">				<!--Second row of Phones-->
 						<div class="col-md-4">
 							<div class="thumbnail">						<!--Nexus Section-->
-							  <p class="n"><a href="fullservices.html#nexusline" style="color: #000000">Nexus</a></p>  
-							   <a href="fullservices.html#nexusline">
-								<img class="phone" src="http://i.imgur.com/SR4gHZ1.png"  alt="nexusn">
-							   </a>	
+							  <button class="n" id="butNex">Nexus</button>  
+							   <button id="imNex">
+							   </button>
+							   <div id="Nex">
+								   <p class="p1">4-($100)</p>
+								   <p class="p2">5-($110)</p>
+								   <p class="p3">5x-($110)</p>
+								   <p class="p4">6-($210)</p>
+								   <p class="p5">6P-($140)</p>
+								</div>
 							</div>
 						</div>
 						<div class="col-md-4" id="moba">
 							<div class="thumbnail">					<!--HTC One Section-->
-							  <p class="t"><a href="fullservices.html#htcline" style="color: #000000">HTC One</a></p> 
-							   <a href="fullservices.html#htcline">
-								<img class="phone2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/HTC_One.png/297px-HTC_One.png"  alt="htconen">
-							   </a>						  
+							  <button class="t" id="butHtc">HTC One</button> 
+							   <button id="imHtc">
+							   </button>
+							   <div id="Htc">
+								   <p class="p1">M8-($90)</p>
+								   <p class="p2">E8-($90)</p>
+								   <p class="p3">M9-($100)</p>
+								   <p class="p4">A9-($145)</p>
+								</div>
 							</div>
 						</div>
 						<div class="col-md-4" id="mob2a">							<!--LG G Section-->
 							<div class="thumbnail">
-							  <p class="r"><a href="fullservices.html#lgline" style="color: #000000">LG G</a></p>
-							   <a href="fullservices.html#lgline">
-								<img class="phone3" src="http://pre07.deviantart.net/1d09/th/pre/f/2014/151/3/3/lg_g3_by_gadgetsguy-d7kgbzs.png"  alt="lggn">
-							   </a>	
+							  <button class="r" id="butLg">LG G</button>
+							   <button id="imLg">
+							   </button>
+							   <div id="Lg">
+								   <p class="g1">OptimusG-($85)</p>			
+								   <p class="g2">OptimusGPro-($90)</p>		<!--There were too many prices so I had to change the p id="g(number)" to arrange them-->
+								   <p class="g3">G2-($90)</p>	
+								   <p class="g4">G2Mini-($100)</p>
+								   <p class="g5">GPro2-($100)</p>
+								   <p class="g6">G3-($110)</p>
+								   <p class="g7">GFlex2-($115)</p>
+								   <p class="g8">G4-($115)</p>
+								   <p class="g9">G4Stylo-($155)</p>		
+								   <p class="g10">G5($155)</p>	
+								</div>
 							</div>
 						</div>	
 					</div>
@@ -103,18 +138,24 @@
 					<div class="row" id="row3">				<!--Third row of Phones-->
 						<div class="col-md-4">							<!--iPhone Section-->
 							<div class="thumbnail">
-							  <p class="n"><a href="iphone.html" style="text-decoration: none; color: #000000">iPhone</a></p> 
-							   <a href="iphone.html">
-								<img class="phone" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/IPhone_6S_Rose_Gold.png"  alt="iphonen">
-							   </a>							 
+							  <button class="n" id="butOne">OnePlus</button> 
+							   <button id="imOne">
+							   </button>
+							   <div id="One">
+								   <p class="p1">OnePlus-($75)</p>
+								   <p class="p2">OnePlus2-($125)</p>
+								</div>
 							</div>
 						</div>
 						<div class="col-md-4" id="mobb">						<!--iPad section-->
 							<div class="thumbnail">
-							  <p class="t"><a href="fullservices.html#beforelinetwo" style="color: #000000">iPad</a></p>  
-							   <a href="fullservices.html#beforelinetwo">
+							  <button class="t" id="butPad">iPad</button>  
+							   <button id="imPad">
 								<img id="ipad" src="http://i.imgur.com/BP7loPn.png"  alt="ipadn">
-							   </a>							  
+							   </button>
+							   <div id="Pad">
+								<p id="ipadside">Please Give Us A Call (909) 230-1537</p>
+							   </div>
 							</div>
 						</div>
 						<div class="col-md-4"  id="mob2b">							<!--Other Section-->
@@ -171,6 +212,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script>
 		$(document).ready(function() {
+			
 			checkSize();
 			
 			$(window).resize(checkSize);
@@ -200,7 +242,104 @@
 					}
 				});
 			}			
-		};	
+		};
+		</script>
+		
+		<script>
+		$(document).ready(function() {
+			//This gets id of button that was clicked
+			$("button").click(function() {
+				var got= $(this).get(0).id;
+				if(got=="butNote" || got=="imNote"){
+					if($("#gNote").css("opacity")=="0"){
+						$("#gNote").css("opacity", "1");
+						$("#imNote").css("background-image", "url(http://i.imgur.com/xIfOavu.png)");
+					} else{
+						$("#gNote").css("opacity", "0");
+						$("#imNote").css("background-image", "url(http://i.imgur.com/xwRCVXt.png)");
+					}
+				}else if((got!="butNote" && got!="imNote")&&($("#gNote").css("opacity")=="1")){
+					$("#gNote").css("opacity", "0");
+					$("#imNote").css("background-image", "url(http://i.imgur.com/xwRCVXt.png");
+				}
+				
+				if(got=="butS" || got=="imS"){
+					if($("#gS").css("opacity")=="0"){
+						$("#gS").css("opacity", "1");
+						$("#imS").css("background-image", "url(http://i.imgur.com/4s6suwp.png)");
+					} else{
+						$("#gS").css("opacity", "0");
+						$("#imS").css("background-image", "url(http://i.imgur.com/Bl0fPIX.png)");
+					}
+				}else if((got!="butS" && got!="imS")&&($("#gS").css("opacity")=="1")){
+					$("#gS").css("opacity", "0");
+					$("#imS").css("background-image", "url(http://i.imgur.com/Bl0fPIX.png)");
+				}
+
+				if(got=="butNex" || got=="imNex"){
+					if($("#Nex").css("opacity")=="0"){
+						$("#Nex").css("opacity", "1");
+						$("#imNex").css("background-image", "url(http://i.imgur.com/DmvePvc.png)");
+					} else{
+						$("#Nex").css("opacity", "0");
+						$("#imNex").css("background-image", "url(http://i.imgur.com/SR4gHZ1.png)");
+					}
+				}else if((got!="butNex" && got!="imNex")&&($("#Nex").css("opacity")=="1")){
+					$("#Nex").css("opacity", "0");
+					$("#imNex").css("background-image", "url(http://i.imgur.com/SR4gHZ1.png)");
+				}		
+				
+				if(got=="butHtc" || got=="imHtc"){
+					if($("#Htc").css("opacity")=="0"){
+						$("#Htc").css("opacity", "1");
+						$("#imHtc").css("background-image", "url(http://i.imgur.com/0ay42U7.png)");
+					} else{
+						$("#Htc").css("opacity", "0");
+						$("#imHtc").css("background-image", "url(http://i.imgur.com/VKDNsH4.png)");
+					}
+				}else if((got!="butHtc" && got!="imHtc")&&($("#Htc").css("opacity")=="1")){
+					$("#Htc").css("opacity", "0");
+					$("#imHtc").css("background-image", "url(http://i.imgur.com/VKDNsH4.png)");
+				}				
+
+				if(got=="butLg" || got=="imLg"){
+					if($("#Lg").css("opacity")=="0"){
+						$("#Lg").css("opacity", "1");
+						$("#imLg").css("background-image", "url(http://i.imgur.com/FLbaJro.png)");
+					} else{
+						$("#Lg").css("opacity", "0");
+						$("#imLg").css("background-image", "url(http://i.imgur.com/4lFg3cu.png)");
+					}
+				}else if((got!="butLg" && got!="imLg")&&($("#Lg").css("opacity")=="1")){
+					$("#Lg").css("opacity", "0");
+						$("#imLg").css("background-image", "url(http://i.imgur.com/4lFg3cu.png)");
+				}	
+				
+				if(got=="butOne" || got=="imOne"){
+					if($("#One").css("opacity")=="0"){
+						$("#One").css("opacity", "1");
+						$("#imOne").css("background-image", "url(http://i.imgur.com/r2NsqL6.png)");
+					} else{
+						$("#One").css("opacity", "0");
+						$("#imOne").css("background-image", "url(http://i.imgur.com/Z0BiHki.jpg)");
+					}
+				}else if((got!="butOne" && got!="imOne")&&($("#One").css("opacity")=="1")){
+					$("#One").css("opacity", "0");
+					$("#imOne").css("background-image", "url(http://i.imgur.com/Z0BiHki.jpg)");
+				}	
+
+				if(got=="butPad" || got=="imPad"){
+					if($("#Pad").css("opacity")=="0"){
+						$("#Pad").css("opacity", "1");
+					} else{
+						$("#Pad").css("opacity", "0");
+					}
+				}else if((got!="butPad" && got!="imPad")&&($("#Pad").css("opacity")=="1")){
+					$("#Pad").css("opacity", "0");
+				}				
+				
+			});
+		});
 		</script>
 	</body>
 </html>
