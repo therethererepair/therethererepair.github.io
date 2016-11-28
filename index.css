@@ -321,7 +321,7 @@ hr {
 /*Makes iPhone Header clickable*/
 #iph {
   text-decoration: none;
-  color: #008080;
+  color: #000000;
 }
 
 /*All the p(number) from here on style the text inside the iphone image*/
@@ -459,7 +459,7 @@ hr {
 
 /*Makes Galaxys header clickable*/
 #galxs {
-  color: #008080;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -558,7 +558,7 @@ hr {
 
 /*Makes GalaxyNote header clickable*/
 #galxn {
-  color: #008080;
+  color: #000000;
   text-decoration: none;
 }
 
