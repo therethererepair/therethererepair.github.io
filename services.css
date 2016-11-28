@@ -233,6 +233,7 @@ the Menu position Fixed on both Desktop and Mobile*/
   right: 0;
   top: 0;
   bottom: 0;
+  text-align: center;
 }
 
 /*First Phone Image on Every Row. (Left on Desktop page and Top on Mobile page)*/
@@ -246,24 +247,80 @@ the Menu position Fixed on both Desktop and Mobile*/
 }
 
 /*Second Phone Image on Every Row. (Center on Desktop and Middle on Mobile)*/
-.thumbnail .phone2 {
+.thumbnail #imNote {
   border-radius: 19px;
   height: 400px;
   width: 200px;
+  background-image: url(http://i.imgur.com/xwRCVXt.png);
+  background-size: 100% 100%;
+  background-position: center;
   position: absolute;
   top: 50px;
   left: 24%;
 }
 
 /*Third Phone Image on Every Row. (Right on Desktop and Bottom on Mobile)*/
-.thumbnail .phone3 {
+.thumbnail #imS {
   border-radius: 5.5px;
   height: 400px;
   width: 200px;
+  background-image: url(http://i.imgur.com/Bl0fPIX.png);
+  background-size: 100% 100%;
+  background-position: center;
   position: absolute;
   top: 50px;
   left: 24%;
 }
+
+.thumbnail #imHtc {
+  border-radius: 19px;
+  height: 400px;
+  width: 200px;
+  background-image: url(http://i.imgur.com/VKDNsH4.png);
+  background-size: 100% 100%;
+  background-position: center;
+  position: absolute;
+  top: 50px;
+  left: 24%;
+}
+
+/*Third Phone Image on Every Row. (Right on Desktop and Bottom on Mobile)*/
+.thumbnail #imLg {
+  border-radius: 5.5px;
+  height: 400px;
+  width: 200px;
+  background-image: url(http://i.imgur.com/4lFg3cu.png);
+  background-size: 100% 100%;
+  background-position: center;
+  position: absolute;
+  top: 50px;
+  left: 24%;
+}
+
+.thumbnail #imNex {
+  border-radius: 5.5px;
+  height: 400px;
+  width: 200px;
+  background-image: url(http://i.imgur.com/SR4gHZ1.png);
+  background-size: 100% 100%;
+  background-position: center;
+  position: absolute;
+  top: 50px;
+  left: 24%;
+}
+
+.thumbnail #imOne{
+  border-radius: 5.5px;
+  height: 400px;
+  width: 200px;
+  background-image: url(http://i.imgur.com/Z0BiHki.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  position: absolute;
+  top: 50px;
+  left: 24%;
+}
+
 
 /*iPad Image Size and Styling*/
 .thumbnail #ipad {
@@ -276,7 +333,7 @@ the Menu position Fixed on both Desktop and Mobile*/
 }
 
 /*Styles Header Text for First Image In Row (Left Desktop, Top Mobile)*/
-.thumbnail .n {
+.n {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
@@ -285,25 +342,33 @@ the Menu position Fixed on both Desktop and Mobile*/
   text-align: center;
   font-weight: 100;
   position: absolute;
-  color: #000000;  
+  color: #000000;
+  margin: auto;
+  width: 150px;
 } 
 
+
 /*Styles Header Text of Second Image in Row (Center in Desktop, Middle in Mobile)*/
-.thumbnail .t {
+.t {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
   right: 0;
   left: 0;
+  width: 180px;
   text-align: center;
   font-weight: 100;
   position: absolute;
   color: #000000;  
   text-decoration: none;
-} 
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin: auto;
+}
 
 /*Styles Header Text on Third Image in Row (Right on Desktop, Bottom on Mobile)*/
-.thumbnail .r {
+.r {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
@@ -313,8 +378,433 @@ the Menu position Fixed on both Desktop and Mobile*/
   font-weight: 100;
   line-height: 160%;
   position: absolute;
-  color: #000000;  
+  color: #000000; 
+  width: 150px;
+  margin: auto;
+  outline: none;
+}
+
+/*Styles Header text in LG G Section*/
+.g {
+  font-family: 'Roboto', sans-serif;
+  font-size: 29px;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  font-weight: 100;
+  line-height: 160%;
+  position: absolute;
+  color: #000000;
+  text-decoration: none;
+  width: 150px;
+  margin: auto;
+  outline: none;
+}
+
+button {
+	border: none;
+	outline: none;
+	background-color: transparent;
+	transition: .4s;
+}
+
+.visi {
+	display: inline;
+}
+
+#gNote {
+	opacity: 0;
+	height: 0px;
+	overflow: visible;
+	transition: .3s;
+}
+
+#gS {
+	opacity: 0;
+	transition: .3s;
+	height: 0px;
+	overflow: visible;
+}
+
+#Nex {
+	opacity: 0;
+	transition: .3s;
+	height: 0px;
+	overflow: visible;
+}
+
+#Htc {
+	opacity: 0;
+	transition: .3s;
+	height: 0px;
+	overflow: visible;
+}
+
+#One {
+	opacity: 0;
+	transition: .3s;
+	height: 0px;
+	overflow: visible;
+}
+
+#Lg {
+	opacity: 0;
+	transition: .3s;
+	height: 0px;
+	overflow: visible;
+	position: relative;
+	top: 60px;
+}
+
+#Pad {
+	opacity: 0;
+	transition: .3s;
+	height: 0px;
+	overflow: visible;
+	position: relative;
+	top: 115px;
+	text-align: center;
+}
+
+/*All the p(Number) from here on style the text inside all the Phone images*/
+.p1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 85px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+  
 } 
+
+.p2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 115px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;   
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+} 
+
+.p3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 145px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+} 
+
+.p4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 175px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;    
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+} 
+
+.p5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 205px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;    
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+} 
+
+.p6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 225px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;   
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+} 
+
+.p7 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 255px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;    
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+} 
+
+.p8 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 285px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;    
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+} 
+
+.p9 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 315px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;    
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+} 
+
+.p10 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 345px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;   
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+}
+
+/*Styles Text in iPad section*/
+#ipadside {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 0;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;
+  margin: auto;
+  right: 0;
+  left: 0;
+  width: 200px;
+  
+}
+
+/*All the g(Number) from here on style the text inside all the Phone images.
+Had to make some adjustments due to too many prices.*/
+.g1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+} 
+
+.g2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;   
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+} 
+
+.g3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 60px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+} 
+
+.g4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 80px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;    
+  width: 200px;  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;} 
+
+.g5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;    
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+} 
+
+.g6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 120px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;   
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+} 
+
+.g7 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 140px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;    
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+} 
+
+.g8 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 160px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;    
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+} 
+
+.g9 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 180px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;    
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+} 
+
+.g10 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  top: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;   
+  height: 0;
+  overflow: visible;
+  pointer-events:none;
+  background:none !important;
+}
 
 /*Styles text in Other Section*/
 .thumbnail #other {
