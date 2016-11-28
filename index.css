@@ -247,10 +247,11 @@ hr {
   position: absolute;
   background-image: url('http://i.imgur.com/sXY2bMh.jpg');
   right: 20px;
-  background-size: cover;
+  background-size: 100%;
+  background-position: center;
   top: 285px;
-  height: 35%;
-  width: 35%;
+  height: 30%;
+  width: 30%;
 }
 
 .phones #broke {
