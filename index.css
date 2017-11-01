@@ -118,8 +118,10 @@ the Menu position Fixed on both Desktop and Mobile*/
   top: 0;
   left: 12px;
   height: 55px;
-  z-index: 1000;
+  width: auto;
+  z-index: 1200;
   overflow: hidden;
+  cursor: pointer;
 }
 
 /*Defining container for Logo Image*/
